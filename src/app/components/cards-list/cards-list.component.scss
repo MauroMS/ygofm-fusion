@@ -1,0 +1,55 @@
+/* Add padding to the container */
+.card-list-body {
+  padding: 10px 25px 10px 25px;
+}
+
+/* Force items to start at the left */
+.card-row {
+  display: flex;
+  justify-content: center; // was center
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.fusion-card {
+  flex: 1 1 140px;
+  max-width: 140px;
+  min-width: 74px;
+  aspect-ratio: 140 / 212;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  /* fill the p-card body */
+  ::ng-deep .p-card-body {
+    padding: 0 !important;
+    margin: 0;
+    flex: 1 1 auto;
+    display: flex;
+  }
+
+  .fusion-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Smooth scale‑up on hover */
+  transition: transform 0.2s ease-in-out;
+  transform-origin: center center;
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 10; /* so it pops over its neighbors */
+  }
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  .fusion-card {
+    flex: 1 1 74px;
+    min-width: 60px;
+  }
+}

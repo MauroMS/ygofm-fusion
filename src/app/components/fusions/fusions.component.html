@@ -1,0 +1,22 @@
+<div class="fusion-wrapper">
+  <section class="fusion-section top">
+    <h2 class="section-heading">Top Section</h2>
+  </section>
+
+  <section class="fusion-section middle">
+    <h2 class="section-heading">Fusion Cards</h2>
+    <div class="card-row">
+      <p-card *ngFor="let card of selectedCards" class="fusion-card">
+        <img
+          [src]="card.imageUrl"
+          [alt]="'Card ' + card.id"
+          class="fusion-image"
+        />
+      </p-card>
+    </div>
+  </section>
+
+  <section class="fusion-section bottom">
+    <h2 class="section-heading">Bottom Section</h2>
+  </section>
+</div>

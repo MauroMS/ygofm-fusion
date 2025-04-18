@@ -1,0 +1,7 @@
+<p-button
+  [text]="true"
+  [icon]="themeService.isDarkMode() ? 'pi pi-moon' : 'pi pi-sun'"
+  (click)="themeService.toggleTheme()"
+  [severity]="themeService.isDarkMode() ? 'secondary' : 'warn'"
+>
+</p-button>

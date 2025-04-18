@@ -1,0 +1,24 @@
+<div class="card-list-body">
+  <p-autocomplete
+    [(ngModel)]="selectedCard"
+    [suggestions]="cardNames"
+    (completeMethod)="search($event)"
+    minLength="1"
+    placeholder="Search for a card"
+    lazy="true"
+    virtualScroll="true"
+    delay="500"
+  />
+
+  <div class="card-row">
+    <p-card *ngFor="let card of cards" class="fusion-card">
+      <img
+        [src]="'assets/images/cards/' + (card.id! | padId) + '.png'"
+        [alt]="'Card ' + card.id"
+        class="fusion-image"
+      />
+    </p-card>
+  </div>
+</div>
+
+//skeleton //animateonscroll //progressspinner //ripple // card size: 140 x 212
