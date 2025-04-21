@@ -1,34 +1,34 @@
-var attributes = [
+export const attributes = [
   {
-    Attribute: "Light",
+    Attribute: 'Light',
     Id: 0,
   },
   {
-    Attribute: "Dark",
+    Attribute: 'Dark',
     Id: 1,
   },
   {
-    Attribute: "Earth",
+    Attribute: 'Earth',
     Id: 2,
   },
   {
-    Attribute: "Water",
+    Attribute: 'Water',
     Id: 3,
   },
   {
-    Attribute: "Fire",
+    Attribute: 'Fire',
     Id: 4,
   },
   {
-    Attribute: "Wind",
+    Attribute: 'Wind',
     Id: 5,
   },
   {
-    Attribute: "",
+    Attribute: '',
     Id: 6,
   },
   {
-    Attribute: "",
+    Attribute: '',
     Id: 7,
   },
 ];

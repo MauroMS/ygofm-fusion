@@ -1,5 +1,5 @@
-import { Fusion } from "./fusion";
-import { Ritual } from "./ritual";
+import { Fusion } from './fusion';
+import { Ritual } from './ritual';
 
 export interface Card {
   id?: number;

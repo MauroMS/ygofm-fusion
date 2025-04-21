@@ -1,6 +1,25 @@
-/* Add padding to the container */
+/* Hide elements without destroying them */
+.hidden {
+  display: none !important;
+}
+
+/* Container padding */
 .card-list-body {
-  padding: 10px 25px 10px 25px;
+  padding: 10px 25px;
+}
+
+/* Filter form layout */
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+}
+
+.filters > p‑floatlabel {
+  flex: 1;
+  min-width: 200px; /* or whatever your smallest comfortable size is */
 }
 
 /* Force items to start at the left */
@@ -11,15 +30,27 @@
   flex-wrap: wrap;
 }
 
+// .card-row {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+//   gap: 0.25rem;
+//   justify-items: center;
+// }
+
+/* Card styling */
 .fusion-card {
   flex: 1 1 140px;
+  position: relative;
+
   max-width: 140px;
   min-width: 74px;
   aspect-ratio: 140 / 212;
   overflow: hidden;
-
   display: flex;
   flex-direction: column;
+  /* Smooth scale‑up on hover */
+  transition: transform 0.2s ease-in-out;
+  transform-origin: center center;
 
   /* fill the p-card body */
   ::ng-deep .p-card-body {
@@ -29,27 +60,114 @@
     display: flex;
   }
 
-  .fusion-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  /* Smooth scale‑up on hover */
-  transition: transform 0.2s ease-in-out;
-  transform-origin: center center;
-
   &:hover {
     transform: scale(1.1);
     z-index: 10; /* so it pops over its neighbors */
   }
 }
 
+/* Image styling */
+.fusion-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* 7) Skeleton overlay sits atop the image until it loads */
+.skeleton-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
 /* Mobile tweaks */
 @media (max-width: 768px) {
+  .card-row {
+    justify-content: flex-start; /* pack to the left, not center */
+  }
+
   .fusion-card {
-    flex: 1 1 74px;
+    // flex: 1 1 86.25px;
     min-width: 60px;
+    flex: 0 0 calc((100% - (4 * 0.25rem)) / 5);
+    /* maintain your aspect ratio */
+    // aspect-ratio: 140 / 212;
   }
 }
+
+// YGH OTHER SITE
+
+// .flex {
+//   display: flex;
+// }
+
+// .flex-col {
+//   flex-direction: column;
+// }
+
+// .items-center {
+//   align-items: center;
+// }
+
+// .justify-center {
+//   justify-content: center;
+// }
+
+// .grid {
+//   display: grid;
+// }
+
+// .grid-cols-5 {
+//   grid-template-columns: repeat(5, minmax(0, 1fr));
+// }
+
+// .gap-1 {
+//   gap: 0.25rem;
+// }
+
+// .max-w-\[140px\] {
+//   max-width: 140px;
+// }
+
+// .max-h-\[212px\] {
+//   max-height: 212px;
+// }
+
+// .aspect-\[140\/212\] {
+//   aspect-ratio: 140/212;
+// }
+
+// .bg-gray-300 {
+//   background-color: rgb(209, 213, 219);
+// }
+
+// .cursor-pointer {
+//   cursor: pointer;
+// }
+
+// .hover\:scale-110:hover {
+//   transform: scale(1.1);
+// }
+
+// .transition-all {
+//   transition: all 0.15s ease-in-out;
+// }
+
+// .w-full {
+//   width: 100%;
+// }
+
+// .overflow-y-auto {
+//   overflow-y: auto;
+// }
+
+// img {
+//   max-width: 100%;
+//   height: auto;
+//   display: block;
+// }

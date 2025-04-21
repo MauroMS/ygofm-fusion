@@ -1,16 +1,18 @@
-import { Injectable } from "@angular/core";
-import { CARDS_DB } from "../data/cards_db";
-import { Card } from "../model";
+import { Injectable } from '@angular/core';
+import { CARDS_DB, CARD_TYPES, STARS } from '../data/index';
+import { Card, Star, CardType } from '../model';
 
 @Injectable({
-  providedIn: "root",
+  providedIn: 'root',
 })
 export class CardsService {
   constructor() {}
-  cards?: Card[];
+  cards: Card[] = [];
+  cardTypes: CardType[] = [];
+  cardStars: Star[] = [];
 
   getAllCards(): Card[] {
-    if (this.cards == null) {
+    if (this.cards.length == 0) {
       this.cards = CARDS_DB;
     }
 
@@ -19,5 +21,21 @@ export class CardsService {
 
   getCardsNames(): string[] {
     return this.cards!.map((card) => card.name!);
+  }
+
+  getCardTypes(): CardType[] {
+    if (this.cardStars.length == 0) {
+      this.cardTypes = CARD_TYPES;
+    }
+
+    return this.cardTypes;
+  }
+
+  getCardStars(): Star[] {
+    if (this.cardStars.length == 0) {
+      this.cardStars = STARS;
+    }
+
+    return this.cardStars;
   }
 }

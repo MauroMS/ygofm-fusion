@@ -10,16 +10,18 @@
       />
       <label for="on_label">Card Name</label>
     </p-floatlabel>
-    <p-floatlabel class="w-full md:w-80">
+    <p-floatlabel class="w-full md:w-80" variant="on">
       <p-multiselect
-        [options]="groupedCities"
+        [options]="groupedFilterOptions"
         [group]="true"
-        formControlName="filters"
-        placeholder="Select Cities"
+        formControlName="types"
         scrollHeight="250px"
         display="chip"
         styleClass="w-full md:w-80"
         size="large"
+        optionLabel="label"
+        optionGroupLabel="label"
+        optionGroupChildren="items"
       >
         <ng-template let-group #group>
           <div class="flex items-center">
@@ -32,18 +34,81 @@
           </div>
         </ng-template>
       </p-multiselect>
-      <label for="over_label">Filters</label>
+      <label for="on_label">Filters</label>
     </p-floatlabel>
   </form>
+
   <div class="card-row">
-    <p-card *ngFor="let card of filteredCards" class="fusion-card">
+    <p-card
+      *ngFor="let card of cards; trackBy: trackByCardId"
+      class="fusion-card"
+      [class.hidden]="!isCardVisible(card.id!)"
+      [attr.data-id]="card.id"
+    >
       <img
+        loading="lazy"
         [src]="'assets/images/cards/' + (card.id! | padId) + '.png'"
         [alt]="'Card ' + card.id"
         class="fusion-image"
+        (load)="card.imageLoaded = true"
       />
+      <p-skeleton
+        *ngIf="!card.imageLoaded"
+        width="100%"
+        height="100%"
+        class="skeleton-overlay"
+      ></p-skeleton>
     </p-card>
   </div>
 </div>
+
+<!-- YGH OTHER SITE -->
+<!-- <div class="flex flex-col w-full h-full overflow-y-auto">
+    <div class="flex flex-col items-center justify-center">
+      <div class="p-4 gap-1 grid grid-cols-5">
+        <a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/1"
+          ><img src="assets/images/cards/001.png" alt="1" /></a
+        ><a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/2"
+          ><img src="assets/images/cards/002.png" alt="2" /></a
+        ><a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/3"
+          ><img src="assets/images/cards/003.png" alt="3" /></a
+        ><a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/4"
+          ><img src="assets/images/cards/004.png" alt="4" /></a
+        ><a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/5"
+          ><img src="assets/images/cards/005.png" alt="5" /></a
+        ><a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/6"
+          ><img src="assets/images/cards/006.png" alt="6" /></a
+        ><a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/7"
+          ><img src="assets/images/cards/007.png" alt="7" /></a
+        ><a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/8"
+          ><img src="assets/images/cards/008.png" alt="8" /></a
+        ><a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/9"
+          ><img src="assets/images/cards/009.png" alt="9" /></a
+        ><a
+          class="flex flex-col items-center justify-center max-w-[140px] max-h-[212px] w-full aspect-[140/212] bg-gray-300 cursor-pointer hover:scale-110 transition-all ng-star-inserted"
+          href="/cards/10"
+          ><img src="assets/images/cards/010.png" alt="10"
+        /></a>
+      </div>
+    </div>
+  </div> -->
 
 <!-- //skeleton //animateonscroll //progressspinner //ripple // card size: 140 x 212 -->

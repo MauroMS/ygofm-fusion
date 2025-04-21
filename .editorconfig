@@ -1,0 +1,53 @@
+# .editorconfig for Angular v19 project
+# See https://editorconfig.org for more info
+
+# Root EditorConfig file
+root = true
+
+# Global settings
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+
+# TypeScript files
+[*.ts]
+indent_size = 2
+quote_type = single
+insert_final_newline = true
+
+# JSON and JSONC (e.g., tsconfig.json, angular.json)
+[*.{json,jsonc}]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+# HTML files
+[*.html]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+
+# CSS / SCSS files
+[*.{css,scss}]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
+# YAML files (e.g., GitHub workflows)
+[*.yml]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
