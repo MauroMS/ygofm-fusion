@@ -1,0 +1,197 @@
+// .fusion-wrapper {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 2rem;
+//   padding: 1rem;
+// }
+
+// .section-heading {
+//   font-size: 1.5rem;
+//   font-weight: 600;
+//   margin-bottom: 0.5rem;
+//   color: var(--text-color);
+// }
+
+// .fusion-section {
+//   padding: 1rem;
+
+//   &.top,
+//   &.bottom {
+//     background-color: var(--surface-100);
+//     min-height: 100px;
+//   }
+
+//   .card-row {
+//     display: flex;
+//     justify-content: center;
+//     gap: 0.25rem;
+//     flex-wrap: nowrap; /* force single row, no scroll */
+//   }
+
+//   .fusion-card {
+//     flex: 1 1 140px;
+//     max-width: 140px;
+//     min-width: 74px;
+//     aspect-ratio: 140 / 212;
+//     overflow: hidden;
+//     // opacity: 0.75;
+//     display: flex;
+//     flex-direction: column;
+
+//     /* Make the body fill 100% of the card */
+//     ::ng-deep .p-card-body {
+//       padding: 0 !important;
+//       margin: 0;
+//       flex: 1 1 auto;
+//       display: flex;
+//     }
+
+//     .fusion-image {
+//       width: 100%;
+//       height: 100%;
+//       object-fit: cover;
+//       display: block;
+//     }
+//   }
+
+//   .card-id-input {
+//     padding-top: 5px;
+//     max-width: 140px;
+//   }
+// }
+
+// /* Tablet */
+// @media (max-width: 1024px) {
+//   .section-heading {
+//     font-size: 1.4rem;
+//   }
+// }
+
+// /* Mobile */
+// @media (max-width: 768px) {
+//   .section-heading {
+//     font-size: 1.25rem;
+//     text-align: center;
+//   }
+//   .fusion-section.top,
+//   .fusion-section.middle,
+//   .fusion-section.bottom .fusion-card {
+//     // flex: 1 1 74px;
+//     min-width: 60px;
+//     flex: 0 0 calc((100% - (4 * 0.25rem)) / 5);
+//   }
+// }
+
+.fusion-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.fusion-section {
+  padding: 1rem;
+
+  &.top,
+  &.bottom {
+    background-color: var(--surface-100);
+    min-height: 100px;
+  }
+
+  .card-row {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    flex-wrap: nowrap; /* force single row, no scroll */
+  }
+
+  .card-input-pair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // flex: 0 1 auto; /* shrink to fit content, don’t grow to fill container */
+    flex: 0 1 140px;
+    min-width: 60px;
+    max-width: 140px;
+  }
+
+  .fusion-card {
+    // flex: 1 1 140px;
+    width: 100%;
+    max-width: 140px;
+    min-width: 60px;
+    aspect-ratio: 140 / 212;
+    overflow: hidden;
+    // opacity: 0.75;
+    display: flex;
+    flex-direction: column;
+
+    /* Make the body fill 100% of the card */
+    ::ng-deep .p-card-body {
+      padding: 0 !important;
+      margin: 0;
+      flex: 1 1 auto;
+      display: flex;
+    }
+
+    .fusion-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .card-input-wrapper {
+    width: 100%; /* exactly same width as the card */
+    margin-top: 0.5rem;
+  }
+
+  /* and the input itself */
+  .card-id-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+// p-inputNumber wrapper gets your `styleClass` here
+// :host ::ng-deep {
+//   /* the p-inputNumber wrapper gets your `styleClass` here */
+//   .card-id-wrapper {
+//     width: 100%; /* exactly same width as the card */
+//     margin-top: 0.5rem;
+//   }
+
+//   /* the actual <input> has this class from `inputStyleClass` */
+//   .card-id-input {
+//     width: 100%;
+//     box-sizing: border-box;
+//   }
+// }
+/* Tablet */
+@media (max-width: 1024px) {
+  .section-heading {
+    font-size: 1.4rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .fusion-section.top,
+  .fusion-section.middle,
+  .fusion-section.bottom .fusion-card {
+    // flex: 1 1 74px;
+    min-width: 60px;
+    flex: 0 0 calc((100% - (4 * 0.25rem)) / 5);
+  }
+}

@@ -1,0 +1,9 @@
+<p-button
+  [text]="true"
+  [icon]="themeService.isDarkMode() ? 'pi pi-sun' : 'pi pi-moon'"
+  (click)="themeService.toggleTheme()"
+  [severity]="themeService.isDarkMode() ? 'secondary' : 'warn'"
+>
+</p-button>
+
+<!-- https://primeng.org/inputtext#basic CHECK FOR PROPER SWITCHER -->
