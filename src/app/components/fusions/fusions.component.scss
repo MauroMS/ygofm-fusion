@@ -206,7 +206,7 @@
     flex: 0 0 calc((100% - (4 * 0.25rem)) / 5);
   }
 
-  :host ::ng-deep .fusion-section.middle .p-inputnumber-button {
+  :host ::ng-deep .fusion-section .p-inputnumber-button {
     display: none;
   }
 }
