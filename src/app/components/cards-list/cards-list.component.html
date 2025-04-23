@@ -44,6 +44,7 @@
       class="fusion-card"
       [class.hidden]="!isCardVisible(card.id!)"
       [attr.data-id]="card.id"
+      (click)="onSelect(card.id!)"
     >
       <img
         loading="lazy"

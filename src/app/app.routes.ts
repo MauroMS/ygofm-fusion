@@ -1,19 +1,19 @@
-import { Routes } from "@angular/router";
-import { FusionsComponent } from "./components/fusions/fusions.component";
-import { CardsListComponent } from "./components/cards-list/cards-list.component";
+import { Routes } from '@angular/router';
+import { FusionsComponent } from './components/fusions/fusions.component';
+import { CardsListComponent } from './components/cards-list/cards-list.component';
 
 export const routes: Routes = [
   {
-    path: "",
-    redirectTo: "cards",
-    pathMatch: "full",
+    path: '',
+    redirectTo: 'fusions',
+    pathMatch: 'full',
   },
   {
-    path: "fusions",
+    path: 'fusions',
     component: FusionsComponent,
   },
   {
-    path: "cards",
+    path: 'cards',
     component: CardsListComponent,
   },
 ];

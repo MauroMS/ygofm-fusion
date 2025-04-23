@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { MultiSelectModule } from 'primeng/multiselect';
@@ -12,13 +12,12 @@ import { PadIdPipe } from '../../pipes/pad-id.pipe';
 import { CardsService } from '../../services/cards.service';
 import {
   combineLatest,
-  combineLatestWith,
   debounceTime,
   distinctUntilChanged,
   map,
   startWith,
 } from 'rxjs';
-import { CARDS_DB } from '../../data';
+
 @Component({
   selector: 'app-cards-list',
   imports: [
@@ -40,6 +39,8 @@ export class CardsListComponent implements OnInit {
 
   imageUrl = 'assets/images/cards/{id}.png';
   cards!: Array<Card & { imageLoaded: boolean }>;
+
+  @Output() selection = new EventEmitter<number>();
 
   searchedValue: string = '';
   hiddenSet = new Set(/* IDs to hide */);
@@ -151,6 +152,10 @@ export class CardsListComponent implements OnInit {
       .map((star) => {
         return { label: star.name, kind: CardTypes.Star, value: star.id };
       });
+  }
+
+  onSelect(cardId: number) {
+    this.selection.emit(cardId);
   }
 
   isCardVisible(id: number) {

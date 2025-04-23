@@ -1,0 +1,9 @@
+<p-dialog
+  header="Edit Profile"
+  [modal]="true"
+  [visible]="visible()"
+  (visibleChange)="visible.set($event)"
+  [style]="{ width: '70rem' }"
+>
+  <app-cards-list (selection)="onCardSelected($event)"></app-cards-list>
+</p-dialog>
