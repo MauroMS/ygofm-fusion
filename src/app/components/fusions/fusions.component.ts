@@ -7,12 +7,7 @@ import { CardsListPopupComponent } from '../cards-list-popup/cards-list-popup.co
 import { FloatLabel } from 'primeng/floatlabel';
 import { CardsService } from '../../services/cards.service';
 import { InputNumberModule } from 'primeng/inputnumber';
-import {
-  FormArray,
-  FormControl,
-  ReactiveFormsModule,
-  Validators,
-} from '@angular/forms';
+import { FormArray, FormControl, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-fusions',
@@ -29,8 +24,6 @@ import {
   styleUrls: ['./fusions.component.scss'],
 })
 export class FusionsComponent implements OnInit {
-  constructor(protected cardService: CardsService) {}
-
   showPicker = false;
   private currentCards!: Card[];
   private currentIndex = 0;
@@ -40,6 +33,8 @@ export class FusionsComponent implements OnInit {
   magicFieldCards: Card[] = [];
   handCards: Card[] = [];
   availableFusions: Card[] = [];
+
+  constructor(protected cardService: CardsService) {}
 
   ngOnInit(): void {
     this.monsterFieldCards = Array.from({ length: 5 }, (_, i) =>
@@ -62,9 +57,8 @@ export class FusionsComponent implements OnInit {
     this.handCards.forEach((card, i) => {
       const ctrl = new FormControl<number>(card.id!, {
         nonNullable: true,
-        validators: [], // you could add Validators.min(0), Validators.max(722) here
+        validators: [],
       });
-      // when the control changes, swap in the new Card
       ctrl.valueChanges.subscribe((id) => {
         this.handCards[i] = this.cardService.getCardById(id);
       });
@@ -77,16 +71,16 @@ export class FusionsComponent implements OnInit {
   }
 
   onCardSelected(cardId: number) {
-    console.log('Card selected:', cardId);
-    const id = cardId >= 0 && cardId <= 722 ? cardId : 0;
     this.currentCards[this.currentIndex] = this.cardService.getCardById(cardId);
     this.showPicker = false;
   }
 
-  openPicker(cards: Card[], index: number) {
-    console.log('openPicker', cards);
-    console.log('index', index);
+  onCardSelectedForm(cardId: number) {
+    this.cardIdControls.at(this.currentIndex)?.setValue(cardId);
+    this.showPicker = false;
+  }
 
+  openPicker(cards: Card[], index: number) {
     this.currentCards = cards;
     this.currentIndex = index;
     this.showPicker = true;
@@ -97,10 +91,6 @@ export class FusionsComponent implements OnInit {
   }
 
   onIdChange(cards: Card[], index: number, value: string) {
-    console.log('onIdChange', cards);
-    console.log('index', index);
-    console.log('value', value);
-
     const id = Number(value) || 0;
     cards[index] = this.cardService.getCardById(id);
   }

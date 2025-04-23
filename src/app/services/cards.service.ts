@@ -61,6 +61,6 @@ export class CardsService {
     if (cardId && (cardId <= 0 || cardId >= 722)) {
       return { id: cardId, imageUrl: this.getCardImageUrl(0) };
     }
-    return { id: 0, imageUrl: this.getCardImageUrl(0) };
+    return { id: null, imageUrl: this.getCardImageUrl(0) };
   }
 }

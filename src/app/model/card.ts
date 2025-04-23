@@ -2,7 +2,7 @@ import { Fusion } from './fusion';
 import { Ritual } from './ritual';
 
 export interface Card {
-  id?: number;
+  id?: number | null;
   imageUrl?: string;
   name?: string;
   description?: string;
