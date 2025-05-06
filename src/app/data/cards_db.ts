@@ -1,10 +1,89 @@
-import { Card } from "../model";
+import { Card } from '../model';
+
+//TODO: ADD MISSING FUSIONS TO THIS FILE
+// "missingInFirstFile": [
+//     {
+//       "card1": 22,
+//       "card2": 31,
+//       "result": 72
+//     },
+//     {
+//       "card1": 23,
+//       "card2": 147,
+//       "result": 4
+//     },
+//     {
+//       "card1": 26,
+//       "card2": 138,
+//       "result": 4
+//     },
+//     {
+//       "card1": 31,
+//       "card2": 34,
+//       "result": 84
+//     },
+//     {
+//       "card1": 40,
+//       "card2": 126,
+//       "result": 4
+//     },
+//     {
+//       "card1": 45,
+//       "card2": 170,
+//       "result": 136
+//     },
+//     {
+//       "card1": 61,
+//       "card2": 144,
+//       "result": 136
+//     },
+//     {
+//       "card1": 64,
+//       "card2": 168,
+//       "result": 72
+//     },
+//     {
+//       "card1": 66,
+//       "card2": 98,
+//       "result": 132
+//     },
+//     {
+//       "card1": 74,
+//       "card2": 150,
+//       "result": 72
+//     },
+//     {
+//       "card1": 90,
+//       "card2": 130,
+//       "result": 136
+//     },
+//     {
+//       "card1": 96,
+//       "card2": 231,
+//       "result": 136
+//     },
+//     {
+//       "card1": 120,
+//       "card2": 166,
+//       "result": 132
+//     },
+//     {
+//       "card1": 127,
+//       "card2": 128,
+//       "result": 72
+//     },
+//     {
+//       "card1": 167,
+//       "card2": 225,
+//       "result": 64
+//     }
+//   ]
 
 export const CARDS_DB: Card[] = [
   {
-    name: "Blue-eyes White Dragon",
+    name: 'Blue-eyes White Dragon',
     description:
-      "An extremely rare   \r\ncard with\r\nunsurpassed attack\r\nand defense power.",
+      'An extremely rare   \r\ncard with\r\nunsurpassed attack\r\nand defense power.',
     id: 1,
     guardianStarA: 8,
     guardianStarB: 1,
@@ -13,15 +92,15 @@ export const CARDS_DB: Card[] = [
     attack: 3000,
     defense: 2500,
     stars: 999999,
-    cardCode: "89631139",
+    cardCode: '89631139',
     fusions: [],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Mystical Elf",
+    name: 'Mystical Elf',
     description:
-      "A delicate elf that \r\nlacks in offense\r\nbut has a terrific\r\ndefense backed by\r\nmystical power.",
+      'A delicate elf that \r\nlacks in offense\r\nbut has a terrific\r\ndefense backed by\r\nmystical power.',
     id: 2,
     guardianStarA: 8,
     guardianStarB: 2,
@@ -30,7 +109,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 2000,
     stars: 160,
-    cardCode: "15025844",
+    cardCode: '15025844',
     fusions: [
       {
         card1: 2,
@@ -1149,12 +1228,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Hitotsu-me Giant",
+    name: 'Hitotsu-me Giant',
     description:
-      "A one-eyed behemoth \r\nwith thick, powerful\r\narms made for\r\ndelivering punishing\r\nblows.",
+      'A one-eyed behemoth \r\nwith thick, powerful\r\narms made for\r\ndelivering punishing\r\nblows.',
     id: 3,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -1163,7 +1242,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "76184692",
+    cardCode: '76184692',
     fusions: [
       {
         card1: 3,
@@ -1217,12 +1296,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Baby Dragon",
+    name: 'Baby Dragon',
     description:
-      "Much more than just \r\na child, this dragon\r\nis gifted with\r\nuntapped power.",
+      'Much more than just \r\na child, this dragon\r\nis gifted with\r\nuntapped power.',
     id: 4,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -1231,7 +1310,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 700,
     stars: 999999,
-    cardCode: "88819587",
+    cardCode: '88819587',
     fusions: [
       {
         card1: 4,
@@ -2785,12 +2864,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Ryu-kishin",
+    name: 'Ryu-kishin',
     description:
-      "A very elusive \r\ncreature that looks \r\nlike a harmless\r\nstatue until it\r\nattacks.",
+      'A very elusive \r\ncreature that looks \r\nlike a harmless\r\nstatue until it\r\nattacks.',
     id: 5,
     guardianStarA: 3,
     guardianStarB: 8,
@@ -2799,7 +2878,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 500,
     stars: 30,
-    cardCode: "15303296",
+    cardCode: '15303296',
 
     fusions: [
       {
@@ -3009,12 +3088,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Feral Imp",
+    name: 'Feral Imp',
     description:
-      "A playful little \r\nimp that lurks in \r\nthe dark, waiting to\r\nattack an unwary\r\nenemy.",
+      'A playful little \r\nimp that lurks in \r\nthe dark, waiting to\r\nattack an unwary\r\nenemy.',
     id: 6,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -3023,7 +3102,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1400,
     stars: 140,
-    cardCode: "41392891",
+    cardCode: '41392891',
 
     fusions: [
       {
@@ -3083,12 +3162,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Winged Dragon #1",
+    name: 'Winged Dragon #1',
     description:
-      "A dragon commonly \r\nfound guarding \r\nmountain fortresses.\r\nIts signature attack\r\nis a sweeping dive \r\nfrom out of the blue.",
+      'A dragon commonly \r\nfound guarding \r\nmountain fortresses.\r\nIts signature attack\r\nis a sweeping dive \r\nfrom out of the blue.',
     id: 7,
     guardianStarA: 3,
     guardianStarB: 9,
@@ -3097,7 +3176,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1200,
     stars: 999999,
-    cardCode: "87796900",
+    cardCode: '87796900',
 
     fusions: [
       {
@@ -4642,12 +4721,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Mushroom Man",
+    name: 'Mushroom Man',
     description:
-      "Found in moist\r\nareas, this monster \r\nlaunches poison\r\nspores against its\r\nenemies.",
+      'Found in moist\r\nareas, this monster \r\nlaunches poison\r\nspores against its\r\nenemies.',
     id: 8,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -4656,7 +4735,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 600,
     stars: 30,
-    cardCode: "14181608",
+    cardCode: '14181608',
 
     fusions: [
       {
@@ -5481,12 +5560,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Shadow Specter",
+    name: 'Shadow Specter',
     description:
-      "Ghostly beast that \r\nappears in the\r\nwasteland and is\r\nparticularly\r\ntroublesome when\r\nfaced in large\r\nnumbers.",
+      'Ghostly beast that \r\nappears in the\r\nwasteland and is\r\nparticularly\r\ntroublesome when\r\nfaced in large\r\nnumbers.',
     id: 9,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -5495,7 +5574,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 200,
     stars: 15,
-    cardCode: "40575313",
+    cardCode: '40575313',
 
     fusions: [
       {
@@ -6260,12 +6339,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Blackland Fire Dragon",
+    name: 'Blackland Fire Dragon',
     description:
-      "A dragon that dwells\r\nin the depths of\r\ndarkness. Its\r\ndefensive capability\r\nsuffers from its\r\npoor eyesight.",
+      'A dragon that dwells\r\nin the depths of\r\ndarkness. Its\r\ndefensive capability\r\nsuffers from its\r\npoor eyesight.',
     id: 10,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -6274,7 +6353,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 800,
     stars: 80,
-    cardCode: "87564352",
+    cardCode: '87564352',
 
     fusions: [
       {
@@ -7479,12 +7558,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Sword Arm of Dragon",
+    name: 'Sword Arm of Dragon',
     description:
-      "With a body covered \r\nin sword-like\r\nthorns, nothing\r\ndares stand in the\r\nway of this monster \r\nwhen it charges.",
+      'With a body covered \r\nin sword-like\r\nthorns, nothing\r\ndares stand in the\r\nway of this monster \r\nwhen it charges.',
     id: 11,
     guardianStarA: 4,
     guardianStarB: 9,
@@ -7493,7 +7572,7 @@ export const CARDS_DB: Card[] = [
     attack: 1750,
     defense: 2030,
     stars: 1000,
-    cardCode: "13069066",
+    cardCode: '13069066',
 
     fusions: [
       {
@@ -8388,12 +8467,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Swamp Battleguard",
+    name: 'Swamp Battleguard',
     description:
-      "This creature is    \r\narmed with a spiked \r\nclub that can\r\ndestroy almost\r\nanything in its path.\r\nRumored to have a\r\nbrother that is just\r\nas destructive.",
+      'This creature is    \r\narmed with a spiked \r\nclub that can\r\ndestroy almost\r\nanything in its path.\r\nRumored to have a\r\nbrother that is just\r\nas destructive.',
     id: 12,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -8402,7 +8481,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1500,
     stars: 290,
-    cardCode: "40453765",
+    cardCode: '40453765',
 
     fusions: [
       {
@@ -8557,12 +8636,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Tyhone",
+    name: 'Tyhone',
     description:
-      "Capable of firing\r\ncannonballs from its\r\nmouth for long-range\r\nattacks against\r\nenemies.",
+      'Capable of firing\r\ncannonballs from its\r\nmouth for long-range\r\nattacks against\r\nenemies.',
     id: 13,
     guardianStarA: 3,
     guardianStarB: 10,
@@ -8571,7 +8650,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1400,
     stars: 120,
-    cardCode: "72842870",
+    cardCode: '72842870',
 
     fusions: [
       {
@@ -8776,12 +8855,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Battle Steer",
+    name: 'Battle Steer',
     description:
-      "A bull monster often\r\nfound in the woods.\r\nCharges enemy\r\nmonsters with a pair\r\nof razor-sharp horns.",
+      'A bull monster often\r\nfound in the woods.\r\nCharges enemy\r\nmonsters with a pair\r\nof razor-sharp horns.',
     id: 14,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -8790,16 +8869,16 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1300,
     stars: 230,
-    cardCode: "18246479",
+    cardCode: '18246479',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Flame Swordsman",
+    name: 'Flame Swordsman',
     description:
-      "A fighter gifted\r\nwith the power of\r\nfire.\r\nAttacks enemies with\r\na sword that\r\nlaunches flames.",
+      'A fighter gifted\r\nwith the power of\r\nfire.\r\nAttacks enemies with\r\na sword that\r\nlaunches flames.',
     id: 15,
     guardianStarA: 1,
     guardianStarB: 8,
@@ -8808,7 +8887,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1600,
     stars: 320,
-    cardCode: "45231177",
+    cardCode: '45231177',
 
     fusions: [
       {
@@ -9458,12 +9537,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Time Wizard",
+    name: 'Time Wizard',
     description:
-      "A sorcerer capable\r\nof bending time to\r\nhis will. Though not\r\npowerful at first\r\nglance, appearances \r\ncan be deceiving.",
+      'A sorcerer capable\r\nof bending time to\r\nhis will. Though not\r\npowerful at first\r\nglance, appearances \r\ncan be deceiving.',
     id: 16,
     guardianStarA: 10,
     guardianStarB: 8,
@@ -9472,7 +9551,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 400,
     stars: 999999,
-    cardCode: "71625222",
+    cardCode: '71625222',
 
     fusions: [
       {
@@ -9807,12 +9886,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Right Leg of the Forbidden One",
+    name: 'Right Leg of the Forbidden One',
     description:
-      "A forbidden limb\r\nsealed by magic.\r\nWhoever breaks\r\nthis seal will know\r\ninfinite power.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.",
+      'A forbidden limb\r\nsealed by magic.\r\nWhoever breaks\r\nthis seal will know\r\ninfinite power.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.',
     id: 17,
     guardianStarA: 7,
     guardianStarB: 2,
@@ -9821,7 +9900,7 @@ export const CARDS_DB: Card[] = [
     attack: 200,
     defense: 300,
     stars: 999999,
-    cardCode: "08124921",
+    cardCode: '08124921',
 
     fusions: [
       {
@@ -10166,12 +10245,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Left Leg of the Forbidden One",
+    name: 'Left Leg of the Forbidden One',
     description:
-      "A forbidden limb\r\nsealed by magic.\r\nWhoever breaks\r\nthis seal will know\r\ninfinite power.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.",
+      'A forbidden limb\r\nsealed by magic.\r\nWhoever breaks\r\nthis seal will know\r\ninfinite power.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.',
     id: 18,
     guardianStarA: 7,
     guardianStarB: 3,
@@ -10180,7 +10259,7 @@ export const CARDS_DB: Card[] = [
     attack: 200,
     defense: 300,
     stars: 999999,
-    cardCode: "44519536",
+    cardCode: '44519536',
 
     fusions: [
       {
@@ -10525,12 +10604,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Right Arm of the Forbidden One",
+    name: 'Right Arm of the Forbidden One',
     description:
-      "A forbidden limb\r\nsealed by magic.\r\nWhoever breaks\r\nthis seal will know\r\ninfinite power.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.",
+      'A forbidden limb\r\nsealed by magic.\r\nWhoever breaks\r\nthis seal will know\r\ninfinite power.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.',
     id: 19,
     guardianStarA: 7,
     guardianStarB: 4,
@@ -10539,7 +10618,7 @@ export const CARDS_DB: Card[] = [
     attack: 200,
     defense: 300,
     stars: 999999,
-    cardCode: "70903634",
+    cardCode: '70903634',
 
     fusions: [
       {
@@ -10884,12 +10963,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Left Arm of the Forbidden One",
+    name: 'Left Arm of the Forbidden One',
     description:
-      "A forbidden limb\r\nsealed by magic.\r\nWhoever breaks\r\nthis seal will know\r\ninfinite power.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.",
+      'A forbidden limb\r\nsealed by magic.\r\nWhoever breaks\r\nthis seal will know\r\ninfinite power.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.',
     id: 20,
     guardianStarA: 7,
     guardianStarB: 5,
@@ -10898,7 +10977,7 @@ export const CARDS_DB: Card[] = [
     attack: 200,
     defense: 300,
     stars: 999999,
-    cardCode: "07902349",
+    cardCode: '07902349',
 
     fusions: [
       {
@@ -11243,12 +11322,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Exodia the Forbidden",
+    name: 'Exodia the Forbidden',
     description:
-      "Once combined with\r\narms and legs, this \r\nmonster is freed\r\nfrom its magical\r\nchains.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.",
+      'Once combined with\r\narms and legs, this \r\nmonster is freed\r\nfrom its magical\r\nchains.\r\nOnly one card of\r\nthis type may be\r\nincluded in a deck.',
     id: 21,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -11257,7 +11336,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1000,
     stars: 999999,
-    cardCode: "33396948",
+    cardCode: '33396948',
 
     fusions: [
       {
@@ -11602,12 +11681,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Summoned Skull",
+    name: 'Summoned Skull',
     description:
-      "An entity with dark\r\npowers for confusing\r\nthe enemy. Among the\r\nFIEND class of\r\nmonsters, this is a \r\npretty rare card.",
+      'An entity with dark\r\npowers for confusing\r\nthe enemy. Among the\r\nFIEND class of\r\nmonsters, this is a \r\npretty rare card.',
     id: 22,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -11616,7 +11695,7 @@ export const CARDS_DB: Card[] = [
     attack: 2500,
     defense: 1200,
     stars: 999999,
-    cardCode: "70781052",
+    cardCode: '70781052',
 
     fusions: [
       {
@@ -11626,12 +11705,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "The Wicked Worm Beast",
+    name: 'The Wicked Worm Beast',
     description:
-      "A monster worm\r\ncreated by the\r\npowers of darkness. \r\nIt suddenly appears \r\nfrom under the\r\nground to attack its\r\nenemies.",
+      'A monster worm\r\ncreated by the\r\npowers of darkness. \r\nIt suddenly appears \r\nfrom under the\r\nground to attack its\r\nenemies.',
     id: 23,
     guardianStarA: 4,
     guardianStarB: 10,
@@ -11640,7 +11719,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 700,
     stars: 60,
-    cardCode: "06285791",
+    cardCode: '06285791',
 
     fusions: [
       {
@@ -11800,10 +11879,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Skull Servant",
+    name: 'Skull Servant',
     description:
       "A skeletal ghost\r\nthat isn't strong\r\nbut can mean trouble\r\nin large numbers.",
     id: 24,
@@ -11814,7 +11893,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 200,
     stars: 10,
-    cardCode: "32274490",
+    cardCode: '32274490',
 
     fusions: [
       {
@@ -12554,12 +12633,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Horn Imp",
+    name: 'Horn Imp',
     description:
-      "A small imp that\r\ndwells in the dark.\r\nIts single horn\r\nmakes it a\r\nformidable opponent.",
+      'A small imp that\r\ndwells in the dark.\r\nIts single horn\r\nmakes it a\r\nformidable opponent.',
     id: 25,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -12568,7 +12647,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1000,
     stars: 80,
-    cardCode: "69669405",
+    cardCode: '69669405',
 
     fusions: [
       {
@@ -12623,12 +12702,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Battle Ox",
+    name: 'Battle Ox',
     description:
-      "A monster with\r\ntremendous power.\r\nDestroys enemies\r\nwith a swing of its\r\naxe.",
+      'A monster with\r\ntremendous power.\r\nDestroys enemies\r\nwith a swing of its\r\naxe.',
     id: 26,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -12637,7 +12716,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1000,
     stars: 999999,
-    cardCode: "05053103",
+    cardCode: '05053103',
 
     fusions: [
       {
@@ -12647,12 +12726,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Beaver Warrior",
+    name: 'Beaver Warrior',
     description:
-      "What this creature \r\nlacks in size,\r\nit makes up for\r\nin defense when\r\nbattling in the\r\nmeadow.",
+      'What this creature \r\nlacks in size,\r\nit makes up for\r\nin defense when\r\nbattling in the\r\nmeadow.',
     id: 27,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -12661,16 +12740,16 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1500,
     stars: 140,
-    cardCode: "32452818",
+    cardCode: '32452818',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Rock Ogre Grotto #1",
+    name: 'Rock Ogre Grotto #1',
     description:
-      "Protected by a solid\r\nbody of rock, this\r\ncreature throws\r\na bone-shattering\r\npunch.",
+      'Protected by a solid\r\nbody of rock, this\r\ncreature throws\r\na bone-shattering\r\npunch.',
     id: 28,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -12679,7 +12758,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1200,
     stars: 999999,
-    cardCode: "68846917",
+    cardCode: '68846917',
 
     fusions: [
       {
@@ -13374,12 +13453,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Mountain Warrior",
+    name: 'Mountain Warrior',
     description:
-      "A solid warrior that\r\ncan move swiftly\r\nover rough terrain.",
+      'A solid warrior that\r\ncan move swiftly\r\nover rough terrain.',
     id: 29,
     guardianStarA: 4,
     guardianStarB: 1,
@@ -13388,16 +13467,16 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 1000,
     stars: 35,
-    cardCode: "04931562",
+    cardCode: '04931562',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Zombie Warrior",
+    name: 'Zombie Warrior',
     description:
-      "A deceptively\r\nfragile-looking\r\nskeleton warrior\r\nthat is known for\r\nits swift and\r\nprecise attacks.",
+      'A deceptively\r\nfragile-looking\r\nskeleton warrior\r\nthat is known for\r\nits swift and\r\nprecise attacks.',
     id: 30,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -13406,7 +13485,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 60,
-    cardCode: "31339260",
+    cardCode: '31339260',
 
     fusions: [
       {
@@ -14006,12 +14085,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Koumori Dragon",
+    name: 'Koumori Dragon',
     description:
-      "A vicious,\r\nfire-breathing\r\ndragon whose wicked\r\nflames corrupt the\r\nsouls of its victims.",
+      'A vicious,\r\nfire-breathing\r\ndragon whose wicked\r\nflames corrupt the\r\nsouls of its victims.',
     id: 31,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -14020,7 +14099,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1200,
     stars: 140,
-    cardCode: "67724379",
+    cardCode: '67724379',
 
     fusions: [
       {
@@ -15180,11 +15259,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Two-headed King Rex",
-    description: "An unusual and\r\nrarely seen\r\ntwo-headed dragon.",
+    name: 'Two-headed King Rex',
+    description: 'An unusual and\r\nrarely seen\r\ntwo-headed dragon.',
     id: 32,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -15193,7 +15272,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1200,
     stars: 160,
-    cardCode: "94119974",
+    cardCode: '94119974',
 
     fusions: [
       {
@@ -15368,12 +15447,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Judge Man",
+    name: 'Judge Man',
     description:
-      "For this\r\nclub-wielding\r\nwarrior, there is\r\nno other outcome\r\nto battle than\r\nvictory or defeat.",
+      'For this\r\nclub-wielding\r\nwarrior, there is\r\nno other outcome\r\nto battle than\r\nvictory or defeat.',
     id: 33,
     guardianStarA: 8,
     guardianStarB: 3,
@@ -15382,16 +15461,16 @@ export const CARDS_DB: Card[] = [
     attack: 2200,
     defense: 1500,
     stars: 1000,
-    cardCode: "30113682",
+    cardCode: '30113682',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Saggi the Dark Clown",
+    name: 'Saggi the Dark Clown',
     description:
-      "This clown appears \r\nout of nowhere and \r\nexecutes some very \r\nstrange moves to \r\navoid enemy attacks.",
+      'This clown appears \r\nout of nowhere and \r\nexecutes some very \r\nstrange moves to \r\navoid enemy attacks.',
     id: 34,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -15400,7 +15479,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 1500,
     stars: 60,
-    cardCode: "66602787",
+    cardCode: '66602787',
 
     fusions: [
       {
@@ -15735,11 +15814,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dark Magician",
-    description: "The ultimate wizard \r\nin terms of attack\r\nand defense.",
+    name: 'Dark Magician',
+    description: 'The ultimate wizard \r\nin terms of attack\r\nand defense.',
     id: 35,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -15748,16 +15827,16 @@ export const CARDS_DB: Card[] = [
     attack: 2500,
     defense: 2100,
     stars: 999999,
-    cardCode: "46986414",
+    cardCode: '46986414',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "The Snake Hair",
+    name: 'The Snake Hair',
     description:
-      "A monster with the\r\nhead of a poisonus\r\nsnake. One look will\r\nturn an unwary\r\nopponent to stone.",
+      'A monster with the\r\nhead of a poisonus\r\nsnake. One look will\r\nturn an unwary\r\nopponent to stone.',
     id: 36,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -15766,7 +15845,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1200,
     stars: 140,
-    cardCode: "29491031",
+    cardCode: '29491031',
 
     fusions: [
       {
@@ -15976,10 +16055,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Gaia the Dragon Champion",
+    name: 'Gaia the Dragon Champion',
     description:
       "A warrior's prowess \r\ncombines with a\r\ndragon's speed to\r\ncreate a powerful\r\noffensive force.",
     id: 37,
@@ -15990,7 +16069,7 @@ export const CARDS_DB: Card[] = [
     attack: 2600,
     defense: 2100,
     stars: 999999,
-    cardCode: "66889139",
+    cardCode: '66889139',
 
     fusions: [
       {
@@ -16060,12 +16139,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Gaia the Fierce Knight",
+    name: 'Gaia the Fierce Knight',
     description:
-      "A knight mounted on \r\na horse that travels\r\nfaster than the wind.\r\nHis battle charge is\r\na force to be\r\nreckoned with.",
+      'A knight mounted on \r\na horse that travels\r\nfaster than the wind.\r\nHis battle charge is\r\na force to be\r\nreckoned with.',
     id: 38,
     guardianStarA: 7,
     guardianStarB: 2,
@@ -16074,7 +16153,7 @@ export const CARDS_DB: Card[] = [
     attack: 2300,
     defense: 2100,
     stars: 999999,
-    cardCode: "06368038",
+    cardCode: '06368038',
 
     fusions: [
       {
@@ -16084,12 +16163,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Curse of Dragon",
+    name: 'Curse of Dragon',
     description:
-      "A wicked dragon that\r\ntaps dark forces to \r\nexecute a powerful\r\nattack.",
+      'A wicked dragon that\r\ntaps dark forces to \r\nexecute a powerful\r\nattack.',
     id: 39,
     guardianStarA: 3,
     guardianStarB: 5,
@@ -16098,7 +16177,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1500,
     stars: 999999,
-    cardCode: "28279543",
+    cardCode: '28279543',
 
     fusions: [
       {
@@ -16273,12 +16352,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dragon Piper",
+    name: 'Dragon Piper',
     description:
-      "A jar carved with\r\nstrange patterns. It\r\nhas a particularly\r\nhigh defense factor.",
+      'A jar carved with\r\nstrange patterns. It\r\nhas a particularly\r\nhigh defense factor.',
     id: 40,
     guardianStarA: 1,
     guardianStarB: 9,
@@ -16287,7 +16366,7 @@ export const CARDS_DB: Card[] = [
     attack: 200,
     defense: 1800,
     stars: 55,
-    cardCode: "55763552",
+    cardCode: '55763552',
 
     fusions: [
       {
@@ -17057,12 +17136,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Celtic Guardian",
+    name: 'Celtic Guardian',
     description:
-      "An elf, who learned\r\nto wield a sword,\r\nbaffles enemies with\r\nlightning-swift\r\nattacks.",
+      'An elf, who learned\r\nto wield a sword,\r\nbaffles enemies with\r\nlightning-swift\r\nattacks.',
     id: 41,
     guardianStarA: 8,
     guardianStarB: 4,
@@ -17071,7 +17150,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1200,
     stars: 120,
-    cardCode: "91152256",
+    cardCode: '91152256',
 
     fusions: [
       {
@@ -17706,12 +17785,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Illusionist Faceless Mage",
+    name: 'Illusionist Faceless Mage',
     description:
-      "Manipulates enemy\r\nattacks with the\r\npower of illusion.\r\nA very rare card.",
+      'Manipulates enemy\r\nattacks with the\r\npower of illusion.\r\nA very rare card.',
     id: 42,
     guardianStarA: 10,
     guardianStarB: 1,
@@ -17720,7 +17799,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 2200,
     stars: 320,
-    cardCode: "28546905",
+    cardCode: '28546905',
 
     fusions: [
       {
@@ -17890,12 +17969,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Karbonala Warrior",
+    name: 'Karbonala Warrior',
     description:
-      "A very\r\naverage-looking\r\nfighter with an\r\nunusually high\r\nattack factor.",
+      'A very\r\naverage-looking\r\nfighter with an\r\nunusually high\r\nattack factor.',
     id: 43,
     guardianStarA: 4,
     guardianStarB: 2,
@@ -17904,7 +17983,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1200,
     stars: 140,
-    cardCode: "54541900",
+    cardCode: '54541900',
 
     fusions: [
       {
@@ -18094,12 +18173,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Rogue Doll",
+    name: 'Rogue Doll',
     description:
-      "A unique doll gifted\r\nwith mystical power.\r\nParticularly\r\npowerful when\r\nattacking against\r\ndark forces.",
+      'A unique doll gifted\r\nwith mystical power.\r\nParticularly\r\npowerful when\r\nattacking against\r\ndark forces.',
     id: 44,
     guardianStarA: 8,
     guardianStarB: 5,
@@ -18108,7 +18187,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1000,
     stars: 120,
-    cardCode: "91939608",
+    cardCode: '91939608',
 
     fusions: [
       {
@@ -18183,11 +18262,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Oscillo Hero #2",
-    description: "Attacks its enemies\r\nwith thunder.",
+    name: 'Oscillo Hero #2',
+    description: 'Attacks its enemies\r\nwith thunder.',
     id: 45,
     guardianStarA: 5,
     guardianStarB: 8,
@@ -18196,7 +18275,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 500,
     stars: 30,
-    cardCode: "27324313",
+    cardCode: '27324313',
 
     fusions: [
       {
@@ -18886,10 +18965,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Griffore",
+    name: 'Griffore',
     description:
       "This creature's\r\ntough hide deflects\r\njust about any\r\nattack.",
     id: 46,
@@ -18900,7 +18979,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1500,
     stars: 140,
-    cardCode: "53829412",
+    cardCode: '53829412',
 
     fusions: [
       {
@@ -19755,10 +19834,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Torike",
+    name: 'Torike',
     description:
       "Not as tough as it\r\nlooks in terms of\r\ndefense.\r\nThis monster's\r\nsharp horn gives it\r\nan edge\r\nwhen attacking.",
     id: 47,
@@ -19769,7 +19848,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 600,
     stars: 45,
-    cardCode: "80813021",
+    cardCode: '80813021',
 
     fusions: [
       {
@@ -20624,12 +20703,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Sangan",
+    name: 'Sangan',
     description:
-      "A compact,\r\nthree-eyed monster\r\nthat is dangerous\r\nwhen faced\r\nin the dark.",
+      'A compact,\r\nthree-eyed monster\r\nthat is dangerous\r\nwhen faced\r\nin the dark.',
     id: 48,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -20638,7 +20717,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 600,
     stars: 35,
-    cardCode: "26202165",
+    cardCode: '26202165',
 
     fusions: [
       {
@@ -20708,12 +20787,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Big Insect",
+    name: 'Big Insect',
     description:
-      "A giant ant that\r\ndwells in the jungle.\r\nPowerful in terms of\r\nboth ATK and DEF\r\nfactors.",
+      'A giant ant that\r\ndwells in the jungle.\r\nPowerful in terms of\r\nboth ATK and DEF\r\nfactors.',
     id: 49,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -20722,7 +20801,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1500,
     stars: 140,
-    cardCode: "53606874",
+    cardCode: '53606874',
 
     fusions: [
       {
@@ -20732,10 +20811,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Basic Insect",
+    name: 'Basic Insect',
     description:
       "Usually found\r\ntravelling in swarms,\r\nthis creature's\r\nideal environment is\r\nthe forest.",
     id: 50,
@@ -20746,7 +20825,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 700,
     stars: 25,
-    cardCode: "89091579",
+    cardCode: '89091579',
 
     fusions: [
       {
@@ -20821,12 +20900,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Armored Lizard",
+    name: 'Armored Lizard',
     description:
-      "A lizard with a very\r\ntough hide and a\r\nvery vicious bite.",
+      'A lizard with a very\r\ntough hide and a\r\nvery vicious bite.',
     id: 51,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -20835,7 +20914,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1200,
     stars: 999999,
-    cardCode: "15480588",
+    cardCode: '15480588',
 
     fusions: [
       {
@@ -20855,12 +20934,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Hercules Beetle",
+    name: 'Hercules Beetle',
     description:
-      "A massive beetle\r\nwith a tough hide\r\nand a dangerous horn.",
+      'A massive beetle\r\nwith a tough hide\r\nand a dangerous horn.',
     id: 52,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -20869,7 +20948,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 2000,
     stars: 999999,
-    cardCode: "52584282",
+    cardCode: '52584282',
 
     fusions: [
       {
@@ -20879,12 +20958,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Killer Needle",
+    name: 'Killer Needle',
     description:
-      "A huge bee with\r\nexceptional strength.\r\nParticularly\r\ndangerous when a\r\nswarm is encountered.",
+      'A huge bee with\r\nexceptional strength.\r\nParticularly\r\ndangerous when a\r\nswarm is encountered.',
     id: 53,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -20893,7 +20972,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "88979991",
+    cardCode: '88979991',
 
     fusions: [
       {
@@ -20903,12 +20982,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Gokibore",
+    name: 'Gokibore',
     description:
-      "A large, spherical\r\nroach that attacks\r\nits enemies by\r\nrolling over them.\r\nIts tough defense\r\nmakes it \r\na formidable foe.",
+      'A large, spherical\r\nroach that attacks\r\nits enemies by\r\nrolling over them.\r\nIts tough defense\r\nmakes it \r\na formidable foe.',
     id: 54,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -20917,7 +20996,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1400,
     stars: 999999,
-    cardCode: "15367030",
+    cardCode: '15367030',
 
     fusions: [
       {
@@ -20927,10 +21006,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Giant Flea",
+    name: 'Giant Flea',
     description:
       "A giant\r\nblood-sucking flea\r\nthat's devastating\r\nwhen attacking.",
     id: 55,
@@ -20941,7 +21020,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1200,
     stars: 140,
-    cardCode: "41762634",
+    cardCode: '41762634',
 
     fusions: [
       {
@@ -20951,12 +21030,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Larvae Moth",
+    name: 'Larvae Moth',
     description:
-      "Not much in its\r\nlarval form,\r\nthis creature is a\r\nforce to be reckoned\r\nwith when it grows\r\nto become a colossal\r\nmoth.",
+      'Not much in its\r\nlarval form,\r\nthis creature is a\r\nforce to be reckoned\r\nwith when it grows\r\nto become a colossal\r\nmoth.',
     id: 56,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -20965,7 +21044,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 400,
     stars: 999999,
-    cardCode: "87756343",
+    cardCode: '87756343',
 
     fusions: [
       {
@@ -21040,12 +21119,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Great Moth",
+    name: 'Great Moth',
     description:
-      "A powerful creature\r\nof the forest, this\r\nhuge moth attacks\r\nits enemies by\r\nspreading poison\r\ndust with its wings.",
+      'A powerful creature\r\nof the forest, this\r\nhuge moth attacks\r\nits enemies by\r\nspreading poison\r\ndust with its wings.',
     id: 57,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -21054,16 +21133,16 @@ export const CARDS_DB: Card[] = [
     attack: 2600,
     defense: 2500,
     stars: 999999,
-    cardCode: "14141448",
+    cardCode: '14141448',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Kuriboh",
+    name: 'Kuriboh',
     description:
-      "By itself, this\r\nsmall creature may\r\nnot seem like much.\r\nBut in the dark, it\r\nattacks in numbers\r\nas a formidable\r\nforce.",
+      'By itself, this\r\nsmall creature may\r\nnot seem like much.\r\nBut in the dark, it\r\nattacks in numbers\r\nas a formidable\r\nforce.',
     id: 58,
     guardianStarA: 7,
     guardianStarB: 3,
@@ -21072,7 +21151,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 200,
     stars: 10,
-    cardCode: "40640057",
+    cardCode: '40640057',
     fusions: [
       {
         card1: 58,
@@ -21146,10 +21225,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Mammoth Graveyard",
+    name: 'Mammoth Graveyard',
     description:
       "A mammoth that\r\nprotects the\r\ngravesite of its\r\npack. It's\r\nabsolutely merciless\r\nwhen facing\r\ngraverobbers.",
     id: 59,
@@ -21160,7 +21239,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 800,
     stars: 55,
-    cardCode: "40374923",
+    cardCode: '40374923',
     fusions: [
       {
         card1: 59,
@@ -21504,11 +21583,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Great White",
-    description: "A giant white shark\r\nwith razor-sharp\r\nteeth.",
+    name: 'Great White',
+    description: 'A giant white shark\r\nwith razor-sharp\r\nteeth.',
     id: 60,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -21517,7 +21596,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 800,
     stars: 999999,
-    cardCode: "13429800",
+    cardCode: '13429800',
 
     fusions: [
       {
@@ -21702,12 +21781,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Wolf",
+    name: 'Wolf',
     description:
-      "A rarely seen wolf\r\nwith a powerful nose\r\nfor catching the\r\nscent of an enemy.",
+      'A rarely seen wolf\r\nwith a powerful nose\r\nfor catching the\r\nscent of an enemy.',
     id: 61,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -21716,7 +21795,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 800,
     stars: 55,
-    cardCode: "49417509",
+    cardCode: '49417509',
 
     fusions: [
       {
@@ -22566,12 +22645,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Harpie Lady",
+    name: 'Harpie Lady',
     description:
-      "A human-shaped\r\nanimal with wings.\r\nBeautiful to watch,\r\nbut lethal when\r\nengaged in battle.",
+      'A human-shaped\r\nanimal with wings.\r\nBeautiful to watch,\r\nbut lethal when\r\nengaged in battle.',
     id: 62,
     guardianStarA: 3,
     guardianStarB: 6,
@@ -22580,7 +22659,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1400,
     stars: 999999,
-    cardCode: "76812113",
+    cardCode: '76812113',
 
     fusions: [
       {
@@ -23305,12 +23384,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Harpie Lady Sisters",
+    name: 'Harpie Lady Sisters',
     description:
-      "Three fierce sisters\r\nwho relentlessly\r\nattack as a team.",
+      'Three fierce sisters\r\nwho relentlessly\r\nattack as a team.',
     id: 63,
     guardianStarA: 3,
     guardianStarB: 1,
@@ -23319,7 +23398,7 @@ export const CARDS_DB: Card[] = [
     attack: 1950,
     defense: 2100,
     stars: 999999,
-    cardCode: "12206212",
+    cardCode: '12206212',
 
     fusions: [
       {
@@ -23594,11 +23673,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Tiger Axe",
-    description: "A fast and powerful\r\naxe-wielding\r\nbeast warrior.",
+    name: 'Tiger Axe',
+    description: 'A fast and powerful\r\naxe-wielding\r\nbeast warrior.',
     id: 64,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -23607,7 +23686,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1100,
     stars: 999999,
-    cardCode: "49791927",
+    cardCode: '49791927',
 
     fusions: [
       {
@@ -23617,10 +23696,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Silver Fang",
+    name: 'Silver Fang',
     description:
       "A snow wolf that's\r\nbeautiful to the eye\r\nbut absolutely\r\nvicious in battle.",
     id: 65,
@@ -23631,7 +23710,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 800,
     stars: 55,
-    cardCode: "90357090",
+    cardCode: '90357090',
 
     fusions: [
       {
@@ -24476,12 +24555,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Kojikocy",
+    name: 'Kojikocy',
     description:
-      "A man-hunter with\r\npowerful arms that\r\ncan crush boulders.",
+      'A man-hunter with\r\npowerful arms that\r\ncan crush boulders.',
     id: 66,
     guardianStarA: 4,
     guardianStarB: 9,
@@ -24490,7 +24569,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1200,
     stars: 140,
-    cardCode: "01184620",
+    cardCode: '01184620',
     fusions: [
       {
         card1: 66,
@@ -24679,12 +24758,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Perfectly Ultimate Great Moth",
+    name: 'Perfectly Ultimate Great Moth',
     description:
-      "The final\r\nincarnation of the\r\nultimate insect,\r\nthe Great Moth!",
+      'The final\r\nincarnation of the\r\nultimate insect,\r\nthe Great Moth!',
     id: 67,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -24693,15 +24772,15 @@ export const CARDS_DB: Card[] = [
     attack: 3500,
     defense: 3000,
     stars: 999999,
-    cardCode: "48579379",
+    cardCode: '48579379',
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Garoozis",
+    name: 'Garoozis',
     description:
-      "An axe-swinging\r\nbeast warrior with\r\nthe head of\r\na dragon.",
+      'An axe-swinging\r\nbeast warrior with\r\nthe head of\r\na dragon.',
     id: 68,
     guardianStarA: 1,
     guardianStarB: 10,
@@ -24710,7 +24789,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1500,
     stars: 290,
-    cardCode: "14977074",
+    cardCode: '14977074',
     fusions: [
       {
         card1: 68,
@@ -25204,12 +25283,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Thousand Dragon",
+    name: 'Thousand Dragon',
     description:
-      "A dragon that has\r\ngrown and developed\r\nover a thousand\r\nyears.",
+      'A dragon that has\r\ngrown and developed\r\nover a thousand\r\nyears.',
     id: 69,
     guardianStarA: 1,
     guardianStarB: 7,
@@ -25218,7 +25297,7 @@ export const CARDS_DB: Card[] = [
     attack: 2400,
     defense: 2000,
     stars: 999999,
-    cardCode: "41462083",
+    cardCode: '41462083',
 
     fusions: [
       {
@@ -25283,12 +25362,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Fiend Kraken",
+    name: 'Fiend Kraken',
     description:
-      "A massive squid that\r\nsuddenly appears\r\nfrom the depths of\r\nthe sea to attack\r\nunwary enemies.",
+      'A massive squid that\r\nsuddenly appears\r\nfrom the depths of\r\nthe sea to attack\r\nunwary enemies.',
     id: 70,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -25297,7 +25376,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1400,
     stars: 120,
-    cardCode: "77456781",
+    cardCode: '77456781',
 
     fusions: [
       {
@@ -25517,12 +25596,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Jellyfish",
+    name: 'Jellyfish',
     description:
-      "An almost invisible,\r\nsemi-transparent\r\njellyfish that\r\ndrifts in the sea.",
+      'An almost invisible,\r\nsemi-transparent\r\njellyfish that\r\ndrifts in the sea.',
     id: 71,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -25531,7 +25610,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1500,
     stars: 140,
-    cardCode: "14851496",
+    cardCode: '14851496',
 
     fusions: [
       {
@@ -25671,12 +25750,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Cocoon of Evolution",
+    name: 'Cocoon of Evolution',
     description:
-      "This creature is\r\ncapable of instantly\r\nevolving larvae\r\ninto adults.",
+      'This creature is\r\ncapable of instantly\r\nevolving larvae\r\ninto adults.',
     id: 72,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -25685,7 +25764,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 2000,
     stars: 999999,
-    cardCode: "40240595",
+    cardCode: '40240595',
 
     fusions: [
       {
@@ -25760,10 +25839,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Kairyu-shin",
+    name: 'Kairyu-shin',
     description:
       'A sea dragon that\'s\r\nreferred to as the\r\n"King of the Ocean".\r\nIt attacks its\r\nenemies with huge\r\ntidal waves.',
     id: 73,
@@ -25774,7 +25853,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1500,
     stars: 290,
-    cardCode: "76634149",
+    cardCode: '76634149',
 
     fusions: [
       {
@@ -26389,12 +26468,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Giant Soldier of Stone",
+    name: 'Giant Soldier of Stone',
     description:
-      "A giant warrior made\r\nof stone. A punch\r\nfrom this creature\r\nhas earth-shaking\r\nresults.",
+      'A giant warrior made\r\nof stone. A punch\r\nfrom this creature\r\nhas earth-shaking\r\nresults.',
     id: 74,
     guardianStarA: 4,
     guardianStarB: 10,
@@ -26403,7 +26482,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 2000,
     stars: 290,
-    cardCode: "13039848",
+    cardCode: '13039848',
 
     fusions: [
       {
@@ -26793,12 +26872,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Man-eating Plant",
+    name: 'Man-eating Plant',
     description:
-      "A meat-eating plant\r\nthat is attractive\r\nto the eye but\r\ndangerous when\r\napproached.",
+      'A meat-eating plant\r\nthat is attractive\r\nto the eye but\r\ndangerous when\r\napproached.',
     id: 75,
     guardianStarA: 7,
     guardianStarB: 2,
@@ -26807,7 +26886,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 600,
     stars: 30,
-    cardCode: "49127943",
+    cardCode: '49127943',
 
     fusions: [
       {
@@ -27562,12 +27641,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Krokodilus",
+    name: 'Krokodilus',
     description:
-      "A vicious crocodile\r\nwith intelligence.\r\nHard scales form\r\na natural armor\r\nfor this creature.",
+      'A vicious crocodile\r\nwith intelligence.\r\nHard scales form\r\na natural armor\r\nfor this creature.',
     id: 76,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -27576,7 +27655,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1200,
     stars: 80,
-    cardCode: "76512652",
+    cardCode: '76512652',
 
     fusions: [
       {
@@ -27596,12 +27675,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Grappler",
+    name: 'Grappler',
     description:
-      "A devious snake with\r\na thick body that\r\nwraps around an\r\nenemy monster and\r\nsqueezes the life\r\nout of it.",
+      'A devious snake with\r\na thick body that\r\nwraps around an\r\nenemy monster and\r\nsqueezes the life\r\nout of it.',
     id: 77,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -27610,7 +27689,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1200,
     stars: 100,
-    cardCode: "02906250",
+    cardCode: '02906250',
 
     fusions: [
       {
@@ -27630,12 +27709,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Axe Raider",
+    name: 'Axe Raider',
     description:
-      "An axe-wielding\r\nmonster of\r\ntremendous strength\r\nand agility.",
+      'An axe-wielding\r\nmonster of\r\ntremendous strength\r\nand agility.',
     id: 78,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -27644,7 +27723,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1150,
     stars: 160,
-    cardCode: "48305365",
+    cardCode: '48305365',
 
     fusions: [
       {
@@ -27829,12 +27908,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Megazowler",
+    name: 'Megazowler',
     description:
-      "Nothing stands in\r\nthe way of this\r\nspike-covered\r\ndinosaur.",
+      'Nothing stands in\r\nthe way of this\r\nspike-covered\r\ndinosaur.',
     id: 79,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -27843,16 +27922,16 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 2000,
     stars: 500,
-    cardCode: "75390004",
+    cardCode: '75390004',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Uraby",
+    name: 'Uraby',
     description:
-      "Fast on its feet,\r\nthis dinosaur rips\r\nenemies to shreds\r\nwith its sharp claws.",
+      'Fast on its feet,\r\nthis dinosaur rips\r\nenemies to shreds\r\nwith its sharp claws.',
     id: 80,
     guardianStarA: 4,
     guardianStarB: 1,
@@ -27861,7 +27940,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 800,
     stars: 80,
-    cardCode: "01784619",
+    cardCode: '01784619',
 
     fusions: [
       {
@@ -28036,12 +28115,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Crawling Dragon #2",
+    name: 'Crawling Dragon #2',
     description:
-      "A powerful dragon\r\nwith teeth that can\r\ngrind almost\r\nanything to dust.",
+      'A powerful dragon\r\nwith teeth that can\r\ngrind almost\r\nanything to dust.',
     id: 81,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -28050,7 +28129,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1200,
     stars: 160,
-    cardCode: "38289717",
+    cardCode: '38289717',
 
     fusions: [
       {
@@ -29155,11 +29234,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Red-eyes B. Dragon",
-    description: "A very rare card\r\nwith a high-level\r\nATK factor.",
+    name: 'Red-eyes B. Dragon',
+    description: 'A very rare card\r\nwith a high-level\r\nATK factor.',
     id: 82,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -29168,7 +29247,7 @@ export const CARDS_DB: Card[] = [
     attack: 2400,
     defense: 2000,
     stars: 999999,
-    cardCode: "74677422",
+    cardCode: '74677422',
 
     fusions: [
       {
@@ -29238,12 +29317,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Castle of Dark Illusions",
+    name: 'Castle of Dark Illusions',
     description:
-      "A creature that can\r\ngenerate darkness to\r\nenvelop all that\r\nexists around it.",
+      'A creature that can\r\ngenerate darkness to\r\nenvelop all that\r\nexists around it.',
     id: 83,
     guardianStarA: 7,
     guardianStarB: 4,
@@ -29252,7 +29331,7 @@ export const CARDS_DB: Card[] = [
     attack: 920,
     defense: 1930,
     stars: 160,
-    cardCode: "00062121",
+    cardCode: '00062121',
 
     fusions: [
       {
@@ -29347,12 +29426,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Reaper of the Cards",
+    name: 'Reaper of the Cards',
     description:
-      "This monster boasts\r\na strong defense and\r\na massive scythe\r\nthat cuts through\r\nalmost anything.",
+      'This monster boasts\r\na strong defense and\r\na massive scythe\r\nthat cuts through\r\nalmost anything.',
     id: 84,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -29361,7 +29440,7 @@ export const CARDS_DB: Card[] = [
     attack: 1380,
     defense: 1930,
     stars: 290,
-    cardCode: "33066139",
+    cardCode: '33066139',
 
     fusions: [
       {
@@ -29411,11 +29490,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "King of Yamimakai",
-    description: "Wields the power of\r\ndarkness to destroy\r\nits enemies.",
+    name: 'King of Yamimakai',
+    description: 'Wields the power of\r\ndarkness to destroy\r\nits enemies.',
     id: 85,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -29424,7 +29503,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1530,
     stars: 350,
-    cardCode: "69455834",
+    cardCode: '69455834',
 
     fusions: [
       {
@@ -29434,12 +29513,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Barox",
+    name: 'Barox',
     description:
-      "This creature flies\r\nthrough the dark,\r\nattacking its\r\nenemies with its\r\nlong, hairy arms.",
+      'This creature flies\r\nthrough the dark,\r\nattacking its\r\nenemies with its\r\nlong, hairy arms.',
     id: 86,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -29448,7 +29527,7 @@ export const CARDS_DB: Card[] = [
     attack: 1380,
     defense: 1530,
     stars: 180,
-    cardCode: "06840573",
+    cardCode: '06840573',
 
     fusions: [
       {
@@ -29463,12 +29542,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dark Chimera",
+    name: 'Dark Chimera',
     description:
-      "A fire-breathing\r\nmonster that dwells\r\nin the netherworld.",
+      'A fire-breathing\r\nmonster that dwells\r\nin the netherworld.',
     id: 87,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -29477,7 +29556,7 @@ export const CARDS_DB: Card[] = [
     attack: 1610,
     defense: 1460,
     stars: 200,
-    cardCode: "32344688",
+    cardCode: '32344688',
 
     fusions: [
       {
@@ -29492,12 +29571,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Metal Guardian",
+    name: 'Metal Guardian',
     description:
-      "A fiend guarding\r\nthe treasures of\r\nthe netherworld.\r\nIts defense is\r\nparticularly high in\r\n a dark environment.",
+      'A fiend guarding\r\nthe treasures of\r\nthe netherworld.\r\nIts defense is\r\nparticularly high in\r\n a dark environment.',
     id: 88,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -29506,7 +29585,7 @@ export const CARDS_DB: Card[] = [
     attack: 1150,
     defense: 2150,
     stars: 290,
-    cardCode: "68339286",
+    cardCode: '68339286',
 
     fusions: [
       {
@@ -29581,12 +29660,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Catapult Turtle",
+    name: 'Catapult Turtle',
     description:
-      "Well-protected by\r\nits shell, this\r\nmonster flings\r\nprojectiles from\r\nits catapult.",
+      'Well-protected by\r\nits shell, this\r\nmonster flings\r\nprojectiles from\r\nits catapult.',
     id: 89,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -29595,7 +29674,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 2000,
     stars: 200,
-    cardCode: "95727991",
+    cardCode: '95727991',
 
     fusions: [
       {
@@ -30105,12 +30184,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Gyakutenno Megami",
+    name: 'Gyakutenno Megami',
     description:
-      "Uses her mystical\r\npower to protect the\r\nweak and provide\r\nspiritual support.",
+      'Uses her mystical\r\npower to protect the\r\nweak and provide\r\nspiritual support.',
     id: 90,
     guardianStarA: 8,
     guardianStarB: 6,
@@ -30119,7 +30198,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 2000,
     stars: 500,
-    cardCode: "31122090",
+    cardCode: '31122090',
 
     fusions: [
       {
@@ -30329,12 +30408,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Mystic Horseman",
+    name: 'Mystic Horseman',
     description:
-      "Half man and half\r\nhorse, this monster\r\nis known for its\r\nextreme speed.",
+      'Half man and half\r\nhorse, this monster\r\nis known for its\r\nextreme speed.',
     id: 91,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -30343,7 +30422,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1550,
     stars: 999999,
-    cardCode: "68516705",
+    cardCode: '68516705',
 
     fusions: [
       {
@@ -30998,12 +31077,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Rabid Horseman",
+    name: 'Rabid Horseman',
     description:
-      "A powerful\r\nand unstoppable\r\ncombination of\r\nbull and horse.",
+      'A powerful\r\nand unstoppable\r\ncombination of\r\nbull and horse.',
     id: 92,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -31012,16 +31091,16 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1700,
     stars: 999999,
-    cardCode: "94905343",
+    cardCode: '94905343',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Zanki",
+    name: 'Zanki',
     description:
-      "Prefers to face\r\nenemies one-on-one.\r\nHis swiftly drawn\r\nblade delivers a\r\nquick and immediate\r\nfinnish.",
+      'Prefers to face\r\nenemies one-on-one.\r\nHis swiftly drawn\r\nblade delivers a\r\nquick and immediate\r\nfinnish.',
     id: 93,
     guardianStarA: 4,
     guardianStarB: 2,
@@ -31030,7 +31109,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1700,
     stars: 260,
-    cardCode: "30090452",
+    cardCode: '30090452',
 
     fusions: [
       {
@@ -31215,12 +31294,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Crawling Dragon",
+    name: 'Crawling Dragon',
     description:
-      "A weakened dragon\r\nthat can no longer\r\nfly, but is still a\r\nformidable force\r\nto be reckoned with.",
+      'A weakened dragon\r\nthat can no longer\r\nfly, but is still a\r\nformidable force\r\nto be reckoned with.',
     id: 94,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -31229,7 +31308,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1400,
     stars: 200,
-    cardCode: "67494157",
+    cardCode: '67494157',
 
     fusions: [
       {
@@ -32329,12 +32408,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Crass Clown",
+    name: 'Crass Clown',
     description:
-      "A performer\r\nin the Dark Circus,\r\nthis clown drains\r\nthe strength of\r\nits enemies with\r\nstrange dances.",
+      'A performer\r\nin the Dark Circus,\r\nthis clown drains\r\nthe strength of\r\nits enemies with\r\nstrange dances.',
     id: 95,
     guardianStarA: 10,
     guardianStarB: 2,
@@ -32343,7 +32422,7 @@ export const CARDS_DB: Card[] = [
     attack: 1350,
     defense: 1400,
     stars: 140,
-    cardCode: "93889755",
+    cardCode: '93889755',
 
     fusions: [
       {
@@ -32408,12 +32487,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Armored Zombie",
+    name: 'Armored Zombie',
     description:
-      "A warrior raised\r\nfrom the beyond.\r\nBlindly swings\r\na sharp blade with\r\ndevastating force.",
+      'A warrior raised\r\nfrom the beyond.\r\nBlindly swings\r\na sharp blade with\r\ndevastating force.',
     id: 96,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -32422,7 +32501,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 0,
     stars: 260,
-    cardCode: "20277860",
+    cardCode: '20277860',
 
     fusions: [
       {
@@ -32612,12 +32691,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dragon Zombie",
+    name: 'Dragon Zombie',
     description:
-      "A dragon revived by\r\nsorcery. Its breath\r\nis highly corrosive.",
+      'A dragon revived by\r\nsorcery. Its breath\r\nis highly corrosive.',
     id: 97,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -32626,7 +32705,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 0,
     stars: 200,
-    cardCode: "66672569",
+    cardCode: '66672569',
 
     fusions: [
       {
@@ -33786,12 +33865,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Clown Zombie",
+    name: 'Clown Zombie',
     description:
-      "A clown revived by\r\nthe powers of\r\ndarkness.\r\nIts strange dance\r\nhas sent many \r\nmonsters to their\r\nends.",
+      'A clown revived by\r\nthe powers of\r\ndarkness.\r\nIts strange dance\r\nhas sent many \r\nmonsters to their\r\nends.',
     id: 98,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -33800,7 +33879,7 @@ export const CARDS_DB: Card[] = [
     attack: 1350,
     defense: 0,
     stars: 140,
-    cardCode: "92667214",
+    cardCode: '92667214',
 
     fusions: [
       {
@@ -34260,12 +34339,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Pumpking the King of Ghosts",
+    name: 'Pumpking the King of Ghosts',
     description:
-      "This pumpkin king\r\nstrikes at its\r\nenemies with its\r\nlong tentacles.",
+      'This pumpkin king\r\nstrikes at its\r\nenemies with its\r\nlong tentacles.',
     id: 99,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -34274,7 +34353,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 2000,
     stars: 500,
-    cardCode: "29155212",
+    cardCode: '29155212',
 
     fusions: [
       {
@@ -34364,11 +34443,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Battle Warrior",
-    description: "A warrior that\r\nfights with his\r\nbare hands.",
+    name: 'Battle Warrior',
+    description: 'A warrior that\r\nfights with his\r\nbare hands.',
     id: 100,
     guardianStarA: 4,
     guardianStarB: 9,
@@ -34377,7 +34456,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 1000,
     stars: 40,
-    cardCode: "55550921",
+    cardCode: '55550921',
 
     fusions: [
       {
@@ -35032,12 +35111,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Wings of Wicked Flame",
+    name: 'Wings of Wicked Flame',
     description:
-      "Soaring over\r\nits enemies on wings\r\nof crimson fire,\r\nthis monster attacks\r\nby blasting flames\r\nfrom its body.",
+      'Soaring over\r\nits enemies on wings\r\nof crimson fire,\r\nthis monster attacks\r\nby blasting flames\r\nfrom its body.',
     id: 101,
     guardianStarA: 1,
     guardianStarB: 3,
@@ -35046,7 +35125,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 600,
     stars: 30,
-    cardCode: "92944626",
+    cardCode: '92944626',
 
     fusions: [
       {
@@ -35636,11 +35715,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Mask of Darkness",
-    description: "A shadow mask\r\ncreated by the hands\r\nof a dark mage.",
+    name: 'Mask of Darkness',
+    description: 'A shadow mask\r\ncreated by the hands\r\nof a dark mage.',
     id: 102,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -35649,7 +35728,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 400,
     stars: 30,
-    cardCode: "28933734",
+    cardCode: '28933734',
 
     fusions: [
       {
@@ -35739,12 +35818,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Job-change Mirror",
+    name: 'Job-change Mirror',
     description:
-      "An indestructible,\r\nwicked mirror that\r\nblocks enemy attacks.",
+      'An indestructible,\r\nwicked mirror that\r\nblocks enemy attacks.',
     id: 103,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -35753,7 +35832,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1300,
     stars: 999999,
-    cardCode: "55337339",
+    cardCode: '55337339',
 
     fusions: [
       {
@@ -36133,12 +36212,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Curtain of the Dark Ones",
+    name: 'Curtain of the Dark Ones',
     description:
-      "A curtain woven by\r\nthe hands of a\r\nsorcerer. It is said\r\nto enhance the power\r\nof magic- users.",
+      'A curtain woven by\r\nthe hands of a\r\nsorcerer. It is said\r\nto enhance the power\r\nof magic- users.',
     id: 104,
     guardianStarA: 7,
     guardianStarB: 2,
@@ -36147,7 +36226,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 500,
     stars: 25,
-    cardCode: "22026707",
+    cardCode: '22026707',
 
     fusions: [
       {
@@ -36462,12 +36541,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Tomozaurus",
+    name: 'Tomozaurus',
     description:
-      "A deceivingly small\r\ncreature that is so\r\nvicious it attacks\r\nboth friend and foe\r\nwithout discretion.",
+      'A deceivingly small\r\ncreature that is so\r\nvicious it attacks\r\nboth friend and foe\r\nwithout discretion.',
     id: 105,
     guardianStarA: 4,
     guardianStarB: 10,
@@ -36476,7 +36555,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 400,
     stars: 20,
-    cardCode: "46457856",
+    cardCode: '46457856',
 
     fusions: [
       {
@@ -36651,10 +36730,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Spirit of the Winds",
+    name: 'Spirit of the Winds',
     description:
       "A spirit of the wind\r\nthat freely sails\r\nthe skies. Known to\r\ngenerate storms when\r\nit's in a bad mood.",
     id: 106,
@@ -36665,7 +36744,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1400,
     stars: 230,
-    cardCode: "54615781",
+    cardCode: '54615781',
 
     fusions: [
       {
@@ -36725,12 +36804,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Kageningen",
+    name: 'Kageningen',
     description:
-      "Uses both its\r\nphysical and shadow\r\nforms to attack,\r\nmaking it\r\na difficult creature\r\nto overcome.",
+      'Uses both its\r\nphysical and shadow\r\nforms to attack,\r\nmaking it\r\na difficult creature\r\nto overcome.',
     id: 107,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -36739,7 +36818,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 600,
     stars: 30,
-    cardCode: "80600490",
+    cardCode: '80600490',
 
     fusions: [
       {
@@ -37334,12 +37413,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Graveyard and the Hand of Invitation",
+    name: 'Graveyard and the Hand of Invitation',
     description:
-      "A final resting\r\nplace that enhances\r\nthe power of the\r\ndoomed and drains\r\nthat of the living.",
+      'A final resting\r\nplace that enhances\r\nthe power of the\r\ndoomed and drains\r\nthat of the living.',
     id: 108,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -37348,7 +37427,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 900,
     stars: 35,
-    cardCode: "27094595",
+    cardCode: '27094595',
 
     fusions: [
       {
@@ -38073,11 +38152,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Goddess with the Third Eye",
-    description: "A goddess with an\r\nall-seeing eye that\r\nreveals all.",
+    name: 'Goddess with the Third Eye',
+    description: 'A goddess with an\r\nall-seeing eye that\r\nreveals all.',
     id: 109,
     guardianStarA: 8,
     guardianStarB: 10,
@@ -38086,7 +38165,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "53493204",
+    cardCode: '53493204',
 
     fusions: [
       {
@@ -38691,12 +38770,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Hero of the East",
+    name: 'Hero of the East',
     description:
-      "A samurai from the\r\nFar East armed with\r\na razor-sharp sword.",
+      'A samurai from the\r\nFar East armed with\r\na razor-sharp sword.',
     id: 110,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -38705,7 +38784,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1000,
     stars: 60,
-    cardCode: "89987208",
+    cardCode: '89987208',
 
     fusions: [
       {
@@ -39290,12 +39369,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Doma The Angel of Silence",
+    name: 'Doma The Angel of Silence',
     description:
-      "This angel rules\r\nover the doomed\r\nand administers it\r\nwhen necessary.",
+      'This angel rules\r\nover the doomed\r\nand administers it\r\nwhen necessary.',
     id: 111,
     guardianStarA: 7,
     guardianStarB: 3,
@@ -39304,7 +39383,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1400,
     stars: 200,
-    cardCode: "16972957",
+    cardCode: '16972957',
 
     fusions: [
       {
@@ -39529,12 +39608,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "That Which Feeds on Life",
+    name: 'That Which Feeds on Life',
     description:
-      "A vile monster that\r\nfuels its power by\r\ndraining the essence\r\nof life from\r\nits opponents.",
+      'A vile monster that\r\nfuels its power by\r\ndraining the essence\r\nof life from\r\nits opponents.',
     id: 112,
     guardianStarA: 7,
     guardianStarB: 4,
@@ -39543,7 +39622,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "52367652",
+    cardCode: '52367652',
 
     fusions: [
       {
@@ -39613,12 +39692,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dark Gray",
+    name: 'Dark Gray',
     description:
-      "Entirely gray,\r\nthis beast has\r\nrarely been seen\r\nby mortal eyes.",
+      'Entirely gray,\r\nthis beast has\r\nrarely been seen\r\nby mortal eyes.',
     id: 113,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -39627,7 +39706,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 900,
     stars: 40,
-    cardCode: "09159938",
+    cardCode: '09159938',
 
     fusions: [
       {
@@ -40472,12 +40551,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "White Magical Hat",
+    name: 'White Magical Hat',
     description:
-      "A gentleman thief\r\nthat eludes the law\r\ndespite the fact\r\nthat he sticks out\r\nlike a sore thumb\r\nwith his silk hat\r\nand white cape.",
+      'A gentleman thief\r\nthat eludes the law\r\ndespite the fact\r\nthat he sticks out\r\nlike a sore thumb\r\nwith his silk hat\r\nand white cape.',
     id: 114,
     guardianStarA: 8,
     guardianStarB: 1,
@@ -40486,7 +40565,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 700,
     stars: 40,
-    cardCode: "15150365",
+    cardCode: '15150365',
 
     fusions: [
       {
@@ -40651,12 +40730,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Kamion Wizard",
+    name: 'Kamion Wizard',
     description:
-      "A magic-user that\r\ncontrols chaos\r\nand wields\r\na mighty sickle.",
+      'A magic-user that\r\ncontrols chaos\r\nand wields\r\na mighty sickle.',
     id: 115,
     guardianStarA: 7,
     guardianStarB: 5,
@@ -40665,7 +40744,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1100,
     stars: 120,
-    cardCode: "41544074",
+    cardCode: '41544074',
 
     fusions: [
       {
@@ -40885,12 +40964,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Nightmare Scorpion",
+    name: 'Nightmare Scorpion',
     description:
-      "A very toxic\r\ncreature that\r\ninduces nightmares\r\nand attacks its\r\nvictims with four\r\npoison- tipped\r\nstingers.",
+      'A very toxic\r\ncreature that\r\ninduces nightmares\r\nand attacks its\r\nvictims with four\r\npoison- tipped\r\nstingers.',
     id: 116,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -40899,7 +40978,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 800,
     stars: 40,
-    cardCode: "88643173",
+    cardCode: '88643173',
 
     fusions: [
       {
@@ -40909,12 +40988,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Spirit of the Books",
+    name: 'Spirit of the Books',
     description:
-      "A spirit of the\r\nbooks with infinite\r\nknowledge and\r\nan endless variety\r\nof attack strategies.",
+      'A spirit of the\r\nbooks with infinite\r\nknowledge and\r\nan endless variety\r\nof attack strategies.',
     id: 117,
     guardianStarA: 3,
     guardianStarB: 9,
@@ -40923,7 +41002,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1200,
     stars: 120,
-    cardCode: "14037717",
+    cardCode: '14037717',
 
     fusions: [
       {
@@ -41083,12 +41162,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Supporter in the Shadows",
+    name: 'Supporter in the Shadows',
     description:
-      "A cute elf that\r\nassists against\r\nenemies while\r\nremaining hidden\r\nfrom sight.",
+      'A cute elf that\r\nassists against\r\nenemies while\r\nremaining hidden\r\nfrom sight.',
     id: 118,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -41097,7 +41176,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1000,
     stars: 55,
-    cardCode: "41422426",
+    cardCode: '41422426',
 
     fusions: [
       {
@@ -41677,11 +41756,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Trial of Nightmares",
-    description: "Passes judgment on\r\nenemies that are\r\nlocked in coffins.",
+    name: 'Trial of Nightmares',
+    description: 'Passes judgment on\r\nenemies that are\r\nlocked in coffins.',
     id: 119,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -41690,7 +41769,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 900,
     stars: 70,
-    cardCode: "77827521",
+    cardCode: '77827521',
 
     fusions: [
       {
@@ -41740,12 +41819,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dream Clown",
+    name: 'Dream Clown',
     description:
-      "The mysterious dance\r\nof this creature\r\ndraws its enemies\r\ninto eternal slumber.",
+      'The mysterious dance\r\nof this creature\r\ndraws its enemies\r\ninto eternal slumber.',
     id: 120,
     guardianStarA: 10,
     guardianStarB: 3,
@@ -41754,7 +41833,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 60,
-    cardCode: "13215230",
+    cardCode: '13215230',
 
     fusions: [
       {
@@ -42334,12 +42413,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Sleeping Lion",
+    name: 'Sleeping Lion',
     description:
-      "Frequently\r\nfound sleeping,\r\nthis monster is\r\nvery dangerous\r\nwhen awakened.",
+      'Frequently\r\nfound sleeping,\r\nthis monster is\r\nvery dangerous\r\nwhen awakened.',
     id: 121,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -42348,7 +42427,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 1700,
     stars: 120,
-    cardCode: "40200834",
+    cardCode: '40200834',
 
     fusions: [
       {
@@ -43183,12 +43262,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Yamatano Dragon Scroll",
+    name: 'Yamatano Dragon Scroll',
     description:
-      "This dragon is\r\nconjured from\r\na picture scroll\r\nto attack enemies.\r\nIt has a pretty\r\nlow defense factor.",
+      'This dragon is\r\nconjured from\r\na picture scroll\r\nto attack enemies.\r\nIt has a pretty\r\nlow defense factor.',
     id: 122,
     guardianStarA: 3,
     guardianStarB: 10,
@@ -43197,7 +43276,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 300,
     stars: 25,
-    cardCode: "76704943",
+    cardCode: '76704943',
 
     fusions: [
       {
@@ -44502,12 +44581,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Dark Plant",
+    name: 'Dark Plant',
     description:
-      "A vicious flower\r\nraised from polluted\r\nsoil and fertilized\r\nby dark forces.",
+      'A vicious flower\r\nraised from polluted\r\nsoil and fertilized\r\nby dark forces.',
     id: 123,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -44516,7 +44595,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 400,
     stars: 15,
-    cardCode: "13193642",
+    cardCode: '13193642',
 
     fusions: [
       {
@@ -45206,12 +45285,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Ancient Tool",
+    name: 'Ancient Tool',
     description:
-      "An engine\r\nof destruction\r\ndiscovered in the\r\nruins of an ancient\r\ncivilization.",
+      'An engine\r\nof destruction\r\ndiscovered in the\r\nruins of an ancient\r\ncivilization.',
     id: 124,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -45220,7 +45299,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1400,
     stars: 230,
-    cardCode: "49587396",
+    cardCode: '49587396',
 
     fusions: [
       {
@@ -45315,12 +45394,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Faith Bird",
+    name: 'Faith Bird',
     description:
-      "A bird with a very\r\nlong tail that\r\nattacks with a light\r\nthat emanates from\r\nits entire being.",
+      'A bird with a very\r\nlong tail that\r\nattacks with a light\r\nthat emanates from\r\nits entire being.',
     id: 125,
     guardianStarA: 8,
     guardianStarB: 2,
@@ -45329,7 +45408,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1100,
     stars: 120,
-    cardCode: "75582395",
+    cardCode: '75582395',
 
     fusions: [
       {
@@ -45509,12 +45588,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Orion the Battle King",
+    name: 'Orion the Battle King',
     description:
-      "A mysterious\r\ncreature known as\r\nthe king of warriors,\r\nbut nobody has lived\r\nlong enough to tell\r\nhow it earned\r\nits reputation.",
+      'A mysterious\r\ncreature known as\r\nthe king of warriors,\r\nbut nobody has lived\r\nlong enough to tell\r\nhow it earned\r\nits reputation.',
     id: 126,
     guardianStarA: 8,
     guardianStarB: 3,
@@ -45523,16 +45602,16 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1500,
     stars: 290,
-    cardCode: "02971090",
+    cardCode: '02971090',
 
     fusions: [],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Ansatsu",
+    name: 'Ansatsu',
     description:
-      "A silent and swift\r\nwarrior specializing\r\nin sneak attack.",
+      'A silent and swift\r\nwarrior specializing\r\nin sneak attack.',
     id: 127,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -45541,7 +45620,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1200,
     stars: 180,
-    cardCode: "48365709",
+    cardCode: '48365709',
 
     fusions: [
       {
@@ -45721,12 +45800,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "LaMoon",
+    name: 'LaMoon',
     description:
-      "A sorcerer who lives\r\non the moon and\r\nattacks opponents\r\nwith the power\r\nof lunar light.",
+      'A sorcerer who lives\r\non the moon and\r\nattacks opponents\r\nwith the power\r\nof lunar light.',
     id: 128,
     guardianStarA: 8,
     guardianStarB: 4,
@@ -45735,7 +45814,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1700,
     stars: 180,
-    cardCode: "75850803",
+    cardCode: '75850803',
 
     fusions: [
       {
@@ -46380,12 +46459,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Nemuriko",
+    name: 'Nemuriko',
     description:
-      "A child-like\r\ncreature that\r\ncontrols a sleep\r\nspirit to beckon\r\nenemies into eternal\r\nslumber.",
+      'A child-like\r\ncreature that\r\ncontrols a sleep\r\nspirit to beckon\r\nenemies into eternal\r\nslumber.',
     id: 129,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -46394,7 +46473,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 700,
     stars: 30,
-    cardCode: "90963488",
+    cardCode: '90963488',
 
     fusions: [
       {
@@ -47074,12 +47153,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Weather Control",
+    name: 'Weather Control',
     description:
-      "This monster is\r\ncapable of\r\nmanipulating the\r\nweather. This power\r\nis the reason behind\r\nthe changing climate\r\nof mountains.",
+      'This monster is\r\ncapable of\r\nmanipulating the\r\nweather. This power\r\nis the reason behind\r\nthe changing climate\r\nof mountains.',
     id: 130,
     guardianStarA: 8,
     guardianStarB: 5,
@@ -47088,7 +47167,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 400,
     stars: 20,
-    cardCode: "37243151",
+    cardCode: '37243151',
 
     fusions: [
       {
@@ -47298,12 +47377,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Octoberser",
+    name: 'Octoberser',
     description:
-      "A strange creature\r\nwith the head\r\nof a fish and\r\nthe tentacles of\r\nan octopus that\r\nattacks its enemies\r\nwith spears.",
+      'A strange creature\r\nwith the head\r\nof a fish and\r\nthe tentacles of\r\nan octopus that\r\nattacks its enemies\r\nwith spears.',
     id: 131,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -47312,7 +47391,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1400,
     stars: 200,
-    cardCode: "74637266",
+    cardCode: '74637266',
 
     fusions: [
       {
@@ -47387,12 +47466,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "The 13th Grave",
+    name: 'The 13th Grave',
     description:
-      "A zombie that\r\nsuddenly appeared\r\nfrom plot\r\n#13 - supposedly\r\nan empty grave.",
+      'A zombie that\r\nsuddenly appeared\r\nfrom plot\r\n#13 - supposedly\r\nan empty grave.',
     id: 132,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -47401,7 +47480,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 60,
-    cardCode: "00032864",
+    cardCode: '00032864',
 
     fusions: [
       {
@@ -47891,12 +47970,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Charubin the Fire Knight",
+    name: 'Charubin the Fire Knight',
     description:
-      "A warrior protected\r\nby a shell\r\nthat can even\r\ndeflect the heat\r\nof burning flames.",
+      'A warrior protected\r\nby a shell\r\nthat can even\r\ndeflect the heat\r\nof burning flames.',
     id: 133,
     guardianStarA: 1,
     guardianStarB: 4,
@@ -47905,7 +47984,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 800,
     stars: 50,
-    cardCode: "37421579",
+    cardCode: '37421579',
 
     fusions: [
       {
@@ -48355,12 +48434,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Mystical Capture Chain",
+    name: 'Mystical Capture Chain',
     description:
-      "A mystical chain\r\nthat is believed\r\ncapable of binding\r\nits enemies and\r\npreventing their\r\nattacks.",
+      'A mystical chain\r\nthat is believed\r\ncapable of binding\r\nits enemies and\r\npreventing their\r\nattacks.',
     id: 134,
     guardianStarA: 8,
     guardianStarB: 6,
@@ -48369,7 +48448,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 700,
     stars: 30,
-    cardCode: "63515678",
+    cardCode: '63515678',
 
     fusions: [
       {
@@ -48579,12 +48658,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
     name: "Fiend's Hand",
     description:
-      "Long arms reach out\r\nfrom the Swamp\r\nof Chaos to drag\r\nin enemy creatures.",
+      'Long arms reach out\r\nfrom the Swamp\r\nof Chaos to drag\r\nin enemy creatures.',
     id: 135,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -48593,7 +48672,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 600,
     stars: 25,
-    cardCode: "52800428",
+    cardCode: '52800428',
 
     fusions: [
       {
@@ -49188,12 +49267,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Witty Phantom",
+    name: 'Witty Phantom',
     description:
-      "Dressed in a\r\nnight-black tuxedo,\r\nthis creature\r\npresides over\r\nthe doomed.",
+      'Dressed in a\r\nnight-black tuxedo,\r\nthis creature\r\npresides over\r\nthe doomed.',
     id: 136,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -49202,7 +49281,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1300,
     stars: 140,
-    cardCode: "36304921",
+    cardCode: '36304921',
 
     fusions: [
       {
@@ -49262,12 +49341,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Mystery Hand",
+    name: 'Mystery Hand',
     description:
-      "Twisting the fabric\r\nof reality, arms\r\nstretch out from\r\nanother dimension\r\nto attack opponents.",
+      'Twisting the fabric\r\nof reality, arms\r\nstretch out from\r\nanother dimension\r\nto attack opponents.',
     id: 137,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -49276,7 +49355,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 500,
     stars: 20,
-    cardCode: "62793020",
+    cardCode: '62793020',
 
     fusions: [
       {
@@ -49341,10 +49420,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dragon Statue",
+    name: 'Dragon Statue',
     description:
       "A granite warrior\r\nwith a dragon's soul\r\nwields a powerful\r\nsword against\r\nall enemies.",
     id: 138,
@@ -49355,7 +49434,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 900,
     stars: 55,
-    cardCode: "09197735",
+    cardCode: '09197735',
 
     fusions: [
       {
@@ -50775,12 +50854,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Blue-eyed Silver Zombie",
+    name: 'Blue-eyed Silver Zombie',
     description:
-      "A creature rumored\r\nto turn enemies\r\ninto zombies\r\nwith a strange ray\r\nthat emanates\r\nfrom its eyes.",
+      'A creature rumored\r\nto turn enemies\r\ninto zombies\r\nwith a strange ray\r\nthat emanates\r\nfrom its eyes.',
     id: 139,
     guardianStarA: 8,
     guardianStarB: 5,
@@ -50789,7 +50868,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 700,
     stars: 35,
-    cardCode: "35282433",
+    cardCode: '35282433',
 
     fusions: [
       {
@@ -51379,12 +51458,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Toad Master",
+    name: 'Toad Master',
     description:
-      "Thousands of years\r\nold, this frog\r\nwizard attacks\r\nenemies with an\r\narmy of tadpoles.",
+      'Thousands of years\r\nold, this frog\r\nwizard attacks\r\nenemies with an\r\narmy of tadpoles.',
     id: 140,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -51393,7 +51472,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1000,
     stars: 55,
-    cardCode: "62671448",
+    cardCode: '62671448',
 
     fusions: [
       {
@@ -51508,12 +51587,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Spiked Snail",
+    name: 'Spiked Snail',
     description:
-      "Evolving from the\r\npowers of darkness,\r\nthis snail has arms\r\nand legs that allow\r\nswift attacks\r\nagainst its enemies.",
+      'Evolving from the\r\npowers of darkness,\r\nthis snail has arms\r\nand legs that allow\r\nswift attacks\r\nagainst its enemies.',
     id: 141,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -51522,7 +51601,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 1300,
     stars: 55,
-    cardCode: "98075147",
+    cardCode: '98075147',
 
     fusions: [
       {
@@ -51627,10 +51706,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Flame Manipulator",
+    name: 'Flame Manipulator',
     description:
       'Attacks enemies with\r\nfire-related spells,\r\nsuch as the\r\n"Sea of Flames"\r\nand the\r\n"Wall of Fire".',
     id: 142,
@@ -51641,7 +51720,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1000,
     stars: 50,
-    cardCode: "34460851",
+    cardCode: '34460851',
 
     fusions: [
       {
@@ -52206,12 +52285,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Necrolancer the Timelord",
+    name: 'Necrolancer the Timelord',
     description:
-      "The first in a line\r\nof golems that\r\nappears almost\r\nanywhere from within\r\na dimensional ring.",
+      'The first in a line\r\nof golems that\r\nappears almost\r\nanywhere from within\r\na dimensional ring.',
     id: 143,
     guardianStarA: 10,
     guardianStarB: 4,
@@ -52220,7 +52299,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 900,
     stars: 40,
-    cardCode: "61454890",
+    cardCode: '61454890',
 
     fusions: [
       {
@@ -52360,12 +52439,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Djinn the Watcher of the Wind",
+    name: 'Djinn the Watcher of the Wind',
     description:
-      "Controls the air\r\ncurrents to create\r\nviolent winds and\r\ntornadoes to blow\r\naway its enemies.",
+      'Controls the air\r\ncurrents to create\r\nviolent winds and\r\ntornadoes to blow\r\naway its enemies.',
     id: 144,
     guardianStarA: 3,
     guardianStarB: 7,
@@ -52374,7 +52453,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 900,
     stars: 35,
-    cardCode: "97843505",
+    cardCode: '97843505',
 
     fusions: [
       {
@@ -52514,12 +52593,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "The Bewitching Phantom Thief",
+    name: 'The Bewitching Phantom Thief',
     description:
-      "A flashy,\r\nblack-caped thief\r\nwho wields\r\na magic cane.",
+      'A flashy,\r\nblack-caped thief\r\nwho wields\r\na magic cane.',
     id: 145,
     guardianStarA: 10,
     guardianStarB: 5,
@@ -52528,7 +52607,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 700,
     stars: 30,
-    cardCode: "24348204",
+    cardCode: '24348204',
 
     fusions: [
       {
@@ -52668,12 +52747,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Temple of Skulls",
+    name: 'Temple of Skulls',
     description:
-      "A weird temple\r\nof skulls and bones\r\nthat sucks the\r\nliving essence\r\nof all those who\r\ndare approach it.",
+      'A weird temple\r\nof skulls and bones\r\nthat sucks the\r\nliving essence\r\nof all those who\r\ndare approach it.',
     id: 146,
     guardianStarA: 7,
     guardianStarB: 5,
@@ -52682,7 +52761,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1300,
     stars: 70,
-    cardCode: "00732302",
+    cardCode: '00732302',
 
     fusions: [
       {
@@ -53267,12 +53346,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Monster Egg",
+    name: 'Monster Egg',
     description:
-      "A warrior hidden\r\nwithin an egg that\r\nattacks enemies by\r\nflinging eggshells.",
+      'A warrior hidden\r\nwithin an egg that\r\nattacks enemies by\r\nflinging eggshells.',
     id: 147,
     guardianStarA: 4,
     guardianStarB: 2,
@@ -53281,7 +53360,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 900,
     stars: 999999,
-    cardCode: "36121917",
+    cardCode: '36121917',
 
     fusions: [
       {
@@ -53921,12 +54000,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "The Shadow Who Controls the Dark",
+    name: 'The Shadow Who Controls the Dark',
     description:
-      "A living shadow\r\nthat dwells in the\r\nrealm of darkness.\r\nIt paralyzes\r\nits enemies\r\nto prevent attacks.",
+      'A living shadow\r\nthat dwells in the\r\nrealm of darkness.\r\nIt paralyzes\r\nits enemies\r\nto prevent attacks.',
     id: 148,
     guardianStarA: 7,
     guardianStarB: 2,
@@ -53935,7 +54014,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 700,
     stars: 30,
-    cardCode: "63125616",
+    cardCode: '63125616',
 
     fusions: [
       {
@@ -54010,10 +54089,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Lord of the Lamp",
+    name: 'Lord of the Lamp',
     description:
       "A giant that appears\r\nfrom a mystic lamp\r\nand follows\r\nthe orders\r\nof the lamp's owner.",
     id: 149,
@@ -54024,7 +54103,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1200,
     stars: 120,
-    cardCode: "99510761",
+    cardCode: '99510761',
 
     fusions: [
       {
@@ -54079,11 +54158,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Akihiron",
-    description: "A mysterious\r\ncreature that dwells\r\nbelow the sea.",
+    name: 'Akihiron',
+    description: 'A mysterious\r\ncreature that dwells\r\nbelow the sea.',
     id: 150,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -54092,7 +54171,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1400,
     stars: 230,
-    cardCode: "36904469",
+    cardCode: '36904469',
 
     fusions: [
       {
@@ -54162,12 +54241,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Rhaimundos of the Red Sword",
+    name: 'Rhaimundos of the Red Sword',
     description:
-      "A warrior armed\r\nwith the Sword\r\nof Crimson Flames.\r\nUses fire to bind\r\nthe movement\r\nof its enemies.",
+      'A warrior armed\r\nwith the Sword\r\nof Crimson Flames.\r\nUses fire to bind\r\nthe movement\r\nof its enemies.',
     id: 151,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -54176,7 +54255,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1300,
     stars: 100,
-    cardCode: "62403074",
+    cardCode: '62403074',
 
     fusions: [
       {
@@ -54711,10 +54790,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "The Melting Red Shadow",
+    name: 'The Melting Red Shadow',
     description:
       "A creature that\r\nmelts into the earth,\r\nmelds with an\r\nopponent's shadow,\r\nand attacks\r\nfrom below.",
     id: 152,
@@ -54725,7 +54804,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 700,
     stars: 25,
-    cardCode: "98898173",
+    cardCode: '98898173',
 
     fusions: [
       {
@@ -54850,12 +54929,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Dokuroizo the Grim Reaper",
+    name: 'Dokuroizo the Grim Reaper',
     description:
-      "A living spirit that\r\npreys on the living\r\nessence of enemies.",
+      'A living spirit that\r\npreys on the living\r\nessence of enemies.',
     id: 153,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -54864,7 +54943,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1200,
     stars: 60,
-    cardCode: "25882881",
+    cardCode: '25882881',
 
     fusions: [
       {
@@ -55424,12 +55503,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Fire Reaper",
+    name: 'Fire Reaper',
     description:
-      "A creature that\r\ndeals out punishment\r\nwith its\r\nflaming arrows.",
+      'A creature that\r\ndeals out punishment\r\nwith its\r\nflaming arrows.',
     id: 154,
     guardianStarA: 1,
     guardianStarB: 8,
@@ -55438,7 +55517,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 500,
     stars: 25,
-    cardCode: "53581214",
+    cardCode: '53581214',
 
     fusions: [
       {
@@ -56248,12 +56327,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Larvas",
+    name: 'Larvas',
     description:
-      "A fast-moving,\r\nbird-like creature\r\nthat strangles an\r\nopposing monster\r\nwith its long,\r\nthin arms.",
+      'A fast-moving,\r\nbird-like creature\r\nthat strangles an\r\nopposing monster\r\nwith its long,\r\nthin arms.',
     id: 155,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -56262,7 +56341,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1000,
     stars: 45,
-    cardCode: "94675535",
+    cardCode: '94675535',
 
     fusions: [
       {
@@ -56557,12 +56636,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Hard Armor",
+    name: 'Hard Armor',
     description:
-      "A living suit of\r\narmor that attacks\r\nenemies with a\r\nbone-jarring tackle.",
+      'A living suit of\r\narmor that attacks\r\nenemies with a\r\nbone-jarring tackle.',
     id: 156,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -56571,7 +56650,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 1200,
     stars: 30,
-    cardCode: "20060230",
+    cardCode: '20060230',
 
     fusions: [
       {
@@ -57146,11 +57225,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Firegrass",
-    description: "A fire-breathing\r\nplant found growing\r\nnear volcanoes.",
+    name: 'Firegrass',
+    description: 'A fire-breathing\r\nplant found growing\r\nnear volcanoes.',
     id: 157,
     guardianStarA: 1,
     guardianStarB: 9,
@@ -57159,7 +57238,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 600,
     stars: 30,
-    cardCode: "53293545",
+    cardCode: '53293545',
 
     fusions: [
       {
@@ -57969,12 +58048,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Man Eater",
+    name: 'Man Eater',
     description:
-      "Man-eating plant\r\nwith poison feelers\r\nfor attacking\r\nenemies.",
+      'Man-eating plant\r\nwith poison feelers\r\nfor attacking\r\nenemies.',
     id: 158,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -57983,7 +58062,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 600,
     stars: 30,
-    cardCode: "93553943",
+    cardCode: '93553943',
 
     fusions: [
       {
@@ -58598,12 +58677,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Dig Beak",
+    name: 'Dig Beak',
     description:
-      "Coiling its\r\nserpent-like body,\r\nthis creature spins\r\nand attacks with\r\nits snapping beak.",
+      'Coiling its\r\nserpent-like body,\r\nthis creature spins\r\nand attacks with\r\nits snapping beak.',
     id: 159,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -58612,7 +58691,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 800,
     stars: 30,
-    cardCode: "29948642",
+    cardCode: '29948642',
 
     fusions: [
       {
@@ -58802,10 +58881,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "M-warrior #1",
+    name: 'M-warrior #1',
     description:
       "Specializing in\r\ncombination attacks,\r\nthis warrior uses\r\nmagnetism to block\r\nan enemy's escape.",
     id: 160,
@@ -58816,7 +58895,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 500,
     stars: 30,
-    cardCode: "56342351",
+    cardCode: '56342351',
 
     fusions: [
       {
@@ -59326,12 +59405,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "M-warrior #2",
+    name: 'M-warrior #2',
     description:
-      "Specializing in\r\ncombination attacks,\r\nthis warrior is\r\nequipped with a\r\ntough, magnetically\r\ncoated armor.",
+      'Specializing in\r\ncombination attacks,\r\nthis warrior is\r\nequipped with a\r\ntough, magnetically\r\ncoated armor.',
     id: 161,
     guardianStarA: 4,
     guardianStarB: 10,
@@ -59340,7 +59419,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 1000,
     stars: 30,
-    cardCode: "92731455",
+    cardCode: '92731455',
 
     fusions: [
       {
@@ -59905,12 +59984,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Tainted Wisdom",
+    name: 'Tainted Wisdom',
     description:
-      "A parasite brain\r\nthat preys\r\non the knowledge\r\nand intelligence\r\nof its opponents.",
+      'A parasite brain\r\nthat preys\r\non the knowledge\r\nand intelligence\r\nof its opponents.',
     id: 162,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -59919,7 +59998,7 @@ export const CARDS_DB: Card[] = [
     attack: 1250,
     defense: 800,
     stars: 55,
-    cardCode: "28725004",
+    cardCode: '28725004',
 
     fusions: [
       {
@@ -59959,12 +60038,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Lisark",
+    name: 'Lisark',
     description:
-      "An unusual creature\r\nwith sapphire eyes\r\nthat creates visions\r\nto confuse the enemy.",
+      'An unusual creature\r\nwith sapphire eyes\r\nthat creates visions\r\nto confuse the enemy.',
     id: 163,
     guardianStarA: 3,
     guardianStarB: 5,
@@ -59973,7 +60052,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1300,
     stars: 120,
-    cardCode: "55210709",
+    cardCode: '55210709',
 
     fusions: [
       {
@@ -60133,12 +60212,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Lord of Zemia",
+    name: 'Lord of Zemia',
     description:
-      "A vile entity that\r\ndeceives enemies\r\ninto walking a path\r\nof destruction.",
+      'A vile entity that\r\ndeceives enemies\r\ninto walking a path\r\nof destruction.',
     id: 164,
     guardianStarA: 7,
     guardianStarB: 4,
@@ -60147,7 +60226,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1000,
     stars: 80,
-    cardCode: "81618817",
+    cardCode: '81618817',
 
     fusions: [
       {
@@ -60207,12 +60286,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "The Judgement Hand",
+    name: 'The Judgement Hand',
     description:
-      "The hand of final\r\njudgment is capable\r\nof intense attacks\r\nagainst the enemy.",
+      'The hand of final\r\njudgment is capable\r\nof intense attacks\r\nagainst the enemy.',
     id: 165,
     guardianStarA: 8,
     guardianStarB: 10,
@@ -60221,7 +60300,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 700,
     stars: 60,
-    cardCode: "28003512",
+    cardCode: '28003512',
 
     fusions: [
       {
@@ -60816,12 +60895,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Mysterious Puppeteer",
+    name: 'Mysterious Puppeteer',
     description:
-      "A puppet master that\r\nmanipulates enemies\r\nduring battle.",
+      'A puppet master that\r\nmanipulates enemies\r\nduring battle.',
     id: 166,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -60830,7 +60909,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1500,
     stars: 100,
-    cardCode: "54098121",
+    cardCode: '54098121',
 
     fusions: [
       {
@@ -61335,12 +61414,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Ancient Jar",
+    name: 'Ancient Jar',
     description:
-      "A fragile jar from\r\nthe past containing\r\na mysterious\r\ncreature.",
+      'A fragile jar from\r\nthe past containing\r\na mysterious\r\ncreature.',
     id: 167,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -61349,7 +61428,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 200,
     stars: 15,
-    cardCode: "81492226",
+    cardCode: '81492226',
 
     fusions: [
       {
@@ -61909,12 +61988,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Darkfire Dragon",
+    name: 'Darkfire Dragon',
     description:
-      "Scorching flames\r\nthat wipe out\r\nenemies in the blink\r\nof an eye.",
+      'Scorching flames\r\nthat wipe out\r\nenemies in the blink\r\nof an eye.',
     id: 168,
     guardianStarA: 1,
     guardianStarB: 10,
@@ -61923,7 +62002,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1250,
     stars: 140,
-    cardCode: "17881964",
+    cardCode: '17881964',
 
     fusions: [
       {
@@ -63053,10 +63132,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dark King of the Abyss",
+    name: 'Dark King of the Abyss',
     description:
       "King of the\r\nnetherworld. It's\r\nsaid that he once\r\nhad the power to\r\nrule over the Dark.",
     id: 169,
@@ -63067,7 +63146,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 800,
     stars: 55,
-    cardCode: "53375573",
+    cardCode: '53375573',
 
     fusions: [
       {
@@ -63127,12 +63206,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Spirit of the Harp",
+    name: 'Spirit of the Harp',
     description:
-      "A spirit that\r\nsoothes the soul\r\nwith the music of\r\nits glorious harp.",
+      'A spirit that\r\nsoothes the soul\r\nwith the music of\r\nits glorious harp.',
     id: 170,
     guardianStarA: 8,
     guardianStarB: 1,
@@ -63141,7 +63220,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 2000,
     stars: 160,
-    cardCode: "80770678",
+    cardCode: '80770678',
 
     fusions: [
       {
@@ -63346,12 +63425,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Big Eye",
+    name: 'Big Eye',
     description:
-      "This creature is\r\ncovered with\r\nhypnotic eyes\r\nfor mesmerizing\r\nits enemies.",
+      'This creature is\r\ncovered with\r\nhypnotic eyes\r\nfor mesmerizing\r\nits enemies.',
     id: 171,
     guardianStarA: 10,
     guardianStarB: 6,
@@ -63360,7 +63439,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "16768387",
+    cardCode: '16768387',
 
     fusions: [
       {
@@ -63375,12 +63454,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Armaill",
+    name: 'Armaill',
     description:
-      "A strange warrior\r\nwho manipulates\r\nthree fearsome\r\nblades with\r\nboth hands and\r\nits tail.",
+      'A strange warrior\r\nwho manipulates\r\nthree fearsome\r\nblades with\r\nboth hands and\r\nits tail.',
     id: 172,
     guardianStarA: 1,
     guardianStarB: 7,
@@ -63389,7 +63468,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 1300,
     stars: 55,
-    cardCode: "53153481",
+    cardCode: '53153481',
 
     fusions: [
       {
@@ -64264,12 +64343,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Dark Prisoner",
+    name: 'Dark Prisoner',
     description:
-      "This creature\r\nmanipulates light\r\nto eliminate\r\nall traces of\r\nits appearance.",
+      'This creature\r\nmanipulates light\r\nto eliminate\r\nall traces of\r\nits appearance.',
     id: 173,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -64278,7 +64357,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 1000,
     stars: 35,
-    cardCode: "89558090",
+    cardCode: '89558090',
 
     fusions: [
       {
@@ -64353,12 +64432,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Hurricail",
+    name: 'Hurricail',
     description:
-      "A twister\r\nthat runs rampant\r\nin the wastelands,\r\ncutting its enemies\r\nwith blades of wind.",
+      'A twister\r\nthat runs rampant\r\nin the wastelands,\r\ncutting its enemies\r\nwith blades of wind.',
     id: 174,
     guardianStarA: 3,
     guardianStarB: 6,
@@ -64367,7 +64446,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 200,
     stars: 25,
-    cardCode: "15042735",
+    cardCode: '15042735',
 
     fusions: [
       {
@@ -64492,12 +64571,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Ancient Brain",
+    name: 'Ancient Brain',
     description:
-      "Exiled from reality,\r\nthis creature is\r\nadept at fighting\r\nin the dark.",
+      'Exiled from reality,\r\nthis creature is\r\nadept at fighting\r\nin the dark.',
     id: 175,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -64506,7 +64585,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 700,
     stars: 40,
-    cardCode: "42431843",
+    cardCode: '42431843',
 
     fusions: [
       {
@@ -64721,12 +64800,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Fire Eye",
+    name: 'Fire Eye',
     description:
-      "A winged eye\r\nenveloped in flames\r\nthat attacks enemies\r\nwith fire.",
+      'A winged eye\r\nenveloped in flames\r\nthat attacks enemies\r\nwith fire.',
     id: 176,
     guardianStarA: 1,
     guardianStarB: 3,
@@ -64735,7 +64814,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 600,
     stars: 30,
-    cardCode: "88435542",
+    cardCode: '88435542',
 
     fusions: [
       {
@@ -65200,11 +65279,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Monsturtle",
-    description: "A vicious turtle\r\nwith a spiked shell.",
+    name: 'Monsturtle',
+    description: 'A vicious turtle\r\nwith a spiked shell.',
     id: 177,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -65213,7 +65292,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1000,
     stars: 45,
-    cardCode: "15820147",
+    cardCode: '15820147',
 
     fusions: [
       {
@@ -65678,12 +65757,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Claw Reacher",
+    name: 'Claw Reacher',
     description:
-      "Stretching arms and\r\nrazor-sharp claws\r\nmake this monster a\r\nformidable opponent.",
+      'Stretching arms and\r\nrazor-sharp claws\r\nmake this monster a\r\nformidable opponent.',
     id: 178,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -65692,7 +65771,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 800,
     stars: 45,
-    cardCode: "41218256",
+    cardCode: '41218256',
 
     fusions: [
       {
@@ -65767,10 +65846,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Phantom Dewan",
+    name: 'Phantom Dewan',
     description:
       "A wizard\r\nthat freezes an\r\nenemy's movement \r\nwith a single curse.",
     id: 179,
@@ -65781,7 +65860,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 600,
     stars: 30,
-    cardCode: "77603950",
+    cardCode: '77603950',
 
     fusions: [
       {
@@ -66041,12 +66120,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Arlownay",
+    name: 'Arlownay',
     description:
-      "A maiden\r\nin the flower\r\nblossoms spreads\r\npoisonous pollen\r\nagainst opponents.",
+      'A maiden\r\nin the flower\r\nblossoms spreads\r\npoisonous pollen\r\nagainst opponents.',
     id: 180,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -66055,7 +66134,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1000,
     stars: 45,
-    cardCode: "14708569",
+    cardCode: '14708569',
 
     fusions: [
       {
@@ -67045,12 +67124,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Dark Shade",
+    name: 'Dark Shade',
     description:
-      "Emits a dazzling\r\nlight from its\r\ncrystal to blind\r\nits enemies.",
+      'Emits a dazzling\r\nlight from its\r\ncrystal to blind\r\nits enemies.',
     id: 181,
     guardianStarA: 3,
     guardianStarB: 1,
@@ -67059,7 +67138,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1000,
     stars: 55,
-    cardCode: "40196604",
+    cardCode: '40196604',
 
     fusions: [
       {
@@ -67084,12 +67163,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Masked Clown",
+    name: 'Masked Clown',
     description:
-      "A dancing warrior\r\nthat makes mincemeat\r\nout of opponents\r\nwith a sharp scythe.",
+      'A dancing warrior\r\nthat makes mincemeat\r\nout of opponents\r\nwith a sharp scythe.',
     id: 182,
     guardianStarA: 7,
     guardianStarB: 3,
@@ -67098,7 +67177,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 700,
     stars: 25,
-    cardCode: "77581312",
+    cardCode: '77581312',
 
     fusions: [
       {
@@ -67643,11 +67722,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Lucky Trinket",
-    description: "A thin and reedy\r\ncreature protected\r\nby sacred power.",
+    name: 'Lucky Trinket',
+    description: 'A thin and reedy\r\ncreature protected\r\nby sacred power.',
     id: 183,
     guardianStarA: 8,
     guardianStarB: 2,
@@ -67656,7 +67735,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 800,
     stars: 30,
-    cardCode: "03985011",
+    cardCode: '03985011',
 
     fusions: [
       {
@@ -67796,12 +67875,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Genin",
+    name: 'Genin',
     description:
-      "Uses amazing\r\nsleight-of-hand\r\nto fool and destroy\r\nits enemies.",
+      'Uses amazing\r\nsleight-of-hand\r\nto fool and destroy\r\nits enemies.',
     id: 184,
     guardianStarA: 10,
     guardianStarB: 8,
@@ -67810,7 +67889,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 900,
     stars: 30,
-    cardCode: "49370026",
+    cardCode: '49370026',
 
     fusions: [
       {
@@ -67930,12 +68009,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Eyearmor",
+    name: 'Eyearmor',
     description:
-      "This warrior\r\nconfuses and\r\ndestroys enemies\r\nby adopting\r\ntheir images.",
+      'This warrior\r\nconfuses and\r\ndestroys enemies\r\nby adopting\r\ntheir images.',
     id: 185,
     guardianStarA: 4,
     guardianStarB: 1,
@@ -67944,7 +68023,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 500,
     stars: 25,
-    cardCode: "64511793",
+    cardCode: '64511793',
 
     fusions: [
       {
@@ -68479,12 +68558,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Fiend Refrection #2",
+    name: 'Fiend Refrection #2',
     description:
-      "A bird-beast\r\nthat summons\r\nreinforcements\r\nwith a hand mirror.",
+      'A bird-beast\r\nthat summons\r\nreinforcements\r\nwith a hand mirror.',
     id: 186,
     guardianStarA: 10,
     guardianStarB: 1,
@@ -68493,7 +68572,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1400,
     stars: 100,
-    cardCode: "02863439",
+    cardCode: '02863439',
 
     fusions: [
       {
@@ -68653,12 +68732,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Gate Deeg",
+    name: 'Gate Deeg',
     description:
-      "A creature\r\nwith an abdominal\r\nportal used for\r\nsummoning monsters\r\nfrom the netherworld.",
+      'A creature\r\nwith an abdominal\r\nportal used for\r\nsummoning monsters\r\nfrom the netherworld.',
     id: 187,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -68667,7 +68746,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 800,
     stars: 30,
-    cardCode: "49258578",
+    cardCode: '49258578',
 
     fusions: [
       {
@@ -68882,12 +68961,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Synchar",
+    name: 'Synchar',
     description:
-      "An ugly creature\r\nwith two heads and a\r\nmouth for blasting\r\nlaser beams.",
+      'An ugly creature\r\nwith two heads and a\r\nmouth for blasting\r\nlaser beams.',
     id: 188,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -68896,7 +68975,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 900,
     stars: 40,
-    cardCode: "75646173",
+    cardCode: '75646173',
 
     fusions: [
       {
@@ -69611,11 +69690,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Fusionist",
-    description: "A monstrous cat with\r\nwings and a long,\r\nstriking tail.",
+    name: 'Fusionist',
+    description: 'A monstrous cat with\r\nwings and a long,\r\nstriking tail.',
     id: 189,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -69624,7 +69703,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 700,
     stars: 35,
-    cardCode: "01641882",
+    cardCode: '01641882',
 
     fusions: [
       {
@@ -70469,12 +70548,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Akakieisu",
+    name: 'Akakieisu',
     description:
-      "A wizard\r\nwhose incantations\r\nnumb the senses of\r\nopposing monsters.",
+      'A wizard\r\nwhose incantations\r\nnumb the senses of\r\nopposing monsters.',
     id: 190,
     guardianStarA: 7,
     guardianStarB: 4,
@@ -70483,7 +70562,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 800,
     stars: 45,
-    cardCode: "38035986",
+    cardCode: '38035986',
 
     fusions: [
       {
@@ -70743,12 +70822,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "LaLa Li-oon",
+    name: 'LaLa Li-oon',
     description:
-      "Protected by thunder,\r\nthis dangerous cloud\r\nattacks its enemies\r\nwith acid rain.",
+      'Protected by thunder,\r\nthis dangerous cloud\r\nattacks its enemies\r\nwith acid rain.',
     id: 191,
     guardianStarA: 5,
     guardianStarB: 9,
@@ -70757,7 +70836,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 600,
     stars: 25,
-    cardCode: "09430387",
+    cardCode: '09430387',
 
     fusions: [
       {
@@ -71287,12 +71366,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Key Mace",
+    name: 'Key Mace',
     description:
-      "A small angel\r\nwhose cuteness\r\nmelts the hearts\r\nof its enemies.",
+      'A small angel\r\nwhose cuteness\r\nmelts the hearts\r\nof its enemies.',
     id: 192,
     guardianStarA: 8,
     guardianStarB: 3,
@@ -71301,7 +71380,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 300,
     stars: 15,
-    cardCode: "01929294",
+    cardCode: '01929294',
 
     fusions: [
       {
@@ -71831,12 +71910,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Turtle Tiger",
+    name: 'Turtle Tiger',
     description:
-      "A tiger encased in a\r\nprotective shell\r\nthat attacks its\r\nenemies with its\r\nrazor-sharp fangs.",
+      'A tiger encased in a\r\nprotective shell\r\nthat attacks its\r\nenemies with its\r\nrazor-sharp fangs.',
     id: 193,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -71845,7 +71924,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1500,
     stars: 100,
-    cardCode: "37313348",
+    cardCode: '37313348',
 
     fusions: [
       {
@@ -72210,12 +72289,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Terra the Terrible",
+    name: 'Terra the Terrible',
     description:
-      "Know as a dweller\r\nof the swamps,\r\nthis creature is a\r\nminion of the Dark\r\nforces.",
+      'Know as a dweller\r\nof the swamps,\r\nthis creature is a\r\nminion of the Dark\r\nforces.',
     id: 194,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -72224,7 +72303,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1300,
     stars: 100,
-    cardCode: "63308047",
+    cardCode: '63308047',
 
     fusions: [
       {
@@ -72259,12 +72338,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Doron",
+    name: 'Doron',
     description:
-      "An unpredictable\r\ncreature that splits\r\ninto two and attacks\r\nan enemy from\r\nopposite directions.",
+      'An unpredictable\r\ncreature that splits\r\ninto two and attacks\r\nan enemy from\r\nopposite directions.',
     id: 195,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -72273,7 +72352,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 500,
     stars: 30,
-    cardCode: "00756652",
+    cardCode: '00756652',
 
     fusions: [
       {
@@ -72748,12 +72827,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Arma Knight",
+    name: 'Arma Knight',
     description:
-      "An ammonite warrior\r\nthat has protected\r\nthe seas from the\r\ndawn of time.",
+      'An ammonite warrior\r\nthat has protected\r\nthe seas from the\r\ndawn of time.',
     id: 196,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -72762,7 +72841,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1200,
     stars: 70,
-    cardCode: "36151751",
+    cardCode: '36151751',
 
     fusions: [
       {
@@ -72867,12 +72946,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Mech Mole Zombie",
+    name: 'Mech Mole Zombie',
     description:
-      "A creature of the\r\nnight that attacks\r\nenemies with its \r\nrocket-powered arms.",
+      'A creature of the\r\nnight that attacks\r\nenemies with its \r\nrocket-powered arms.',
     id: 197,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -72881,7 +72960,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 400,
     stars: 20,
-    cardCode: "63545455",
+    cardCode: '63545455',
 
     fusions: [
       {
@@ -73336,12 +73415,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Happy Lover",
+    name: 'Happy Lover',
     description:
-      "A little angel\r\nthat fires beams\r\nof happiness\r\nfrom the heart jewel\r\non its forehead.",
+      'A little angel\r\nthat fires beams\r\nof happiness\r\nfrom the heart jewel\r\non its forehead.',
     id: 198,
     guardianStarA: 8,
     guardianStarB: 4,
@@ -73350,7 +73429,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 500,
     stars: 30,
-    cardCode: "99030164",
+    cardCode: '99030164',
 
     fusions: [
       {
@@ -73680,12 +73759,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Penguin Knight",
+    name: 'Penguin Knight',
     description:
-      "A penguin-like\r\ncreature that slides\r\non its belly\r\nto deliver a blow\r\nwith its\r\noutstretched sword.",
+      'A penguin-like\r\ncreature that slides\r\non its belly\r\nto deliver a blow\r\nwith its\r\noutstretched sword.',
     id: 199,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -73694,7 +73773,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 800,
     stars: 40,
-    cardCode: "36039163",
+    cardCode: '36039163',
 
     fusions: [
       {
@@ -73799,11 +73878,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Petit Dragon",
-    description: "A very small dragon\r\nknown for its\r\nvicious attacks.",
+    name: 'Petit Dragon',
+    description: 'A very small dragon\r\nknown for its\r\nvicious attacks.',
     id: 200,
     guardianStarA: 3,
     guardianStarB: 8,
@@ -73812,7 +73891,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 700,
     stars: 30,
-    cardCode: "75356564",
+    cardCode: '75356564',
 
     fusions: [
       {
@@ -74867,12 +74946,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Frenzied Panda",
+    name: 'Frenzied Panda',
     description:
-      "A savage beast\r\nthat carries\r\na big bamboo stick\r\nfor beating down\r\nits enemies.",
+      'A savage beast\r\nthat carries\r\na big bamboo stick\r\nfor beating down\r\nits enemies.',
     id: 201,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -74881,7 +74960,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "98818516",
+    cardCode: '98818516',
 
     fusions: [
       {
@@ -75541,12 +75620,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Air Marmot of Nefariousness",
+    name: 'Air Marmot of Nefariousness',
     description:
-      "A horned beaver\r\nwith wings that\r\nthrows high-velocity\r\nacorns from the\r\nsky with uncanny\r\naccuracy.",
+      'A horned beaver\r\nwith wings that\r\nthrows high-velocity\r\nacorns from the\r\nsky with uncanny\r\naccuracy.',
     id: 202,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -75555,7 +75634,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 600,
     stars: 20,
-    cardCode: "75889523",
+    cardCode: '75889523',
 
     fusions: [
       {
@@ -76275,12 +76354,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Phantom Ghost",
+    name: 'Phantom Ghost',
     description:
-      "Malicious spirits\r\nthat walk the world\r\nof the living,\r\nunable to find their\r\nfinal resting place.",
+      'Malicious spirits\r\nthat walk the world\r\nof the living,\r\nunable to find their\r\nfinal resting place.',
     id: 203,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -76289,7 +76368,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 800,
     stars: 30,
-    cardCode: "61201220",
+    cardCode: '61201220',
 
     fusions: [
       {
@@ -76739,12 +76818,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Mabarrel",
+    name: 'Mabarrel',
     description:
-      "A cannon-like\r\nmonster that rapidly\r\nfires eyeballs\r\nat the enemy.",
+      'A cannon-like\r\nmonster that rapidly\r\nfires eyeballs\r\nat the enemy.',
     id: 204,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -76753,16 +76832,16 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1400,
     stars: 230,
-    cardCode: "98795934",
+    cardCode: '98795934',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dorover",
+    name: 'Dorover',
     description:
-      "An ugly, melting\r\ncreature that\r\nbreathes out\r\npoison gas.",
+      'An ugly, melting\r\ncreature that\r\nbreathes out\r\npoison gas.',
     id: 205,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -76771,7 +76850,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 800,
     stars: 40,
-    cardCode: "24194033",
+    cardCode: '24194033',
 
     fusions: [
       {
@@ -76871,12 +76950,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Twin Long Rods #1",
+    name: 'Twin Long Rods #1',
     description:
-      "This creature swings\r\nits whip-like arms\r\nfor mid-range\r\nattacks against\r\nenemies.",
+      'This creature swings\r\nits whip-like arms\r\nfor mid-range\r\nattacks against\r\nenemies.',
     id: 206,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -76885,7 +76964,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 700,
     stars: 35,
-    cardCode: "60589682",
+    cardCode: '60589682',
 
     fusions: [
       {
@@ -76995,12 +77074,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Droll Bird",
+    name: 'Droll Bird',
     description:
-      "With a battle cry\r\nthat curdles\r\nthe blood of\r\nits opponent,\r\nthis creature\r\nattacks with its\r\nmassive beak.",
+      'With a battle cry\r\nthat curdles\r\nthe blood of\r\nits opponent,\r\nthis creature\r\nattacks with its\r\nmassive beak.',
     id: 207,
     guardianStarA: 3,
     guardianStarB: 9,
@@ -77009,7 +77088,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 500,
     stars: 25,
-    cardCode: "97973387",
+    cardCode: '97973387',
 
     fusions: [
       {
@@ -77129,10 +77208,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Petit Angel",
+    name: 'Petit Angel',
     description:
       "A quick-moving and\r\ntiny angel that's\r\nvery difficult\r\nto hit.",
     id: 208,
@@ -77143,7 +77222,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 900,
     stars: 30,
-    cardCode: "38142739",
+    cardCode: '38142739',
 
     fusions: [
       {
@@ -77453,12 +77532,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Winged Cleaver",
+    name: 'Winged Cleaver',
     description:
-      "This creature\r\nattacks by swinging\r\naround its\r\nsickle-like arms.",
+      'This creature\r\nattacks by swinging\r\naround its\r\nsickle-like arms.',
     id: 209,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -77467,7 +77546,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 700,
     stars: 30,
-    cardCode: "39175982",
+    cardCode: '39175982',
 
     fusions: [
       {
@@ -77507,12 +77586,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Hinotama Soul",
+    name: 'Hinotama Soul',
     description:
-      "An intensely hot\r\nflame creature that\r\nrams anything that\r\nstands in its way.",
+      'An intensely hot\r\nflame creature that\r\nrams anything that\r\nstands in its way.',
     id: 210,
     guardianStarA: 1,
     guardianStarB: 4,
@@ -77521,7 +77600,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 500,
     stars: 25,
-    cardCode: "96851799",
+    cardCode: '96851799',
 
     fusions: [
       {
@@ -77946,12 +78025,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Kaminarikozou",
+    name: 'Kaminarikozou',
     description:
-      "This creature stores\r\nlightning within its\r\nbody to deliver\r\nelectrifying attacks.",
+      'This creature stores\r\nlightning within its\r\nbody to deliver\r\nelectrifying attacks.',
     id: 211,
     guardianStarA: 5,
     guardianStarB: 10,
@@ -77960,7 +78039,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 600,
     stars: 30,
-    cardCode: "15510988",
+    cardCode: '15510988',
 
     fusions: [
       {
@@ -78455,12 +78534,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Meotoko",
+    name: 'Meotoko',
     description:
-      "A huge monster with\r\na single eye that\r\nfires an intence\r\nbeam.",
+      'A huge monster with\r\na single eye that\r\nfires an intence\r\nbeam.',
     id: 212,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -78469,7 +78548,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 600,
     stars: 30,
-    cardCode: "53832650",
+    cardCode: '53832650',
 
     fusions: [
       {
@@ -78654,12 +78733,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Aqua Madoor",
+    name: 'Aqua Madoor',
     description:
-      "A wizard of the\r\nwaters that conjures\r\na liquid wall to\r\ncrush any enemies\r\nthat oppose him.",
+      'A wizard of the\r\nwaters that conjures\r\na liquid wall to\r\ncrush any enemies\r\nthat oppose him.',
     id: 213,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -78668,7 +78747,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 2000,
     stars: 260,
-    cardCode: "85639257",
+    cardCode: '85639257',
 
     fusions: [
       {
@@ -78768,12 +78847,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Kagemusha of the Blue Flame",
+    name: 'Kagemusha of the Blue Flame',
     description:
-      "Serves as a double\r\nfor the ruler of the\r\nBlue Flame. A master\r\nswordsman that\r\nwields a fine blade.",
+      'Serves as a double\r\nfor the ruler of the\r\nBlue Flame. A master\r\nswordsman that\r\nwields a fine blade.',
     id: 214,
     guardianStarA: 1,
     guardianStarB: 8,
@@ -78782,7 +78861,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 400,
     stars: 25,
-    cardCode: "15401633",
+    cardCode: '15401633',
 
     fusions: [
       {
@@ -79512,11 +79591,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Flame Ghost",
-    description: "A fiery spirit\r\nthat burns anything\r\nin its path.",
+    name: 'Flame Ghost',
+    description: 'A fiery spirit\r\nthat burns anything\r\nin its path.',
     id: 215,
     guardianStarA: 1,
     guardianStarB: 5,
@@ -79525,7 +79604,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 800,
     stars: 45,
-    cardCode: "58528964",
+    cardCode: '58528964',
 
     fusions: [
       {
@@ -80135,12 +80214,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dryad",
+    name: 'Dryad',
     description:
-      "A spirit of the\r\nforest protected by\r\nthe surrounding\r\nplant life.",
+      'A spirit of the\r\nforest protected by\r\nthe surrounding\r\nplant life.',
     id: 216,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -80149,7 +80228,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1400,
     stars: 120,
-    cardCode: "84916669",
+    cardCode: '84916669',
 
     fusions: [
       {
@@ -80569,12 +80648,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "B. Skull Dragon",
+    name: 'B. Skull Dragon',
     description:
-      "A very rare creature\r\ncreated from the\r\nfusion of an\r\nuncommon beast and\r\na vicious dragon.",
+      'A very rare creature\r\ncreated from the\r\nfusion of an\r\nuncommon beast and\r\na vicious dragon.',
     id: 217,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -80583,16 +80662,16 @@ export const CARDS_DB: Card[] = [
     attack: 3200,
     defense: 2500,
     stars: 999999,
-    cardCode: "11901678",
+    cardCode: '11901678',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Two-mouth Darkruler",
+    name: 'Two-mouth Darkruler',
     description:
-      "A dinosaur with two\r\ncrushing jaws.\r\nStores electricity\r\nin its horn and\r\nreleases high\r\nvoltage bolts\r\nfrom the mouth\r\non its back.",
+      'A dinosaur with two\r\ncrushing jaws.\r\nStores electricity\r\nin its horn and\r\nreleases high\r\nvoltage bolts\r\nfrom the mouth\r\non its back.',
     id: 218,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -80601,7 +80680,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 700,
     stars: 35,
-    cardCode: "57305373",
+    cardCode: '57305373',
 
     fusions: [
       {
@@ -80801,12 +80880,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Solitude",
+    name: 'Solitude',
     description:
-      "A beast-warrior that\r\nswings a massive\r\nscythe that draws on\r\nthe spirit of its\r\nenemies to deliver\r\ndevastating blows.",
+      'A beast-warrior that\r\nswings a massive\r\nscythe that draws on\r\nthe spirit of its\r\nenemies to deliver\r\ndevastating blows.',
     id: 219,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -80815,7 +80894,7 @@ export const CARDS_DB: Card[] = [
     attack: 1050,
     defense: 1000,
     stars: 55,
-    cardCode: "84794011",
+    cardCode: '84794011',
 
     fusions: [
       {
@@ -80850,12 +80929,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Masked Sorcerer",
+    name: 'Masked Sorcerer',
     description:
-      "A mysterious wizard\r\nwhose face remains\r\nforever hidden\r\nbehind a strange\r\nmask.",
+      'A mysterious wizard\r\nwhose face remains\r\nforever hidden\r\nbehind a strange\r\nmask.',
     id: 220,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -80864,7 +80943,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1400,
     stars: 80,
-    cardCode: "10189126",
+    cardCode: '10189126',
 
     fusions: [
       {
@@ -81089,12 +81168,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Kumootoko",
+    name: 'Kumootoko',
     description:
-      "A massive,\r\nintelligent spider\r\nthat traps its\r\nenemies with webbing.",
+      'A massive,\r\nintelligent spider\r\nthat traps its\r\nenemies with webbing.',
     id: 221,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -81103,7 +81182,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 1400,
     stars: 60,
-    cardCode: "56283725",
+    cardCode: '56283725',
 
     fusions: [
       {
@@ -81143,11 +81222,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Midnight Fiend",
-    description: "A winged creature\r\nrumored to appear\r\nat midnight.",
+    name: 'Midnight Fiend',
+    description: 'A winged creature\r\nrumored to appear\r\nat midnight.',
     id: 222,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -81156,7 +81235,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 600,
     stars: 30,
-    cardCode: "83678433",
+    cardCode: '83678433',
 
     fusions: [
       {
@@ -81201,12 +81280,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Roaring Ocean Snake",
+    name: 'Roaring Ocean Snake',
     description:
-      "A massive\r\nsea serpent that\r\ncreates tidal waves\r\nto wipe out\r\nits enemies.",
+      'A massive\r\nsea serpent that\r\ncreates tidal waves\r\nto wipe out\r\nits enemies.',
     id: 223,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -81215,16 +81294,16 @@ export const CARDS_DB: Card[] = [
     attack: 2100,
     defense: 1800,
     stars: 550,
-    cardCode: "19066538",
+    cardCode: '19066538',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Trap Master",
+    name: 'Trap Master',
     description:
-      "A warrior that\r\nexcels in laying\r\ntraps such as a\r\nbottomless pit, for\r\neternally ensnaring\r\nopponents.",
+      'A warrior that\r\nexcels in laying\r\ntraps such as a\r\nbottomless pit, for\r\neternally ensnaring\r\nopponents.',
     id: 224,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -81233,7 +81312,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 1100,
     stars: 35,
-    cardCode: "46461247",
+    cardCode: '46461247',
 
     fusions: [
       {
@@ -81718,12 +81797,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Fiend Sword",
+    name: 'Fiend Sword',
     description:
-      "Few have escaped\r\nthe curse of this\r\ncreature. Those that\r\nhave done so have\r\ngained untold power.",
+      'Few have escaped\r\nthe curse of this\r\ncreature. Those that\r\nhave done so have\r\ngained untold power.',
     id: 225,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -81732,7 +81811,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 800,
     stars: 70,
-    cardCode: "22855882",
+    cardCode: '22855882',
 
     fusions: [
       {
@@ -81972,12 +82051,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Skull Stalker",
+    name: 'Skull Stalker',
     description:
-      "Swift and vicious,\r\nthis monster grabs\r\nits victim with its\r\npincers and attacks\r\nthe captive with its\r\npoison stinger.",
+      'Swift and vicious,\r\nthis monster grabs\r\nits victim with its\r\npincers and attacks\r\nthe captive with its\r\npoison stinger.',
     id: 226,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -81986,7 +82065,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 800,
     stars: 40,
-    cardCode: "54844990",
+    cardCode: '54844990',
 
     fusions: [
       {
@@ -82421,12 +82500,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Hitodenchak",
+    name: 'Hitodenchak',
     description:
-      "A vicious starfish\r\nthat spits acid\r\nto melt away\r\nits enemies.",
+      'A vicious starfish\r\nthat spits acid\r\nto melt away\r\nits enemies.',
     id: 227,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -82435,7 +82514,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 700,
     stars: 30,
-    cardCode: "46718686",
+    cardCode: '46718686',
 
     fusions: [
       {
@@ -82530,12 +82609,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Wood Remains",
+    name: 'Wood Remains',
     description:
-      "A zombie that rose\r\nfrom the remains of\r\nthe woodland ruler.",
+      'A zombie that rose\r\nfrom the remains of\r\nthe woodland ruler.',
     id: 228,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -82544,7 +82623,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 900,
     stars: 50,
-    cardCode: "17733394",
+    cardCode: '17733394',
 
     fusions: [
       {
@@ -82934,12 +83013,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Hourglass of Life",
+    name: 'Hourglass of Life',
     description:
-      "A creature\r\nthat allows power\r\nto be gained\r\nat the cost of life.",
+      'A creature\r\nthat allows power\r\nto be gained\r\nat the cost of life.',
     id: 229,
     guardianStarA: 8,
     guardianStarB: 6,
@@ -82948,7 +83027,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 600,
     stars: 30,
-    cardCode: "08783685",
+    cardCode: '08783685',
 
     fusions: [
       {
@@ -83258,12 +83337,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Rare Fish",
+    name: 'Rare Fish',
     description:
-      "An unusual and\r\nferocious fish with\r\nthe head of a beast.",
+      'An unusual and\r\nferocious fish with\r\nthe head of a beast.',
     id: 230,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -83272,7 +83351,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1200,
     stars: 140,
-    cardCode: "80516007",
+    cardCode: '80516007',
 
     fusions: [
       {
@@ -83512,12 +83591,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Wood Clown",
+    name: 'Wood Clown',
     description:
-      "An unpleasantly\r\nsmiling creature\r\nthat wields a scythe\r\nto avoid enemy blows.",
+      'An unpleasantly\r\nsmiling creature\r\nthat wields a scythe\r\nto avoid enemy blows.',
     id: 231,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -83526,7 +83605,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1200,
     stars: 55,
-    cardCode: "17511156",
+    cardCode: '17511156',
 
     fusions: [
       {
@@ -83961,11 +84040,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Madjinn Gunn",
-    description: "A living weapon that\r\nfires projectiles\r\nfrom its mouth.",
+    name: 'Madjinn Gunn',
+    description: 'A living weapon that\r\nfires projectiles\r\nfrom its mouth.',
     id: 232,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -83974,7 +84053,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 800,
     stars: 30,
-    cardCode: "43905751",
+    cardCode: '43905751',
 
     fusions: [
       {
@@ -84019,12 +84098,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dark Titan of Terror",
+    name: 'Dark Titan of Terror',
     description:
-      "A spirit said to\r\ndwell in the world\r\nof dreams.\r\nAttacks enemies\r\nin their sleep.",
+      'A spirit said to\r\ndwell in the world\r\nof dreams.\r\nAttacks enemies\r\nin their sleep.',
     id: 233,
     guardianStarA: 7,
     guardianStarB: 2,
@@ -84033,7 +84112,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1100,
     stars: 120,
-    cardCode: "89494469",
+    cardCode: '89494469',
 
     fusions: [
       {
@@ -84083,11 +84162,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Beautiful Headhuntress",
-    description: "A lovely swordmaster\r\nwith some very\r\nagile moves.",
+    name: 'Beautiful Headhuntress',
+    description: 'A lovely swordmaster\r\nwith some very\r\nagile moves.',
     id: 234,
     guardianStarA: 7,
     guardianStarB: 3,
@@ -84096,7 +84175,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 800,
     stars: 120,
-    cardCode: "16899564",
+    cardCode: '16899564',
 
     fusions: [
       {
@@ -84501,12 +84580,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Wodan the Resident of the Forest",
+    name: 'Wodan the Resident of the Forest',
     description:
-      "A warrior that has\r\nlong resided in the\r\nforest and enjoys\r\nthe protection\r\nof Mother Nature.",
+      'A warrior that has\r\nlong resided in the\r\nforest and enjoys\r\nthe protection\r\nof Mother Nature.',
     id: 235,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -84515,7 +84594,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1200,
     stars: 999999,
-    cardCode: "42883273",
+    cardCode: '42883273',
 
     fusions: [
       {
@@ -84940,11 +85019,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Guardian of the Labyrinth",
-    description: "A warrior that\r\nguards the entrance\r\nto the netherworld.",
+    name: 'Guardian of the Labyrinth',
+    description: 'A warrior that\r\nguards the entrance\r\nto the netherworld.',
     id: 236,
     guardianStarA: 5,
     guardianStarB: 7,
@@ -84953,7 +85032,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1200,
     stars: 70,
-    cardCode: "89272878",
+    cardCode: '89272878',
 
     fusions: [
       {
@@ -85388,12 +85467,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Haniwa",
+    name: 'Haniwa',
     description:
-      "An earthen doll\r\nthat protects\r\nthe treasure\r\nin the tombs\r\nof ancient kings.",
+      'An earthen doll\r\nthat protects\r\nthe treasure\r\nin the tombs\r\nof ancient kings.',
     id: 237,
     guardianStarA: 4,
     guardianStarB: 2,
@@ -85402,7 +85481,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 500,
     stars: 20,
-    cardCode: "84285623",
+    cardCode: '84285623',
 
     fusions: [
       {
@@ -85807,12 +85886,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Yashinoki",
+    name: 'Yashinoki',
     description:
-      "A palm tree with a\r\nwill of its own that\r\nattacks enemies by\r\nflinging coconuts.",
+      'A palm tree with a\r\nwill of its own that\r\nattacks enemies by\r\nflinging coconuts.',
     id: 238,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -85821,7 +85900,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 600,
     stars: 30,
-    cardCode: "41061625",
+    cardCode: '41061625',
 
     fusions: [
       {
@@ -86301,11 +86380,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Vishwar Randi",
-    description: "A woman warrior that\r\nserves the forces\r\nof darkness.",
+    name: 'Vishwar Randi',
+    description: 'A woman warrior that\r\nserves the forces\r\nof darkness.',
     id: 239,
     guardianStarA: 7,
     guardianStarB: 4,
@@ -86314,7 +86393,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 700,
     stars: 35,
-    cardCode: "78556320",
+    cardCode: '78556320',
 
     fusions: [
       {
@@ -86869,12 +86948,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "The Drdek",
+    name: 'The Drdek',
     description:
-      "An eyeball creature\r\nwith legs for\r\njumping high and\r\ndelivering finishing\r\nblows with its sharp\r\nclaws.",
+      'An eyeball creature\r\nwith legs for\r\njumping high and\r\ndelivering finishing\r\nblows with its sharp\r\nclaws.',
     id: 240,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -86883,7 +86962,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 800,
     stars: 30,
-    cardCode: "08944575",
+    cardCode: '08944575',
 
     fusions: [
       {
@@ -86928,12 +87007,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dark Assailant",
+    name: 'Dark Assailant',
     description:
-      "Armed with Psycho\r\nSword, this sinister\r\ncutthroat rules the\r\nouter land.",
+      'Armed with Psycho\r\nSword, this sinister\r\ncutthroat rules the\r\nouter land.',
     id: 241,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -86942,7 +87021,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1200,
     stars: 120,
-    cardCode: "41949033",
+    cardCode: '41949033',
 
     fusions: [
       {
@@ -87242,10 +87321,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Candle of Fate",
+    name: 'Candle of Fate',
     description:
       "An opponent's fate\r\nis decided\r\nwhen the flames\r\nof each finger\r\nare extinguished.",
     id: 242,
@@ -87256,7 +87335,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 600,
     stars: 25,
-    cardCode: "47695416",
+    cardCode: '47695416',
 
     fusions: [
       {
@@ -87641,12 +87720,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Water Element",
+    name: 'Water Element',
     description:
-      "A water spirit\r\nthat envelops\r\nits opponent\r\nin a thick fog\r\nto cover its attack.",
+      'A water spirit\r\nthat envelops\r\nits opponent\r\nin a thick fog\r\nto cover its attack.',
     id: 243,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -87655,7 +87734,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 700,
     stars: 35,
-    cardCode: "03732747",
+    cardCode: '03732747',
 
     fusions: [
       {
@@ -88065,12 +88144,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Dissolverock",
+    name: 'Dissolverock',
     description:
-      "A monster borne from\r\nthe lava pits.\r\nGenerates intensive\r\nheat that can melt\r\naway its enemies.",
+      'A monster borne from\r\nthe lava pits.\r\nGenerates intensive\r\nheat that can melt\r\naway its enemies.',
     id: 244,
     guardianStarA: 1,
     guardianStarB: 10,
@@ -88079,7 +88158,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1000,
     stars: 50,
-    cardCode: "40826495",
+    cardCode: '40826495',
 
     fusions: [
       {
@@ -88634,10 +88713,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Meda Bat",
+    name: 'Meda Bat',
     description:
       'An eyeball fiend\r\ncreated by a servant\r\nof darkness.\r\nUses "Dark Spheres"\r\nto blow away\r\nits enemies.',
     id: 245,
@@ -88648,7 +88727,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 400,
     stars: 25,
-    cardCode: "76211194",
+    cardCode: '76211194',
 
     fusions: [
       {
@@ -88693,12 +88772,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "One Who Hunts Souls",
+    name: 'One Who Hunts Souls',
     description:
-      "A creature\r\nwith a sword\r\nthat gains its power\r\nfrom the life forces\r\nof its victims.",
+      'A creature\r\nwith a sword\r\nthat gains its power\r\nfrom the life forces\r\nof its victims.',
     id: 246,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -88707,7 +88786,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1000,
     stars: 60,
-    cardCode: "03606209",
+    cardCode: '03606209',
 
     fusions: [
       {
@@ -88742,12 +88821,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Root Water",
+    name: 'Root Water',
     description:
-      "An amphibian capable\r\nof calling up a\r\nmassive tidal wave\r\nfrom the dark seas\r\nto wipe out enemy\r\nmonsters.",
+      'An amphibian capable\r\nof calling up a\r\nmassive tidal wave\r\nfrom the dark seas\r\nto wipe out enemy\r\nmonsters.',
     id: 247,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -88756,7 +88835,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 800,
     stars: 40,
-    cardCode: "39004808",
+    cardCode: '39004808',
 
     fusions: [
       {
@@ -89161,12 +89240,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Master & Expert",
+    name: 'Master & Expert',
     description:
-      "A fearsome duo\r\nconsisting of a\r\nbeast master and\r\nits loyal servant.",
+      'A fearsome duo\r\nconsisting of a\r\nbeast master and\r\nits loyal servant.',
     id: 248,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -89175,7 +89254,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "75499502",
+    cardCode: '75499502',
 
     fusions: [
       {
@@ -89740,12 +89819,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Water Omotics",
+    name: 'Water Omotics',
     description:
-      "Transforms the water\r\noverflowing from a\r\njar into attacking\r\ndragons.",
+      'Transforms the water\r\noverflowing from a\r\njar into attacking\r\ndragons.',
     id: 249,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -89754,7 +89833,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1200,
     stars: 120,
-    cardCode: "02483611",
+    cardCode: '02483611',
 
     fusions: [
       {
@@ -90109,12 +90188,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Hyo",
+    name: 'Hyo',
     description:
-      "An ice warrior whose\r\nslightest touch\r\nfreezes an opponent.",
+      'An ice warrior whose\r\nslightest touch\r\nfreezes an opponent.',
     id: 250,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -90123,7 +90202,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1200,
     stars: 55,
-    cardCode: "38982356",
+    cardCode: '38982356',
 
     fusions: [
       {
@@ -90518,12 +90597,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Enchanting Mermaid",
+    name: 'Enchanting Mermaid',
     description:
-      "A beautiful mermaid\r\nthat lures voyagers\r\nto a watery grave.",
+      'A beautiful mermaid\r\nthat lures voyagers\r\nto a watery grave.',
     id: 251,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -90532,7 +90611,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 60,
-    cardCode: "75376965",
+    cardCode: '75376965',
 
     fusions: [
       {
@@ -91132,12 +91211,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Nekogal #1",
+    name: 'Nekogal #1',
     description:
-      "A cat creature that\r\nlooks cute to the\r\neye but delivers\r\nscratching blows\r\nwith its sharp claws.",
+      'A cat creature that\r\nlooks cute to the\r\neye but delivers\r\nscratching blows\r\nwith its sharp claws.',
     id: 252,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -91146,7 +91225,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 900,
     stars: 999999,
-    cardCode: "01761063",
+    cardCode: '01761063',
 
     fusions: [
       {
@@ -91516,12 +91595,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Angelwitch",
+    name: 'Angelwitch',
     description:
-      "A creature\r\nthat chose the\r\npath of sorcery\r\nto become a witch.",
+      'A creature\r\nthat chose the\r\npath of sorcery\r\nto become a witch.',
     id: 253,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -91530,7 +91609,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1000,
     stars: 45,
-    cardCode: "37160778",
+    cardCode: '37160778',
 
     fusions: [
       {
@@ -92065,12 +92144,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Embryonic Beast",
+    name: 'Embryonic Beast',
     description:
-      "A repulsive monster\r\nwith a gaping belly\r\nthat swallows almost\r\nanything.",
+      'A repulsive monster\r\nwith a gaping belly\r\nthat swallows almost\r\nanything.',
     id: 254,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -92079,7 +92158,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 750,
     stars: 25,
-    cardCode: "64154377",
+    cardCode: '64154377',
 
     fusions: [
       {
@@ -92124,12 +92203,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Prevent Rat",
+    name: 'Prevent Rat',
     description:
-      "This monster is\r\nshielded by \r\na hide covered\r\nin thick hair.",
+      'This monster is\r\nshielded by \r\na hide covered\r\nin thick hair.',
     id: 255,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -92138,7 +92217,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 2000,
     stars: 100,
-    cardCode: "00549481",
+    cardCode: '00549481',
 
     fusions: [
       {
@@ -92703,12 +92782,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Dimensional Warrior",
+    name: 'Dimensional Warrior',
     description:
-      "A monster\r\ncapable of creating\r\ndimensional rifts\r\nto trap its enemies.",
+      'A monster\r\ncapable of creating\r\ndimensional rifts\r\nto trap its enemies.',
     id: 256,
     guardianStarA: 10,
     guardianStarB: 1,
@@ -92717,7 +92796,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "37043180",
+    cardCode: '37043180',
 
     fusions: [
       {
@@ -93097,12 +93176,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Stone Armadiller",
+    name: 'Stone Armadiller',
     description:
-      "With a body armored\r\nby rock-hard fur,\r\nthis monster\r\nfeatures excellent\r\ndefense capabilities.",
+      'With a body armored\r\nby rock-hard fur,\r\nthis monster\r\nfeatures excellent\r\ndefense capabilities.',
     id: 257,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -93111,7 +93190,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1200,
     stars: 55,
-    cardCode: "63432835",
+    cardCode: '63432835',
 
     fusions: [
       {
@@ -93471,12 +93550,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Beastking of the Swamps",
+    name: 'Beastking of the Swamps',
     description:
-      "This creature\r\nchanges the ground\r\nat its feet into\r\nquicksand to ensnare\r\nits enemies.",
+      'This creature\r\nchanges the ground\r\nat its feet into\r\nquicksand to ensnare\r\nits enemies.',
     id: 258,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -93485,7 +93564,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1100,
     stars: 60,
-    cardCode: "99426834",
+    cardCode: '99426834',
 
     fusions: [
       {
@@ -93580,12 +93659,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Ancient Sorcerer",
+    name: 'Ancient Sorcerer',
     description:
-      "A master fighter\r\nthat uses various\r\nstaffs to render\r\nenemies unconscious.",
+      'A master fighter\r\nthat uses various\r\nstaffs to render\r\nenemies unconscious.',
     id: 259,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -93594,7 +93673,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1300,
     stars: 80,
-    cardCode: "36821538",
+    cardCode: '36821538',
 
     fusions: [
       {
@@ -93809,12 +93888,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Lunar Queen Elzaim",
+    name: 'Lunar Queen Elzaim',
     description:
-      "A lovely\r\nmoon goddess that\r\ncan throw up\r\na lunar curtain\r\nto block\r\nenemy attacks.",
+      'A lovely\r\nmoon goddess that\r\ncan throw up\r\na lunar curtain\r\nto block\r\nenemy attacks.',
     id: 260,
     guardianStarA: 9,
     guardianStarB: 10,
@@ -93823,7 +93902,7 @@ export const CARDS_DB: Card[] = [
     attack: 750,
     defense: 1100,
     stars: 45,
-    cardCode: "62210247",
+    cardCode: '62210247',
 
     fusions: [
       {
@@ -94278,12 +94357,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Wicked Mirror",
+    name: 'Wicked Mirror',
     description:
-      "A malevolent mirror\r\nthat hypnotizes\r\na beholder and\r\nrenders the victim\r\nsusceptible\r\nto attacks.",
+      'A malevolent mirror\r\nthat hypnotizes\r\na beholder and\r\nrenders the victim\r\nsusceptible\r\nto attacks.',
     id: 261,
     guardianStarA: 10,
     guardianStarB: 2,
@@ -94292,7 +94371,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 600,
     stars: 30,
-    cardCode: "15150371",
+    cardCode: '15150371',
 
     fusions: [
       {
@@ -94342,11 +94421,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "The Little Swordsman of Aile",
-    description: "An elf warrior\r\nmounted on a huge\r\nlizard.",
+    name: 'The Little Swordsman of Aile',
+    description: 'An elf warrior\r\nmounted on a huge\r\nlizard.',
     id: 262,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -94355,7 +94434,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1300,
     stars: 60,
-    cardCode: "25109950",
+    cardCode: '25109950',
 
     fusions: [
       {
@@ -94735,12 +94814,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Rock Ogre Grotto #2",
+    name: 'Rock Ogre Grotto #2',
     description:
-      "A stone golem\r\nthat turns opponents\r\ninto rocks and\r\ncrushes them to dust.",
+      'A stone golem\r\nthat turns opponents\r\ninto rocks and\r\ncrushes them to dust.',
     id: 263,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -94749,7 +94828,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 1400,
     stars: 60,
-    cardCode: "62193699",
+    cardCode: '62193699',
 
     fusions: [
       {
@@ -95099,12 +95178,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Wing Egg Elf",
+    name: 'Wing Egg Elf',
     description:
-      "Hiding within its\r\neggshell, this\r\ncreature blocks\r\nenemy attacks with\r\nits massive wings.",
+      'Hiding within its\r\neggshell, this\r\ncreature blocks\r\nenemy attacks with\r\nits massive wings.',
     id: 264,
     guardianStarA: 8,
     guardianStarB: 1,
@@ -95113,7 +95192,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 1300,
     stars: 45,
-    cardCode: "98582704",
+    cardCode: '98582704',
 
     fusions: [
       {
@@ -95533,12 +95612,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "The Furious Sea King",
+    name: 'The Furious Sea King',
     description:
-      "Grand King of the\r\nSeven Seas.\r\nAble to summon\r\nmassive tidal waves\r\nto drown the enemy.",
+      'Grand King of the\r\nSeven Seas.\r\nAble to summon\r\nmassive tidal waves\r\nto drown the enemy.',
     id: 265,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -95547,7 +95626,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 700,
     stars: 30,
-    cardCode: "18710707",
+    cardCode: '18710707',
 
     fusions: [
       {
@@ -95642,12 +95721,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Princess of Tsurugi",
+    name: 'Princess of Tsurugi',
     description:
-      "A queen of swords\r\nthat is virtually\r\nunequalled in her\r\nmastery of every\r\nblade imaginable\r\nto man.",
+      'A queen of swords\r\nthat is virtually\r\nunequalled in her\r\nmastery of every\r\nblade imaginable\r\nto man.',
     id: 266,
     guardianStarA: 3,
     guardianStarB: 10,
@@ -95656,7 +95735,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 700,
     stars: 35,
-    cardCode: "51371017",
+    cardCode: '51371017',
 
     fusions: [
       {
@@ -96146,10 +96225,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Unknown Warrior of Fiend",
+    name: 'Unknown Warrior of Fiend',
     description:
       "The speed of this\r\nwarrior creates\r\nan intense vacuum\r\nthat can actually\r\nslice through\r\na monster's hide.",
     id: 267,
@@ -96160,7 +96239,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 500,
     stars: 30,
-    cardCode: "97360116",
+    cardCode: '97360116',
 
     fusions: [
       {
@@ -96535,12 +96614,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Sectarian of Secrets",
+    name: 'Sectarian of Secrets',
     description:
-      "A sorcerer that\r\nworships the dark\r\nforces and can\r\nsummon a massive\r\nhand to drag away\r\nopponents into\r\nthe netherworld.",
+      'A sorcerer that\r\nworships the dark\r\nforces and can\r\nsummon a massive\r\nhand to drag away\r\nopponents into\r\nthe netherworld.',
     id: 268,
     guardianStarA: 7,
     guardianStarB: 2,
@@ -96549,7 +96628,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 500,
     stars: 25,
-    cardCode: "15507080",
+    cardCode: '15507080',
 
     fusions: [
       {
@@ -96759,12 +96838,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Versago the Destroyer",
+    name: 'Versago the Destroyer',
     description:
-      "A lord of\r\ndestruction\r\nborn from the heart\r\nof darkness,\r\nthis creature\r\ncan summon storms\r\nto destroy opponents.",
+      'A lord of\r\ndestruction\r\nborn from the heart\r\nof darkness,\r\nthis creature\r\ncan summon storms\r\nto destroy opponents.',
     id: 269,
     guardianStarA: 7,
     guardianStarB: 3,
@@ -96773,7 +96852,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 900,
     stars: 55,
-    cardCode: "50259460",
+    cardCode: '50259460',
 
     fusions: [
       {
@@ -96833,12 +96912,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Wetha",
+    name: 'Wetha',
     description:
-      "A rain spirit that\r\ncan summon typhoons\r\nto blow away its\r\nenemies.",
+      'A rain spirit that\r\ncan summon typhoons\r\nto blow away its\r\nenemies.',
     id: 270,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -96847,7 +96926,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 900,
     stars: 50,
-    cardCode: "96643568",
+    cardCode: '96643568',
 
     fusions: [
       {
@@ -96942,10 +97021,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Megirus Light",
+    name: 'Megirus Light',
     description:
       "This creature's\r\nominous eyes can\r\nunleash piercing\r\nrays against its\r\nenemies.",
     id: 271,
@@ -96956,7 +97035,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 600,
     stars: 30,
-    cardCode: "23032273",
+    cardCode: '23032273',
 
     fusions: [
       {
@@ -97016,12 +97095,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Mavelus",
+    name: 'Mavelus',
     description:
-      "Related to the\r\nphoenix, this\r\ncreature dwells in\r\nthe mountains. Its\r\nfiery breath is\r\nextremely scorching.",
+      'Related to the\r\nphoenix, this\r\ncreature dwells in\r\nthe mountains. Its\r\nfiery breath is\r\nextremely scorching.',
     id: 272,
     guardianStarA: 1,
     guardianStarB: 7,
@@ -97030,7 +97109,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 900,
     stars: 70,
-    cardCode: "59036972",
+    cardCode: '59036972',
 
     fusions: [
       {
@@ -97380,12 +97459,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Ancient Tree of Enlightenment",
+    name: 'Ancient Tree of Enlightenment',
     description:
-      "Armed with a wealth\r\nof knowledge, this\r\nmonster is able to\r\nblock just about\r\nany attack.",
+      'Armed with a wealth\r\nof knowledge, this\r\nmonster is able to\r\nblock just about\r\nany attack.',
     id: 273,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -97394,7 +97473,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 1500,
     stars: 60,
-    cardCode: "86421986",
+    cardCode: '86421986',
 
     fusions: [
       {
@@ -97804,12 +97883,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Green Phantom King",
+    name: 'Green Phantom King',
     description:
-      "This youthful king\r\nof the forests lives\r\nin a green world,\r\nabundant with trees\r\nand wildlife.",
+      'This youthful king\r\nof the forests lives\r\nin a green world,\r\nabundant with trees\r\nand wildlife.',
     id: 274,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -97818,7 +97897,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 1600,
     stars: 60,
-    cardCode: "22910685",
+    cardCode: '22910685',
 
     fusions: [
       {
@@ -98228,12 +98307,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Ground Attacker Bugroth",
+    name: 'Ground Attacker Bugroth',
     description:
-      "A land-based armored\r\nrobot that is said\r\nto once have marine\r\nattack capabilities.",
+      'A land-based armored\r\nrobot that is said\r\nto once have marine\r\nattack capabilities.',
     id: 275,
     guardianStarA: 4,
     guardianStarB: 9,
@@ -98242,7 +98321,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1000,
     stars: 100,
-    cardCode: "58314394",
+    cardCode: '58314394',
 
     fusions: [
       {
@@ -98667,12 +98746,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Ray & Temperature",
+    name: 'Ray & Temperature',
     description:
-      "The Sun and the\r\nNorth Wind join\r\nhands to deliver\r\na devastating\r\ncombination of heat\r\nand gale-force winds.",
+      'The Sun and the\r\nNorth Wind join\r\nhands to deliver\r\na devastating\r\ncombination of heat\r\nand gale-force winds.',
     id: 276,
     guardianStarA: 8,
     guardianStarB: 3,
@@ -98681,7 +98760,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1000,
     stars: 55,
-    cardCode: "85309439",
+    cardCode: '85309439',
 
     fusions: [
       {
@@ -98826,10 +98905,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Gorgon Egg",
+    name: 'Gorgon Egg',
     description:
       "A gorgon's egg with\r\neyes said to create\r\nwhatever creature\r\ncrosses its view.",
     id: 277,
@@ -98840,7 +98919,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 1300,
     stars: 35,
-    cardCode: "11793047",
+    cardCode: '11793047',
 
     fusions: [
       {
@@ -98915,12 +98994,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Petit Moth",
+    name: 'Petit Moth',
     description:
-      "Nobody has any idea\r\nwhat creature may\r\nspawn from this\r\nmysterious larva.",
+      'Nobody has any idea\r\nwhat creature may\r\nspawn from this\r\nmysterious larva.',
     id: 278,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -98929,7 +99008,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 200,
     stars: 10,
-    cardCode: "58192742",
+    cardCode: '58192742',
 
     fusions: [
       {
@@ -98964,11 +99043,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "King Fog",
-    description: "A spectre that\r\ndwells in a blinding\r\ncurtain of smoke.",
+    name: 'King Fog',
+    description: 'A spectre that\r\ndwells in a blinding\r\ncurtain of smoke.',
     id: 279,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -98977,7 +99056,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 900,
     stars: 50,
-    cardCode: "84686841",
+    cardCode: '84686841',
 
     fusions: [
       {
@@ -99037,10 +99116,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Protector of the Throne",
+    name: 'Protector of the Throne',
     description:
       "A creature that\r\nprotects the king's\r\nthrone from usurpers.",
     id: 280,
@@ -99051,7 +99130,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1500,
     stars: 80,
-    cardCode: "10071456",
+    cardCode: '10071456',
 
     fusions: [
       {
@@ -99591,12 +99670,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Mystic Clown",
+    name: 'Mystic Clown',
     description:
-      "Nothing can stop the\r\nmad attack of this\r\npowerful creature.",
+      'Nothing can stop the\r\nmad attack of this\r\npowerful creature.',
     id: 281,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -99605,7 +99684,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1000,
     stars: 100,
-    cardCode: "47060154",
+    cardCode: '47060154',
 
     fusions: [
       {
@@ -99625,12 +99704,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Mystical Sheep #2",
+    name: 'Mystical Sheep #2',
     description:
-      "A monstrous sheep\r\nwith a long tail for\r\nhypnotizing enemies\r\nto render them\r\npowerless.",
+      'A monstrous sheep\r\nwith a long tail for\r\nhypnotizing enemies\r\nto render them\r\npowerless.',
     id: 282,
     guardianStarA: 10,
     guardianStarB: 3,
@@ -99639,7 +99718,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1000,
     stars: 45,
-    cardCode: "83464209",
+    cardCode: '83464209',
 
     fusions: [
       {
@@ -100234,12 +100313,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Holograh",
+    name: 'Holograh',
     description:
-      "A monster machine\r\nthat generates\r\nimages to confuse\r\nits enemies,\r\nmaking them prone\r\nto attacks.",
+      'A monster machine\r\nthat generates\r\nimages to confuse\r\nits enemies,\r\nmaking them prone\r\nto attacks.',
     id: 283,
     guardianStarA: 8,
     guardianStarB: 2,
@@ -100248,7 +100327,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 700,
     stars: 45,
-    cardCode: "10859908",
+    cardCode: '10859908',
 
     fusions: [
       {
@@ -100493,12 +100572,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Tao the Chanter",
+    name: 'Tao the Chanter',
     description:
-      "A magic-user that\r\ncorrodes the yin\r\nand yang to create\r\na twisted power\r\nto attack enemies.",
+      'A magic-user that\r\ncorrodes the yin\r\nand yang to create\r\na twisted power\r\nto attack enemies.',
     id: 284,
     guardianStarA: 10,
     guardianStarB: 4,
@@ -100507,7 +100586,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 999999,
-    cardCode: "46247516",
+    cardCode: '46247516',
 
     fusions: [
       {
@@ -100587,12 +100666,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Serpent Marauder",
+    name: 'Serpent Marauder',
     description:
-      "A snake with a\r\nsingle eye that\r\nblows an icy breath\r\nto freeze its\r\nopponents.",
+      'A snake with a\r\nsingle eye that\r\nblows an icy breath\r\nto freeze its\r\nopponents.',
     id: 285,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -100601,7 +100680,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 600,
     stars: 30,
-    cardCode: "82742611",
+    cardCode: '82742611',
 
     fusions: [
       {
@@ -100646,12 +100725,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Gatekeeper",
+    name: 'Gatekeeper',
     description:
-      "An indestructible\r\nmachine\r\nbuilt to protect\r\nkey entrances.",
+      'An indestructible\r\nmachine\r\nbuilt to protect\r\nkey entrances.',
     id: 286,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -100660,7 +100739,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1800,
     stars: 290,
-    cardCode: "19737320",
+    cardCode: '19737320',
 
     fusions: [
       {
@@ -100820,12 +100899,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Ogre of the Black Shadow",
+    name: 'Ogre of the Black Shadow',
     description:
-      "An ogre possessed\r\nby the powers\r\nof the dark.\r\nFew can withstand\r\nits rapid charge.",
+      'An ogre possessed\r\nby the powers\r\nof the dark.\r\nFew can withstand\r\nits rapid charge.',
     id: 287,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -100834,7 +100913,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1400,
     stars: 120,
-    cardCode: "45121025",
+    cardCode: '45121025',
 
     fusions: [
       {
@@ -100859,10 +100938,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Dark Artist",
+    name: 'Dark Artist',
     description:
       "A demented artist\r\nthat creates\r\nobjets d'art\r\nto crush enemies.",
     id: 288,
@@ -100873,7 +100952,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 1400,
     stars: 999999,
-    cardCode: "72520073",
+    cardCode: '72520073',
 
     fusions: [
       {
@@ -100923,12 +101002,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Change Slime",
+    name: 'Change Slime',
     description:
-      "A shape-shifting\r\nslime that is\r\ncapable of adopting\r\nthe form of other\r\ncreatures.",
+      'A shape-shifting\r\nslime that is\r\ncapable of adopting\r\nthe form of other\r\ncreatures.',
     id: 289,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -100937,7 +101016,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 300,
     stars: 15,
-    cardCode: "18914778",
+    cardCode: '18914778',
 
     fusions: [
       {
@@ -101027,12 +101106,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Moon Envoy",
+    name: 'Moon Envoy',
     description:
-      "A servant of the\r\nmoon goddess,\r\nthis warrior\r\nwields a pike\r\nwith a spectacular\r\ncrescent-shaped\r\nblade.",
+      'A servant of the\r\nmoon goddess,\r\nthis warrior\r\nwields a pike\r\nwith a spectacular\r\ncrescent-shaped\r\nblade.',
     id: 290,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -101041,7 +101120,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1000,
     stars: 60,
-    cardCode: "45909477",
+    cardCode: '45909477',
 
     fusions: [
       {
@@ -101391,12 +101470,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Fireyarou",
+    name: 'Fireyarou',
     description:
-      "A malevolent\r\ncreature\r\nwrapped in flames\r\nthat attacks enemies\r\nwith intense fire.",
+      'A malevolent\r\ncreature\r\nwrapped in flames\r\nthat attacks enemies\r\nwith intense fire.',
     id: 291,
     guardianStarA: 1,
     guardianStarB: 3,
@@ -101405,7 +101484,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1000,
     stars: 80,
-    cardCode: "71407486",
+    cardCode: '71407486',
 
     fusions: [
       {
@@ -101655,12 +101734,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Psychic Kappa",
+    name: 'Psychic Kappa',
     description:
-      "An amphibian with\r\nextrasensory powers\r\nfor blocking attacks.",
+      'An amphibian with\r\nextrasensory powers\r\nfor blocking attacks.',
     id: 292,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -101669,7 +101748,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 1000,
     stars: 30,
-    cardCode: "07892180",
+    cardCode: '07892180',
 
     fusions: [
       {
@@ -101944,12 +102023,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Masaki the Legendary Swordsman",
+    name: 'Masaki the Legendary Swordsman',
     description:
-      "Legendary\r\nswordmaster and a\r\nveteran of over 100\r\nbattles.",
+      'Legendary\r\nswordmaster and a\r\nveteran of over 100\r\nbattles.',
     id: 293,
     guardianStarA: 8,
     guardianStarB: 4,
@@ -101958,7 +102037,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1100,
     stars: 70,
-    cardCode: "44287299",
+    cardCode: '44287299',
 
     fusions: [
       {
@@ -102303,12 +102382,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Dragoness the Wicked Knight",
+    name: 'Dragoness the Wicked Knight',
     description:
-      "A warrior\r\nequipped with\r\nequipment fashioned\r\nfrom dragon scales.",
+      'A warrior\r\nequipped with\r\nequipment fashioned\r\nfrom dragon scales.',
     id: 294,
     guardianStarA: 3,
     guardianStarB: 7,
@@ -102317,7 +102396,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 60,
-    cardCode: "70681994",
+    cardCode: '70681994',
 
     fusions: [
       {
@@ -102652,12 +102731,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Bio Plant",
+    name: 'Bio Plant',
     description:
-      "A monstrous creature\r\nborn from a failed\r\nlab experiment.",
+      'A monstrous creature\r\nborn from a failed\r\nlab experiment.',
     id: 295,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -102666,7 +102745,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 1300,
     stars: 50,
-    cardCode: "07670542",
+    cardCode: '07670542',
 
     fusions: [
       {
@@ -102676,12 +102755,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "One-eyed Shield Dragon",
+    name: 'One-eyed Shield Dragon',
     description:
-      "This dragon wears a\r\nshield not only for\r\nits own protection\r\nbut also for ramming\r\nits enemies.",
+      'This dragon wears a\r\nshield not only for\r\nits own protection\r\nbut also for ramming\r\nits enemies.',
     id: 296,
     guardianStarA: 3,
     guardianStarB: 5,
@@ -102690,7 +102769,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 1300,
     stars: 55,
-    cardCode: "33064647",
+    cardCode: '33064647',
 
     fusions: [
       {
@@ -103420,12 +103499,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Cyber Soldier of Darkworld",
+    name: 'Cyber Soldier of Darkworld',
     description:
-      "An unstoppable\r\nmechanical soldier\r\npowered by dark\r\nforces.",
+      'An unstoppable\r\nmechanical soldier\r\npowered by dark\r\nforces.',
     id: 297,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -103434,7 +103513,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1200,
     stars: 120,
-    cardCode: "75559356",
+    cardCode: '75559356',
 
     fusions: [
       {
@@ -103639,12 +103718,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Wicked Dragon with the Ersatz Head",
+    name: 'Wicked Dragon with the Ersatz Head',
     description:
-      "A two-headed dragon\r\nwith a pair of\r\nvicious jaws for\r\ncrushing its enemies.",
+      'A two-headed dragon\r\nwith a pair of\r\nvicious jaws for\r\ncrushing its enemies.',
     id: 298,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -103653,7 +103732,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 900,
     stars: 45,
-    cardCode: "02957055",
+    cardCode: '02957055',
 
     fusions: [
       {
@@ -104388,10 +104467,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Sonic Maid",
+    name: 'Sonic Maid',
     description:
       "A maiden\r\nthat uses sound\r\nto her advantage.\r\nShe wields a scythe\r\nthat's shaped\r\nlike a musical note.",
     id: 299,
@@ -104402,7 +104481,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 999999,
-    cardCode: "38942059",
+    cardCode: '38942059',
 
     fusions: [
       {
@@ -104887,12 +104966,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Kurama",
+    name: 'Kurama',
     description:
-      "A vicious bird that\r\nattacks from the\r\nskies with its\r\nwhip-like tail.",
+      'A vicious bird that\r\nattacks from the\r\nskies with its\r\nwhip-like tail.',
     id: 300,
     guardianStarA: 3,
     guardianStarB: 6,
@@ -104901,7 +104980,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 800,
     stars: 35,
-    cardCode: "85705804",
+    cardCode: '85705804',
 
     fusions: [
       {
@@ -104981,12 +105060,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Legendary Sword",
+    name: 'Legendary Sword',
     description:
-      "A sword that brings\r\nout the best in\r\nwarriors. It cannot\r\nbe used by servants\r\nof the dark.",
+      'A sword that brings\r\nout the best in\r\nwarriors. It cannot\r\nbe used by servants\r\nof the dark.',
     id: 301,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -104995,7 +105074,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "61854111",
+    cardCode: '61854111',
     fusions: [
       {
         card1: 301,
@@ -105014,11 +105093,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Sword of Dark Destruction",
-    description: "Dark forces\r\nincrease the power\r\nof Warriors!",
+    name: 'Sword of Dark Destruction',
+    description: 'Dark forces\r\nincrease the power\r\nof Warriors!',
     id: 302,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105027,15 +105106,15 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "37120512",
+    cardCode: '37120512',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Dark Energy",
+    name: 'Dark Energy',
     description:
-      "Dark forces increase\r\nthe power of Fiends\r\nand other monsters\r\nof the Dark!",
+      'Dark forces increase\r\nthe power of Fiends\r\nand other monsters\r\nof the Dark!',
     id: 303,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105044,7 +105123,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "04614116",
+    cardCode: '04614116',
     fusions: [
       {
         card1: 303,
@@ -105078,12 +105157,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Axe of Despair",
+    name: 'Axe of Despair',
     description:
-      "Fiends and\r\nBeast-Warriors can\r\nconstantly use their\r\nmaximum strength!",
+      'Fiends and\r\nBeast-Warriors can\r\nconstantly use their\r\nmaximum strength!',
     id: 304,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105092,14 +105171,14 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "40619825",
+    cardCode: '40619825',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Laser Cannon Armor",
-    description: "Arms Insects with\r\na powerful laser!",
+    name: 'Laser Cannon Armor',
+    description: 'Arms Insects with\r\na powerful laser!',
     id: 305,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105108,14 +105187,14 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "77007920",
+    cardCode: '77007920',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Insect Armor with Laser Cannon",
-    description: "Allows Insects to\r\nfire an intense\r\nblast of fire!",
+    name: 'Insect Armor with Laser Cannon',
+    description: 'Allows Insects to\r\nfire an intense\r\nblast of fire!',
     id: 306,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105124,14 +105203,14 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "03492538",
+    cardCode: '03492538',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
     name: "Elf's Light",
-    description: "Increases the power\r\nof elves with\r\nmystical light!",
+    description: 'Increases the power\r\nof elves with\r\nmystical light!',
     id: 307,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105140,7 +105219,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "39897277",
+    cardCode: '39897277',
     fusions: [
       {
         card1: 307,
@@ -105154,12 +105233,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Beast Fangs",
+    name: 'Beast Fangs',
     description:
-      "Increases the power\r\nof Beasts and other\r\nfanged monsters!",
+      'Increases the power\r\nof Beasts and other\r\nfanged monsters!',
     id: 308,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105168,7 +105247,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "46009906",
+    cardCode: '46009906',
     fusions: [
       {
         card1: 308,
@@ -105187,12 +105266,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Steel Shell",
+    name: 'Steel Shell',
     description:
-      "Boosts the power of\r\nshelled monsters!\r\nSaid to have no\r\neffect on those\r\nwithout shells.",
+      'Boosts the power of\r\nshelled monsters!\r\nSaid to have no\r\neffect on those\r\nwithout shells.',
     id: 309,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105201,7 +105280,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "02370081",
+    cardCode: '02370081',
     fusions: [
       {
         card1: 309,
@@ -105210,11 +105289,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Vile Germs",
-    description: "Vile microbes boost\r\nthe power of Plants\r\nin the woods!",
+    name: 'Vile Germs',
+    description: 'Vile microbes boost\r\nthe power of Plants\r\nin the woods!',
     id: 310,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105223,7 +105302,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "39774685",
+    cardCode: '39774685',
     fusions: [
       {
         card1: 310,
@@ -105237,11 +105316,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Black Pendant",
-    description: "This pendant grants\r\nextra power\r\nto Dark sorcerers!",
+    name: 'Black Pendant',
+    description: 'This pendant grants\r\nextra power\r\nto Dark sorcerers!',
     id: 311,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105250,7 +105329,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "65169794",
+    cardCode: '65169794',
     fusions: [
       {
         card1: 311,
@@ -105259,11 +105338,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Silver Bow and Arrow",
-    description: "Silver bow and arrow\r\nenhances the power\r\nof Fairies.",
+    name: 'Silver Bow and Arrow',
+    description: 'Silver bow and arrow\r\nenhances the power\r\nof Fairies.',
     id: 312,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105272,7 +105351,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "01557499",
+    cardCode: '01557499',
     fusions: [
       {
         card1: 312,
@@ -105281,12 +105360,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Horn of Light",
+    name: 'Horn of Light',
     description:
-      "Increases the power\r\nof horned creatures!\r\nHas no effect\r\non Dark monsters.",
+      'Increases the power\r\nof horned creatures!\r\nHas no effect\r\non Dark monsters.',
     id: 313,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105295,7 +105374,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "38552107",
+    cardCode: '38552107',
     fusions: [
       {
         card1: 313,
@@ -105304,11 +105383,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Horn of the Unicorn",
-    description: "Increases the power\r\nof Dark monsters\r\nwith horns!",
+    name: 'Horn of the Unicorn',
+    description: 'Increases the power\r\nof Dark monsters\r\nwith horns!',
     id: 314,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105317,7 +105396,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "64047146",
+    cardCode: '64047146',
     fusions: [
       {
         card1: 314,
@@ -105326,12 +105405,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Dragon Treasure",
+    name: 'Dragon Treasure',
     description:
-      "A legendary treasure\r\nthat increases the\r\npower of dragons.",
+      'A legendary treasure\r\nthat increases the\r\npower of dragons.',
     id: 315,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105340,7 +105419,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "01435851",
+    cardCode: '01435851',
     fusions: [
       {
         card1: 315,
@@ -105359,12 +105438,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Electro-whip",
+    name: 'Electro-whip',
     description:
-      "A whip for\r\nparalyzing enemies.\r\nIncreases power when\r\nequipped with\r\nfemale creatures.",
+      'A whip for\r\nparalyzing enemies.\r\nIncreases power when\r\nequipped with\r\nfemale creatures.',
     id: 316,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105373,7 +105452,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "37820550",
+    cardCode: '37820550',
     fusions: [
       {
         card1: 316,
@@ -105392,12 +105471,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Cyber Shield",
+    name: 'Cyber Shield',
     description:
-      "Increases the power\r\nof female monsters\r\nby changing their\r\nattitudes.",
+      'Increases the power\r\nof female monsters\r\nby changing their\r\nattitudes.',
     id: 317,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105406,7 +105485,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "63224564",
+    cardCode: '63224564',
     fusions: [
       {
         card1: 317,
@@ -105425,12 +105504,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Elegant Egotist",
+    name: 'Elegant Egotist',
     description:
-      "Creates two\r\ndoppelgangers of\r\nHarpy Lady for\r\nthree-pronged\r\nattacks!",
+      'Creates two\r\ndoppelgangers of\r\nHarpy Lady for\r\nthree-pronged\r\nattacks!',
     id: 318,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105439,7 +105518,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "90219263",
+    cardCode: '90219263',
     fusions: [
       {
         card1: 318,
@@ -105453,11 +105532,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Mystical Moon",
-    description: "Moonlight increases\r\nthe power of Beasts!",
+    name: 'Mystical Moon',
+    description: 'Moonlight increases\r\nthe power of Beasts!',
     id: 319,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105466,7 +105545,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "36607978",
+    cardCode: '36607978',
     fusions: [
       {
         card1: 319,
@@ -105475,10 +105554,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Stop Defense",
+    name: 'Stop Defense',
     description:
       "Forces an opponent's\r\nmonster card\r\npositioned for\r\ndefense into the\r\nattack position.",
     id: 320,
@@ -105489,16 +105568,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "63102017",
+    cardCode: '63102017',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Malevolent Nuzzler",
+    name: 'Malevolent Nuzzler',
     description:
-      "Diabolic forces act\r\nto increase the\r\npower of female and\r\nDark monsters!",
+      'Diabolic forces act\r\nto increase the\r\npower of female and\r\nDark monsters!',
     id: 321,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105507,7 +105586,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "99597615",
+    cardCode: '99597615',
     fusions: [
       {
         card1: 321,
@@ -105516,12 +105595,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Violet Crystal",
+    name: 'Violet Crystal',
     description:
-      "Mystic forces from\r\nthe crystal increase\r\nthe power of Zombies.",
+      'Mystic forces from\r\nthe crystal increase\r\nthe power of Zombies.',
     id: 322,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105530,7 +105609,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "15052462",
+    cardCode: '15052462',
     fusions: [
       {
         card1: 322,
@@ -105539,12 +105618,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Book of Secret Arts",
+    name: 'Book of Secret Arts',
     description:
-      "A magic book for\r\nincreasing the power\r\nof magic-users.\r\nIt cannot be used\r\nby bad-hearted\r\nsorcerers.",
+      'A magic book for\r\nincreasing the power\r\nof magic-users.\r\nIt cannot be used\r\nby bad-hearted\r\nsorcerers.',
     id: 323,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105553,7 +105632,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "91595718",
+    cardCode: '91595718',
     fusions: [
       {
         card1: 323,
@@ -105562,12 +105641,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Invigoration",
+    name: 'Invigoration',
     description:
-      "Increases the power\r\nof Thunder, Rock,\r\nand Pyro monsters.",
+      'Increases the power\r\nof Thunder, Rock,\r\nand Pyro monsters.',
     id: 324,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105576,15 +105655,15 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "98374133",
+    cardCode: '98374133',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Machine Conversion Factory",
+    name: 'Machine Conversion Factory',
     description:
-      "A manufacturing\r\nfacility that tunes\r\nup all Machine\r\nmonsters.",
+      'A manufacturing\r\nfacility that tunes\r\nup all Machine\r\nmonsters.',
     id: 325,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105593,7 +105672,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "25769732",
+    cardCode: '25769732',
     fusions: [
       {
         card1: 325,
@@ -105722,10 +105801,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Raise Body Heat",
+    name: 'Raise Body Heat',
     description:
       "Absorbs the sun's\r\nenergy to increase\r\nthe power of\r\nDinosaurs!",
     id: 326,
@@ -105736,7 +105815,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "51267887",
+    cardCode: '51267887',
     fusions: [
       {
         card1: 326,
@@ -105745,12 +105824,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Follow Wind",
+    name: 'Follow Wind',
     description:
-      "The winds provide\r\nsupport to increase\r\nthe power of Winged\r\nBeasts and other\r\nflying monsters!",
+      'The winds provide\r\nsupport to increase\r\nthe power of Winged\r\nBeasts and other\r\nflying monsters!',
     id: 327,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105759,7 +105838,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "98252586",
+    cardCode: '98252586',
     fusions: [
       {
         card1: 327,
@@ -105783,10 +105862,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Power of Kaishin",
+    name: 'Power of Kaishin',
     description:
       "Poseidon's Strength\r\nis shared to boost\r\nthe power of\r\nAqua, Fish, and\r\nSea Serpent\r\nmonsters!",
     id: 328,
@@ -105797,7 +105876,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "77027445",
+    cardCode: '77027445',
     fusions: [
       {
         card1: 328,
@@ -105811,12 +105890,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Dragon Capture Jar",
+    name: 'Dragon Capture Jar',
     description:
-      "Destroys\r\nall opponent\r\nDragon monsters\r\non the playfield!",
+      'Destroys\r\nall opponent\r\nDragon monsters\r\non the playfield!',
     id: 329,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105825,7 +105904,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "50045299",
+    cardCode: '50045299',
 
     fusions: [
       {
@@ -105835,12 +105914,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Forest",
+    name: 'Forest',
     description:
-      "Changes the field\r\nin favor of\r\nBeast-Warrior,\r\nInsect, Plant, and\r\nBeast monsters!",
+      'Changes the field\r\nin favor of\r\nBeast-Warrior,\r\nInsect, Plant, and\r\nBeast monsters!',
     id: 330,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105849,7 +105928,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 55,
-    cardCode: "87430998",
+    cardCode: '87430998',
 
     fusions: [
       {
@@ -105864,12 +105943,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Wasteland",
+    name: 'Wasteland',
     description:
-      "Changes the field\r\nin favor of Zombie,\r\nDinosaur and\r\nRock monsters!",
+      'Changes the field\r\nin favor of Zombie,\r\nDinosaur and\r\nRock monsters!',
     id: 331,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105878,16 +105957,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 55,
-    cardCode: "23424603",
+    cardCode: '23424603',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Mountain",
+    name: 'Mountain',
     description:
-      "Changes the field\r\nin favor of Dragon,\r\nWinged Beast, and\r\nThunder monsters!",
+      'Changes the field\r\nin favor of Dragon,\r\nWinged Beast, and\r\nThunder monsters!',
     id: 332,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105896,16 +105975,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 55,
-    cardCode: "50913601",
+    cardCode: '50913601',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Sogen",
+    name: 'Sogen',
     description:
-      "Changes the field\r\nto meadow land\r\nin favor of Warrior\r\nand Beast-Warrior\r\nmonsters!",
+      'Changes the field\r\nto meadow land\r\nin favor of Warrior\r\nand Beast-Warrior\r\nmonsters!',
     id: 333,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105914,16 +105993,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 55,
-    cardCode: "86318356",
+    cardCode: '86318356',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Umi",
+    name: 'Umi',
     description:
-      "Changes the field\r\nin favor of Aqua\r\nand Thunder monsters,\r\nbut unfavorable to\r\nMachine and Pyro\r\nmonsters!",
+      'Changes the field\r\nin favor of Aqua\r\nand Thunder monsters,\r\nbut unfavorable to\r\nMachine and Pyro\r\nmonsters!',
     id: 334,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105932,7 +106011,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 55,
-    cardCode: "22702055",
+    cardCode: '22702055',
 
     fusions: [
       {
@@ -105952,12 +106031,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Yami",
+    name: 'Yami',
     description:
-      "Changes the field\r\nin favor of\r\nMagic-User and\r\nFiend monsters,\r\nbut unfavorable\r\nto Fairy monsters!",
+      'Changes the field\r\nin favor of\r\nMagic-User and\r\nFiend monsters,\r\nbut unfavorable\r\nto Fairy monsters!',
     id: 335,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105966,7 +106045,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 55,
-    cardCode: "59197169",
+    cardCode: '59197169',
 
     fusions: [
       {
@@ -105976,11 +106055,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Dark Hole",
-    description: "Sucks up every card\r\nin play on the field!",
+    name: 'Dark Hole',
+    description: 'Sucks up every card\r\nin play on the field!',
     id: 336,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -105989,7 +106068,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 20000,
-    cardCode: "53129443",
+    cardCode: '53129443',
 
     fusions: [
       {
@@ -105999,12 +106078,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Raigeki",
+    name: 'Raigeki',
     description:
-      "Destroys every\r\nopposing monster\r\nwith a stroke\r\nof lightning!",
+      'Destroys every\r\nopposing monster\r\nwith a stroke\r\nof lightning!',
     id: 337,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -106013,15 +106092,15 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "12580477",
+    cardCode: '12580477',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Mooyan Curry",
-    description: "A delicious\r\nbeef curry increases\r\nLife Points by 200!",
+    name: 'Mooyan Curry',
+    description: 'A delicious\r\nbeef curry increases\r\nLife Points by 200!',
     id: 338,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -106030,7 +106109,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "58074572",
+    cardCode: '58074572',
 
     fusions: [
       {
@@ -106050,11 +106129,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Red Medicine",
-    description: "A magic potion\r\nthat increases\r\nLife Points by 500!",
+    name: 'Red Medicine',
+    description: 'A magic potion\r\nthat increases\r\nLife Points by 500!',
     id: 339,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -106063,7 +106142,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 55,
-    cardCode: "38199696",
+    cardCode: '38199696',
 
     fusions: [
       {
@@ -106073,7 +106152,7 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
     name: "Goblin's Secret Remedy",
@@ -106086,7 +106165,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 20000,
-    cardCode: "11868825",
+    cardCode: '11868825',
 
     fusions: [
       {
@@ -106096,11 +106175,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Soul of the Pure",
-    description: "A fairy potion\r\nthat increases\r\nLife Points by 2000!",
+    name: 'Soul of the Pure',
+    description: 'A fairy potion\r\nthat increases\r\nLife Points by 2000!',
     id: 341,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -106109,7 +106188,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 35000,
-    cardCode: "47852924",
+    cardCode: '47852924',
 
     fusions: [
       {
@@ -106119,11 +106198,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Dian Keto the Cure Master",
-    description: "A mystical power\r\nthat increases\r\nLife Points by 5000!",
+    name: 'Dian Keto the Cure Master',
+    description: 'A mystical power\r\nthat increases\r\nLife Points by 5000!',
     id: 342,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -106132,7 +106211,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "84257639",
+    cardCode: '84257639',
 
     fusions: [
       {
@@ -106142,10 +106221,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Sparks",
+    name: 'Sparks',
     description:
       "A shower of sparks\r\ninflicts 50 points\r\nof damage\r\nto your opponent's\r\nLife Points!!",
     id: 343,
@@ -106156,7 +106235,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 10,
-    cardCode: "76103675",
+    cardCode: '76103675',
 
     fusions: [
       {
@@ -106166,10 +106245,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Hinotama",
+    name: 'Hinotama',
     description:
       "A fireball\r\ninflicts 100 points\r\nof damage\r\nto your opponent's\r\nLife Points!!",
     id: 344,
@@ -106180,7 +106259,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 55,
-    cardCode: "46130346",
+    cardCode: '46130346',
 
     fusions: [
       {
@@ -106190,10 +106269,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Final Flame",
+    name: 'Final Flame',
     description:
       "Flames\r\ninflict 200 points\r\nof damage\r\nto your opponent's\r\nLife Points!!",
     id: 345,
@@ -106204,7 +106283,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 20000,
-    cardCode: "73134081",
+    cardCode: '73134081',
 
     fusions: [
       {
@@ -106224,10 +106303,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Ookazi",
+    name: 'Ookazi',
     description:
       "Flames\r\ninflict 500 points\r\nof damage\r\nto your opponent's\r\nLife Points!",
     id: 346,
@@ -106238,7 +106317,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 35000,
-    cardCode: "19523799",
+    cardCode: '19523799',
 
     fusions: [
       {
@@ -106248,10 +106327,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Tremendous Fire",
+    name: 'Tremendous Fire',
     description:
       "An inferno\r\ninflicts 1000 points\r\nof damage\r\nto your opponent's\r\nLife Points!",
     id: 347,
@@ -106262,16 +106341,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "46918794",
+    cardCode: '46918794',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Swords of Revealing Light",
+    name: 'Swords of Revealing Light',
     description:
-      "Enemy monsters\r\nare revealed and\r\nyour opponent\r\ncannot attack\r\nfor three turns.",
+      'Enemy monsters\r\nare revealed and\r\nyour opponent\r\ncannot attack\r\nfor three turns.',
     id: 348,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -106280,15 +106359,15 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "72302403",
+    cardCode: '72302403',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Spellbinding Circle",
-    description: "A curse reduces the\r\npower of all enemy\r\nmonsters!",
+    name: 'Spellbinding Circle',
+    description: 'A curse reduces the\r\npower of all enemy\r\nmonsters!',
     id: 349,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -106297,7 +106376,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "18807108",
+    cardCode: '18807108',
 
     fusions: [
       {
@@ -106312,12 +106391,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Dark-piercing Light",
+    name: 'Dark-piercing Light',
     description:
-      "A dazzling light\r\nreveals all monsters\r\non the playing field.",
+      'A dazzling light\r\nreveals all monsters\r\non the playing field.',
     id: 350,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -106326,7 +106405,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "45895206",
+    cardCode: '45895206',
 
     fusions: [
       {
@@ -106341,12 +106420,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Yaranzo",
+    name: 'Yaranzo',
     description:
-      "A monster that\r\nattacks anybody\r\nwho attempts\r\nto open its lid.",
+      'A monster that\r\nattacks anybody\r\nwho attempts\r\nto open its lid.',
     id: 351,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -106355,7 +106434,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1500,
     stars: 160,
-    cardCode: "71280811",
+    cardCode: '71280811',
 
     fusions: [
       {
@@ -106530,12 +106609,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Kanan the Swordmistress",
+    name: 'Kanan the Swordmistress',
     description:
-      "A lady swordsman\r\nthat floats like a\r\nbutterfly and stings\r\nlike a bee.",
+      'A lady swordsman\r\nthat floats like a\r\nbutterfly and stings\r\nlike a bee.',
     id: 352,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -106544,7 +106623,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1400,
     stars: 160,
-    cardCode: "12829151",
+    cardCode: '12829151',
 
     fusions: [
       {
@@ -106969,11 +107048,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Takriminos",
-    description: "A finned creature\r\ndistantly related\r\nto sea Dragons.",
+    name: 'Takriminos',
+    description: 'A finned creature\r\ndistantly related\r\nto sea Dragons.',
     id: 353,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -106982,7 +107061,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1200,
     stars: 140,
-    cardCode: "44073668",
+    cardCode: '44073668',
 
     fusions: [
       {
@@ -107617,11 +107696,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Stuffed Animal",
-    description: "A deceptively cute\r\nstuffed animal that\r\nbites.",
+    name: 'Stuffed Animal',
+    description: 'A deceptively cute\r\nstuffed animal that\r\nbites.',
     id: 354,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -107630,7 +107709,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 60,
-    cardCode: "71068263",
+    cardCode: '71068263',
 
     fusions: [
       {
@@ -107940,12 +108019,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Megasonic Eye",
+    name: 'Megasonic Eye',
     description:
-      "A cryptic doomsday\r\nmachine that comes\r\nfrom the edge of\r\nthe universe.",
+      'A cryptic doomsday\r\nmachine that comes\r\nfrom the edge of\r\nthe universe.',
     id: 355,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -107954,7 +108033,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1800,
     stars: 290,
-    cardCode: "07562372",
+    cardCode: '07562372',
 
     fusions: [
       {
@@ -108084,11 +108163,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Super War-lion",
-    description: "A very vicious lion\r\nwith sharp and\r\nlong claws.",
+    name: 'Super War-lion',
+    description: 'A very vicious lion\r\nwith sharp and\r\nlong claws.',
     id: 356,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -108097,15 +108176,15 @@ export const CARDS_DB: Card[] = [
     attack: 2300,
     defense: 2100,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Yamadron",
-    description: "A three-headed,\r\nfire-breathing\r\nmonster.",
+    name: 'Yamadron',
+    description: 'A three-headed,\r\nfire-breathing\r\nmonster.',
     id: 357,
     guardianStarA: 1,
     guardianStarB: 4,
@@ -108114,7 +108193,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1800,
     stars: 320,
-    cardCode: "70345785",
+    cardCode: '70345785',
 
     fusions: [
       {
@@ -108879,12 +108958,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Seiyaryu",
+    name: 'Seiyaryu',
     description:
-      "A sacred dragon\r\nthat burns away\r\nwickedness with its\r\nmystical flames.",
+      'A sacred dragon\r\nthat burns away\r\nwickedness with its\r\nmystical flames.',
     id: 358,
     guardianStarA: 8,
     guardianStarB: 6,
@@ -108893,7 +108972,7 @@ export const CARDS_DB: Card[] = [
     attack: 2500,
     defense: 2300,
     stars: 1700,
-    cardCode: "06740720",
+    cardCode: '06740720',
 
     fusions: [
       {
@@ -108948,11 +109027,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Three-legged Zombies",
-    description: "Bony and Tubby,\r\na friendly pair\r\nof skeletons.",
+    name: 'Three-legged Zombies',
+    description: 'Bony and Tubby,\r\na friendly pair\r\nof skeletons.',
     id: 359,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -108961,7 +109040,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 800,
     stars: 50,
-    cardCode: "33734439",
+    cardCode: '33734439',
 
     fusions: [
       {
@@ -109186,12 +109265,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Zera The Mant",
+    name: 'Zera The Mant',
     description:
-      "A huge, brutal\r\nmonster that attacks\r\nwith razor-sharp\r\nclaws.",
+      'A huge, brutal\r\nmonster that attacks\r\nwith razor-sharp\r\nclaws.',
     id: 360,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -109200,15 +109279,15 @@ export const CARDS_DB: Card[] = [
     attack: 2800,
     defense: 2300,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Flying Penguin",
-    description: "A rare penguin that\r\nflies with the wings\r\non its head.",
+    name: 'Flying Penguin',
+    description: 'A rare penguin that\r\nflies with the wings\r\non its head.',
     id: 361,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -109217,7 +109296,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "05628232",
+    cardCode: '05628232',
 
     fusions: [
       {
@@ -109287,12 +109366,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Millennium Shield",
+    name: 'Millennium Shield',
     description:
-      "A Millennium Item\r\ncandidate\r\nthat is said\r\nto block any\r\npowerful attack.",
+      'A Millennium Item\r\ncandidate\r\nthat is said\r\nto block any\r\npowerful attack.',
     id: 362,
     guardianStarA: 4,
     guardianStarB: 1,
@@ -109301,7 +109380,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 3000,
     stars: 200,
-    cardCode: "32012841",
+    cardCode: '32012841',
 
     fusions: [
       {
@@ -109646,11 +109725,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
     name: "Fairy's Gift",
-    description: "Flies around\r\nspreading happiness\r\nto all.",
+    description: 'Flies around\r\nspreading happiness\r\nto all.',
     id: 363,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -109659,7 +109738,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1000,
     stars: 120,
-    cardCode: "68401546",
+    cardCode: '68401546',
 
     fusions: [
       {
@@ -109949,12 +110028,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Black Luster Soldier",
+    name: 'Black Luster Soldier',
     description:
-      "A powerful warrior\r\nwith the same\r\ncapabilities as the\r\nlegendary Blue-eyes\r\nWhite Dragon.",
+      'A powerful warrior\r\nwith the same\r\ncapabilities as the\r\nlegendary Blue-eyes\r\nWhite Dragon.',
     id: 364,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -109963,16 +110042,16 @@ export const CARDS_DB: Card[] = [
     attack: 3000,
     defense: 2500,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
     name: "Fiend's Mirror",
     description:
-      "An arcane glass\r\nthat draws\r\nits enemies into\r\nthe mirror world.",
+      'An arcane glass\r\nthat draws\r\nits enemies into\r\nthe mirror world.',
     id: 365,
     guardianStarA: 10,
     guardianStarB: 5,
@@ -109981,16 +110060,16 @@ export const CARDS_DB: Card[] = [
     attack: 2100,
     defense: 1800,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Labyrinth Wall",
+    name: 'Labyrinth Wall',
     description:
-      "Walls appear\r\non the field to form\r\na labyrinth with\r\nno exit.",
+      'Walls appear\r\non the field to form\r\na labyrinth with\r\nno exit.',
     id: 366,
     guardianStarA: 4,
     guardianStarB: 2,
@@ -109999,7 +110078,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 3000,
     stars: 200,
-    cardCode: "67284908",
+    cardCode: '67284908',
 
     fusions: [
       {
@@ -110274,11 +110353,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Jirai Gumo",
-    description: "A monster spider\r\nthat dwells\r\nunder the earth.",
+    name: 'Jirai Gumo',
+    description: 'A monster spider\r\nthat dwells\r\nunder the earth.',
     id: 367,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -110287,7 +110366,7 @@ export const CARDS_DB: Card[] = [
     attack: 2200,
     defense: 100,
     stars: 80,
-    cardCode: "94773007",
+    cardCode: '94773007',
 
     fusions: [
       {
@@ -110297,11 +110376,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Shadow Ghoul",
-    description: "A dangerous zombie\r\nthat crawls\r\nin the dark.",
+    name: 'Shadow Ghoul',
+    description: 'A dangerous zombie\r\nthat crawls\r\nin the dark.',
     id: 368,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -110310,7 +110389,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1300,
     stars: 180,
-    cardCode: "30778711",
+    cardCode: '30778711',
 
     fusions: [
       {
@@ -110415,12 +110494,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Wall Shadow",
+    name: 'Wall Shadow',
     description:
-      "An unusually fast\r\nmonster that sweeps\r\nacross walls to\r\nattack its enemies.",
+      'An unusually fast\r\nmonster that sweeps\r\nacross walls to\r\nattack its enemies.',
     id: 369,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -110429,7 +110508,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 3000,
     stars: 999999,
-    cardCode: "63162310",
+    cardCode: '63162310',
 
     fusions: [
       {
@@ -110484,12 +110563,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Labyrinth Tank",
+    name: 'Labyrinth Tank',
     description:
-      "A tank that races\r\naround a labyrinth\r\nhunting down\r\nits enemies.",
+      'A tank that races\r\naround a labyrinth\r\nhunting down\r\nits enemies.',
     id: 370,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -110498,16 +110577,16 @@ export const CARDS_DB: Card[] = [
     attack: 2400,
     defense: 2400,
     stars: 999999,
-    cardCode: "99551425",
+    cardCode: '99551425',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Sanga of the Thunder",
+    name: 'Sanga of the Thunder',
     description:
-      "A golem that uses\r\nlightning attacks\r\nsimilar to the\r\nLabyrinth Brothers.",
+      'A golem that uses\r\nlightning attacks\r\nsimilar to the\r\nLabyrinth Brothers.',
     id: 371,
     guardianStarA: 5,
     guardianStarB: 1,
@@ -110516,7 +110595,7 @@ export const CARDS_DB: Card[] = [
     attack: 2600,
     defense: 2200,
     stars: 999999,
-    cardCode: "25955164",
+    cardCode: '25955164',
 
     fusions: [
       {
@@ -110611,12 +110690,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Kazejin",
+    name: 'Kazejin',
     description:
-      "A golem that\r\ncontrols the winds\r\nlike the Labyrinth\r\nBrothers.",
+      'A golem that\r\ncontrols the winds\r\nlike the Labyrinth\r\nBrothers.',
     id: 372,
     guardianStarA: 3,
     guardianStarB: 1,
@@ -110625,16 +110704,16 @@ export const CARDS_DB: Card[] = [
     attack: 2400,
     defense: 2200,
     stars: 999999,
-    cardCode: "62340868",
+    cardCode: '62340868',
 
     fusions: [],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Suijin",
+    name: 'Suijin',
     description:
-      "A golem that uses\r\nwater attacks like\r\nthe Labyrinth\r\nBrothers.",
+      'A golem that uses\r\nwater attacks like\r\nthe Labyrinth\r\nBrothers.',
     id: 373,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -110643,16 +110722,16 @@ export const CARDS_DB: Card[] = [
     attack: 2500,
     defense: 2400,
     stars: 999999,
-    cardCode: "98434877",
+    cardCode: '98434877',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Gate Guardian",
+    name: 'Gate Guardian',
     description:
-      "Sanga, Kazejin, and\r\nSuijin join to\r\nform a single,\r\npowerful monster.",
+      'Sanga, Kazejin, and\r\nSuijin join to\r\nform a single,\r\npowerful monster.',
     id: 374,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -110661,16 +110740,16 @@ export const CARDS_DB: Card[] = [
     attack: 3750,
     defense: 3400,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dungeon Worm",
+    name: 'Dungeon Worm',
     description:
-      "Hidden under\r\nthe floors of\r\na labyrinth,\r\nit swallows any\r\nwho pass above.",
+      'Hidden under\r\nthe floors of\r\na labyrinth,\r\nit swallows any\r\nwho pass above.',
     id: 375,
     guardianStarA: 4,
     guardianStarB: 9,
@@ -110679,7 +110758,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1500,
     stars: 290,
-    cardCode: "51228280",
+    cardCode: '51228280',
 
     fusions: [
       {
@@ -110689,12 +110768,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Monster Tamer",
+    name: 'Monster Tamer',
     description:
-      "A master of monsters\r\nthat exercises\r\ncontrol over several\r\ncreatures.",
+      'A master of monsters\r\nthat exercises\r\ncontrol over several\r\ncreatures.',
     id: 376,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -110703,7 +110782,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1600,
     stars: 320,
-    cardCode: "97612389",
+    cardCode: '97612389',
 
     fusions: [
       {
@@ -110738,12 +110817,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Ryu-kishin Powered",
+    name: 'Ryu-kishin Powered',
     description:
-      "Ryu-kishin enhanced\r\nby the powers of\r\ndarkness. Very sharp\r\ntalons make it\r\na worthy opponent.",
+      'Ryu-kishin enhanced\r\nby the powers of\r\ndarkness. Very sharp\r\ntalons make it\r\na worthy opponent.',
     id: 377,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -110752,16 +110831,16 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1200,
     stars: 160,
-    cardCode: "24611934",
+    cardCode: '24611934',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Swordstalker",
+    name: 'Swordstalker',
     description:
-      "A monster formed by\r\nthe vengeful souls\r\nof those who passed\r\naway in battle.",
+      'A monster formed by\r\nthe vengeful souls\r\nof those who passed\r\naway in battle.',
     id: 378,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -110770,14 +110849,14 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1600,
     stars: 400,
-    cardCode: "50005633",
+    cardCode: '50005633',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "La Jinn the Mystical Genie",
+    name: 'La Jinn the Mystical Genie',
     description:
       "A genie of the lamp\r\nthat's at the beck\r\nand call of its\r\nmaster.",
     id: 379,
@@ -110788,7 +110867,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1000,
     stars: 160,
-    cardCode: "97590747",
+    cardCode: '97590747',
 
     fusions: [
       {
@@ -110808,12 +110887,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Blue-eyes Ultimate Dragon",
+    name: 'Blue-eyes Ultimate Dragon',
     description:
-      "The ultimate dragon\r\nformed by the fusion\r\nof three Blue-eyes\r\nWhite Dragons.",
+      'The ultimate dragon\r\nformed by the fusion\r\nof three Blue-eyes\r\nWhite Dragons.',
     id: 380,
     guardianStarA: 8,
     guardianStarB: 10,
@@ -110822,15 +110901,15 @@ export const CARDS_DB: Card[] = [
     attack: 4500,
     defense: 3800,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
 
     fusions: [],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Toon Alligator",
-    description: "An alligator monster\r\nstraight from\r\nthe cartoons.",
+    name: 'Toon Alligator',
+    description: 'An alligator monster\r\nstraight from\r\nthe cartoons.',
     id: 381,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -110839,7 +110918,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1600,
     stars: 120,
-    cardCode: "59383041",
+    cardCode: '59383041',
 
     fusions: [
       {
@@ -110884,12 +110963,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Rude Kaiser",
+    name: 'Rude Kaiser',
     description:
-      "With an axe in each\r\nhand, this monster\r\ndelivers heavy\r\ndamage.",
+      'With an axe in each\r\nhand, this monster\r\ndelivers heavy\r\ndamage.',
     id: 382,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -110898,14 +110977,14 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1600,
     stars: 320,
-    cardCode: "26378150",
+    cardCode: '26378150',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Parrot Dragon",
+    name: 'Parrot Dragon',
     description:
       "A dragon from the\r\ncartoons that's more\r\ndangerous than it\r\nappears to be.",
     id: 383,
@@ -110916,7 +110995,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1300,
     stars: 290,
-    cardCode: "62762898",
+    cardCode: '62762898',
 
     fusions: [
       {
@@ -111031,12 +111110,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Dark Rabbit",
+    name: 'Dark Rabbit',
     description:
-      "A cartoon rabbit\r\nthat quickly leaps\r\nall over the place,\r\nmaking it a\r\ndifficult target.",
+      'A cartoon rabbit\r\nthat quickly leaps\r\nall over the place,\r\nmaking it a\r\ndifficult target.',
     id: 384,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -111045,7 +111124,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1500,
     stars: 120,
-    cardCode: "99261403",
+    cardCode: '99261403',
 
     fusions: [
       {
@@ -111170,11 +111249,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Bickuribox",
-    description: "A jack-in-the-box\r\nthat excels\r\nin surprise attacks.",
+    name: 'Bickuribox',
+    description: 'A jack-in-the-box\r\nthat excels\r\nin surprise attacks.',
     id: 385,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -111183,16 +111262,16 @@ export const CARDS_DB: Card[] = [
     attack: 2300,
     defense: 2000,
     stars: 900,
-    cardCode: "25655502",
+    cardCode: '25655502',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
     name: "Harpie's Pet Dragon",
     description:
-      "A favorite pet for\r\nharpies, but a very\r\ndangerous dragon.",
+      'A favorite pet for\r\nharpies, but a very\r\ndangerous dragon.',
     id: 386,
     guardianStarA: 3,
     guardianStarB: 9,
@@ -111201,7 +111280,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 2500,
     stars: 999999,
-    cardCode: "52040216",
+    cardCode: '52040216',
 
     fusions: [
       {
@@ -111316,11 +111395,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Mystic Lamp",
-    description: "A lamp\r\nused by wizards\r\nto mix potions.",
+    name: 'Mystic Lamp',
+    description: 'A lamp\r\nused by wizards\r\nto mix potions.',
     id: 387,
     guardianStarA: 7,
     guardianStarB: 4,
@@ -111329,7 +111408,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 300,
     stars: 15,
-    cardCode: "98049915",
+    cardCode: '98049915',
 
     fusions: [
       {
@@ -111559,12 +111638,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Pendulum Machine",
+    name: 'Pendulum Machine',
     description:
-      "A horrible torture\r\nmachine with a large\r\npendulum blade.",
+      'A horrible torture\r\nmachine with a large\r\npendulum blade.',
     id: 388,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -111573,7 +111652,7 @@ export const CARDS_DB: Card[] = [
     attack: 1750,
     defense: 2000,
     stars: 1000,
-    cardCode: "24433920",
+    cardCode: '24433920',
 
     fusions: [
       {
@@ -111643,12 +111722,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Giltia the D. Knight",
+    name: 'Giltia the D. Knight',
     description:
-      "Armed with a\r\nsoul-searing spear,\r\nthis creature favors\r\nmagic attacks.",
+      'Armed with a\r\nsoul-searing spear,\r\nthis creature favors\r\nmagic attacks.',
     id: 389,
     guardianStarA: 8,
     guardianStarB: 1,
@@ -111657,7 +111736,7 @@ export const CARDS_DB: Card[] = [
     attack: 1850,
     defense: 1500,
     stars: 290,
-    cardCode: "51828629",
+    cardCode: '51828629',
 
     fusions: [
       {
@@ -111687,12 +111766,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Launcher Spider",
+    name: 'Launcher Spider',
     description:
-      "A spider machine\r\nthat launches\r\nexplosive rockets\r\nagainst its enemies.",
+      'A spider machine\r\nthat launches\r\nexplosive rockets\r\nagainst its enemies.',
     id: 390,
     guardianStarA: 1,
     guardianStarB: 5,
@@ -111701,7 +111780,7 @@ export const CARDS_DB: Card[] = [
     attack: 2200,
     defense: 2500,
     stars: 999999,
-    cardCode: "87322377",
+    cardCode: '87322377',
 
     fusions: [
       {
@@ -111771,12 +111850,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Zoa",
+    name: 'Zoa',
     description:
-      "A monster\r\nwhose full potential\r\ncan be achieved\r\nwhen transformed\r\ninto its metal form.",
+      'A monster\r\nwhose full potential\r\ncan be achieved\r\nwhen transformed\r\ninto its metal form.',
     id: 391,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -111785,7 +111864,7 @@ export const CARDS_DB: Card[] = [
     attack: 2600,
     defense: 1900,
     stars: 999999,
-    cardCode: "24311372",
+    cardCode: '24311372',
 
     fusions: [
       {
@@ -111795,11 +111874,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Metalzoa",
-    description: "A metallic Zoa\r\ncapable of\r\nintensive attacks.",
+    name: 'Metalzoa',
+    description: 'A metallic Zoa\r\ncapable of\r\nintensive attacks.',
     id: 392,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -111808,16 +111887,16 @@ export const CARDS_DB: Card[] = [
     attack: 3000,
     defense: 2300,
     stars: 999999,
-    cardCode: "50705071",
+    cardCode: '50705071',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Zone Eater",
+    name: 'Zone Eater',
     description:
-      "A sea creature that\r\nswallows enemies and\r\nslowly digests them.",
+      'A sea creature that\r\nswallows enemies and\r\nslowly digests them.',
     id: 393,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -111826,7 +111905,7 @@ export const CARDS_DB: Card[] = [
     attack: 250,
     defense: 200,
     stars: 10,
-    cardCode: "86100785",
+    cardCode: '86100785',
 
     fusions: [
       {
@@ -111896,12 +111975,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Steel Scorpion",
+    name: 'Steel Scorpion',
     description:
-      "An iron-tailed\r\nmonster equipped\r\nwith very sharp\r\nscissors.",
+      'An iron-tailed\r\nmonster equipped\r\nwith very sharp\r\nscissors.',
     id: 394,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -111910,7 +111989,7 @@ export const CARDS_DB: Card[] = [
     attack: 250,
     defense: 300,
     stars: 10,
-    cardCode: "13599884",
+    cardCode: '13599884',
 
     fusions: [
       {
@@ -112095,12 +112174,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Dancing Elf",
+    name: 'Dancing Elf',
     description:
-      "An elf that dances\r\nacross the sky with\r\nwings of razor-sharp\r\nblades.",
+      'An elf that dances\r\nacross the sky with\r\nwings of razor-sharp\r\nblades.',
     id: 395,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -112109,7 +112188,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 200,
     stars: 10,
-    cardCode: "59983499",
+    cardCode: '59983499',
 
     fusions: [
       {
@@ -112544,12 +112623,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Ocubeam",
+    name: 'Ocubeam',
     description:
-      "Frightening in\r\nappearance, this\r\ncreature uses its\r\nlarge eyes and ears\r\nto keep track\r\nof any movement.",
+      'Frightening in\r\nappearance, this\r\ncreature uses its\r\nlarge eyes and ears\r\nto keep track\r\nof any movement.',
     id: 396,
     guardianStarA: 3,
     guardianStarB: 10,
@@ -112558,7 +112637,7 @@ export const CARDS_DB: Card[] = [
     attack: 1550,
     defense: 1650,
     stars: 260,
-    cardCode: "86088138",
+    cardCode: '86088138',
 
     fusions: [
       {
@@ -112758,12 +112837,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Leghul",
+    name: 'Leghul',
     description:
-      "Not a very powerful\r\nmonster despite its\r\nlarge fangs and\r\nspikes.",
+      'Not a very powerful\r\nmonster despite its\r\nlarge fangs and\r\nspikes.',
     id: 397,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -112772,7 +112851,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 350,
     stars: 15,
-    cardCode: "12472242",
+    cardCode: '12472242',
 
     fusions: [
       {
@@ -112802,11 +112881,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Ooguchi",
-    description: "A monstrous bullfrog\r\nwith poison spikes.",
+    name: 'Ooguchi',
+    description: 'A monstrous bullfrog\r\nwith poison spikes.',
     id: 398,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -112815,7 +112894,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 250,
     stars: 10,
-    cardCode: "58861941",
+    cardCode: '58861941',
 
     fusions: [
       {
@@ -112880,11 +112959,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Swordsman from a Foreign Land",
-    description: "An eastern warrior\r\narmed with a cursed\r\nsword.",
+    name: 'Swordsman from a Foreign Land',
+    description: 'An eastern warrior\r\narmed with a cursed\r\nsword.',
     id: 399,
     guardianStarA: 4,
     guardianStarB: 10,
@@ -112893,7 +112972,7 @@ export const CARDS_DB: Card[] = [
     attack: 250,
     defense: 250,
     stars: 10,
-    cardCode: "85255550",
+    cardCode: '85255550',
 
     fusions: [
       {
@@ -113213,11 +113292,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Emperor of the Land and Sea",
-    description: "A fire-breathing\r\nreptilian monster.",
+    name: 'Emperor of the Land and Sea',
+    description: 'A fire-breathing\r\nreptilian monster.',
     id: 400,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -113226,16 +113305,16 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1500,
     stars: 290,
-    cardCode: "11250655",
+    cardCode: '11250655',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Ushi Oni",
+    name: 'Ushi Oni',
     description:
-      "A bull monster\r\nresurrected by\r\nthe dark arts\r\nthat appears\r\nfrom inside a jar.",
+      'A bull monster\r\nresurrected by\r\nthe dark arts\r\nthat appears\r\nfrom inside a jar.',
     id: 401,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -113244,16 +113323,16 @@ export const CARDS_DB: Card[] = [
     attack: 2150,
     defense: 1950,
     stars: 700,
-    cardCode: "48649353",
+    cardCode: '48649353',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Monster Eye",
+    name: 'Monster Eye',
     description:
-      "A servant that\r\nmaintains a close\r\nwatch on anything\r\nand everything.\r\nIt throws up\r\na smokescreen\r\nwhen discovered.",
+      'A servant that\r\nmaintains a close\r\nwatch on anything\r\nand everything.\r\nIt throws up\r\na smokescreen\r\nwhen discovered.',
     id: 402,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -113262,7 +113341,7 @@ export const CARDS_DB: Card[] = [
     attack: 250,
     defense: 350,
     stars: 15,
-    cardCode: "84133008",
+    cardCode: '84133008',
 
     fusions: [
       {
@@ -113287,10 +113366,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Leogun",
+    name: 'Leogun',
     description:
       'Huge monster\r\nwith a lion\'s mane\r\nsimilar to the\r\n"King of Beasts".',
     id: 403,
@@ -113301,7 +113380,7 @@ export const CARDS_DB: Card[] = [
     attack: 1750,
     defense: 1550,
     stars: 290,
-    cardCode: "10538007",
+    cardCode: '10538007',
 
     fusions: [
       {
@@ -113541,12 +113620,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Tatsunootoshigo",
+    name: 'Tatsunootoshigo',
     description:
-      "A fast-moving sea\r\nmonster that has the\r\nbodies of a horse\r\nand a fish.",
+      'A fast-moving sea\r\nmonster that has the\r\nbodies of a horse\r\nand a fish.',
     id: 404,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -113555,7 +113634,7 @@ export const CARDS_DB: Card[] = [
     attack: 1350,
     defense: 1600,
     stars: 180,
-    cardCode: "47922711",
+    cardCode: '47922711',
 
     fusions: [
       {
@@ -113640,11 +113719,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Saber Slasher",
-    description: "A rampaging machine\r\nthat wields\r\na massive sword.",
+    name: 'Saber Slasher',
+    description: 'A rampaging machine\r\nthat wields\r\na massive sword.',
     id: 405,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -113653,7 +113732,7 @@ export const CARDS_DB: Card[] = [
     attack: 1450,
     defense: 1500,
     stars: 180,
-    cardCode: "73911410",
+    cardCode: '73911410',
 
     fusions: [
       {
@@ -113818,12 +113897,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Yaiba Robo",
+    name: 'Yaiba Robo',
     description:
-      "A machine\r\nwith several blades\r\nhidden within\r\nits square body.",
+      'A machine\r\nwith several blades\r\nhidden within\r\nits square body.',
     id: 406,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -113832,7 +113911,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1300,
     stars: 80,
-    cardCode: "10315429",
+    cardCode: '10315429',
 
     fusions: [
       {
@@ -114012,12 +114091,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Machine King",
+    name: 'Machine King',
     description:
-      "Armored with super\r\nalloy, this robot\r\nattacks with blasts\r\nof fire launched\r\nfrom both arms.",
+      'Armored with super\r\nalloy, this robot\r\nattacks with blasts\r\nof fire launched\r\nfrom both arms.',
     id: 407,
     guardianStarA: 1,
     guardianStarB: 8,
@@ -114026,7 +114105,7 @@ export const CARDS_DB: Card[] = [
     attack: 2200,
     defense: 2000,
     stars: 800,
-    cardCode: "46700124",
+    cardCode: '46700124',
 
     fusions: [
       {
@@ -114096,12 +114175,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Giant Mech-soldier",
+    name: 'Giant Mech-soldier',
     description:
-      "This monster swings\r\nan earth-shaking axe\r\nthat can eliminate\r\nenemies with\r\na single blow.",
+      'This monster swings\r\nan earth-shaking axe\r\nthat can eliminate\r\nenemies with\r\na single blow.',
     id: 408,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -114110,7 +114189,7 @@ export const CARDS_DB: Card[] = [
     attack: 1750,
     defense: 1900,
     stars: 400,
-    cardCode: "72299832",
+    cardCode: '72299832',
 
     fusions: [
       {
@@ -114165,12 +114244,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Metal Dragon",
+    name: 'Metal Dragon',
     description:
-      "A golden,\r\nfire-breathing\r\ndragon that burns\r\nany opponent\r\nin its path.",
+      'A golden,\r\nfire-breathing\r\ndragon that burns\r\nany opponent\r\nin its path.',
     id: 409,
     guardianStarA: 1,
     guardianStarB: 9,
@@ -114179,7 +114258,7 @@ export const CARDS_DB: Card[] = [
     attack: 1850,
     defense: 1700,
     stars: 350,
-    cardCode: "09293977",
+    cardCode: '09293977',
 
     fusions: [
       {
@@ -114589,12 +114668,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Mechanical Spider",
+    name: 'Mechanical Spider',
     description:
-      "A spider-shaped,\r\nmechanized monster\r\nwith sickles at\r\nthe end of its legs.",
+      'A spider-shaped,\r\nmechanized monster\r\nwith sickles at\r\nthe end of its legs.',
     id: 410,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -114603,7 +114682,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 500,
     stars: 20,
-    cardCode: "45688586",
+    cardCode: '45688586',
 
     fusions: [
       {
@@ -114783,12 +114862,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Bat",
+    name: 'Bat',
     description:
-      "A mechanized bat\r\nthat attacks\r\nby dropping\r\nexplosion orbs.",
+      'A mechanized bat\r\nthat attacks\r\nby dropping\r\nexplosion orbs.',
     id: 411,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -114797,7 +114876,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 350,
     stars: 15,
-    cardCode: "72076281",
+    cardCode: '72076281',
 
     fusions: [
       {
@@ -114977,12 +115056,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Giga-tech Wolf",
+    name: 'Giga-tech Wolf',
     description:
-      "A wolf made entirely\r\nof iron. Its steel\r\njaws can bite\r\nthrough anything.",
+      'A wolf made entirely\r\nof iron. Its steel\r\njaws can bite\r\nthrough anything.',
     id: 412,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -114991,7 +115070,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1400,
     stars: 120,
-    cardCode: "08471389",
+    cardCode: '08471389',
 
     fusions: [
       {
@@ -115171,12 +115250,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Cyber Soldier",
+    name: 'Cyber Soldier',
     description:
-      "Round-shaped\r\nsoldiers that roll\r\naround and act as\r\nguardians to the\r\nMachine King.",
+      'Round-shaped\r\nsoldiers that roll\r\naround and act as\r\nguardians to the\r\nMachine King.',
     id: 413,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -115185,7 +115264,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1700,
     stars: 260,
-    cardCode: "44865098",
+    cardCode: '44865098',
     fusions: [
       {
         card1: 413,
@@ -115309,12 +115388,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Shovel Crusher",
+    name: 'Shovel Crusher',
     description:
-      "Armed with\r\na pair of shovels,\r\nthis creature is\r\na walking engine\r\nof destruction.",
+      'Armed with\r\na pair of shovels,\r\nthis creature is\r\na walking engine\r\nof destruction.',
     id: 414,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -115323,7 +115402,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1200,
     stars: 60,
-    cardCode: "71950093",
+    cardCode: '71950093',
     fusions: [
       {
         card1: 414,
@@ -115502,12 +115581,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Mechanicalchacer",
+    name: 'Mechanicalchacer',
     description:
-      "A hunter that\r\nrelentlessly pursues\r\nits target by order\r\nof the Machine King.",
+      'A hunter that\r\nrelentlessly pursues\r\nits target by order\r\nof the Machine King.',
     id: 415,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -115516,15 +115595,15 @@ export const CARDS_DB: Card[] = [
     attack: 1850,
     defense: 800,
     stars: 120,
-    cardCode: "07359741",
+    cardCode: '07359741',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Blocker",
+    name: 'Blocker',
     description:
-      "Each separate part\r\nof this creature is\r\nan individual weapon\r\ncapable of\r\ndevastating attacks.",
+      'Each separate part\r\nof this creature is\r\nan individual weapon\r\ncapable of\r\ndevastating attacks.',
     id: 416,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -115533,7 +115612,7 @@ export const CARDS_DB: Card[] = [
     attack: 850,
     defense: 1800,
     stars: 120,
-    cardCode: "34743446",
+    cardCode: '34743446',
     fusions: [
       {
         card1: 416,
@@ -115712,12 +115791,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Blast Juggler",
+    name: 'Blast Juggler',
     description:
-      "A walking time\r\ndevice that loves\r\nto blow enemies\r\naway.",
+      'A walking time\r\ndevice that loves\r\nto blow enemies\r\naway.',
     id: 417,
     guardianStarA: 1,
     guardianStarB: 10,
@@ -115726,7 +115805,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 900,
     stars: 40,
-    cardCode: "70138455",
+    cardCode: '70138455',
     fusions: [
       {
         card1: 417,
@@ -116040,12 +116119,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Golgoil",
+    name: 'Golgoil',
     description:
-      "A massive iron golem\r\nthat appears from\r\na dimensional rift.",
+      'A massive iron golem\r\nthat appears from\r\na dimensional rift.',
     id: 418,
     guardianStarA: 10,
     guardianStarB: 6,
@@ -116054,7 +116133,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1600,
     stars: 100,
-    cardCode: "07526150",
+    cardCode: '07526150',
 
     fusions: [
       {
@@ -116234,12 +116313,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Giganto",
+    name: 'Giganto',
     description:
-      "This creature swings\r\naround a huge spiked\r\nball to destroy its\r\nenemies.",
+      'This creature swings\r\naround a huge spiked\r\nball to destroy its\r\nenemies.',
     id: 419,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -116248,7 +116327,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1800,
     stars: 350,
-    cardCode: "33621868",
+    cardCode: '33621868',
 
     fusions: [
       {
@@ -116303,12 +116382,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Cyber-Stein",
+    name: 'Cyber-Stein',
     description:
-      "Created in a\r\nbasement lab, this\r\ninfernal machine\r\nlaunches rockets\r\nfrom within its\r\nmouth.",
+      'Created in a\r\nbasement lab, this\r\ninfernal machine\r\nlaunches rockets\r\nfrom within its\r\nmouth.',
     id: 420,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -116317,7 +116396,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 500,
     stars: 25,
-    cardCode: "69015963",
+    cardCode: '69015963',
 
     fusions: [
       {
@@ -116497,12 +116576,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Cyber Commander",
+    name: 'Cyber Commander',
     description:
-      "A strike force\r\nequipped with\r\nrader detectors\r\nand sensors.",
+      'A strike force\r\nequipped with\r\nrader detectors\r\nand sensors.',
     id: 421,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -116511,7 +116590,7 @@ export const CARDS_DB: Card[] = [
     attack: 750,
     defense: 700,
     stars: 30,
-    cardCode: "06400512",
+    cardCode: '06400512',
 
     fusions: [
       {
@@ -116691,12 +116770,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Jinzo #7",
+    name: 'Jinzo #7',
     description:
-      "Created in an\r\nunderground lab,\r\nthis artificial\r\nbeing occasionally\r\ngoes berserk.",
+      'Created in an\r\nunderground lab,\r\nthis artificial\r\nbeing occasionally\r\ngoes berserk.',
     id: 422,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -116705,7 +116784,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 400,
     stars: 20,
-    cardCode: "32809211",
+    cardCode: '32809211',
 
     fusions: [
       {
@@ -116885,12 +116964,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dice Armadillo",
+    name: 'Dice Armadillo',
     description:
-      "An armadillo-like\r\ncreature that forms\r\na die whenever it\r\nrolls up its body.",
+      'An armadillo-like\r\ncreature that forms\r\na die whenever it\r\nrolls up its body.',
     id: 423,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -116899,7 +116978,7 @@ export const CARDS_DB: Card[] = [
     attack: 1650,
     defense: 1800,
     stars: 320,
-    cardCode: "69893315",
+    cardCode: '69893315',
 
     fusions: [
       {
@@ -116954,11 +117033,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Sky Dragon",
-    description: "A bird-like dragon\r\nwith four bladed\r\nwings.",
+    name: 'Sky Dragon',
+    description: 'A bird-like dragon\r\nwith four bladed\r\nwings.',
     id: 424,
     guardianStarA: 3,
     guardianStarB: 4,
@@ -116967,7 +117046,7 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1800,
     stars: 1000,
-    cardCode: "95288024",
+    cardCode: '95288024',
 
     fusions: [
       {
@@ -117202,12 +117281,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Thunder Dragon",
+    name: 'Thunder Dragon',
     description:
-      "A dragon that\r\nsummons thunder and\r\nlightning to attack\r\nits opponents.",
+      'A dragon that\r\nsummons thunder and\r\nlightning to attack\r\nits opponents.',
     id: 425,
     guardianStarA: 5,
     guardianStarB: 2,
@@ -117216,7 +117295,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1500,
     stars: 230,
-    cardCode: "31786629",
+    cardCode: '31786629',
 
     fusions: [
       {
@@ -117831,12 +117910,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Stone D.",
+    name: 'Stone D.',
     description:
-      "With a body\r\nconsisting entirely\r\nof rocks, \r\nthis dragon\r\nflings boulders\r\nat its enemies.",
+      'With a body\r\nconsisting entirely\r\nof rocks, \r\nthis dragon\r\nflings boulders\r\nat its enemies.',
     id: 426,
     guardianStarA: 4,
     guardianStarB: 1,
@@ -117845,7 +117924,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 2300,
     stars: 900,
-    cardCode: "68171737",
+    cardCode: '68171737',
 
     fusions: [
       {
@@ -118095,11 +118174,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Kaiser Dragon",
-    description: "A very proud and\r\npowerful dragon\r\nemperor.",
+    name: 'Kaiser Dragon',
+    description: 'A very proud and\r\npowerful dragon\r\nemperor.',
     id: 427,
     guardianStarA: 8,
     guardianStarB: 2,
@@ -118108,7 +118187,7 @@ export const CARDS_DB: Card[] = [
     attack: 2300,
     defense: 2000,
     stars: 900,
-    cardCode: "94566432",
+    cardCode: '94566432',
 
     fusions: [
       {
@@ -118153,12 +118232,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Magician of Faith",
+    name: 'Magician of Faith',
     description:
-      "Despite its weak\r\nstrength, this\r\ncreature is capable\r\nof casting spells\r\nto eliminate\r\ndarkness.",
+      'Despite its weak\r\nstrength, this\r\ncreature is capable\r\nof casting spells\r\nto eliminate\r\ndarkness.',
     id: 428,
     guardianStarA: 8,
     guardianStarB: 3,
@@ -118167,7 +118246,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 400,
     stars: 999999,
-    cardCode: "31560081",
+    cardCode: '31560081',
 
     fusions: [
       {
@@ -118467,12 +118546,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Goddess of Whim",
+    name: 'Goddess of Whim',
     description:
-      "A shy goddess that\r\nseems to spend the\r\nmajority of her\r\ntime sleeping.",
+      'A shy goddess that\r\nseems to spend the\r\nmajority of her\r\ntime sleeping.',
     id: 429,
     guardianStarA: 8,
     guardianStarB: 4,
@@ -118481,7 +118560,7 @@ export const CARDS_DB: Card[] = [
     attack: 950,
     defense: 700,
     stars: 999999,
-    cardCode: "67959180",
+    cardCode: '67959180',
 
     fusions: [
       {
@@ -118811,12 +118890,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Water Magician",
+    name: 'Water Magician',
     description:
-      "This creature\r\nsurrounds opponents\r\nwith water and\r\nenvelops them in a\r\nsweeping attack.",
+      'This creature\r\nsurrounds opponents\r\nwith water and\r\nenvelops them in a\r\nsweeping attack.',
     id: 430,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -118825,7 +118904,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1000,
     stars: 120,
-    cardCode: "93343894",
+    cardCode: '93343894',
 
     fusions: [
       {
@@ -119070,12 +119149,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Ice Water",
+    name: 'Ice Water',
     description:
-      "A very aggressive\r\nmermaid with spikes\r\nfor attacking\r\nenemies.",
+      'A very aggressive\r\nmermaid with spikes\r\nfor attacking\r\nenemies.',
     id: 431,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -119084,7 +119163,7 @@ export const CARDS_DB: Card[] = [
     attack: 1150,
     defense: 900,
     stars: 55,
-    cardCode: "20848593",
+    cardCode: '20848593',
 
     fusions: [
       {
@@ -119364,12 +119443,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Waterdragon Fairy",
+    name: 'Waterdragon Fairy',
     description:
-      "A fairy that\r\nwanders the seas.\r\nRumored to have\r\nthe capabilities\r\nfor summoning sea\r\ndragons.",
+      'A fairy that\r\nwanders the seas.\r\nRumored to have\r\nthe capabilities\r\nfor summoning sea\r\ndragons.',
     id: 432,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -119378,7 +119457,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 700,
     stars: 45,
-    cardCode: "66836598",
+    cardCode: '66836598',
 
     fusions: [
       {
@@ -119663,12 +119742,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Ancient Elf",
+    name: 'Ancient Elf',
     description:
-      "This elf is rumored\r\nto have lived for\r\nthousands of years.\r\nHe leads an army of\r\nspirits against his\r\nenemies.",
+      'This elf is rumored\r\nto have lived for\r\nthousands of years.\r\nHe leads an army of\r\nspirits against his\r\nenemies.',
     id: 433,
     guardianStarA: 8,
     guardianStarB: 5,
@@ -119677,7 +119756,7 @@ export const CARDS_DB: Card[] = [
     attack: 1450,
     defense: 1200,
     stars: 120,
-    cardCode: "93221206",
+    cardCode: '93221206',
 
     fusions: [
       {
@@ -119987,11 +120066,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Beautiful Beast Trainer",
-    description: "A rare female\r\nmagic-user armed\r\nwith a vicious whip.",
+    name: 'Beautiful Beast Trainer',
+    description: 'A rare female\r\nmagic-user armed\r\nwith a vicious whip.',
     id: 434,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -120000,7 +120079,7 @@ export const CARDS_DB: Card[] = [
     attack: 1750,
     defense: 1500,
     stars: 260,
-    cardCode: "29616941",
+    cardCode: '29616941',
 
     fusions: [
       {
@@ -120235,11 +120314,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Water Girl",
-    description: "A beautiful creature\r\nthat flings icy\r\narrows.",
+    name: 'Water Girl',
+    description: 'A beautiful creature\r\nthat flings icy\r\narrows.',
     id: 435,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -120248,7 +120327,7 @@ export const CARDS_DB: Card[] = [
     attack: 1250,
     defense: 1000,
     stars: 70,
-    cardCode: "55014050",
+    cardCode: '55014050',
 
     fusions: [
       {
@@ -120528,12 +120607,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "White Dolphin",
+    name: 'White Dolphin',
     description:
-      "A white, horned\r\ndolphin that attacks\r\nby calling up\r\ntidal waves.",
+      'A white, horned\r\ndolphin that attacks\r\nby calling up\r\ntidal waves.',
     id: 436,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -120542,7 +120621,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 400,
     stars: 20,
-    cardCode: "92409659",
+    cardCode: '92409659',
 
     fusions: [
       {
@@ -120712,11 +120791,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Deepsea Shark",
-    description: "A violent shark that\r\nattacks anything\r\nin the sea.",
+    name: 'Deepsea Shark',
+    description: 'A violent shark that\r\nattacks anything\r\nin the sea.',
     id: 437,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -120725,15 +120804,15 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1600,
     stars: 350,
-    cardCode: "28593363",
+    cardCode: '28593363',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Metal Fish",
-    description: "A steel fish\r\narmed with a sharp\r\ndorsal fin.",
+    name: 'Metal Fish',
+    description: 'A steel fish\r\narmed with a sharp\r\ndorsal fin.',
     id: 438,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -120742,7 +120821,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1900,
     stars: 350,
-    cardCode: "55998462",
+    cardCode: '55998462',
 
     fusions: [
       {
@@ -120832,11 +120911,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Bottom Dweller",
-    description: "A beautiful swimmer\r\nwith a very nasty\r\ntemperament.",
+    name: 'Bottom Dweller',
+    description: 'A beautiful swimmer\r\nwith a very nasty\r\ntemperament.',
     id: 439,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -120845,7 +120924,7 @@ export const CARDS_DB: Card[] = [
     attack: 1650,
     defense: 1700,
     stars: 290,
-    cardCode: "81386177",
+    cardCode: '81386177',
 
     fusions: [
       {
@@ -120925,12 +121004,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "7 Colored Fish",
+    name: '7 Colored Fish',
     description:
-      "A rare rainbow fish\r\nthat is almost\r\nimpossible to catch.",
+      'A rare rainbow fish\r\nthat is almost\r\nimpossible to catch.',
     id: 440,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -120939,15 +121018,15 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 800,
     stars: 120,
-    cardCode: "23771716",
+    cardCode: '23771716',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Mech Bass",
-    description: "This creature\r\ncarries a plasma\r\ncannon on its back.",
+    name: 'Mech Bass',
+    description: 'This creature\r\ncarries a plasma\r\ncannon on its back.',
     id: 441,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -120956,7 +121035,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1500,
     stars: 290,
-    cardCode: "50176820",
+    cardCode: '50176820',
 
     fusions: [
       {
@@ -120991,12 +121070,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Aqua Dragon",
+    name: 'Aqua Dragon',
     description:
-      "A dragon that dwells\r\nin the sea. It is\r\ncapable of spitting\r\nhigh-pressure blasts\r\nof water.",
+      'A dragon that dwells\r\nin the sea. It is\r\ncapable of spitting\r\nhigh-pressure blasts\r\nof water.',
     id: 442,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -121005,7 +121084,7 @@ export const CARDS_DB: Card[] = [
     attack: 2250,
     defense: 1900,
     stars: 700,
-    cardCode: "86164529",
+    cardCode: '86164529',
 
     fusions: [
       {
@@ -121050,12 +121129,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Sea King Dragon",
+    name: 'Sea King Dragon',
     description:
-      "The king of the seas,\r\nthis creature is\r\nprotected by a solid\r\nshell and spits\r\npoisonous bubbles at\r\nits enemies.",
+      'The king of the seas,\r\nthis creature is\r\nprotected by a solid\r\nshell and spits\r\npoisonous bubbles at\r\nits enemies.',
     id: 443,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -121064,7 +121143,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1700,
     stars: 1000,
-    cardCode: "23659124",
+    cardCode: '23659124',
 
     fusions: [
       {
@@ -121174,12 +121253,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Turu-Purun",
+    name: 'Turu-Purun',
     description:
-      "A strange, one-eyed\r\nmonster armed with\r\na dangerous spear.",
+      'A strange, one-eyed\r\nmonster armed with\r\na dangerous spear.',
     id: 444,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -121188,7 +121267,7 @@ export const CARDS_DB: Card[] = [
     attack: 450,
     defense: 500,
     stars: 20,
-    cardCode: "59053232",
+    cardCode: '59053232',
 
     fusions: [
       {
@@ -121248,12 +121327,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Guardian of the Sea",
+    name: 'Guardian of the Sea',
     description:
-      "A merman warrior\r\nthat attacks anyone\r\nwho dares to\r\npollute the sea.",
+      'A merman warrior\r\nthat attacks anyone\r\nwho dares to\r\npollute the sea.',
     id: 445,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -121262,7 +121341,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1000,
     stars: 80,
-    cardCode: "85448931",
+    cardCode: '85448931',
 
     fusions: [
       {
@@ -121322,12 +121401,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Aqua Snake",
+    name: 'Aqua Snake',
     description:
-      "A creature that\r\ndrowns its opponents\r\nby mesmerizing them\r\nwith the ball on\r\nthe end of its tail.",
+      'A creature that\r\ndrowns its opponents\r\nby mesmerizing them\r\nwith the ball on\r\nthe end of its tail.',
     id: 446,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -121336,7 +121415,7 @@ export const CARDS_DB: Card[] = [
     attack: 1050,
     defense: 900,
     stars: 50,
-    cardCode: "12436646",
+    cardCode: '12436646',
 
     fusions: [
       {
@@ -121396,11 +121475,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Giant Red Seasnake",
-    description: "A sea serpent\r\nthat bites anything\r\nthat passes nearby.",
+    name: 'Giant Red Seasnake',
+    description: 'A sea serpent\r\nthat bites anything\r\nthat passes nearby.',
     id: 447,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -121409,16 +121488,16 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 800,
     stars: 120,
-    cardCode: "58831685",
+    cardCode: '58831685',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Spike Seadra",
+    name: 'Spike Seadra',
     description:
-      "Using the spikes\r\nsprouting from its\r\nbody, this creature\r\nstabs its opponents\r\nand floods them\r\nwith electricity.",
+      'Using the spikes\r\nsprouting from its\r\nbody, this creature\r\nstabs its opponents\r\nand floods them\r\nwith electricity.',
     id: 448,
     guardianStarA: 5,
     guardianStarB: 7,
@@ -121427,7 +121506,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1300,
     stars: 180,
-    cardCode: "85326399",
+    cardCode: '85326399',
 
     fusions: [
       {
@@ -121922,12 +122001,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "30,000-Year White Turtle",
+    name: '30,000-Year White Turtle',
     description:
-      "A massive and\r\nwell-protected\r\ngiant turtle\r\nthat has lived\r\nover 30000 years.",
+      'A massive and\r\nwell-protected\r\ngiant turtle\r\nthat has lived\r\nover 30000 years.',
     id: 449,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -121936,7 +122015,7 @@ export const CARDS_DB: Card[] = [
     attack: 1250,
     defense: 2100,
     stars: 290,
-    cardCode: "11714098",
+    cardCode: '11714098',
 
     fusions: [
       {
@@ -122101,12 +122180,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Kappa Avenger",
+    name: 'Kappa Avenger',
     description:
-      "An amphibian sworn\r\nto avenge the death\r\nof its brothers.",
+      'An amphibian sworn\r\nto avenge the death\r\nof its brothers.',
     id: 450,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -122115,7 +122194,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 60,
-    cardCode: "48109103",
+    cardCode: '48109103',
 
     fusions: [
       {
@@ -122260,12 +122339,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Kanikabuto",
+    name: 'Kanikabuto',
     description:
-      "A crab monster with\r\ntwo massive scissors\r\nfor cutting up\r\nenemies.",
+      'A crab monster with\r\ntwo massive scissors\r\nfor cutting up\r\nenemies.',
     id: 451,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -122274,7 +122353,7 @@ export const CARDS_DB: Card[] = [
     attack: 650,
     defense: 900,
     stars: 30,
-    cardCode: "84103702",
+    cardCode: '84103702',
 
     fusions: [
       {
@@ -122324,12 +122403,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Zarigun",
+    name: 'Zarigun',
     description:
-      "A newly evolved\r\ncrayfish with sharp\r\nscissors for\r\nclipping the enemy.",
+      'A newly evolved\r\ncrayfish with sharp\r\nscissors for\r\nclipping the enemy.',
     id: 452,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -122338,7 +122417,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 700,
     stars: 30,
-    cardCode: "10598400",
+    cardCode: '10598400',
 
     fusions: [
       {
@@ -122388,12 +122467,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Millennium Golem",
+    name: 'Millennium Golem',
     description:
-      "A golem\r\nthat has protected\r\ntreasure for nearly\r\na millennium.",
+      'A golem\r\nthat has protected\r\ntreasure for nearly\r\na millennium.',
     id: 453,
     guardianStarA: 4,
     guardianStarB: 2,
@@ -122402,7 +122481,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 2200,
     stars: 800,
-    cardCode: "47986555",
+    cardCode: '47986555',
 
     fusions: [
       {
@@ -122517,12 +122596,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Destroyer Golem",
+    name: 'Destroyer Golem',
     description:
-      "A golem with a\r\nmassive right hand\r\nfor crushing its\r\nvictims.",
+      'A golem with a\r\nmassive right hand\r\nfor crushing its\r\nvictims.',
     id: 454,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -122531,7 +122610,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1000,
     stars: 100,
-    cardCode: "73481154",
+    cardCode: '73481154',
 
     fusions: [
       {
@@ -122671,12 +122750,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Barrel Rock",
+    name: 'Barrel Rock',
     description:
-      "A monster that\r\ncharges into enemies\r\nfiring a pair of\r\ncannons mounted on\r\nits shoulders.",
+      'A monster that\r\ncharges into enemies\r\nfiring a pair of\r\ncannons mounted on\r\nits shoulders.',
     id: 455,
     guardianStarA: 4,
     guardianStarB: 9,
@@ -122685,7 +122764,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1300,
     stars: 80,
-    cardCode: "10476868",
+    cardCode: '10476868',
 
     fusions: [
       {
@@ -122870,12 +122949,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Minomushi Warrior",
+    name: 'Minomushi Warrior',
     description:
-      "A rock warrior\r\nthat wields\r\na very heavy sword\r\ncarved from stone.",
+      'A rock warrior\r\nthat wields\r\na very heavy sword\r\ncarved from stone.',
     id: 456,
     guardianStarA: 4,
     guardianStarB: 10,
@@ -122884,7 +122963,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1200,
     stars: 100,
-    cardCode: "46864967",
+    cardCode: '46864967',
 
     fusions: [
       {
@@ -123034,12 +123113,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Stone Ghost",
+    name: 'Stone Ghost',
     description:
-      "A creature that\r\nerupts with anger,\r\nresulting in a\r\ncrushing rain of\r\nboulders.",
+      'A creature that\r\nerupts with anger,\r\nresulting in a\r\ncrushing rain of\r\nboulders.',
     id: 457,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -123048,7 +123127,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "72269672",
+    cardCode: '72269672',
 
     fusions: [
       {
@@ -123218,12 +123297,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Kaminari Attack",
+    name: 'Kaminari Attack',
     description:
-      "A monster that\r\njudges wrong-doers\r\nand punishes them\r\nappropriately.",
+      'A monster that\r\njudges wrong-doers\r\nand punishes them\r\nappropriately.',
     id: 458,
     guardianStarA: 5,
     guardianStarB: 10,
@@ -123232,7 +123311,7 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1400,
     stars: 290,
-    cardCode: "09653271",
+    cardCode: '09653271',
 
     fusions: [
       {
@@ -123277,12 +123356,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Tripwire Beast",
+    name: 'Tripwire Beast',
     description:
-      "This creature\r\nattacks enemies\r\nwith electromagnetic\r\nwaves.",
+      'This creature\r\nattacks enemies\r\nwith electromagnetic\r\nwaves.',
     id: 459,
     guardianStarA: 5,
     guardianStarB: 3,
@@ -123291,7 +123370,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1300,
     stars: 100,
-    cardCode: "45042329",
+    cardCode: '45042329',
 
     fusions: [
       {
@@ -123466,12 +123545,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Bolt Escargot",
+    name: 'Bolt Escargot',
     description:
-      "This creature spits\r\na gooey substance\r\nthat robs enemies of\r\nmobility and then\r\nstuns them with\r\nelectric shocks.",
+      'This creature spits\r\na gooey substance\r\nthat robs enemies of\r\nmobility and then\r\nstuns them with\r\nelectric shocks.',
     id: 460,
     guardianStarA: 5,
     guardianStarB: 2,
@@ -123480,7 +123559,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1500,
     stars: 180,
-    cardCode: "12146024",
+    cardCode: '12146024',
 
     fusions: [
       {
@@ -123585,12 +123664,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Bolt Penguin",
+    name: 'Bolt Penguin',
     description:
-      "A monster\r\nwith a pair of\r\nelectric whips\r\ninstead of arms.",
+      'A monster\r\nwith a pair of\r\nelectric whips\r\ninstead of arms.',
     id: 461,
     guardianStarA: 5,
     guardianStarB: 9,
@@ -123599,7 +123678,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 800,
     stars: 50,
-    cardCode: "48531733",
+    cardCode: '48531733',
 
     fusions: [
       {
@@ -123814,11 +123893,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "The Immortal of Thunder",
-    description: "A creature that\r\nattacks enemies\r\nwith thunderbolts.",
+    name: 'The Immortal of Thunder',
+    description: 'A creature that\r\nattacks enemies\r\nwith thunderbolts.',
     id: 462,
     guardianStarA: 5,
     guardianStarB: 8,
@@ -123827,7 +123906,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1300,
     stars: 160,
-    cardCode: "84926738",
+    cardCode: '84926738',
 
     fusions: [
       {
@@ -123932,11 +124011,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Electric Snake",
-    description: "A serpent with a\r\ntail for storing\r\nelectricity.",
+    name: 'Electric Snake',
+    description: 'A serpent with a\r\ntail for storing\r\nelectricity.',
     id: 463,
     guardianStarA: 5,
     guardianStarB: 1,
@@ -123945,7 +124024,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 900,
     stars: 40,
-    cardCode: "11324436",
+    cardCode: '11324436',
 
     fusions: [
       {
@@ -124175,11 +124254,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Wing Eagle",
-    description: "A hunter of the\r\nskies that has never\r\nmissed a target.",
+    name: 'Wing Eagle',
+    description: 'A hunter of the\r\nskies that has never\r\nmissed a target.',
     id: 464,
     guardianStarA: 3,
     guardianStarB: 7,
@@ -124188,7 +124267,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1500,
     stars: 290,
-    cardCode: "47319141",
+    cardCode: '47319141',
 
     fusions: [
       {
@@ -124238,12 +124317,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Punished Eagle",
+    name: 'Punished Eagle',
     description:
-      "A judge of the skies\r\nthat delivers\r\na sentence with\r\nits punishing\r\nsilver-white claws.",
+      'A judge of the skies\r\nthat delivers\r\na sentence with\r\nits punishing\r\nsilver-white claws.',
     id: 465,
     guardianStarA: 3,
     guardianStarB: 5,
@@ -124252,7 +124331,7 @@ export const CARDS_DB: Card[] = [
     attack: 2100,
     defense: 1800,
     stars: 550,
-    cardCode: "74703140",
+    cardCode: '74703140',
 
     fusions: [
       {
@@ -124287,12 +124366,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Skull Red Bird",
+    name: 'Skull Red Bird',
     description:
-      "This monster\r\nswoops down\r\nand attacks with\r\na rain of knives\r\nstored in its wings.",
+      'This monster\r\nswoops down\r\nand attacks with\r\na rain of knives\r\nstored in its wings.',
     id: 466,
     guardianStarA: 3,
     guardianStarB: 8,
@@ -124301,7 +124380,7 @@ export const CARDS_DB: Card[] = [
     attack: 1550,
     defense: 1200,
     stars: 140,
-    cardCode: "10202894",
+    cardCode: '10202894',
 
     fusions: [
       {
@@ -124351,12 +124430,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Crimson Sunbird",
+    name: 'Crimson Sunbird',
     description:
-      "A monster burning\r\nwith crimson flames\r\nand capable of\r\ndelivering a rain of\r\nsparks by flapping\r\nits wings.",
+      'A monster burning\r\nwith crimson flames\r\nand capable of\r\ndelivering a rain of\r\nsparks by flapping\r\nits wings.',
     id: 467,
     guardianStarA: 1,
     guardianStarB: 7,
@@ -124365,16 +124444,16 @@ export const CARDS_DB: Card[] = [
     attack: 2300,
     defense: 1800,
     stars: 700,
-    cardCode: "46696593",
+    cardCode: '46696593',
 
     fusions: [],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Queen Bird",
+    name: 'Queen Bird',
     description:
-      "A creature that\r\nattacks its enemies\r\nwith its large beak.",
+      'A creature that\r\nattacks its enemies\r\nwith its large beak.',
     id: 468,
     guardianStarA: 3,
     guardianStarB: 9,
@@ -124383,7 +124462,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 2000,
     stars: 260,
-    cardCode: "73081602",
+    cardCode: '73081602',
 
     fusions: [
       {
@@ -124438,12 +124517,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Armed Ninja",
+    name: 'Armed Ninja',
     description:
-      "A blue ninja\r\nthat attacks\r\nwith a large sickle\r\nand spiked feet.",
+      'A blue ninja\r\nthat attacks\r\nwith a large sickle\r\nand spiked feet.',
     id: 469,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -124452,7 +124531,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 300,
     stars: 15,
-    cardCode: "09076207",
+    cardCode: '09076207',
 
     fusions: [
       {
@@ -124687,12 +124766,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Magical Ghost",
+    name: 'Magical Ghost',
     description:
-      "This creature casts\r\na spell of terror\r\nand confusion just\r\nbefore attacking\r\nits enemies.",
+      'This creature casts\r\na spell of terror\r\nand confusion just\r\nbefore attacking\r\nits enemies.',
     id: 470,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -124701,7 +124780,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1400,
     stars: 140,
-    cardCode: "46474915",
+    cardCode: '46474915',
 
     fusions: [
       {
@@ -124821,12 +124900,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Soul Hunter",
+    name: 'Soul Hunter',
     description:
-      "This clown feeds\r\nthe life force of\r\nits enemies to\r\na monstrous lizard.",
+      'This clown feeds\r\nthe life force of\r\nits enemies to\r\na monstrous lizard.',
     id: 471,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -124835,16 +124914,16 @@ export const CARDS_DB: Card[] = [
     attack: 2200,
     defense: 1800,
     stars: 800,
-    cardCode: "72869010",
+    cardCode: '72869010',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Air Eater",
+    name: 'Air Eater',
     description:
-      "A monster that\r\nsuffocates its\r\nenemy by feeding\r\non the surrounding\r\nair supply.",
+      'A monster that\r\nsuffocates its\r\nenemy by feeding\r\non the surrounding\r\nair supply.',
     id: 472,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -124853,16 +124932,16 @@ export const CARDS_DB: Card[] = [
     attack: 2100,
     defense: 1600,
     stars: 1000,
-    cardCode: "08353769",
+    cardCode: '08353769',
 
     fusions: [],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Vermillion Sparrow",
+    name: 'Vermillion Sparrow',
     description:
-      "A fiery warrior\r\ncreature that\r\nunleashes intense\r\nheat from its body.",
+      'A fiery warrior\r\ncreature that\r\nunleashes intense\r\nheat from its body.',
     id: 473,
     guardianStarA: 1,
     guardianStarB: 10,
@@ -124871,7 +124950,7 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1500,
     stars: 320,
-    cardCode: "35752363",
+    cardCode: '35752363',
 
     fusions: [
       {
@@ -124976,12 +125055,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Sea Kamen",
+    name: 'Sea Kamen',
     description:
-      "A cruel monster that\r\nslices up enemies\r\nwith its sharp claws.",
+      'A cruel monster that\r\nslices up enemies\r\nwith its sharp claws.',
     id: 474,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -124990,7 +125069,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1300,
     stars: 120,
-    cardCode: "71746462",
+    cardCode: '71746462',
 
     fusions: [
       {
@@ -125025,12 +125104,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Sinister Serpent",
+    name: 'Sinister Serpent',
     description:
-      "A flying poison\r\nsnake that is\r\nnot very good\r\nat maneuvering\r\non the ground.",
+      'A flying poison\r\nsnake that is\r\nnot very good\r\nat maneuvering\r\non the ground.',
     id: 475,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -125039,7 +125118,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 250,
     stars: 10,
-    cardCode: "08131171",
+    cardCode: '08131171',
 
     fusions: [
       {
@@ -125079,12 +125158,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Ganigumo",
+    name: 'Ganigumo',
     description:
-      "A spider armed with\r\nscissors to attack\r\nanything that\r\nit traps in its web.",
+      'A spider armed with\r\nscissors to attack\r\nanything that\r\nit traps in its web.',
     id: 476,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -125093,7 +125172,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 800,
     stars: 30,
-    cardCode: "34536276",
+    cardCode: '34536276',
 
     fusions: [
       {
@@ -125113,12 +125192,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Alinsection",
+    name: 'Alinsection',
     description:
-      "A stag beetle\r\nmonster with\r\nsaw-toothed horn\r\nand arms.",
+      'A stag beetle\r\nmonster with\r\nsaw-toothed horn\r\nand arms.',
     id: 477,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -125127,7 +125206,7 @@ export const CARDS_DB: Card[] = [
     attack: 950,
     defense: 700,
     stars: 35,
-    cardCode: "70924884",
+    cardCode: '70924884',
 
     fusions: [
       {
@@ -125137,11 +125216,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Insect Soldiers of the Sky",
-    description: "Insect soldiers that\r\nattack in swarms.",
+    name: 'Insect Soldiers of the Sky',
+    description: 'Insect soldiers that\r\nattack in swarms.',
     id: 478,
     guardianStarA: 3,
     guardianStarB: 6,
@@ -125150,7 +125229,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 800,
     stars: 45,
-    cardCode: "07019529",
+    cardCode: '07019529',
 
     fusions: [
       {
@@ -125160,12 +125239,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Cockroach Knight",
+    name: 'Cockroach Knight',
     description:
-      "A cockroach warrior\r\nthat hides in small\r\nspaces and emerges\r\nto attack enemies.",
+      'A cockroach warrior\r\nthat hides in small\r\nspaces and emerges\r\nto attack enemies.',
     id: 479,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -125174,7 +125253,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 900,
     stars: 999999,
-    cardCode: "33413638",
+    cardCode: '33413638',
 
     fusions: [
       {
@@ -125184,11 +125263,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Kuwagata a",
-    description: "A violent stag\r\nbeetle with a \r\nrazor-like cutter.",
+    name: 'Kuwagata a',
+    description: 'A violent stag\r\nbeetle with a \r\nrazor-like cutter.',
     id: 480,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -125197,7 +125276,7 @@ export const CARDS_DB: Card[] = [
     attack: 1250,
     defense: 1000,
     stars: 70,
-    cardCode: "60802233",
+    cardCode: '60802233',
 
     fusions: [
       {
@@ -125262,11 +125341,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Burglar",
-    description: "A clever mouse\r\nwith a sharpened\r\nleft claw.",
+    name: 'Burglar',
+    description: 'A clever mouse\r\nwith a sharpened\r\nleft claw.',
     id: 481,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -125275,7 +125354,7 @@ export const CARDS_DB: Card[] = [
     attack: 850,
     defense: 800,
     stars: 35,
-    cardCode: "06297941",
+    cardCode: '06297941',
 
     fusions: [
       {
@@ -125550,12 +125629,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Pragtical",
+    name: 'Pragtical',
     description:
-      "A very dangerous\r\nmonster with spikes\r\non its head and tail.",
+      'A very dangerous\r\nmonster with spikes\r\non its head and tail.',
     id: 482,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -125564,15 +125643,15 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1500,
     stars: 320,
-    cardCode: "33691040",
+    cardCode: '33691040',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Garvas",
-    description: "A malevolent\r\ncreature that\r\nresembles a\r\nwinged lion.",
+    name: 'Garvas',
+    description: 'A malevolent\r\ncreature that\r\nresembles a\r\nwinged lion.',
     id: 483,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -125581,7 +125660,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1700,
     stars: 1000,
-    cardCode: "69780745",
+    cardCode: '69780745',
 
     fusions: [
       {
@@ -125601,12 +125680,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Ameba",
+    name: 'Ameba',
     description:
-      "A monster\r\nthat envelops\r\nan enemy and\r\nslowly digests it.",
+      'A monster\r\nthat envelops\r\nan enemy and\r\nslowly digests it.',
     id: 484,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -125615,7 +125694,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 350,
     stars: 15,
-    cardCode: "95174353",
+    cardCode: '95174353',
 
     fusions: [
       {
@@ -125650,12 +125729,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Korogashi",
+    name: 'Korogashi',
     description:
-      "This creature rolls\r\nmassive objects\r\nto crush its enemies.",
+      'This creature rolls\r\nmassive objects\r\nto crush its enemies.',
     id: 485,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -125664,7 +125743,7 @@ export const CARDS_DB: Card[] = [
     attack: 550,
     defense: 400,
     stars: 20,
-    cardCode: "32569498",
+    cardCode: '32569498',
 
     fusions: [
       {
@@ -125679,11 +125758,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Boo Koo",
-    description: "A book wizard\r\nwith page after page\r\nof potent spells.",
+    name: 'Boo Koo',
+    description: 'A book wizard\r\nwith page after page\r\nof potent spells.',
     id: 486,
     guardianStarA: 8,
     guardianStarB: 2,
@@ -125692,7 +125771,7 @@ export const CARDS_DB: Card[] = [
     attack: 650,
     defense: 500,
     stars: 25,
-    cardCode: "68963107",
+    cardCode: '68963107',
 
     fusions: [
       {
@@ -125747,11 +125826,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Flower Wolf",
-    description: "A beast\r\ncovered in flowers\r\nfrom head to toe.",
+    name: 'Flower Wolf',
+    description: 'A beast\r\ncovered in flowers\r\nfrom head to toe.',
     id: 487,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -125760,7 +125839,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1400,
     stars: 260,
-    cardCode: "95952802",
+    cardCode: '95952802',
 
     fusions: [
       {
@@ -125890,12 +125969,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Rainbow Flower",
+    name: 'Rainbow Flower',
     description:
-      "A flower creature\r\nwith rainbow-colored\r\nblossoms that lure\r\nan enemy into its\r\nwaiting jaws.",
+      'A flower creature\r\nwith rainbow-colored\r\nblossoms that lure\r\nan enemy into its\r\nwaiting jaws.',
     id: 488,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -125904,7 +125983,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 500,
     stars: 20,
-    cardCode: "21347810",
+    cardCode: '21347810',
 
     fusions: [
       {
@@ -126129,11 +126208,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Barrel Lily",
-    description: "A dangerous flower\r\nthat fires pollen\r\nprojectiles.",
+    name: 'Barrel Lily',
+    description: 'A dangerous flower\r\nthat fires pollen\r\nprojectiles.',
     id: 489,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -126142,7 +126221,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 600,
     stars: 40,
-    cardCode: "67841515",
+    cardCode: '67841515',
 
     fusions: [
       {
@@ -126322,12 +126401,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Needle Ball",
+    name: 'Needle Ball',
     description:
-      "A ball covered in\r\nsharp needles.\r\nUsually rains down\r\non enemies in a\r\ngroup.",
+      'A ball covered in\r\nsharp needles.\r\nUsually rains down\r\non enemies in a\r\ngroup.',
     id: 490,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -126336,7 +126415,7 @@ export const CARDS_DB: Card[] = [
     attack: 750,
     defense: 700,
     stars: 30,
-    cardCode: "94230224",
+    cardCode: '94230224',
 
     fusions: [
       {
@@ -126356,12 +126435,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Peacock",
+    name: 'Peacock',
     description:
-      "A beautiful peacock-\r\nlike creature that\r\nfires its feathers\r\nat opponents.",
+      'A beautiful peacock-\r\nlike creature that\r\nfires its feathers\r\nat opponents.',
     id: 491,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -126370,7 +126449,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1500,
     stars: 260,
-    cardCode: "20624263",
+    cardCode: '20624263',
 
     fusions: [
       {
@@ -126415,12 +126494,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Hoshiningen",
+    name: 'Hoshiningen',
     description:
-      "Trailed by a\r\nbeautiful tail, this\r\nshooting star\r\ninflicts damage when\r\nit hits an enemy.",
+      'Trailed by a\r\nbeautiful tail, this\r\nshooting star\r\ninflicts damage when\r\nit hits an enemy.',
     id: 492,
     guardianStarA: 8,
     guardianStarB: 6,
@@ -126429,7 +126508,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 700,
     stars: 25,
-    cardCode: "67629977",
+    cardCode: '67629977',
 
     fusions: [
       {
@@ -126534,12 +126613,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Maha Vailo",
+    name: 'Maha Vailo',
     description:
-      "A wizard dressed in\r\nblue who is usually\r\nfound meditating.",
+      'A wizard dressed in\r\nblue who is usually\r\nfound meditating.',
     id: 493,
     guardianStarA: 8,
     guardianStarB: 10,
@@ -126548,7 +126627,7 @@ export const CARDS_DB: Card[] = [
     attack: 1550,
     defense: 1400,
     stars: 180,
-    cardCode: "93013676",
+    cardCode: '93013676',
 
     fusions: [
       {
@@ -126568,12 +126647,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Rainbow Marine Mermaid",
+    name: 'Rainbow Marine Mermaid',
     description:
-      "An unusual mermaid\r\nthat appears\r\nwhenever a rainbow\r\nbridges the sky.",
+      'An unusual mermaid\r\nthat appears\r\nwhenever a rainbow\r\nbridges the sky.',
     id: 494,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -126582,7 +126661,7 @@ export const CARDS_DB: Card[] = [
     attack: 1550,
     defense: 1700,
     stars: 260,
-    cardCode: "29402771",
+    cardCode: '29402771',
 
     fusions: [
       {
@@ -126837,12 +126916,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Musician King",
+    name: 'Musician King',
     description:
-      "A fantastic guitar\r\nplayer that attacks\r\nenemies with\r\nultrasonic emissions.",
+      'A fantastic guitar\r\nplayer that attacks\r\nenemies with\r\nultrasonic emissions.',
     id: 495,
     guardianStarA: 8,
     guardianStarB: 1,
@@ -126851,7 +126930,7 @@ export const CARDS_DB: Card[] = [
     attack: 1750,
     defense: 1500,
     stars: 260,
-    cardCode: "56907389",
+    cardCode: '56907389',
 
     fusions: [
       {
@@ -126866,11 +126945,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Wilmee",
-    description: "A ferocious rabbit\r\nwith sharp claws.",
+    name: 'Wilmee',
+    description: 'A ferocious rabbit\r\nwith sharp claws.',
     id: 496,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -126879,7 +126958,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1200,
     stars: 70,
-    cardCode: "92391084",
+    cardCode: '92391084',
 
     fusions: [
       {
@@ -126959,11 +127038,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Yado Karu",
-    description: "A hermit crab with\r\nthe head of a dragon.",
+    name: 'Yado Karu',
+    description: 'A hermit crab with\r\nthe head of a dragon.',
     id: 497,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -126972,7 +127051,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1700,
     stars: 120,
-    cardCode: "29380133",
+    cardCode: '29380133',
 
     fusions: [
       {
@@ -127007,11 +127086,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Morinphen",
-    description: "A strange fiend\r\nwith long arms and\r\nrazor-sharp talons.",
+    name: 'Morinphen',
+    description: 'A strange fiend\r\nwith long arms and\r\nrazor-sharp talons.',
     id: 498,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -127020,16 +127099,16 @@ export const CARDS_DB: Card[] = [
     attack: 1550,
     defense: 1300,
     stars: 160,
-    cardCode: "55784832",
+    cardCode: '55784832',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Kattapillar",
+    name: 'Kattapillar',
     description:
-      "Attacks by blowing\r\nwebs at its enemies.\r\nNobody knows\r\nwhat the final form\r\nof this insect\r\nmight be.",
+      'Attacks by blowing\r\nwebs at its enemies.\r\nNobody knows\r\nwhat the final form\r\nof this insect\r\nmight be.',
     id: 499,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -127038,7 +127117,7 @@ export const CARDS_DB: Card[] = [
     attack: 250,
     defense: 300,
     stars: 999999,
-    cardCode: "81179446",
+    cardCode: '81179446',
 
     fusions: [
       {
@@ -127053,12 +127132,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Dragon Seeker",
+    name: 'Dragon Seeker',
     description:
-      "A fearsome monster\r\nsent from the\r\nnetherworld\r\nto destroy dragons.",
+      'A fearsome monster\r\nsent from the\r\nnetherworld\r\nto destroy dragons.',
     id: 500,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -127067,16 +127146,16 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 2100,
     stars: 700,
-    cardCode: "28563545",
+    cardCode: '28563545',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Man-eater Bug",
+    name: 'Man-eater Bug',
     description:
-      "A creature that\r\nslices and dices\r\nwith its scissors\r\nand feeds off its\r\nvictims.",
+      'A creature that\r\nslices and dices\r\nwith its scissors\r\nand feeds off its\r\nvictims.',
     id: 501,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -127085,7 +127164,7 @@ export const CARDS_DB: Card[] = [
     attack: 450,
     defense: 600,
     stars: 20,
-    cardCode: "54652250",
+    cardCode: '54652250',
 
     fusions: [
       {
@@ -127100,10 +127179,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "D. Human",
+    name: 'D. Human',
     description:
       "Gifted with the\r\npower of dragons,\r\nthis warrior wields\r\na sword created\r\nfrom a dragon's fang.",
     id: 502,
@@ -127114,7 +127193,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1100,
     stars: 120,
-    cardCode: "81057959",
+    cardCode: '81057959',
 
     fusions: [
       {
@@ -127234,11 +127313,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Turtle Raccoon",
-    description: "A fox-like creature\r\nwith a protective\r\nshell.",
+    name: 'Turtle Raccoon',
+    description: 'A fox-like creature\r\nwith a protective\r\nshell.',
     id: 503,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -127247,7 +127326,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 900,
     stars: 35,
-    cardCode: "17441953",
+    cardCode: '17441953',
 
     fusions: [
       {
@@ -127402,12 +127481,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Fungi of the Musk",
+    name: 'Fungi of the Musk',
     description:
-      "A monster that leaks\r\nacid from its pores\r\nto melt anything\r\nthat touches its\r\nskin.",
+      'A monster that leaks\r\nacid from its pores\r\nto melt anything\r\nthat touches its\r\nskin.',
     id: 504,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -127416,7 +127495,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 300,
     stars: 15,
-    cardCode: "53830602",
+    cardCode: '53830602',
 
     fusions: [
       {
@@ -127446,12 +127525,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Prisman",
+    name: 'Prisman',
     description:
-      "A clear crystal\r\nthat focuses light\r\nto create a powerful\r\nlaser beam.",
+      'A clear crystal\r\nthat focuses light\r\nto create a powerful\r\nlaser beam.',
     id: 505,
     guardianStarA: 4,
     guardianStarB: 2,
@@ -127460,7 +127539,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1000,
     stars: 45,
-    cardCode: "80234301",
+    cardCode: '80234301',
 
     fusions: [
       {
@@ -127640,12 +127719,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Gale Dogra",
+    name: 'Gale Dogra',
     description:
-      "A huge moth that\r\ngenerates a\r\nwhirlwind containing\r\npoison dust.",
+      'A huge moth that\r\ngenerates a\r\nwhirlwind containing\r\npoison dust.',
     id: 506,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -127654,7 +127733,7 @@ export const CARDS_DB: Card[] = [
     attack: 650,
     defense: 600,
     stars: 25,
-    cardCode: "16229315",
+    cardCode: '16229315',
 
     fusions: [
       {
@@ -127669,11 +127748,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Crazy Fish",
-    description: "A flying fish\r\nwith a sharp head\r\nfor piercing targets.",
+    name: 'Crazy Fish',
+    description: 'A flying fish\r\nwith a sharp head\r\nfor piercing targets.',
     id: 507,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -127682,7 +127761,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1200,
     stars: 160,
-    cardCode: "53713014",
+    cardCode: '53713014',
 
     fusions: [
       {
@@ -127737,11 +127816,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Cyber Saurus",
-    description: "A mechanical\r\ndinosaur equipped\r\nwith a beam cannon.",
+    name: 'Cyber Saurus',
+    description: 'A mechanical\r\ndinosaur equipped\r\nwith a beam cannon.',
     id: 508,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -127750,7 +127829,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1400,
     stars: 260,
-    cardCode: "89112729",
+    cardCode: '89112729',
 
     fusions: [
       {
@@ -127780,12 +127859,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Bracchio-raidus",
+    name: 'Bracchio-raidus',
     description:
-      "A colossal dinosaur\r\nthat stomps\r\non anything\r\nthat wanders\r\ninto its path.",
+      'A colossal dinosaur\r\nthat stomps\r\non anything\r\nthat wanders\r\ninto its path.',
     id: 509,
     guardianStarA: 4,
     guardianStarB: 9,
@@ -127794,16 +127873,16 @@ export const CARDS_DB: Card[] = [
     attack: 2200,
     defense: 2000,
     stars: 800,
-    cardCode: "16507828",
+    cardCode: '16507828',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Laughing Flower",
+    name: 'Laughing Flower',
     description:
-      "A laughing flower\r\nwhose chuckles can\r\ndrive an enemy mad.",
+      'A laughing flower\r\nwhose chuckles can\r\ndrive an enemy mad.',
     id: 510,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -127812,7 +127891,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 500,
     stars: 30,
-    cardCode: "42591472",
+    cardCode: '42591472',
 
     fusions: [
       {
@@ -127997,12 +128076,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Bean Soldier",
+    name: 'Bean Soldier',
     description:
-      "A plant warrior\r\nthat attacks\r\nwith a combination\r\nof sword-swings and\r\npea projectiles.",
+      'A plant warrior\r\nthat attacks\r\nwith a combination\r\nof sword-swings and\r\npea projectiles.',
     id: 511,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -128011,7 +128090,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1300,
     stars: 140,
-    cardCode: "84990171",
+    cardCode: '84990171',
 
     fusions: [
       {
@@ -128166,12 +128245,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Cannon Soldier",
+    name: 'Cannon Soldier',
     description:
-      "A highly destructive\r\nmachine armed with a\r\npowerful cannon.",
+      'A highly destructive\r\nmachine armed with a\r\npowerful cannon.',
     id: 512,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -128180,7 +128259,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1300,
     stars: 140,
-    cardCode: "11384280",
+    cardCode: '11384280',
 
     fusions: [
       {
@@ -128310,12 +128389,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Guardian of the Throne Room",
+    name: 'Guardian of the Throne Room',
     description:
-      "A sentry robot armed\r\nwith homing rockets\r\nfor guarding throne\r\nrooms from intruders.",
+      'A sentry robot armed\r\nwith homing rockets\r\nfor guarding throne\r\nrooms from intruders.',
     id: 513,
     guardianStarA: 8,
     guardianStarB: 3,
@@ -128324,7 +128403,7 @@ export const CARDS_DB: Card[] = [
     attack: 1650,
     defense: 1600,
     stars: 260,
-    cardCode: "47879985",
+    cardCode: '47879985',
 
     fusions: [
       {
@@ -128374,12 +128453,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Brave Scizzar",
+    name: 'Brave Scizzar',
     description:
-      "A creature capable\r\nof manipulating\r\nseveral scissors\r\nwith definite\r\nresults.",
+      'A creature capable\r\nof manipulating\r\nseveral scissors\r\nwith definite\r\nresults.',
     id: 514,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -128388,7 +128467,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1000,
     stars: 80,
-    cardCode: "74277583",
+    cardCode: '74277583',
 
     fusions: [
       {
@@ -128533,12 +128612,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "The Statue of Easter Island",
+    name: 'The Statue of Easter Island',
     description:
-      "A massive stone idol\r\nfrom Easter Island\r\nthat fires laser\r\nrings from its mouth.",
+      'A massive stone idol\r\nfrom Easter Island\r\nthat fires laser\r\nrings from its mouth.',
     id: 515,
     guardianStarA: 4,
     guardianStarB: 10,
@@ -128547,7 +128626,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1400,
     stars: 100,
-    cardCode: "10262698",
+    cardCode: '10262698',
 
     fusions: [
       {
@@ -128717,12 +128796,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Muka Muka",
+    name: 'Muka Muka',
     description:
-      "A monster that\r\nangers an opponent\r\nto the point that\r\nthe enemy goes\r\nberserk.",
+      'A monster that\r\nangers an opponent\r\nto the point that\r\nthe enemy goes\r\nberserk.',
     id: 516,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -128731,7 +128810,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 300,
     stars: 20,
-    cardCode: "46657337",
+    cardCode: '46657337',
 
     fusions: [
       {
@@ -128906,12 +128985,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Sand Stone",
+    name: 'Sand Stone',
     description:
-      "Appears from\r\nunderground and\r\nattacks with long,\r\nsnake-like tentacles.",
+      'Appears from\r\nunderground and\r\nattacks with long,\r\nsnake-like tentacles.',
     id: 517,
     guardianStarA: 4,
     guardianStarB: 1,
@@ -128920,7 +128999,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1600,
     stars: 180,
-    cardCode: "73051941",
+    cardCode: '73051941',
 
     fusions: [
       {
@@ -129060,11 +129139,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Boulder Tortoise",
-    description: "A stone turtle with\r\na very high defense\r\nfactor.",
+    name: 'Boulder Tortoise',
+    description: 'A stone turtle with\r\na very high defense\r\nfactor.',
     id: 518,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -129073,7 +129152,7 @@ export const CARDS_DB: Card[] = [
     attack: 1450,
     defense: 2200,
     stars: 400,
-    cardCode: "09540040",
+    cardCode: '09540040',
 
     fusions: [
       {
@@ -129133,11 +129212,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Fire Kraken",
-    description: "A fiery squid that\r\ncan maintain its\r\nflames underwater.",
+    name: 'Fire Kraken',
+    description: 'A fiery squid that\r\ncan maintain its\r\nflames underwater.',
     id: 519,
     guardianStarA: 1,
     guardianStarB: 3,
@@ -129146,7 +129225,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1500,
     stars: 230,
-    cardCode: "46534755",
+    cardCode: '46534755',
 
     fusions: [
       {
@@ -129291,11 +129370,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Turtle Bird",
-    description: "A rare flying turtle\r\nthat inhabits\r\nthe sea.",
+    name: 'Turtle Bird',
+    description: 'A rare flying turtle\r\nthat inhabits\r\nthe sea.',
     id: 520,
     guardianStarA: 3,
     guardianStarB: 1,
@@ -129304,7 +129383,7 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1700,
     stars: 400,
-    cardCode: "72929454",
+    cardCode: '72929454',
 
     fusions: [
       {
@@ -129334,12 +129413,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Skullbird",
+    name: 'Skullbird',
     description:
-      "The breath from this\r\nbird robs creatures\r\nof their life force.",
+      'The breath from this\r\nbird robs creatures\r\nof their life force.',
     id: 521,
     guardianStarA: 3,
     guardianStarB: 10,
@@ -129348,7 +129427,7 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1700,
     stars: 400,
-    cardCode: "08327462",
+    cardCode: '08327462',
 
     fusions: [
       {
@@ -129368,11 +129447,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Monstrous Bird",
-    description: "A huge bird\r\nknown for its sharp\r\ndive attacks.",
+    name: 'Monstrous Bird',
+    description: 'A huge bird\r\nknown for its sharp\r\ndive attacks.',
     id: 522,
     guardianStarA: 3,
     guardianStarB: 7,
@@ -129381,7 +129460,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1900,
     stars: 550,
-    cardCode: "35712107",
+    cardCode: '35712107',
 
     fusions: [
       {
@@ -129406,12 +129485,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "The Bistro Butcher",
+    name: 'The Bistro Butcher',
     description:
-      "Defeated enemies\r\nserve as ingredients\r\nfor this gourmet\r\nmonster.",
+      'Defeated enemies\r\nserve as ingredients\r\nfor this gourmet\r\nmonster.',
     id: 523,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -129420,16 +129499,16 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1000,
     stars: 160,
-    cardCode: "71107816",
+    cardCode: '71107816',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Star Boy",
+    name: 'Star Boy',
     description:
-      "An extraterrestrial\r\nlife form that loves\r\nliving in water.",
+      'An extraterrestrial\r\nlife form that loves\r\nliving in water.',
     id: 524,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -129438,7 +129517,7 @@ export const CARDS_DB: Card[] = [
     attack: 550,
     defense: 500,
     stars: 20,
-    cardCode: "08201910",
+    cardCode: '08201910',
 
     fusions: [
       {
@@ -129473,10 +129552,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Spirit of the Mountain",
+    name: 'Spirit of the Mountain',
     description:
       "Music from this\r\ncreature's flute\r\ncan drain \r\nan enemy's willpower.",
     id: 525,
@@ -129487,7 +129566,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1800,
     stars: 230,
-    cardCode: "34690519",
+    cardCode: '34690519',
 
     fusions: [
       {
@@ -129502,12 +129581,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Neck Hunter",
+    name: 'Neck Hunter',
     description:
-      "Armed with a huge\r\nsickle, this monster\r\ncan fire beams\r\nfrom its large eyes.",
+      'Armed with a huge\r\nsickle, this monster\r\ncan fire beams\r\nfrom its large eyes.',
     id: 526,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -129516,16 +129595,16 @@ export const CARDS_DB: Card[] = [
     attack: 1750,
     defense: 1900,
     stars: 400,
-    cardCode: "70084224",
+    cardCode: '70084224',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Milus Radiant",
+    name: 'Milus Radiant',
     description:
-      "Often mistaken\r\nas a cute pet,\r\nthis creature is a\r\nvery dangerous beast.",
+      'Often mistaken\r\nas a cute pet,\r\nthis creature is a\r\nvery dangerous beast.',
     id: 527,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -129534,7 +129613,7 @@ export const CARDS_DB: Card[] = [
     attack: 300,
     defense: 250,
     stars: 10,
-    cardCode: "07489323",
+    cardCode: '07489323',
 
     fusions: [
       {
@@ -129764,12 +129843,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Togex",
+    name: 'Togex',
     description:
-      "A very fast monster\r\nthat rolls up and\r\nrams its enemies.",
+      'A very fast monster\r\nthat rolls up and\r\nrams its enemies.',
     id: 528,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -129778,7 +129857,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1800,
     stars: 320,
-    cardCode: "33878931",
+    cardCode: '33878931',
 
     fusions: [
       {
@@ -129978,11 +130057,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Flame Cerebrus",
-    description: "A flaming beast\r\nthat is lethal\r\nto the touch.",
+    name: 'Flame Cerebrus',
+    description: 'A flaming beast\r\nthat is lethal\r\nto the touch.',
     id: 529,
     guardianStarA: 1,
     guardianStarB: 5,
@@ -129991,15 +130070,15 @@ export const CARDS_DB: Card[] = [
     attack: 2100,
     defense: 1800,
     stars: 550,
-    cardCode: "60862676",
+    cardCode: '60862676',
 
     fusions: [],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Eldeen",
-    description: "Uses a wand to cast\r\nvarious spells\r\nagainst an enemy.",
+    name: 'Eldeen',
+    description: 'Uses a wand to cast\r\nvarious spells\r\nagainst an enemy.',
     id: 530,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -130008,7 +130087,7 @@ export const CARDS_DB: Card[] = [
     attack: 950,
     defense: 1000,
     stars: 50,
-    cardCode: "06367785",
+    cardCode: '06367785',
 
     fusions: [
       {
@@ -130193,11 +130272,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Mystical Sand",
-    description: "Turns enemies to\r\nstone and crushes\r\nthem to dust.",
+    name: 'Mystical Sand',
+    description: 'Turns enemies to\r\nstone and crushes\r\nthem to dust.',
     id: 531,
     guardianStarA: 7,
     guardianStarB: 3,
@@ -130206,15 +130285,15 @@ export const CARDS_DB: Card[] = [
     attack: 2100,
     defense: 1700,
     stars: 500,
-    cardCode: "32751480",
+    cardCode: '32751480',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Gemini Elf",
-    description: "Elf twins\r\nthat attack an enemy\r\nfrom opposite sides.",
+    name: 'Gemini Elf',
+    description: 'Elf twins\r\nthat attack an enemy\r\nfrom opposite sides.',
     id: 532,
     guardianStarA: 8,
     guardianStarB: 4,
@@ -130223,7 +130302,7 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 900,
     stars: 160,
-    cardCode: "69140098",
+    cardCode: '69140098',
 
     fusions: [
       {
@@ -130293,12 +130372,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Kwagar Hercules",
+    name: 'Kwagar Hercules',
     description:
-      "An insect monster\r\nwith the jaws of\r\na stag beetle and\r\nthe horn of a beetle.",
+      'An insect monster\r\nwith the jaws of\r\na stag beetle and\r\nthe horn of a beetle.',
     id: 533,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -130307,16 +130386,16 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1700,
     stars: 400,
-    cardCode: "95144193",
+    cardCode: '95144193',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Minar",
+    name: 'Minar',
     description:
-      "A monster with four\r\nhighly dexterous\r\narms for executing\r\nseparate attacks.",
+      'A monster with four\r\nhighly dexterous\r\narms for executing\r\nseparate attacks.',
     id: 534,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -130325,7 +130404,7 @@ export const CARDS_DB: Card[] = [
     attack: 850,
     defense: 750,
     stars: 35,
-    cardCode: "32539892",
+    cardCode: '32539892',
 
     fusions: [
       {
@@ -130340,11 +130419,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Kamakiriman",
-    description: "A man-shaped mantis\r\nwith two razor-sharp\r\nscythes.",
+    name: 'Kamakiriman',
+    description: 'A man-shaped mantis\r\nwith two razor-sharp\r\nscythes.',
     id: 535,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -130353,16 +130432,16 @@ export const CARDS_DB: Card[] = [
     attack: 1150,
     defense: 1400,
     stars: 100,
-    cardCode: "68928540",
+    cardCode: '68928540',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Mechaleon",
+    name: 'Mechaleon',
     description:
-      "A chameleon-like\r\nmonster that can\r\nhide anywhere\r\nby changing colors.",
+      'A chameleon-like\r\nmonster that can\r\nhide anywhere\r\nby changing colors.',
     id: 536,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -130371,7 +130450,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 600,
     stars: 30,
-    cardCode: "94412545",
+    cardCode: '94412545',
 
     fusions: [
       {
@@ -130401,12 +130480,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Mega Thunderball",
+    name: 'Mega Thunderball',
     description:
-      "Rolls along the\r\nground releasing\r\nbolts of electricity\r\nto attack its\r\nenemies.",
+      'Rolls along the\r\nground releasing\r\nbolts of electricity\r\nto attack its\r\nenemies.',
     id: 537,
     guardianStarA: 5,
     guardianStarB: 7,
@@ -130415,7 +130494,7 @@ export const CARDS_DB: Card[] = [
     attack: 750,
     defense: 600,
     stars: 30,
-    cardCode: "21817254",
+    cardCode: '21817254',
 
     fusions: [
       {
@@ -130570,12 +130649,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Niwatori",
+    name: 'Niwatori',
     description:
-      "Swallows enemies\r\nwhole and uses\r\ntheir essence\r\nas energy.",
+      'Swallows enemies\r\nwhole and uses\r\ntheir essence\r\nas energy.',
     id: 538,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -130584,7 +130663,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 800,
     stars: 40,
-    cardCode: "07805359",
+    cardCode: '07805359',
 
     fusions: [
       {
@@ -130609,12 +130688,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Corroding Shark",
+    name: 'Corroding Shark',
     description:
-      "A zombie shark that\r\nwanders the ocean\r\ndepths, cursing any\r\nthat dare cross its\r\npath.",
+      'A zombie shark that\r\nwanders the ocean\r\ndepths, cursing any\r\nthat dare cross its\r\npath.',
     id: 539,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -130623,7 +130702,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 700,
     stars: 45,
-    cardCode: "34290067",
+    cardCode: '34290067',
 
     fusions: [
       {
@@ -130743,12 +130822,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Skelengel",
+    name: 'Skelengel',
     description:
-      "A phantom fairy that\r\nfires countless\r\narrows at anything\r\nthat harbors an urge\r\nto attack.",
+      'A phantom fairy that\r\nfires countless\r\narrows at anything\r\nthat harbors an urge\r\nto attack.',
     id: 540,
     guardianStarA: 8,
     guardianStarB: 5,
@@ -130757,7 +130836,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 400,
     stars: 30,
-    cardCode: "60694662",
+    cardCode: '60694662',
 
     fusions: [
       {
@@ -130872,12 +130951,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Hane-Hane",
+    name: 'Hane-Hane',
     description:
-      "This creature blocks\r\nenemy movement with\r\ngale-force winds\r\nand attacks with\r\na massive battle axe.",
+      'This creature blocks\r\nenemy movement with\r\ngale-force winds\r\nand attacks with\r\na massive battle axe.',
     id: 541,
     guardianStarA: 3,
     guardianStarB: 5,
@@ -130886,7 +130965,7 @@ export const CARDS_DB: Card[] = [
     attack: 450,
     defense: 500,
     stars: 999999,
-    cardCode: "07089711",
+    cardCode: '07089711',
 
     fusions: [
       {
@@ -130956,11 +131035,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Misairuzame",
-    description: "A rocket-launching\r\nfish protected\r\nby thorny spikes.",
+    name: 'Misairuzame',
+    description: 'A rocket-launching\r\nfish protected\r\nby thorny spikes.',
     id: 542,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -130969,7 +131048,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1600,
     stars: 200,
-    cardCode: "33178416",
+    cardCode: '33178416',
 
     fusions: [
       {
@@ -131034,12 +131113,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Tongyo",
+    name: 'Tongyo',
     description:
-      "This creature is\r\npowered by the life\r\nforce of the fishes\r\nit captures with\r\nits long tongue.",
+      'This creature is\r\npowered by the life\r\nforce of the fishes\r\nit captures with\r\nits long tongue.',
     id: 543,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -131048,7 +131127,7 @@ export const CARDS_DB: Card[] = [
     attack: 1350,
     defense: 800,
     stars: 60,
-    cardCode: "69572024",
+    cardCode: '69572024',
 
     fusions: [
       {
@@ -131118,12 +131197,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Dharma Cannon",
+    name: 'Dharma Cannon',
     description:
-      "A highly accurate\r\nmechanical monster\r\ncovered with large-\r\ncaliber cannons.",
+      'A highly accurate\r\nmechanical monster\r\ncovered with large-\r\ncaliber cannons.',
     id: 544,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -131132,7 +131211,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 500,
     stars: 30,
-    cardCode: "96967123",
+    cardCode: '96967123',
 
     fusions: [
       {
@@ -131252,12 +131331,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Skelgon",
+    name: 'Skelgon',
     description:
-      "A skeletal zombie\r\ndragon that is\r\ncapable of flying\r\nacross the skies.",
+      'A skeletal zombie\r\ndragon that is\r\ncapable of flying\r\nacross the skies.',
     id: 545,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -131266,7 +131345,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1900,
     stars: 999999,
-    cardCode: "32355828",
+    cardCode: '32355828',
 
     fusions: [
       {
@@ -131521,12 +131600,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Wow Warrior",
+    name: 'Wow Warrior',
     description:
-      "A massive beast\r\nof a fish with\r\narms, legs, and \r\nrazor-sharp teeth.",
+      'A massive beast\r\nof a fish with\r\narms, legs, and \r\nrazor-sharp teeth.',
     id: 546,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -131535,7 +131614,7 @@ export const CARDS_DB: Card[] = [
     attack: 1250,
     defense: 900,
     stars: 60,
-    cardCode: "69750536",
+    cardCode: '69750536',
 
     fusions: [
       {
@@ -131625,12 +131704,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Griggle",
+    name: 'Griggle',
     description:
-      "This monster spins\r\nabout its enemy\r\nlaunching blinding\r\nleaves and painful\r\nseeds.",
+      'This monster spins\r\nabout its enemy\r\nlaunching blinding\r\nleaves and painful\r\nseeds.',
     id: 547,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -131639,7 +131718,7 @@ export const CARDS_DB: Card[] = [
     attack: 350,
     defense: 300,
     stars: 15,
-    cardCode: "95744531",
+    cardCode: '95744531',
 
     fusions: [
       {
@@ -131799,11 +131878,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Bone Mouse",
-    description: "A zombie rat\r\nthat hunts felines.",
+    name: 'Bone Mouse',
+    description: 'A zombie rat\r\nthat hunts felines.',
     id: 548,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -131812,7 +131891,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 300,
     stars: 15,
-    cardCode: "21239280",
+    cardCode: '21239280',
 
     fusions: [
       {
@@ -131927,10 +132006,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Frog The Jam",
+    name: 'Frog The Jam',
     description:
       "A slime creature\r\nwith a frog's head\r\nthat croaks as it\r\nattacks.",
     id: 549,
@@ -131941,7 +132020,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 500,
     stars: 25,
-    cardCode: "68638985",
+    cardCode: '68638985',
 
     fusions: [
       {
@@ -131966,12 +132045,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Behegon",
+    name: 'Behegon',
     description:
-      "A strange sea\r\nserpent with a\r\nmassive mouth lined\r\nwith huge fangs.",
+      'A strange sea\r\nserpent with a\r\nmassive mouth lined\r\nwith huge fangs.',
     id: 550,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -131980,7 +132059,7 @@ export const CARDS_DB: Card[] = [
     attack: 1350,
     defense: 1000,
     stars: 80,
-    cardCode: "94022093",
+    cardCode: '94022093',
 
     fusions: [
       {
@@ -132005,11 +132084,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Dark Elf",
-    description: "A wicked elf\r\nthat just loves\r\nto engage in battle.",
+    name: 'Dark Elf',
+    description: 'A wicked elf\r\nthat just loves\r\nto engage in battle.',
     id: 551,
     guardianStarA: 7,
     guardianStarB: 2,
@@ -132018,7 +132097,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 800,
     stars: 160,
-    cardCode: "21417692",
+    cardCode: '21417692',
 
     fusions: [
       {
@@ -132043,11 +132122,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Winged Dragon #2",
-    description: "Creates powerful\r\ntornadoes with\r\nits huge wings.",
+    name: 'Winged Dragon #2',
+    description: 'Creates powerful\r\ntornadoes with\r\nits huge wings.',
     id: 552,
     guardianStarA: 3,
     guardianStarB: 6,
@@ -132056,7 +132135,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "57405307",
+    cardCode: '57405307',
 
     fusions: [
       {
@@ -132081,12 +132160,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Mushroom Man #2",
+    name: 'Mushroom Man #2',
     description:
-      "A fully grown\r\nMushroom Man with\r\nan increased\r\nattack factor.",
+      'A fully grown\r\nMushroom Man with\r\nan increased\r\nattack factor.',
     id: 553,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -132095,7 +132174,7 @@ export const CARDS_DB: Card[] = [
     attack: 1250,
     defense: 800,
     stars: 55,
-    cardCode: "93900406",
+    cardCode: '93900406',
 
     fusions: [
       {
@@ -132205,12 +132284,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Lava Battleguard",
+    name: 'Lava Battleguard',
     description:
-      "This brother of\r\nSwamp Battleguard\r\nmay not be powerful,\r\nbut is pretty good\r\non defense.",
+      'This brother of\r\nSwamp Battleguard\r\nmay not be powerful,\r\nbut is pretty good\r\non defense.',
     id: 554,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -132219,7 +132298,7 @@ export const CARDS_DB: Card[] = [
     attack: 1550,
     defense: 1800,
     stars: 999999,
-    cardCode: "20394040",
+    cardCode: '20394040',
 
     fusions: [
       {
@@ -132244,11 +132323,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Tyhone #2",
-    description: "A crimson dragon\r\nthat spits fireballs\r\nat its enemies.",
+    name: 'Tyhone #2',
+    description: 'A crimson dragon\r\nthat spits fireballs\r\nat its enemies.',
     id: 555,
     guardianStarA: 1,
     guardianStarB: 4,
@@ -132257,7 +132336,7 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1900,
     stars: 999999,
-    cardCode: "56789759",
+    cardCode: '56789759',
 
     fusions: [
       {
@@ -132512,11 +132591,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "The Wandering Doomed",
-    description: "A monster that\r\naimlessly wanders\r\nin search of enemies.",
+    name: 'The Wandering Doomed',
+    description: 'A monster that\r\naimlessly wanders\r\nin search of enemies.',
     id: 556,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -132525,7 +132604,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 600,
     stars: 30,
-    cardCode: "93788854",
+    cardCode: '93788854',
 
     fusions: [
       {
@@ -132630,11 +132709,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Steel Ogre Grotto #1",
-    description: "A steel idol\r\nworshipped in the\r\nLand of Machines.",
+    name: 'Steel Ogre Grotto #1',
+    description: 'A steel idol\r\nworshipped in the\r\nLand of Machines.',
     id: 557,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -132643,7 +132722,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1800,
     stars: 260,
-    cardCode: "29172562",
+    cardCode: '29172562',
 
     fusions: [
       {
@@ -132733,10 +132812,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Pot the Trick",
+    name: 'Pot the Trick',
     description: "A not very reliable\r\nsorcerer's servant.",
     id: 558,
     guardianStarA: 9,
@@ -132746,7 +132825,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 400,
     stars: 20,
-    cardCode: "55567161",
+    cardCode: '55567161',
 
     fusions: [
       {
@@ -132881,11 +132960,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Oscillo Hero",
-    description: "A strange warrior\r\nfrom another\r\ndimension.",
+    name: 'Oscillo Hero',
+    description: 'A strange warrior\r\nfrom another\r\ndimension.',
     id: 559,
     guardianStarA: 10,
     guardianStarB: 8,
@@ -132894,7 +132973,7 @@ export const CARDS_DB: Card[] = [
     attack: 1250,
     defense: 700,
     stars: 50,
-    cardCode: "82065276",
+    cardCode: '82065276',
 
     fusions: [
       {
@@ -132984,11 +133063,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Invader from Another Dimension",
-    description: "A creature that came\r\nfrom another galaxy.",
+    name: 'Invader from Another Dimension',
+    description: 'A creature that came\r\nfrom another galaxy.',
     id: 560,
     guardianStarA: 10,
     guardianStarB: 1,
@@ -132997,15 +133076,15 @@ export const CARDS_DB: Card[] = [
     attack: 950,
     defense: 1400,
     stars: 80,
-    cardCode: "28450915",
+    cardCode: '28450915',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Lesser Dragon",
-    description: "A low-class, minor\r\ndragon incapable\r\nof breathing fire.",
+    name: 'Lesser Dragon',
+    description: 'A low-class, minor\r\ndragon incapable\r\nof breathing fire.',
     id: 561,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -133014,7 +133093,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1000,
     stars: 70,
-    cardCode: "55444629",
+    cardCode: '55444629',
 
     fusions: [
       {
@@ -133239,11 +133318,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Needle Worm",
-    description: "A larva\r\nwith steel spikes\r\nto attack the unwary.",
+    name: 'Needle Worm',
+    description: 'A larva\r\nwith steel spikes\r\nto attack the unwary.',
     id: 562,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -133252,7 +133331,7 @@ export const CARDS_DB: Card[] = [
     attack: 750,
     defense: 600,
     stars: 999999,
-    cardCode: "81843628",
+    cardCode: '81843628',
 
     fusions: [
       {
@@ -133267,12 +133346,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Wretched Ghost of the Attic",
+    name: 'Wretched Ghost of the Attic',
     description:
-      "A harmless creature\r\nusually found\r\nin the attic\r\nof any home.",
+      'A harmless creature\r\nusually found\r\nin the attic\r\nof any home.',
     id: 563,
     guardianStarA: 7,
     guardianStarB: 4,
@@ -133281,7 +133360,7 @@ export const CARDS_DB: Card[] = [
     attack: 550,
     defense: 400,
     stars: 20,
-    cardCode: "17238333",
+    cardCode: '17238333',
 
     fusions: [
       {
@@ -133291,12 +133370,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Great Mammoth of Goldfine",
+    name: 'Great Mammoth of Goldfine',
     description:
-      "A very unusual\r\nskeletal zombie\r\nelephant with\r\nglowing gold bones.",
+      'A very unusual\r\nskeletal zombie\r\nelephant with\r\nglowing gold bones.',
     id: 564,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -133305,16 +133384,16 @@ export const CARDS_DB: Card[] = [
     attack: 2200,
     defense: 1800,
     stars: 800,
-    cardCode: "54622031",
+    cardCode: '54622031',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Man-eating Black Shark",
+    name: 'Man-eating Black Shark',
     description:
-      "A black shark\r\nthat can detect\r\nalmost any scent\r\nin the water.",
+      'A black shark\r\nthat can detect\r\nalmost any scent\r\nin the water.',
     id: 565,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -133323,16 +133402,16 @@ export const CARDS_DB: Card[] = [
     attack: 2100,
     defense: 1300,
     stars: 320,
-    cardCode: "80727036",
+    cardCode: '80727036',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Yormungarde",
+    name: 'Yormungarde',
     description:
-      "A very long snake\r\nthat often appears\r\nin legends and myths.",
+      'A very long snake\r\nthat often appears\r\nin legends and myths.',
     id: 566,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -133341,16 +133420,16 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 60,
-    cardCode: "17115745",
+    cardCode: '17115745',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Darkworld Thorns",
+    name: 'Darkworld Thorns',
     description:
-      "A thorny plant found\r\nin the darklands\r\nthat wraps itself\r\naround any unwary\r\ntraveler.",
+      'A thorny plant found\r\nin the darklands\r\nthat wraps itself\r\naround any unwary\r\ntraveler.',
     id: 567,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -133359,7 +133438,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 900,
     stars: 60,
-    cardCode: "43500484",
+    cardCode: '43500484',
 
     fusions: [
       {
@@ -133474,12 +133553,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Anthrosaurus",
+    name: 'Anthrosaurus',
     description:
-      "Man-like dinosaur\r\nlacking in strength,\r\nbut with a high I.Q.",
+      'Man-like dinosaur\r\nlacking in strength,\r\nbut with a high I.Q.',
     id: 568,
     guardianStarA: 4,
     guardianStarB: 9,
@@ -133488,7 +133567,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 850,
     stars: 45,
-    cardCode: "89904598",
+    cardCode: '89904598',
 
     fusions: [
       {
@@ -133513,12 +133592,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Drooling Lizard",
+    name: 'Drooling Lizard',
     description:
-      "A blood-sucking\r\nsnake in human form\r\nthat attacks any\r\nliving being that\r\npasses nearby.",
+      'A blood-sucking\r\nsnake in human form\r\nthat attacks any\r\nliving being that\r\npasses nearby.',
     id: 569,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -133527,7 +133606,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 800,
     stars: 40,
-    cardCode: "16353197",
+    cardCode: '16353197',
 
     fusions: [
       {
@@ -133547,12 +133626,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Trakadon",
+    name: 'Trakadon',
     description:
-      "A tiger-striped\r\ndragon that is often\r\nseen racing across\r\nthe wasteland with\r\ntremendous speed.",
+      'A tiger-striped\r\ndragon that is often\r\nseen racing across\r\nthe wasteland with\r\ntremendous speed.',
     id: 570,
     guardianStarA: 4,
     guardianStarB: 10,
@@ -133561,7 +133640,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 800,
     stars: 60,
-    cardCode: "42348802",
+    cardCode: '42348802',
 
     fusions: [
       {
@@ -133586,12 +133665,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "B. Dragon Jungle King",
+    name: 'B. Dragon Jungle King',
     description:
-      "A jet-black dragon\r\nthat inhabits the\r\njungles and feeds\r\non trees.",
+      'A jet-black dragon\r\nthat inhabits the\r\njungles and feeds\r\non trees.',
     id: 571,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -133600,7 +133679,7 @@ export const CARDS_DB: Card[] = [
     attack: 2100,
     defense: 1800,
     stars: 999999,
-    cardCode: "89832901",
+    cardCode: '89832901',
 
     fusions: [
       {
@@ -133610,12 +133689,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Empress Judge",
+    name: 'Empress Judge',
     description:
-      "Empress of the\r\nGolden Kingdom. None\r\nmay refuse her will.",
+      'Empress of the\r\nGolden Kingdom. None\r\nmay refuse her will.',
     id: 572,
     guardianStarA: 4,
     guardianStarB: 10,
@@ -133624,15 +133703,15 @@ export const CARDS_DB: Card[] = [
     attack: 2100,
     defense: 1700,
     stars: 500,
-    cardCode: "15237615",
+    cardCode: '15237615',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Little D",
-    description: "A very ferocious\r\nmonster spawned\r\nfrom a T-Rex.",
+    name: 'Little D',
+    description: 'A very ferocious\r\nmonster spawned\r\nfrom a T-Rex.',
     id: 573,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -133641,7 +133720,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 700,
     stars: 45,
-    cardCode: "42625254",
+    cardCode: '42625254',
 
     fusions: [
       {
@@ -133666,12 +133745,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Witch of the Black Forest",
+    name: 'Witch of the Black Forest',
     description:
-      "This forest-dwelling\r\nwitch can see all\r\nwith the eye\r\non her forehead.",
+      'This forest-dwelling\r\nwitch can see all\r\nwith the eye\r\non her forehead.',
     id: 574,
     guardianStarA: 7,
     guardianStarB: 5,
@@ -133680,7 +133759,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1200,
     stars: 80,
-    cardCode: "78010363",
+    cardCode: '78010363',
 
     fusions: [
       {
@@ -133805,12 +133884,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Ancient One of the Deep Forest",
+    name: 'Ancient One of the Deep Forest',
     description:
-      "A white goat that\r\nhas inhabited the\r\nforest for ages.\r\nThe creature is\r\nactually an elder\r\nof the woods.",
+      'A white goat that\r\nhas inhabited the\r\nforest for ages.\r\nThe creature is\r\nactually an elder\r\nof the woods.',
     id: 575,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -133819,7 +133898,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1900,
     stars: 1000,
-    cardCode: "14015067",
+    cardCode: '14015067',
 
     fusions: [
       {
@@ -133919,12 +133998,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Giant Scorpion of the Tundra",
+    name: 'Giant Scorpion of the Tundra',
     description:
-      "A rare scarlet\r\nscorpion that can be\r\nfound in the tundra\r\n-- not in the desert.",
+      'A rare scarlet\r\nscorpion that can be\r\nfound in the tundra\r\n-- not in the desert.',
     id: 576,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -133933,16 +134012,16 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1000,
     stars: 60,
-    cardCode: "41403766",
+    cardCode: '41403766',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Crow Goblin",
+    name: 'Crow Goblin',
     description:
-      "A very wise,\r\nlong-nosed goblin\r\nwith supernatural\r\npowers.",
+      'A very wise,\r\nlong-nosed goblin\r\nwith supernatural\r\npowers.',
     id: 577,
     guardianStarA: 3,
     guardianStarB: 1,
@@ -133951,7 +134030,7 @@ export const CARDS_DB: Card[] = [
     attack: 1850,
     defense: 1600,
     stars: 320,
-    cardCode: "77998771",
+    cardCode: '77998771',
 
     fusions: [
       {
@@ -133971,12 +134050,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Leo Wizard",
+    name: 'Leo Wizard',
     description:
-      "A wizard with a\r\nblack cape that is\r\nactually a talking\r\nlion disguised\r\nas a man.",
+      'A wizard with a\r\nblack cape that is\r\nactually a talking\r\nlion disguised\r\nas a man.',
     id: 578,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -133985,7 +134064,7 @@ export const CARDS_DB: Card[] = [
     attack: 1350,
     defense: 1200,
     stars: 100,
-    cardCode: "04392470",
+    cardCode: '04392470',
 
     fusions: [
       {
@@ -134005,11 +134084,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Abyss Flower",
-    description: "A rare flower\r\nthat blooms in a\r\npitch-dark abyss.",
+    name: 'Abyss Flower',
+    description: 'A rare flower\r\nthat blooms in a\r\npitch-dark abyss.',
     id: 579,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -134018,7 +134097,7 @@ export const CARDS_DB: Card[] = [
     attack: 750,
     defense: 400,
     stars: 25,
-    cardCode: "40387124",
+    cardCode: '40387124',
 
     fusions: [
       {
@@ -134133,12 +134212,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Patrol Robo",
+    name: 'Patrol Robo',
     description:
-      "A cutting-edge robot\r\nthat eliminates\r\nintruders upon\r\ndetection.",
+      'A cutting-edge robot\r\nthat eliminates\r\nintruders upon\r\ndetection.',
     id: 580,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -134147,7 +134226,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 900,
     stars: 55,
-    cardCode: "76775123",
+    cardCode: '76775123',
 
     fusions: [
       {
@@ -134217,11 +134296,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Takuhee",
-    description: "This bird is\r\na precursor\r\nto disaster!!",
+    name: 'Takuhee',
+    description: 'This bird is\r\na precursor\r\nto disaster!!',
     id: 581,
     guardianStarA: 3,
     guardianStarB: 8,
@@ -134230,7 +134309,7 @@ export const CARDS_DB: Card[] = [
     attack: 1450,
     defense: 1000,
     stars: 120,
-    cardCode: "03170832",
+    cardCode: '03170832',
 
     fusions: [
       {
@@ -134255,12 +134334,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Dark Witch",
+    name: 'Dark Witch',
     description:
-      "A popular creature\r\nin mythology that\r\ndelivers judgement\r\nwith a sharp spear.",
+      'A popular creature\r\nin mythology that\r\ndelivers judgement\r\nwith a sharp spear.',
     id: 582,
     guardianStarA: 8,
     guardianStarB: 6,
@@ -134269,7 +134348,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1700,
     stars: 350,
-    cardCode: "35565537",
+    cardCode: '35565537',
 
     fusions: [
       {
@@ -134324,12 +134403,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Weather Report",
+    name: 'Weather Report',
     description:
-      "This creature is\r\nknown to predict the\r\nweather with very\r\nlittle accuracy.",
+      'This creature is\r\nknown to predict the\r\nweather with very\r\nlittle accuracy.',
     id: 583,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -134338,7 +134417,7 @@ export const CARDS_DB: Card[] = [
     attack: 950,
     defense: 1500,
     stars: 120,
-    cardCode: "72053645",
+    cardCode: '72053645',
 
     fusions: [
       {
@@ -134353,12 +134432,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Binding Chain",
+    name: 'Binding Chain',
     description:
-      "This creature\r\ncorners its enemies\r\nand seals away\r\ntheir power.",
+      'This creature\r\ncorners its enemies\r\nand seals away\r\ntheir power.',
     id: 584,
     guardianStarA: 8,
     guardianStarB: 10,
@@ -134367,7 +134446,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1100,
     stars: 60,
-    cardCode: "08058240",
+    cardCode: '08058240',
 
     fusions: [
       {
@@ -134432,12 +134511,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Mechanical Snail",
+    name: 'Mechanical Snail',
     description:
-      "A mechanically\r\nenhanced snail that\r\nis no faster than\r\nit used to be.",
+      'A mechanically\r\nenhanced snail that\r\nis no faster than\r\nit used to be.',
     id: 585,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -134446,7 +134525,7 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 1000,
     stars: 45,
-    cardCode: "34442949",
+    cardCode: '34442949',
 
     fusions: [
       {
@@ -134516,12 +134595,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Greenkappa",
+    name: 'Greenkappa',
     description:
-      "A creature that\r\ntransforms into the\r\nimage of its enemy\r\nand copies every\r\noffensive move.",
+      'A creature that\r\ntransforms into the\r\nimage of its enemy\r\nand copies every\r\noffensive move.',
     id: 586,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -134530,7 +134609,7 @@ export const CARDS_DB: Card[] = [
     attack: 650,
     defense: 900,
     stars: 30,
-    cardCode: "61831093",
+    cardCode: '61831093',
 
     fusions: [
       {
@@ -134600,12 +134679,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Mon Larvas",
+    name: 'Mon Larvas',
     description:
-      "A highly evolved\r\nLarvas that is even\r\nmore powerful than\r\nbefore.",
+      'A highly evolved\r\nLarvas that is even\r\nmore powerful than\r\nbefore.',
     id: 587,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -134614,7 +134693,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1400,
     stars: 140,
-    cardCode: "07225792",
+    cardCode: '07225792',
 
     fusions: [
       {
@@ -134654,12 +134733,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Living Vase",
+    name: 'Living Vase',
     description:
-      "A living vase that\r\nblinds enemies with\r\npollen and attacks\r\nwith its sharp teeth.",
+      'A living vase that\r\nblinds enemies with\r\npollen and attacks\r\nwith its sharp teeth.',
     id: 588,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -134668,7 +134747,7 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 1100,
     stars: 55,
-    cardCode: "34320307",
+    cardCode: '34320307',
 
     fusions: [
       {
@@ -134778,12 +134857,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Tentacle Plant",
+    name: 'Tentacle Plant',
     description:
-      "Attacks a nearby\r\nopponent by reaching\r\nout with its blue\r\nvines.",
+      'Attacks a nearby\r\nopponent by reaching\r\nout with its blue\r\nvines.',
     id: 589,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -134792,7 +134871,7 @@ export const CARDS_DB: Card[] = [
     attack: 500,
     defense: 600,
     stars: 25,
-    cardCode: "60715406",
+    cardCode: '60715406',
 
     fusions: [
       {
@@ -134907,12 +134986,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Beaked Snake",
+    name: 'Beaked Snake',
     description:
-      "Wraps its coils\r\naround opponents and\r\npecks them with its\r\nhuge beak.",
+      'Wraps its coils\r\naround opponents and\r\npecks them with its\r\nhuge beak.',
     id: 590,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -134921,16 +135000,16 @@ export const CARDS_DB: Card[] = [
     attack: 800,
     defense: 900,
     stars: 40,
-    cardCode: "06103114",
+    cardCode: '06103114',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Morphing Jar",
+    name: 'Morphing Jar',
     description:
-      "A large jar\r\nthat attacks\r\nnearby enemies\r\nby unleashing\r\nthe monster\r\nit contains inside.",
+      'A large jar\r\nthat attacks\r\nnearby enemies\r\nby unleashing\r\nthe monster\r\nit contains inside.',
     id: 591,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -134939,7 +135018,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 600,
     stars: 30,
-    cardCode: "33508719",
+    cardCode: '33508719',
 
     fusions: [
       {
@@ -135044,11 +135123,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Muse-A",
-    description: "A fairy of the arts\r\nand an excellent\r\nharp player.",
+    name: 'Muse-A',
+    description: 'A fairy of the arts\r\nand an excellent\r\nharp player.',
     id: 592,
     guardianStarA: 8,
     guardianStarB: 1,
@@ -135057,7 +135136,7 @@ export const CARDS_DB: Card[] = [
     attack: 850,
     defense: 900,
     stars: 40,
-    cardCode: "69992868",
+    cardCode: '69992868',
 
     fusions: [
       {
@@ -135187,12 +135266,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Giant Turtle Who Feeds on Flames",
+    name: 'Giant Turtle Who Feeds on Flames',
     description:
-      "A monster turtle\r\nwith a crimson shell.\r\nIt feeds on fire.",
+      'A monster turtle\r\nwith a crimson shell.\r\nIt feeds on fire.',
     id: 593,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -135201,7 +135280,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1800,
     stars: 260,
-    cardCode: "96981563",
+    cardCode: '96981563',
 
     fusions: [
       {
@@ -135231,12 +135310,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Rose Spectre of Dunn",
+    name: 'Rose Spectre of Dunn',
     description:
-      "A red rose possessed\r\nby a vile spirit\r\nthat feeds on\r\nthe life force\r\nof others to\r\nprovide the flower\r\nwith nourishment.",
+      'A red rose possessed\r\nby a vile spirit\r\nthat feeds on\r\nthe life force\r\nof others to\r\nprovide the flower\r\nwith nourishment.',
     id: 594,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -135245,7 +135324,7 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1800,
     stars: 500,
-    cardCode: "32485271",
+    cardCode: '32485271',
 
     fusions: [
       {
@@ -135270,11 +135349,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Fiend Refrection #1",
-    description: "Drags enemies into\r\na mirror world.",
+    name: 'Fiend Refrection #1',
+    description: 'Drags enemies into\r\na mirror world.',
     id: 595,
     guardianStarA: 10,
     guardianStarB: 2,
@@ -135283,7 +135362,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1400,
     stars: 140,
-    cardCode: "68870276",
+    cardCode: '68870276',
 
     fusions: [
       {
@@ -135298,12 +135377,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Ghoul with an Appetite",
+    name: 'Ghoul with an Appetite',
     description:
-      "A monster that can\r\neat all it wants but\r\nis never fulfilled.",
+      'A monster that can\r\neat all it wants but\r\nis never fulfilled.',
     id: 596,
     guardianStarA: 9,
     guardianStarB: 5,
@@ -135312,7 +135391,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1200,
     stars: 160,
-    cardCode: "95265975",
+    cardCode: '95265975',
 
     fusions: [
       {
@@ -135337,12 +135416,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Pale Beast",
+    name: 'Pale Beast',
     description:
-      "With skin tinged\r\na bluish white, this\r\nstrange creature is\r\na fearsome sight\r\nto behold.",
+      'With skin tinged\r\na bluish white, this\r\nstrange creature is\r\na fearsome sight\r\nto behold.',
     id: 597,
     guardianStarA: 2,
     guardianStarB: 6,
@@ -135351,7 +135430,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1200,
     stars: 140,
-    cardCode: "21263083",
+    cardCode: '21263083',
 
     fusions: [
       {
@@ -135461,12 +135540,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Little Chimera",
+    name: 'Little Chimera',
     description:
-      "A monster created\r\nfrom an experimental\r\nattempt to graft\r\nwings on beasts.",
+      'A monster created\r\nfrom an experimental\r\nattempt to graft\r\nwings on beasts.',
     id: 598,
     guardianStarA: 3,
     guardianStarB: 9,
@@ -135475,7 +135554,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 550,
     stars: 25,
-    cardCode: "68658728",
+    cardCode: '68658728',
 
     fusions: [
       {
@@ -135590,11 +135669,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Violent Rain",
-    description: "A monster capable of\r\nbringing on sudden\r\nrain showers.",
+    name: 'Violent Rain',
+    description: 'A monster capable of\r\nbringing on sudden\r\nrain showers.',
     id: 599,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -135603,7 +135682,7 @@ export const CARDS_DB: Card[] = [
     attack: 1550,
     defense: 800,
     stars: 80,
-    cardCode: "94042337",
+    cardCode: '94042337',
 
     fusions: [
       {
@@ -135613,12 +135692,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Key Mace #2",
+    name: 'Key Mace #2',
     description:
-      "Seals away the good\r\nin a soul to create\r\na wicked being.",
+      'Seals away the good\r\nin a soul to create\r\na wicked being.',
     id: 600,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -135627,7 +135706,7 @@ export const CARDS_DB: Card[] = [
     attack: 1050,
     defense: 1200,
     stars: 70,
-    cardCode: "20541432",
+    cardCode: '20541432',
 
     fusions: [
       {
@@ -135692,12 +135771,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Tenderness",
+    name: 'Tenderness',
     description:
-      "A cute fairy\r\ndedicated\r\nto bringing\r\nabout eternal love.",
+      'A cute fairy\r\ndedicated\r\nto bringing\r\nabout eternal love.',
     id: 601,
     guardianStarA: 8,
     guardianStarB: 2,
@@ -135706,7 +135785,7 @@ export const CARDS_DB: Card[] = [
     attack: 700,
     defense: 1400,
     stars: 60,
-    cardCode: "57935140",
+    cardCode: '57935140',
 
     fusions: [
       {
@@ -135781,11 +135860,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Penguin Soldier",
-    description: "A low-class penguin\r\nsoldier that attacks\r\nin a group.",
+    name: 'Penguin Soldier',
+    description: 'A low-class penguin\r\nsoldier that attacks\r\nin a group.',
     id: 602,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -135794,7 +135873,7 @@ export const CARDS_DB: Card[] = [
     attack: 750,
     defense: 500,
     stars: 25,
-    cardCode: "93920745",
+    cardCode: '93920745',
 
     fusions: [
       {
@@ -135809,11 +135888,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Fairy Dragon",
-    description: "A beautiful\r\nand powerful\r\ndragon fairy.",
+    name: 'Fairy Dragon',
+    description: 'A beautiful\r\nand powerful\r\ndragon fairy.',
     id: 603,
     guardianStarA: 8,
     guardianStarB: 3,
@@ -135822,7 +135901,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1200,
     stars: 999999,
-    cardCode: "20315854",
+    cardCode: '20315854',
 
     fusions: [
       {
@@ -135947,11 +136026,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Obese Marmot of Nefariousness",
-    description: "An ill-mannered\r\nfield mouse that\r\nchews on anything.",
+    name: 'Obese Marmot of Nefariousness',
+    description: 'An ill-mannered\r\nfield mouse that\r\nchews on anything.',
     id: 604,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -135960,7 +136039,7 @@ export const CARDS_DB: Card[] = [
     attack: 750,
     defense: 800,
     stars: 30,
-    cardCode: "56713552",
+    cardCode: '56713552',
 
     fusions: [
       {
@@ -136065,11 +136144,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Liquid Beast",
-    description: "A liquid life form\r\nthat moves freely\r\nin water.",
+    name: 'Liquid Beast',
+    description: 'A liquid life form\r\nthat moves freely\r\nin water.',
     id: 605,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -136078,7 +136157,7 @@ export const CARDS_DB: Card[] = [
     attack: 950,
     defense: 800,
     stars: 40,
-    cardCode: "93108297",
+    cardCode: '93108297',
 
     fusions: [
       {
@@ -136088,12 +136167,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Twin Long Rods #2",
+    name: 'Twin Long Rods #2',
     description:
-      "An undersea creature\r\nthat attacks with\r\ntwo whip-like tails.",
+      'An undersea creature\r\nthat attacks with\r\ntwo whip-like tails.',
     id: 606,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -136102,7 +136181,7 @@ export const CARDS_DB: Card[] = [
     attack: 850,
     defense: 700,
     stars: 30,
-    cardCode: "29692206",
+    cardCode: '29692206',
 
     fusions: [
       {
@@ -136112,12 +136191,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Great Bill",
+    name: 'Great Bill',
     description:
-      "A monster with a\r\nmassive maw that\r\nallows it to swallow\r\nan enemy whole.",
+      'A monster with a\r\nmassive maw that\r\nallows it to swallow\r\nan enemy whole.',
     id: 607,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -136126,7 +136205,7 @@ export const CARDS_DB: Card[] = [
     attack: 1250,
     defense: 1300,
     stars: 100,
-    cardCode: "55691901",
+    cardCode: '55691901',
 
     fusions: [
       {
@@ -136161,11 +136240,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Shining Friendship",
-    description: "The peacemaker\r\namong monsters.",
+    name: 'Shining Friendship',
+    description: 'The peacemaker\r\namong monsters.',
     id: 608,
     guardianStarA: 8,
     guardianStarB: 4,
@@ -136174,7 +136253,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1100,
     stars: 120,
-    cardCode: "82085619",
+    cardCode: '82085619',
 
     fusions: [
       {
@@ -136239,12 +136318,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Bladefly",
+    name: 'Bladefly',
     description:
-      "A monster fly\r\nthat swoops down\r\nwith sharp\r\nsword-like arms\r\nextended out front.",
+      'A monster fly\r\nthat swoops down\r\nwith sharp\r\nsword-like arms\r\nextended out front.',
     id: 609,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -136253,7 +136332,7 @@ export const CARDS_DB: Card[] = [
     attack: 600,
     defense: 700,
     stars: 30,
-    cardCode: "28470714",
+    cardCode: '28470714',
 
     fusions: [
       {
@@ -136263,12 +136342,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Electric Lizard",
+    name: 'Electric Lizard',
     description:
-      "A lizard\r\nthat discharges\r\nelectricity stored\r\nin its body.",
+      'A lizard\r\nthat discharges\r\nelectricity stored\r\nin its body.',
     id: 610,
     guardianStarA: 5,
     guardianStarB: 8,
@@ -136277,7 +136356,7 @@ export const CARDS_DB: Card[] = [
     attack: 850,
     defense: 800,
     stars: 35,
-    cardCode: "55875323",
+    cardCode: '55875323',
 
     fusions: [
       {
@@ -136347,12 +136426,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
     name: "Hiro's Shadow Scout",
     description:
-      "A servant of fiends\r\nused primarily for\r\nscouting an area.",
+      'A servant of fiends\r\nused primarily for\r\nscouting an area.',
     id: 611,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -136361,16 +136440,16 @@ export const CARDS_DB: Card[] = [
     attack: 650,
     defense: 500,
     stars: 25,
-    cardCode: "81863068",
+    cardCode: '81863068',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Lady of Faith",
+    name: 'Lady of Faith',
     description:
-      "Soothes the souls of\r\nothers by chanting\r\na mysterious spell.",
+      'Soothes the souls of\r\nothers by chanting\r\na mysterious spell.',
     id: 612,
     guardianStarA: 8,
     guardianStarB: 5,
@@ -136379,7 +136458,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 800,
     stars: 50,
-    cardCode: "17358176",
+    cardCode: '17358176',
 
     fusions: [
       {
@@ -136429,12 +136508,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Twin-headed Thunder Dragon",
+    name: 'Twin-headed Thunder Dragon',
     description:
-      "A two-headed Thunder\r\nDragon capable of\r\npowerful electric\r\nattacks.",
+      'A two-headed Thunder\r\nDragon capable of\r\npowerful electric\r\nattacks.',
     id: 613,
     guardianStarA: 5,
     guardianStarB: 9,
@@ -136443,16 +136522,16 @@ export const CARDS_DB: Card[] = [
     attack: 2800,
     defense: 2100,
     stars: 1900,
-    cardCode: "54752875",
+    cardCode: '54752875',
 
     fusions: [],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Hunter Spider",
+    name: 'Hunter Spider',
     description:
-      "A hunter that uses\r\nits spider web to\r\nentrap its enemies.",
+      'A hunter that uses\r\nits spider web to\r\nentrap its enemies.',
     id: 614,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -136461,16 +136540,16 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1400,
     stars: 200,
-    cardCode: "80141480",
+    cardCode: '80141480',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Armored Starfish",
+    name: 'Armored Starfish',
     description:
-      "A bluish starfish\r\nwith a solid hide\r\ncapable of fending\r\noff attacks.",
+      'A bluish starfish\r\nwith a solid hide\r\ncapable of fending\r\noff attacks.',
     id: 615,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -136479,16 +136558,16 @@ export const CARDS_DB: Card[] = [
     attack: 850,
     defense: 1400,
     stars: 70,
-    cardCode: "17535588",
+    cardCode: '17535588',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Hourglass of Courage",
+    name: 'Hourglass of Courage',
     description:
-      "A fairy that\r\ncontrols the\r\nfeelings of others,\r\ninstilling them\r\nwith bravery.",
+      'A fairy that\r\ncontrols the\r\nfeelings of others,\r\ninstilling them\r\nwith bravery.',
     id: 616,
     guardianStarA: 8,
     guardianStarB: 6,
@@ -136497,7 +136576,7 @@ export const CARDS_DB: Card[] = [
     attack: 1100,
     defense: 1200,
     stars: 80,
-    cardCode: "43530283",
+    cardCode: '43530283',
 
     fusions: [
       {
@@ -136557,10 +136636,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Marine Beast",
+    name: 'Marine Beast',
     description:
       "A sea creature\r\nwith sharp teeth\r\nthat won't release\r\na victim once\r\nthey're locked on.",
     id: 617,
@@ -136571,16 +136650,16 @@ export const CARDS_DB: Card[] = [
     attack: 1700,
     defense: 1600,
     stars: 290,
-    cardCode: "29929832",
+    cardCode: '29929832',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Warrior of Tradition",
+    name: 'Warrior of Tradition',
     description:
-      "A lady warrior\r\ndrenched in the \r\nessence from\r\na thousand\r\nbattlefields.",
+      'A lady warrior\r\ndrenched in the \r\nessence from\r\na thousand\r\nbattlefields.',
     id: 618,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -136589,7 +136668,7 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1700,
     stars: 400,
-    cardCode: "56413937",
+    cardCode: '56413937',
 
     fusions: [
       {
@@ -136604,12 +136683,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Rock Spirit",
+    name: 'Rock Spirit',
     description:
-      "A clay idol\r\nrepresenting a rock\r\nspirit. The creature\r\nhas significant\r\nattack and defense\r\nfactors.",
+      'A clay idol\r\nrepresenting a rock\r\nspirit. The creature\r\nhas significant\r\nattack and defense\r\nfactors.',
     id: 619,
     guardianStarA: 4,
     guardianStarB: 1,
@@ -136618,16 +136697,16 @@ export const CARDS_DB: Card[] = [
     attack: 1650,
     defense: 1900,
     stars: 350,
-    cardCode: "82818645",
+    cardCode: '82818645',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Snakeyashi",
+    name: 'Snakeyashi',
     description:
-      "A creature made up\r\nof several snakes\r\nthat attack\r\nseparately in battle.",
+      'A creature made up\r\nof several snakes\r\nthat attack\r\nseparately in battle.',
     id: 620,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -136636,7 +136715,7 @@ export const CARDS_DB: Card[] = [
     attack: 1000,
     defense: 1200,
     stars: 70,
-    cardCode: "29802344",
+    cardCode: '29802344',
 
     fusions: [
       {
@@ -136701,12 +136780,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Succubus Knight",
+    name: 'Succubus Knight',
     description:
-      "A vile\r\nwarrior wizard\r\nadept at casting\r\ndoom-dealing spells.",
+      'A vile\r\nwarrior wizard\r\nadept at casting\r\ndoom-dealing spells.',
     id: 621,
     guardianStarA: 7,
     guardianStarB: 2,
@@ -136715,7 +136794,7 @@ export const CARDS_DB: Card[] = [
     attack: 1650,
     defense: 1300,
     stars: 180,
-    cardCode: "55291359",
+    cardCode: '55291359',
 
     fusions: [
       {
@@ -136755,12 +136834,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Ill Witch",
+    name: 'Ill Witch',
     description:
-      "Controls air\r\ncurrents and\r\ncan generate\r\na sudden gust\r\nof wind to blow\r\naway an opponent.",
+      'Controls air\r\ncurrents and\r\ncan generate\r\na sudden gust\r\nof wind to blow\r\naway an opponent.',
     id: 622,
     guardianStarA: 8,
     guardianStarB: 10,
@@ -136769,7 +136848,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1500,
     stars: 230,
-    cardCode: "81686058",
+    cardCode: '81686058',
 
     fusions: [
       {
@@ -136809,10 +136888,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "The Thing That Hides in the Mud",
+    name: 'The Thing That Hides in the Mud',
     description:
       "The appearance\r\nof this creature\r\nis preceded by the\r\nground melting under\r\nan opponent's feet.",
     id: 623,
@@ -136823,7 +136902,7 @@ export const CARDS_DB: Card[] = [
     attack: 1200,
     defense: 1300,
     stars: 100,
-    cardCode: "18180762",
+    cardCode: '18180762',
 
     fusions: [
       {
@@ -136878,12 +136957,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "High Tide Gyojin",
+    name: 'High Tide Gyojin',
     description:
-      "An amphibian warrior\r\nthat can easily\r\nnavigate beneath\r\nthe waters.",
+      'An amphibian warrior\r\nthat can easily\r\nnavigate beneath\r\nthe waters.',
     id: 624,
     guardianStarA: 6,
     guardianStarB: 7,
@@ -136892,16 +136971,16 @@ export const CARDS_DB: Card[] = [
     attack: 1650,
     defense: 1300,
     stars: 180,
-    cardCode: "54579801",
+    cardCode: '54579801',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Fairy of the Fountain",
+    name: 'Fairy of the Fountain',
     description:
-      "A fairy dedicated to\r\nprotecting fountains\r\nfrom pollution.",
+      'A fairy dedicated to\r\nprotecting fountains\r\nfrom pollution.',
     id: 625,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -136910,7 +136989,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1100,
     stars: 140,
-    cardCode: "81563416",
+    cardCode: '81563416',
 
     fusions: [
       {
@@ -136940,11 +137019,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Amazon of the Seas",
-    description: "A mermaid sentry\r\nserving the Sea King\r\nand his kingdom.",
+    name: 'Amazon of the Seas',
+    description: 'A mermaid sentry\r\nserving the Sea King\r\nand his kingdom.',
     id: 626,
     guardianStarA: 6,
     guardianStarB: 1,
@@ -136953,7 +137032,7 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 1400,
     stars: 140,
-    cardCode: "17968114",
+    cardCode: '17968114',
 
     fusions: [
       {
@@ -136988,12 +137067,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Nekogal #2",
+    name: 'Nekogal #2',
     description:
-      "This fast creature\r\ncan easily elude\r\nenemy attacks and\r\ncounter them with\r\nits vicious claws.",
+      'This fast creature\r\ncan easily elude\r\nenemy attacks and\r\ncounter them with\r\nits vicious claws.',
     id: 627,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -137002,7 +137081,7 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 2000,
     stars: 550,
-    cardCode: "43352213",
+    cardCode: '43352213',
 
     fusions: [
       {
@@ -137012,12 +137091,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
     name: "Witch's Apprentice",
     description:
-      "An inexperienced\r\nwitch who just\r\nstarted learning\r\nthe mystic arts.",
+      'An inexperienced\r\nwitch who just\r\nstarted learning\r\nthe mystic arts.',
     id: 628,
     guardianStarA: 7,
     guardianStarB: 3,
@@ -137026,7 +137105,7 @@ export const CARDS_DB: Card[] = [
     attack: 550,
     defense: 500,
     stars: 999999,
-    cardCode: "80741828",
+    cardCode: '80741828',
 
     fusions: [
       {
@@ -137056,11 +137135,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Armored Rat",
-    description: "A rat\r\nthat is protected\r\nby armor-like fur.",
+    name: 'Armored Rat',
+    description: 'A rat\r\nthat is protected\r\nby armor-like fur.',
     id: 629,
     guardianStarA: 2,
     guardianStarB: 5,
@@ -137069,7 +137148,7 @@ export const CARDS_DB: Card[] = [
     attack: 950,
     defense: 1100,
     stars: 55,
-    cardCode: "16246527",
+    cardCode: '16246527',
 
     fusions: [
       {
@@ -137124,11 +137203,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Ancient Lizard Warrior",
-    description: "A powerful,\r\nprehistoric\r\nlizard warrior.",
+    name: 'Ancient Lizard Warrior',
+    description: 'A powerful,\r\nprehistoric\r\nlizard warrior.',
     id: 630,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -137137,16 +137216,16 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1100,
     stars: 100,
-    cardCode: "43230671",
+    cardCode: '43230671',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Maiden of the Moonlight",
+    name: 'Maiden of the Moonlight',
     description:
-      "A lunar sorcerer\r\nthat uses mystical\r\nspells to induce\r\nhallucinations.",
+      'A lunar sorcerer\r\nthat uses mystical\r\nspells to induce\r\nhallucinations.',
     id: 631,
     guardianStarA: 9,
     guardianStarB: 10,
@@ -137155,7 +137234,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1300,
     stars: 160,
-    cardCode: "79629370",
+    cardCode: '79629370',
 
     fusions: [
       {
@@ -137180,11 +137259,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Stone Ogre Grotto",
-    description: "A rock giant\r\nconsisting of\r\nmassive boulders.",
+    name: 'Stone Ogre Grotto',
+    description: 'A rock giant\r\nconsisting of\r\nmassive boulders.',
     id: 632,
     guardianStarA: 4,
     guardianStarB: 8,
@@ -137193,7 +137272,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1500,
     stars: 230,
-    cardCode: "15023985",
+    cardCode: '15023985',
 
     fusions: [
       {
@@ -137223,11 +137302,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Winged Egg of New Life",
-    description: "A messenger of\r\nnewborn life.",
+    name: 'Winged Egg of New Life',
+    description: 'A messenger of\r\nnewborn life.',
     id: 633,
     guardianStarA: 8,
     guardianStarB: 1,
@@ -137236,7 +137315,7 @@ export const CARDS_DB: Card[] = [
     attack: 1400,
     defense: 1700,
     stars: 230,
-    cardCode: "42418084",
+    cardCode: '42418084',
 
     fusions: [
       {
@@ -137261,12 +137340,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Night Lizard",
+    name: 'Night Lizard',
     description:
-      "A green-scaled\r\nlizard warrior\r\ndedicated to \r\nprotecting the sea.",
+      'A green-scaled\r\nlizard warrior\r\ndedicated to \r\nprotecting the sea.',
     id: 634,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -137275,15 +137354,15 @@ export const CARDS_DB: Card[] = [
     attack: 1150,
     defense: 1300,
     stars: 120,
-    cardCode: "78402798",
+    cardCode: '78402798',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
     name: "Queen's Double",
-    description: "Not very useful\r\ndouble of a queen.",
+    description: 'Not very useful\r\ndouble of a queen.',
     id: 635,
     guardianStarA: 4,
     guardianStarB: 9,
@@ -137292,7 +137371,7 @@ export const CARDS_DB: Card[] = [
     attack: 350,
     defense: 300,
     stars: 15,
-    cardCode: "05901497",
+    cardCode: '05901497',
 
     fusions: [
       {
@@ -137317,12 +137396,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Blue-winged Crown",
+    name: 'Blue-winged Crown',
     description:
-      "A bird that glows\r\nwith blue flames and\r\nhas a head of hair\r\nshaped like a crown.",
+      'A bird that glows\r\nwith blue flames and\r\nhas a head of hair\r\nshaped like a crown.',
     id: 636,
     guardianStarA: 3,
     guardianStarB: 10,
@@ -137331,7 +137410,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1200,
     stars: 160,
-    cardCode: "41396436",
+    cardCode: '41396436',
 
     fusions: [
       {
@@ -137351,12 +137430,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Wind",
+    attribute: 'Wind',
   },
   {
-    name: "Trent",
+    name: 'Trent',
     description:
-      "A protector\r\nof the forest,\r\nthis massive tree\r\ncontinues to grow.",
+      'A protector\r\nof the forest,\r\nthis massive tree\r\ncontinues to grow.',
     id: 637,
     guardianStarA: 2,
     guardianStarB: 8,
@@ -137365,7 +137444,7 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 1800,
     stars: 290,
-    cardCode: "78780140",
+    cardCode: '78780140',
 
     fusions: [
       {
@@ -137390,12 +137469,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Queen of Autumn Leaves",
+    name: 'Queen of Autumn Leaves',
     description:
-      "Queen of the\r\nTree Spirit\r\nwho is embraced\r\nby brilliant\r\nautumn leaves.",
+      'Queen of the\r\nTree Spirit\r\nwho is embraced\r\nby brilliant\r\nautumn leaves.',
     id: 638,
     guardianStarA: 2,
     guardianStarB: 9,
@@ -137404,7 +137483,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 1500,
     stars: 290,
-    cardCode: "04179849",
+    cardCode: '04179849',
 
     fusions: [
       {
@@ -137419,11 +137498,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Amphibious Bugroth",
-    description: "A Bugroth unit\r\nmodified for\r\nunderwater warfare.",
+    name: 'Amphibious Bugroth',
+    description: 'A Bugroth unit\r\nmodified for\r\nunderwater warfare.',
     id: 639,
     guardianStarA: 6,
     guardianStarB: 8,
@@ -137432,16 +137511,16 @@ export const CARDS_DB: Card[] = [
     attack: 1850,
     defense: 1300,
     stars: 230,
-    cardCode: "40173854",
+    cardCode: '40173854',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Acid Crawler",
+    name: 'Acid Crawler',
     description:
-      "A gigantic\r\ncaterpillar that\r\nspits acid capable\r\nof melting\r\nalmost anything.",
+      'A gigantic\r\ncaterpillar that\r\nspits acid capable\r\nof melting\r\nalmost anything.',
     id: 640,
     guardianStarA: 2,
     guardianStarB: 10,
@@ -137450,14 +137529,14 @@ export const CARDS_DB: Card[] = [
     attack: 900,
     defense: 700,
     stars: 999999,
-    cardCode: "77568553",
+    cardCode: '77568553',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Invader of the Throne",
+    name: 'Invader of the Throne',
     description:
       "A scheming queen\r\nwho covets\r\nthe king's throne\r\nduring his absence.",
     id: 641,
@@ -137468,7 +137547,7 @@ export const CARDS_DB: Card[] = [
     attack: 1350,
     defense: 1700,
     stars: 200,
-    cardCode: "03056267",
+    cardCode: '03056267',
 
     fusions: [
       {
@@ -137488,11 +137567,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Mystical Sheep #1",
-    description: "A black-haired sheep\r\nthat is capable\r\nof sorcery.",
+    name: 'Mystical Sheep #1',
+    description: 'A black-haired sheep\r\nthat is capable\r\nof sorcery.',
     id: 642,
     guardianStarA: 10,
     guardianStarB: 3,
@@ -137501,7 +137580,7 @@ export const CARDS_DB: Card[] = [
     attack: 1150,
     defense: 900,
     stars: 55,
-    cardCode: "30451366",
+    cardCode: '30451366',
 
     fusions: [
       {
@@ -137526,12 +137605,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Disk Magician",
+    name: 'Disk Magician',
     description:
-      "A creature that\r\nhides in a saucer\r\nand appears only to\r\nattack enemies.",
+      'A creature that\r\nhides in a saucer\r\nand appears only to\r\nattack enemies.',
     id: 643,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -137540,7 +137619,7 @@ export const CARDS_DB: Card[] = [
     attack: 1350,
     defense: 1000,
     stars: 80,
-    cardCode: "76446915",
+    cardCode: '76446915',
 
     fusions: [
       {
@@ -137555,11 +137634,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Flame Viper",
-    description: "A very swift,\r\nfire-breathing viper.",
+    name: 'Flame Viper',
+    description: 'A very swift,\r\nfire-breathing viper.',
     id: 644,
     guardianStarA: 1,
     guardianStarB: 5,
@@ -137568,7 +137647,7 @@ export const CARDS_DB: Card[] = [
     attack: 400,
     defense: 450,
     stars: 20,
-    cardCode: "02830619",
+    cardCode: '02830619',
 
     fusions: [
       {
@@ -137578,12 +137657,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Royal Guard",
+    name: 'Royal Guard',
     description:
-      "Mechanical soldier\r\nwith a mind\r\nof its own.\r\nOriginally created\r\nto protect members\r\nof the royal family.",
+      'Mechanical soldier\r\nwith a mind\r\nof its own.\r\nOriginally created\r\nto protect members\r\nof the royal family.',
     id: 645,
     guardianStarA: 4,
     guardianStarB: 7,
@@ -137592,16 +137671,16 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 2200,
     stars: 700,
-    cardCode: "39239728",
+    cardCode: '39239728',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Gruesome Goo",
+    name: 'Gruesome Goo',
     description:
-      "Looks like any other\r\nslime,\r\nbut definitely\r\nmuch more powerful!",
+      'Looks like any other\r\nslime,\r\nbut definitely\r\nmuch more powerful!',
     id: 646,
     guardianStarA: 6,
     guardianStarB: 9,
@@ -137610,16 +137689,16 @@ export const CARDS_DB: Card[] = [
     attack: 1300,
     defense: 700,
     stars: 55,
-    cardCode: "65623423",
+    cardCode: '65623423',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Hyosube",
+    name: 'Hyosube',
     description:
-      "This amphibian\r\ncreature boasts\r\na high attack factor,\r\nbut not much of one\r\nfor defense.",
+      'This amphibian\r\ncreature boasts\r\na high attack factor,\r\nbut not much of one\r\nfor defense.',
     id: 647,
     guardianStarA: 6,
     guardianStarB: 10,
@@ -137628,15 +137707,15 @@ export const CARDS_DB: Card[] = [
     attack: 1500,
     defense: 900,
     stars: 120,
-    cardCode: "02118022",
+    cardCode: '02118022',
 
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Machine Attacker",
-    description: "A machine designed\r\nto blitz its enemies.",
+    name: 'Machine Attacker',
+    description: 'A machine designed\r\nto blitz its enemies.',
     id: 648,
     guardianStarA: 9,
     guardianStarB: 6,
@@ -137645,7 +137724,7 @@ export const CARDS_DB: Card[] = [
     attack: 1600,
     defense: 1300,
     stars: 180,
-    cardCode: "38116136",
+    cardCode: '38116136',
 
     fusions: [
       {
@@ -137655,12 +137734,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Hibikime",
+    name: 'Hibikime',
     description:
-      "Confuses enemy\r\nmonsters with noise\r\nthat is harsh\r\nto the ears.",
+      'Confuses enemy\r\nmonsters with noise\r\nthat is harsh\r\nto the ears.',
     id: 649,
     guardianStarA: 7,
     guardianStarB: 4,
@@ -137669,15 +137748,15 @@ export const CARDS_DB: Card[] = [
     attack: 1450,
     defense: 1000,
     stars: 120,
-    cardCode: "64501875",
+    cardCode: '64501875',
 
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Whiptail Crow",
-    description: "Attacks from the\r\nskies with\r\na whip-like tail.",
+    name: 'Whiptail Crow',
+    description: 'Attacks from the\r\nskies with\r\na whip-like tail.',
     id: 650,
     guardianStarA: 9,
     guardianStarB: 7,
@@ -137686,16 +137765,16 @@ export const CARDS_DB: Card[] = [
     attack: 1650,
     defense: 1600,
     stars: 260,
-    cardCode: "91996584",
+    cardCode: '91996584',
 
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Kunai with Chain",
+    name: 'Kunai with Chain',
     description:
-      "A boomerang\r\nfeaturing the\r\neffects of two\r\ncards: the Legendary\r\nSword and the Sword\r\nof Dark Destruction.",
+      'A boomerang\r\nfeaturing the\r\neffects of two\r\ncards: the Legendary\r\nSword and the Sword\r\nof Dark Destruction.',
     id: 651,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137704,7 +137783,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "37390589",
+    cardCode: '37390589',
     fusions: [
       {
         card1: 651,
@@ -137713,11 +137792,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Magical Labyrinth",
-    description: "A card for boosting\r\nthe power of the\r\nLabyrinth Wall.",
+    name: 'Magical Labyrinth',
+    description: 'A card for boosting\r\nthe power of the\r\nLabyrinth Wall.',
     id: 652,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137726,7 +137805,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 10,
-    cardCode: "64389297",
+    cardCode: '64389297',
     fusions: [
       {
         card1: 652,
@@ -137740,12 +137819,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Warrior Elimination",
+    name: 'Warrior Elimination',
     description:
-      "Destroys all\r\nopponent Warrior\r\ncards played\r\non the field.",
+      'Destroys all\r\nopponent Warrior\r\ncards played\r\non the field.',
     id: 653,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137754,16 +137833,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "90873992",
+    cardCode: '90873992',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Salamandra",
+    name: 'Salamandra',
     description:
-      "Increases the\r\nstrength of those\r\nwho control the\r\npower of Salamandra.",
+      'Increases the\r\nstrength of those\r\nwho control the\r\npower of Salamandra.',
     id: 654,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137772,15 +137851,15 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "32268901",
+    cardCode: '32268901',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Cursebreaker",
+    name: 'Cursebreaker',
     description:
-      "Cancels the magic\r\nover all \r\nlevel-reduced\r\nmonsters and sets\r\nthem at level 0.",
+      'Cancels the magic\r\nover all \r\nlevel-reduced\r\nmonsters and sets\r\nthem at level 0.',
     id: 655,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137789,7 +137868,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 10,
-    cardCode: "69666645",
+    cardCode: '69666645',
 
     fusions: [
       {
@@ -137799,11 +137878,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Eternal Rest",
-    description: "Eliminates all\r\nZombie creatures.",
+    name: 'Eternal Rest',
+    description: 'Eliminates all\r\nZombie creatures.',
     id: 656,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137812,16 +137891,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "95051344",
+    cardCode: '95051344',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Megamorph",
+    name: 'Megamorph',
     description:
-      "A card that\r\nincreases the power\r\nof any selected\r\nmonster by 2 levels.",
+      'A card that\r\nincreases the power\r\nof any selected\r\nmonster by 2 levels.',
     id: 657,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137830,7 +137909,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 50000,
-    cardCode: "22046459",
+    cardCode: '22046459',
     fusions: [
       {
         card1: 657,
@@ -137839,12 +137918,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Metalmorph",
+    name: 'Metalmorph',
     description:
-      "A card that changes\r\nany selected monster\r\nto a Machine monster.",
+      'A card that changes\r\nany selected monster\r\nto a Machine monster.',
     id: 658,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137853,7 +137932,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "68540058",
+    cardCode: '68540058',
     fusions: [
       {
         card1: 658,
@@ -137872,11 +137951,11 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Winged Trumpeter",
-    description: "A horn that\r\nincreases the power\r\nof Fairy creatures.",
+    name: 'Winged Trumpeter',
+    description: 'A horn that\r\nincreases the power\r\nof Fairy creatures.',
     id: 659,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137885,7 +137964,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "94939166",
+    cardCode: '94939166',
     fusions: [
       {
         card1: 659,
@@ -137894,10 +137973,10 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Stain Storm",
+    name: 'Stain Storm',
     description: "Acid rain destroys\r\nan opponent's\r\nMachine monsters.",
     id: 660,
     guardianStarA: 0,
@@ -137907,16 +137986,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "21323861",
+    cardCode: '21323861',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Crush Card",
+    name: 'Crush Card',
     description:
-      "Opponent monsters\r\nin play with attack\r\nfactors of 1500 or\r\nmore are eliminated.",
+      'Opponent monsters\r\nin play with attack\r\nfactors of 1500 or\r\nmore are eliminated.',
     id: 661,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137925,14 +138004,14 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "57728570",
+    cardCode: '57728570',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Eradicating Aerosol",
+    name: 'Eradicating Aerosol',
     description:
       "An insecticide for\r\nwiping out an\r\nopponent's Insect\r\nmonsters that are\r\ncurrently in play.",
     id: 662,
@@ -137943,14 +138022,14 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "94716515",
+    cardCode: '94716515',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Breath of Light",
+    name: 'Breath of Light',
     description:
       "A magic wind that\r\nreduces to rubble an\r\nopponent's Rock\r\nmonsters that are\r\ncurrently in play.",
     id: 663,
@@ -137961,14 +138040,14 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "20101223",
+    cardCode: '20101223',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Eternal Draught",
+    name: 'Eternal Draught',
     description:
       "A blast of heat\r\ndries up\r\nand eliminates\r\nan opponent's Fish\r\nmonsters that are\r\ncurrently in play.",
     id: 664,
@@ -137979,16 +138058,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "56606928",
+    cardCode: '56606928',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Curse of Millennium Shield",
+    name: 'Curse of Millennium Shield',
     description:
-      "Sacrifices the\r\nmonster with the\r\nhighest defense \r\nrating and summons\r\nShield.",
+      'Sacrifices the\r\nmonster with the\r\nhighest defense \r\nrating and summons\r\nShield.',
     id: 665,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -137997,7 +138076,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 10,
-    cardCode: "83094937",
+    cardCode: '83094937',
 
     fusions: [
       {
@@ -138015,12 +138094,12 @@ export const CARDS_DB: Card[] = [
         result: 362,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Yamadron Ritual",
+    name: 'Yamadron Ritual',
     description:
-      "Sacrifices\r\nBeast-Warrior,\r\nDragon,\r\nand Pyro monsters\r\nto summon Yamadron.",
+      'Sacrifices\r\nBeast-Warrior,\r\nDragon,\r\nand Pyro monsters\r\nto summon Yamadron.',
     id: 666,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138029,7 +138108,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 10,
-    cardCode: "29089635",
+    cardCode: '29089635',
 
     fusions: [],
     ritual: [
@@ -138041,12 +138120,12 @@ export const CARDS_DB: Card[] = [
         result: 357,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Gate Guardian Ritual",
+    name: 'Gate Guardian Ritual',
     description:
-      "Sacrifices Kazejin,\r\nSuijin, and Sanga of\r\nthe Thunder to\r\nsummon Gate Guardian.",
+      'Sacrifices Kazejin,\r\nSuijin, and Sanga of\r\nthe Thunder to\r\nsummon Gate Guardian.',
     id: 667,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138055,7 +138134,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "56483330",
+    cardCode: '56483330',
 
     fusions: [],
     ritual: [
@@ -138067,12 +138146,12 @@ export const CARDS_DB: Card[] = [
         result: 374,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Bright Castle",
+    name: 'Bright Castle',
     description:
-      "A glaring light that\r\nincreases the power\r\nof all monsters.",
+      'A glaring light that\r\nincreases the power\r\nof all monsters.',
     id: 668,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138081,13 +138160,13 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 800,
-    cardCode: "82878489",
+    cardCode: '82878489',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Shadow Spell",
+    name: 'Shadow Spell',
     description:
       "Decreases an\r\nopponent's in-play\r\nmonsters by two\r\nlevels.",
     id: 669,
@@ -138098,16 +138177,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "29267084",
+    cardCode: '29267084',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Black Luster Ritual",
+    name: 'Black Luster Ritual',
     description:
-      "Ceremony conducted\r\nto summon\r\nBlack Luster Soldier.\r\nSacrifice required.",
+      'Ceremony conducted\r\nto summon\r\nBlack Luster Soldier.\r\nSacrifice required.',
     id: 670,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138116,7 +138195,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 100,
-    cardCode: "55761792",
+    cardCode: '55761792',
 
     fusions: [],
     ritual: [
@@ -138128,11 +138207,11 @@ export const CARDS_DB: Card[] = [
         result: 364,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Zera Ritual",
-    description: "Ceremony conducted\r\nto summon Zera.\r\nSacrifice required.",
+    name: 'Zera Ritual',
+    description: 'Ceremony conducted\r\nto summon Zera.\r\nSacrifice required.',
     id: 671,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138141,7 +138220,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 100,
-    cardCode: "81756897",
+    cardCode: '81756897',
 
     fusions: [],
     ritual: [
@@ -138153,11 +138232,11 @@ export const CARDS_DB: Card[] = [
         result: 360,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
     name: "Harpie's Feather Duster",
-    description: "Destroys all\r\nopponent Magic cards\r\nthat are in play.",
+    description: 'Destroys all\r\nopponent Magic cards\r\nthat are in play.',
     id: 672,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138166,16 +138245,16 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "18144506",
+    cardCode: '18144506',
 
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "War-lion Ritual",
+    name: 'War-lion Ritual',
     description:
-      "Ceremony conducted\r\nto summon War Lion.\r\nSacrifice required.",
+      'Ceremony conducted\r\nto summon War Lion.\r\nSacrifice required.',
     id: 673,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138184,7 +138263,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 100,
-    cardCode: "54539105",
+    cardCode: '54539105',
 
     fusions: [],
     ritual: [
@@ -138196,10 +138275,10 @@ export const CARDS_DB: Card[] = [
         result: 356,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Beastry Mirror Ritual",
+    name: 'Beastry Mirror Ritual',
     description:
       "Ceremony conducted\r\nto summon\r\nFiend's Mirror.\r\nSacrifice required.",
     id: 674,
@@ -138210,7 +138289,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 100,
-    cardCode: "81933259",
+    cardCode: '81933259',
 
     fusions: [],
     ritual: [
@@ -138222,11 +138301,11 @@ export const CARDS_DB: Card[] = [
         result: 365,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Ultimate Dragon",
-    description: "Sacrifice three\r\nBlue-eyes to summon\r\nUltimate Dragon.",
+    name: 'Ultimate Dragon',
+    description: 'Sacrifice three\r\nBlue-eyes to summon\r\nUltimate Dragon.',
     id: 675,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138235,7 +138314,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "17928958",
+    cardCode: '17928958',
 
     fusions: [],
     ritual: [
@@ -138247,12 +138326,12 @@ export const CARDS_DB: Card[] = [
         result: 380,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Commencement Dance",
+    name: 'Commencement Dance',
     description:
-      "Sacrifice Dancer and\r\nWarrior to summon\r\nPerformance of Sword.",
+      'Sacrifice Dancer and\r\nWarrior to summon\r\nPerformance of Sword.',
     id: 676,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138261,7 +138340,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 50,
-    cardCode: "43417563",
+    cardCode: '43417563',
 
     fusions: [],
     ritual: [
@@ -138273,12 +138352,12 @@ export const CARDS_DB: Card[] = [
         result: 701,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Hamburger Recipe",
+    name: 'Hamburger Recipe',
     description:
-      "A card with\r\nthe ingredients\r\nfor making a\r\ndelicious hamburger.",
+      'A card with\r\nthe ingredients\r\nfor making a\r\ndelicious hamburger.',
     id: 677,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138287,7 +138366,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 50,
-    cardCode: "80811661",
+    cardCode: '80811661',
 
     fusions: [],
     ritual: [
@@ -138299,12 +138378,12 @@ export const CARDS_DB: Card[] = [
         result: 702,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Revival of Sennen Genjin",
+    name: 'Revival of Sennen Genjin',
     description:
-      "Sacrifice\r\nBeast-Warrior and\r\nGolem to summon\r\nSengenjin.",
+      'Sacrifice\r\nBeast-Warrior and\r\nGolem to summon\r\nSengenjin.',
     id: 678,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138313,7 +138392,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 100,
-    cardCode: "16206366",
+    cardCode: '16206366',
 
     fusions: [],
     ritual: [
@@ -138325,12 +138404,12 @@ export const CARDS_DB: Card[] = [
         result: 703,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
     name: "Novox's Prayer",
     description:
-      "Sacrifice Warrior\r\nand Scythe Wielder\r\nto summon\r\nSkull Guardian.",
+      'Sacrifice Warrior\r\nand Scythe Wielder\r\nto summon\r\nSkull Guardian.',
     id: 679,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138339,7 +138418,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 50,
-    cardCode: "43694075",
+    cardCode: '43694075',
 
     fusions: [],
     ritual: [
@@ -138351,12 +138430,12 @@ export const CARDS_DB: Card[] = [
         result: 704,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Curse of Tri-Horned Dragon",
+    name: 'Curse of Tri-Horned Dragon',
     description:
-      "Sacrifice a horned\r\nmonster to summon\r\nTri-Horned Dragon.",
+      'Sacrifice a horned\r\nmonster to summon\r\nTri-Horned Dragon.',
     id: 680,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138365,7 +138444,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 50,
-    cardCode: "79699070",
+    cardCode: '79699070',
 
     fusions: [],
     ritual: [
@@ -138377,12 +138456,12 @@ export const CARDS_DB: Card[] = [
         result: 705,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "House of Adhesive Tape",
+    name: 'House of Adhesive Tape',
     description:
-      "Monsters\r\nwith Attack Factors\r\nof 500 or lower\r\nare eliminated\r\nfrom the play field.",
+      'Monsters\r\nwith Attack Factors\r\nof 500 or lower\r\nare eliminated\r\nfrom the play field.',
     id: 681,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138391,15 +138470,15 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "15083728",
+    cardCode: '15083728',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Eatgaboon",
+    name: 'Eatgaboon',
     description:
-      "Monsters\r\nwith Attack Factors\r\nof 1000 or lower\r\nare eliminated\r\nfrom the play field.",
+      'Monsters\r\nwith Attack Factors\r\nof 1000 or lower\r\nare eliminated\r\nfrom the play field.',
     id: 682,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138408,13 +138487,13 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "42578427",
+    cardCode: '42578427',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Bear Trap",
+    name: 'Bear Trap',
     description:
       "When an opposing\r\nmonster's Attack\r\nFactor is\r\n1500 or lower,\r\nit is eliminated\r\nfrom the play field.",
     id: 683,
@@ -138425,13 +138504,13 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "78977532",
+    cardCode: '78977532',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Invisible Wire",
+    name: 'Invisible Wire',
     description:
       "When an opposing\r\nmonster's Attack\r\nFactor is\r\n2000 or lower,\r\nit is eliminated\r\nfrom the play field.",
     id: 684,
@@ -138442,13 +138521,13 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "15361130",
+    cardCode: '15361130',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Acid Trap Hole",
+    name: 'Acid Trap Hole',
     description:
       "When an opposing\r\nmonster's Attack\r\nFactor is\r\n3000 or lower,\r\nit is eliminated\r\nfrom the play field.",
     id: 685,
@@ -138459,13 +138538,13 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "41356845",
+    cardCode: '41356845',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Widespread Ruin",
+    name: 'Widespread Ruin',
     description:
       "When an opponent's\r\nmonster attacks,\r\nit is blown to\r\nsmithereens and\r\neliminated from\r\nthe play field.",
     id: 686,
@@ -138476,7 +138555,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "77754944",
+    cardCode: '77754944',
     fusions: [
       {
         card1: 686,
@@ -138485,12 +138564,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Goblin Fan",
+    name: 'Goblin Fan',
     description:
-      "Reflects the damage\r\nof direct attack\r\ncards like \r\nFire Sparks and\r\nInferno back\r\nto your opponent.",
+      'Reflects the damage\r\nof direct attack\r\ncards like \r\nFire Sparks and\r\nInferno back\r\nto your opponent.',
     id: 687,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138499,7 +138578,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "04149689",
+    cardCode: '04149689',
     fusions: [
       {
         card1: 687,
@@ -138508,12 +138587,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Bad Reaction to Simochi",
+    name: 'Bad Reaction to Simochi',
     description:
-      "A card that reverses\r\nthe effects of\r\nrecovery cards and\r\ntransforms the\r\npoints to damage.",
+      'A card that reverses\r\nthe effects of\r\nrecovery cards and\r\ntransforms the\r\npoints to damage.',
     id: 688,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138522,15 +138601,15 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "40633297",
+    cardCode: '40633297',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Reverse Trap",
+    name: 'Reverse Trap',
     description:
-      "A card that reverses\r\nthe effects of\r\npower-up cards\r\nand transforms \r\nthe effects\r\nto power reduction.",
+      'A card that reverses\r\nthe effects of\r\npower-up cards\r\nand transforms \r\nthe effects\r\nto power reduction.',
     id: 689,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138539,15 +138618,15 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "77622396",
+    cardCode: '77622396',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Fake Trap",
+    name: 'Fake Trap',
     description:
-      "A trap card\r\nfor tricking\r\nyour opponent.\r\nNothing happens\r\nwhen it is attacked.",
+      'A trap card\r\nfor tricking\r\nyour opponent.\r\nNothing happens\r\nwhen it is attacked.',
     id: 690,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138556,15 +138635,15 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "03027001",
+    cardCode: '03027001',
     fusions: [],
     ritual: null,
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Revived of Serpent Night Dragon",
+    name: 'Revived of Serpent Night Dragon',
     description:
-      "Select a specific\r\nmonster for\r\nsacrifice and summon\r\nSerpent Night Dragon.",
+      'Select a specific\r\nmonster for\r\nsacrifice and summon\r\nSerpent Night Dragon.',
     id: 691,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138573,7 +138652,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 50,
-    cardCode: "39411600",
+    cardCode: '39411600',
     fusions: [],
     ritual: [
       {
@@ -138584,11 +138663,11 @@ export const CARDS_DB: Card[] = [
         result: 706,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Turtle Oath",
-    description: "Sacrifice crab and\r\nturtle to summon\r\nCrab Turtle.",
+    name: 'Turtle Oath',
+    description: 'Sacrifice crab and\r\nturtle to summon\r\nCrab Turtle.',
     id: 692,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138597,7 +138676,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 100,
-    cardCode: "76806714",
+    cardCode: '76806714',
     fusions: [],
     ritual: [
       {
@@ -138608,11 +138687,11 @@ export const CARDS_DB: Card[] = [
         result: 710,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Contruct of Mask",
-    description: "Sacrifice a masked\r\none to summon a new\r\nmask.",
+    name: 'Contruct of Mask',
+    description: 'Sacrifice a masked\r\none to summon a new\r\nmask.',
     id: 693,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138621,7 +138700,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 100,
-    cardCode: "02304453",
+    cardCode: '02304453',
     fusions: [],
     ritual: [
       {
@@ -138632,12 +138711,12 @@ export const CARDS_DB: Card[] = [
         result: 720,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Resurrection of Chakra",
+    name: 'Resurrection of Chakra',
     description:
-      "Sacrifice 3 Fiend\r\nmonsters to conduct\r\nthe ritual for the\r\nResurrection of\r\nChakra.",
+      'Sacrifice 3 Fiend\r\nmonsters to conduct\r\nthe ritual for the\r\nResurrection of\r\nChakra.',
     id: 694,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138646,7 +138725,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 100,
-    cardCode: "39399168",
+    cardCode: '39399168',
     fusions: [],
     ritual: [
       {
@@ -138657,12 +138736,12 @@ export const CARDS_DB: Card[] = [
         result: 709,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Puppet Ritual",
+    name: 'Puppet Ritual',
     description:
-      "Sacrifice Puppeteer\r\nand Machine monsters\r\nto summon the Puppet.",
+      'Sacrifice Puppeteer\r\nand Machine monsters\r\nto summon the Puppet.',
     id: 695,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138671,7 +138750,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 50,
-    cardCode: "05783166",
+    cardCode: '05783166',
     fusions: [],
     ritual: [
       {
@@ -138682,12 +138761,12 @@ export const CARDS_DB: Card[] = [
         result: 715,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Javelin Beetle Pact",
+    name: 'Javelin Beetle Pact',
     description:
-      "Sacrifice the stag\r\nbeetle and beetle\r\nto summon\r\nJavelin Beetle.",
+      'Sacrifice the stag\r\nbeetle and beetle\r\nto summon\r\nJavelin Beetle.',
     id: 696,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138696,7 +138775,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "41182875",
+    cardCode: '41182875',
     fusions: [],
     ritual: [
       {
@@ -138707,10 +138786,10 @@ export const CARDS_DB: Card[] = [
         result: 717,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Garma Sword Oath",
+    name: 'Garma Sword Oath',
     description:
       "Sacrifice the\r\nAshura's Arm\r\nand Sword-wielder\r\nto summon.",
     id: 697,
@@ -138721,7 +138800,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 50,
-    cardCode: "78577570",
+    cardCode: '78577570',
     fusions: [],
     ritual: [
       {
@@ -138732,11 +138811,11 @@ export const CARDS_DB: Card[] = [
         result: 716,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
     name: "Cosmo Queen's Prayer",
-    description: "Sacrifice a normal\r\nQueen to summon\r\nCosmo Queen.",
+    description: 'Sacrifice a normal\r\nQueen to summon\r\nCosmo Queen.',
     id: 698,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138745,7 +138824,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 50,
-    cardCode: "04561679",
+    cardCode: '04561679',
     fusions: [],
     ritual: [
       {
@@ -138756,11 +138835,11 @@ export const CARDS_DB: Card[] = [
         result: 708,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Revival of Skeleton Rider",
-    description: "Sacrifice Temple and\r\nCockroach to summon\r\nDokurorider.",
+    name: 'Revival of Skeleton Rider',
+    description: 'Sacrifice Temple and\r\nCockroach to summon\r\nDokurorider.',
     id: 699,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138769,7 +138848,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 10,
-    cardCode: "31066283",
+    cardCode: '31066283',
     fusions: [],
     ritual: [
       {
@@ -138780,12 +138859,12 @@ export const CARDS_DB: Card[] = [
         result: 719,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
     name: "Fortress Whale's Oath",
     description:
-      "Sacrifice Horn and\r\nMachine Fish to\r\nsummon Sea Fortress.",
+      'Sacrifice Horn and\r\nMachine Fish to\r\nsummon Sea Fortress.',
     id: 700,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -138794,7 +138873,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 10,
-    cardCode: "77454922",
+    cardCode: '77454922',
 
     fusions: [],
     ritual: [
@@ -138806,11 +138885,11 @@ export const CARDS_DB: Card[] = [
         result: 718,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Performance of Sword",
-    description: "A warrior dancer\r\nwith fancy dance\r\nsteps.",
+    name: 'Performance of Sword',
+    description: 'A warrior dancer\r\nwith fancy dance\r\nsteps.',
     id: 701,
     guardianStarA: 8,
     guardianStarB: 3,
@@ -138819,15 +138898,15 @@ export const CARDS_DB: Card[] = [
     attack: 1950,
     defense: 1850,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Hungry Burger",
+    name: 'Hungry Burger',
     description:
-      "Attracts hungry\r\nenemies with tasty\r\naromas and eats them\r\nwhen they get close\r\nenough.",
+      'Attracts hungry\r\nenemies with tasty\r\naromas and eats them\r\nwhen they get close\r\nenough.',
     id: 702,
     guardianStarA: 9,
     guardianStarB: 1,
@@ -138836,15 +138915,15 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1850,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Sengenjin",
+    name: 'Sengenjin',
     description:
-      "A headstrong,\r\nprimitive man\r\nequipped with \r\na Millennium Item.",
+      'A headstrong,\r\nprimitive man\r\nequipped with \r\na Millennium Item.',
     id: 703,
     guardianStarA: 2,
     guardianStarB: 7,
@@ -138853,13 +138932,13 @@ export const CARDS_DB: Card[] = [
     attack: 2750,
     defense: 2500,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Skull Guardian",
+    name: 'Skull Guardian',
     description:
       "A guardian of the\r\nlaw that doesn't\r\nforgive cheating.\r\nAttacks enemies with\r\nits sword-like arms.",
     id: 704,
@@ -138870,15 +138949,15 @@ export const CARDS_DB: Card[] = [
     attack: 2050,
     defense: 2500,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Light",
+    attribute: 'Light',
   },
   {
-    name: "Tri-horned Dragon",
+    name: 'Tri-horned Dragon',
     description:
-      "A wicked dragon\r\nwith three horns\r\nprotruding from\r\nits head.",
+      'A wicked dragon\r\nwith three horns\r\nprotruding from\r\nits head.',
     id: 705,
     guardianStarA: 9,
     guardianStarB: 2,
@@ -138887,14 +138966,14 @@ export const CARDS_DB: Card[] = [
     attack: 2850,
     defense: 2350,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Serpent Night Dragon",
-    description: "A dragon created\r\nfrom the soul\r\nof a wicked knight.",
+    name: 'Serpent Night Dragon',
+    description: 'A dragon created\r\nfrom the soul\r\nof a wicked knight.',
     id: 706,
     guardianStarA: 7,
     guardianStarB: 5,
@@ -138903,15 +138982,15 @@ export const CARDS_DB: Card[] = [
     attack: 2350,
     defense: 2400,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Skull Knight",
+    name: 'Skull Knight',
     description:
-      "A monk\r\nwho has conducted\r\nseveral rituals\r\nin the netherworld,\r\nand who is capable\r\nof using both\r\nweapons and magic.",
+      'A monk\r\nwho has conducted\r\nseveral rituals\r\nin the netherworld,\r\nand who is capable\r\nof using both\r\nweapons and magic.',
     id: 707,
     guardianStarA: 7,
     guardianStarB: 6,
@@ -138920,14 +138999,14 @@ export const CARDS_DB: Card[] = [
     attack: 2650,
     defense: 2250,
     stars: 999999,
-    cardCode: "02504891",
+    cardCode: '02504891',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Cosmo Queen",
-    description: "A queen who rules\r\nover all the stars\r\nin the universe.",
+    name: 'Cosmo Queen',
+    description: 'A queen who rules\r\nover all the stars\r\nin the universe.',
     id: 708,
     guardianStarA: 10,
     guardianStarB: 4,
@@ -138936,14 +139015,14 @@ export const CARDS_DB: Card[] = [
     attack: 2900,
     defense: 2450,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Chakra",
-    description: "A twisting shape\r\nthat attacks with\r\ntentacle-like arms.",
+    name: 'Chakra',
+    description: 'A twisting shape\r\nthat attacks with\r\ntentacle-like arms.',
     id: 709,
     guardianStarA: 7,
     guardianStarB: 9,
@@ -138952,15 +139031,15 @@ export const CARDS_DB: Card[] = [
     attack: 2450,
     defense: 2000,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Crab Turtle",
+    name: 'Crab Turtle',
     description:
-      "A creature with a\r\nturtle shell and\r\ncrab scissors to\r\nprovide high attack\r\nand defense factors.",
+      'A creature with a\r\nturtle shell and\r\ncrab scissors to\r\nprovide high attack\r\nand defense factors.',
     id: 710,
     guardianStarA: 6,
     guardianStarB: 2,
@@ -138969,15 +139048,15 @@ export const CARDS_DB: Card[] = [
     attack: 2550,
     defense: 2500,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Mikazukinoyaiba",
+    name: 'Mikazukinoyaiba',
     description:
-      "A dragon warrior\r\narmed with a\r\ncrescent-shaped\r\nsword. Rumored to be\r\nfrom the moon.",
+      'A dragon warrior\r\narmed with a\r\ncrescent-shaped\r\nsword. Rumored to be\r\nfrom the moon.',
     id: 711,
     guardianStarA: 8,
     guardianStarB: 4,
@@ -138986,15 +139065,15 @@ export const CARDS_DB: Card[] = [
     attack: 2200,
     defense: 2350,
     stars: 999999,
-    cardCode: "38277918",
+    cardCode: '38277918',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Meteor Dragon",
+    name: 'Meteor Dragon',
     description:
-      "A dragon that\r\narrived on earth\r\nby means of a comet\r\nthat fell from\r\nthe far reaches\r\nof space.",
+      'A dragon that\r\narrived on earth\r\nby means of a comet\r\nthat fell from\r\nthe far reaches\r\nof space.',
     id: 712,
     guardianStarA: 4,
     guardianStarB: 6,
@@ -139003,7 +139082,7 @@ export const CARDS_DB: Card[] = [
     attack: 1800,
     defense: 2000,
     stars: 999999,
-    cardCode: "64271667",
+    cardCode: '64271667',
     fusions: [
       {
         card1: 712,
@@ -139012,12 +139091,12 @@ export const CARDS_DB: Card[] = [
       },
     ],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Meteor B. Dragon",
+    name: 'Meteor B. Dragon',
     description:
-      "With the burning\r\nhide of a meteorite,\r\nthis creature\r\nvaporizes all that\r\nit touches.",
+      'With the burning\r\nhide of a meteorite,\r\nthis creature\r\nvaporizes all that\r\nit touches.',
     id: 713,
     guardianStarA: 1,
     guardianStarB: 8,
@@ -139026,15 +139105,15 @@ export const CARDS_DB: Card[] = [
     attack: 3500,
     defense: 2000,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Firewing Pegasus",
+    name: 'Firewing Pegasus',
     description:
-      "A heavenly stallion\r\nthat flies\r\nacross the skies\r\non scarlet wings.",
+      'A heavenly stallion\r\nthat flies\r\nacross the skies\r\non scarlet wings.',
     id: 714,
     guardianStarA: 1,
     guardianStarB: 9,
@@ -139043,15 +139122,15 @@ export const CARDS_DB: Card[] = [
     attack: 2250,
     defense: 1800,
     stars: 999999,
-    cardCode: "27054370",
+    cardCode: '27054370',
     fusions: [],
     ritual: null,
-    attribute: "Fire",
+    attribute: 'Fire',
   },
   {
-    name: "Psycho-Puppet",
+    name: 'Psycho-Puppet',
     description:
-      "A mysterious doll\r\nwith a strange dance\r\nthat robs the power\r\nof opposing monsters.",
+      'A mysterious doll\r\nwith a strange dance\r\nthat robs the power\r\nof opposing monsters.',
     id: 715,
     guardianStarA: 9,
     guardianStarB: 3,
@@ -139060,15 +139139,15 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 2350,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Garma Sword",
+    name: 'Garma Sword',
     description:
-      "A skilled warrior\r\nthat wields six\r\nswords against\r\nopposing monsters.",
+      'A skilled warrior\r\nthat wields six\r\nswords against\r\nopposing monsters.',
     id: 716,
     guardianStarA: 9,
     guardianStarB: 4,
@@ -139077,15 +139156,15 @@ export const CARDS_DB: Card[] = [
     attack: 2550,
     defense: 2150,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Javelin Beetle",
+    name: 'Javelin Beetle',
     description:
-      "A creature with\r\nlethal scissors that\r\ncut through almost\r\nanything.",
+      'A creature with\r\nlethal scissors that\r\ncut through almost\r\nanything.',
     id: 717,
     guardianStarA: 2,
     guardianStarB: 4,
@@ -139094,15 +139173,15 @@ export const CARDS_DB: Card[] = [
     attack: 2450,
     defense: 2550,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Earth",
+    attribute: 'Earth',
   },
   {
-    name: "Fortress Whale",
+    name: 'Fortress Whale',
     description:
-      "A sea monster with\r\na cannon mounted on\r\nits back to blow\r\nits enemies out\r\nof the water.",
+      'A sea monster with\r\na cannon mounted on\r\nits back to blow\r\nits enemies out\r\nof the water.',
     id: 718,
     guardianStarA: 6,
     guardianStarB: 3,
@@ -139111,15 +139190,15 @@ export const CARDS_DB: Card[] = [
     attack: 2350,
     defense: 2150,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Water",
+    attribute: 'Water',
   },
   {
-    name: "Dokurorider",
+    name: 'Dokurorider',
     description:
-      "A lonely rider that\r\nraces across the\r\nwasteland, raising\r\nthick clouds of dust.",
+      'A lonely rider that\r\nraces across the\r\nwasteland, raising\r\nthick clouds of dust.',
     id: 719,
     guardianStarA: 4,
     guardianStarB: 1,
@@ -139128,15 +139207,15 @@ export const CARDS_DB: Card[] = [
     attack: 1900,
     defense: 1850,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Mask of Shine & Dark",
+    name: 'Mask of Shine & Dark',
     description:
-      "A creature that\r\ntwists the fabric of\r\nlight and darkness\r\nto generate images\r\nto confuse opponents.",
+      'A creature that\r\ntwists the fabric of\r\nlight and darkness\r\nto generate images\r\nto confuse opponents.',
     id: 720,
     guardianStarA: 10,
     guardianStarB: 5,
@@ -139145,15 +139224,15 @@ export const CARDS_DB: Card[] = [
     attack: 2000,
     defense: 1800,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
   {
-    name: "Dark Magic Ritual",
+    name: 'Dark Magic Ritual',
     description:
-      "Ceremony\r\nfor summoning\r\nthe Magician of\r\nBlack Chaos.\r\nSacrifice required.",
+      'Ceremony\r\nfor summoning\r\nthe Magician of\r\nBlack Chaos.\r\nSacrifice required.',
     id: 721,
     guardianStarA: 0,
     guardianStarB: 0,
@@ -139162,7 +139241,7 @@ export const CARDS_DB: Card[] = [
     attack: 0,
     defense: 0,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: [
       {
@@ -139173,12 +139252,12 @@ export const CARDS_DB: Card[] = [
         result: 722,
       },
     ],
-    attribute: "",
+    attribute: '',
   },
   {
-    name: "Magician of Black Chaos",
+    name: 'Magician of Black Chaos',
     description:
-      "The ultimate\r\nmagic-user,\r\nwho wields the power\r\nof chaos borne from\r\nthe fusion of\r\nDark and Light.",
+      'The ultimate\r\nmagic-user,\r\nwho wields the power\r\nof chaos borne from\r\nthe fusion of\r\nDark and Light.',
     id: 722,
     guardianStarA: 7,
     guardianStarB: 1,
@@ -139187,9 +139266,9 @@ export const CARDS_DB: Card[] = [
     attack: 2800,
     defense: 2600,
     stars: 999999,
-    cardCode: "00000000",
+    cardCode: '00000000',
     fusions: [],
     ritual: null,
-    attribute: "Dark",
+    attribute: 'Dark',
   },
 ];

@@ -77,13 +77,12 @@
         <ng-container *ngFor="let ctrl of handIds.controls; let i = index">
           <div class="card-input-pair">
             <p-card class="fusion-card" (click)="openPicker(handCards, i)">
-              <img [src]="handCards[i].imageUrl" class="fusion-image" />
+              <!-- <img [src]="handCards[i].imageUrl" class="fusion-image" /> -->
             </p-card>
             <p-floatlabel variant="on" class="card-input-wrapper">
               <p-inputNumber
                 [formControlName]="i"
                 [min]="0"
-                [max]="722"
                 mode="decimal"
                 [inputId]="'hand-' + i"
                 showButtons="true"
@@ -97,10 +96,65 @@
       </div>
     </section>
 
-    <section class="fusion-section bottom">
+    <!-- <section class="fusion-section bottom">
       <h2 class="section-heading">Available Fusions</h2>
-      <div class="card-row"></div>
-    </section>
+      <div class="card-row">
+        <div
+          *ngFor="let fusion of availableFusions; let i = index"
+          class="fusion-group-row"
+        >
+          <div class="card-input-pair">
+            <p-card class="fusion-card">
+              <img
+                [src]="getCardImageUrl(availableFusions[i].card1)"
+                class="fusion-image"
+              />
+            </p-card>
+          </div>
+          <div class="card-input-pair">
+            <p-card class="fusion-card">
+              <img
+                [src]="getCardImageUrl(availableFusions[i].card2)"
+                class="fusion-image"
+              />
+            </p-card>
+          </div>
+          <div class="card-input-pair">
+            <p-card class="fusion-card">
+              <img
+                [src]="getCardImageUrl(availableFusions[i].result)"
+                class="fusion-image"
+              />
+            </p-card>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section class="fusion-section bottom">
+      <h2 class="section-heading">Available Fusions</h2>
+      <div class="fusion-list">
+        <div *ngFor="let fusion of availableFusions.fusions" class="fusion-group-row">
+          <div class="card-input-pair">
+            <p-card class="fusion-card">
+              <img [src]="getCardImageUrl(fusion.card1)" class="fusion-image" />
+            </p-card>
+          </div>
+          <div class="card-input-pair">
+            <p-card class="fusion-card">
+              <img [src]="getCardImageUrl(fusion.card2)" class="fusion-image" />
+            </p-card>
+          </div>
+          <div class="card-input-pair">
+            <p-card class="fusion-card">
+              <img
+                [src]="getCardImageUrl(fusion.result)"
+                class="fusion-image"
+              />
+            </p-card>
+          </div>
+        </div>
+      </div>
+    </section> -->
   </form>
 </div>
 <app-cards-list-popup
