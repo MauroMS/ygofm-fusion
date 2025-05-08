@@ -42,6 +42,7 @@ export class FusionsComponent implements OnInit {
   magicFieldCards: Card[] = [];
   handCards: Card[] = [];
   availableFusions: DisplayFusions = { fusions: [] };
+  showIntermediateFusions = true;
 
   fusionForm!: FormGroup;
 
@@ -52,15 +53,15 @@ export class FusionsComponent implements OnInit {
 
     this.buildFusionForm();
 
-    this.handCards = this.allCards.filter(
-      (c) =>
-        // [62, 425, 436, 203, 211].includes(c.id!)
-        // [62, 425, 436, 203, 0].includes(c.id!)
-        // [62, 425].includes(c.id!)
-        [62, 425, 211, 436, 203].includes(c.id!)
-      // [589, 612, 4, 0, 0].includes(c.id!)
-      // [12, 10, 15, 266, 586].includes(c.id!)
-    );
+    // this.handCards = this.allCards.filter(
+    //   (c) =>
+    //     // [62, 425, 436, 203, 211].includes(c.id!)
+    //     // [62, 425, 436, 203, 0].includes(c.id!)
+    //     // [62, 425].includes(c.id!)
+    //     [62, 425, 211, 436, 203].includes(c.id!)
+    //   // [589, 612, 4, 0, 0].includes(c.id!)
+    //   // [12, 10, 15, 266, 586].includes(c.id!)
+    // );
     this.updateAvailableFusions();
 
     this.handIds.valueChanges.subscribe((ids) => {
@@ -167,9 +168,6 @@ export class FusionsComponent implements OnInit {
 
     this.activeArray.at(this.activeIndex).setValue(id);
     this.showPicker = false;
-    // also update your UI model so the <img> changes
-    // const list = this.getListByArray(this.activeArray);
-    // list[this.activeIndex].imageUrl = selection.imageUrl;
   }
 
   getCardImageUrl(cardId: number): string {
@@ -182,8 +180,9 @@ export class FusionsComponent implements OnInit {
 
   updateAvailableFusions(): void {
     const currentHandCards = this.handCards.filter(
-      (c) => !!c && c.id !== 0
+      (c) => !!c && c.id !== null && c.id! > 0 && c.id! <= 722
     ) as Card[];
+
     let displayFusions: DisplayFusions = { fusions: [] };
 
     // 1) Base fusions from any two distinct cards
@@ -227,20 +226,6 @@ export class FusionsComponent implements OnInit {
 
     this.availableFusions = this.removeDuplicatesAndSort(displayFusions);
     console.log(this.availableFusions.fusions);
-
-    // // 3) Remove duplicates and sort
-    // this.possibleFusions = orderBy(
-    //   uniqWith(fusions, (x, y) =>
-    //     x.materials.map(m => m.CardId).join('-') ===
-    //     y.materials.map(m => m.CardId).join('-')
-    //   ),
-    //   [
-    //     f => f.results[f.results.length - 1].Attack,
-    //     f => f.materials.length,
-    //     f => f.materials.reduce((sum, m) => sum + m.Attack, 0)
-    //   ],
-    //   ['desc', 'asc', 'asc']
-    // );
   }
 
   buildFusionPaths(
@@ -279,7 +264,10 @@ export class FusionsComponent implements OnInit {
 
     // 2) Walk your raw fusions and only keep the first occurrence of each key
     const uniqueFusions = displayFusions.fusions.filter((f) => {
-      const key = f.fusedCards.map((m) => m.id).join('-');
+      const key = f.fusedCards
+        .sort((a, b) => a.id! - b.id!)
+        .map((m) => m.id)
+        .join('-');
       if (seen.has(key)) {
         return false;
       } else {

@@ -77,7 +77,7 @@
         <ng-container *ngFor="let ctrl of handIds.controls; let i = index">
           <div class="card-input-pair">
             <p-card class="fusion-card" (click)="openPicker(handCards, i)">
-              <!-- <img [src]="handCards[i].imageUrl" class="fusion-image" /> -->
+              <img [src]="handCards[i].imageUrl" class="fusion-image" />
             </p-card>
             <p-floatlabel variant="on" class="card-input-wrapper">
               <p-inputNumber
@@ -96,65 +96,52 @@
       </div>
     </section>
 
-    <!-- <section class="fusion-section bottom">
-      <h2 class="section-heading">Available Fusions</h2>
-      <div class="card-row">
-        <div
-          *ngFor="let fusion of availableFusions; let i = index"
-          class="fusion-group-row"
-        >
-          <div class="card-input-pair">
-            <p-card class="fusion-card">
-              <img
-                [src]="getCardImageUrl(availableFusions[i].card1)"
-                class="fusion-image"
-              />
-            </p-card>
-          </div>
-          <div class="card-input-pair">
-            <p-card class="fusion-card">
-              <img
-                [src]="getCardImageUrl(availableFusions[i].card2)"
-                class="fusion-image"
-              />
-            </p-card>
-          </div>
-          <div class="card-input-pair">
-            <p-card class="fusion-card">
-              <img
-                [src]="getCardImageUrl(availableFusions[i].result)"
-                class="fusion-image"
-              />
-            </p-card>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- <section class="fusion-section bottom">
+    <section class="fusion-section bottom">
       <h2 class="section-heading">Available Fusions</h2>
       <div class="fusion-list">
-        <div *ngFor="let fusion of availableFusions.fusions" class="fusion-group-row">
+        <div
+          *ngFor="let displayFusion of availableFusions.fusions"
+          class="fusion-group-row"
+        >
+          @for (fusion of displayFusion.fusedCards; track $index) {
           <div class="card-input-pair">
             <p-card class="fusion-card">
-              <img [src]="getCardImageUrl(fusion.card1)" class="fusion-image" />
+              <img [src]="getCardImageUrl(fusion.id!)" class="fusion-image" />
             </p-card>
           </div>
-          <div class="card-input-pair">
+          @if($index >= 1 && displayFusion.results.length > 1 && $index - 1 !==
+          displayFusion.results.length - 1) {
+          <div
+            class="card-input-pair"
+            [hidden]="
+              $index < 1 ||
+              (!showIntermediateFusions &&
+                $index - 1 !== displayFusion.results.length - 1)
+            "
+          >
             <p-card class="fusion-card">
-              <img [src]="getCardImageUrl(fusion.card2)" class="fusion-image" />
+              <img
+                [src]="getCardImageUrl(displayFusion.results[$index - 1].id!)"
+                class="fusion-image"
+              />
             </p-card>
           </div>
+          } }
           <div class="card-input-pair">
             <p-card class="fusion-card">
               <img
-                [src]="getCardImageUrl(fusion.result)"
+                [src]="
+                  getCardImageUrl(
+                    displayFusion.results[displayFusion.results.length - 1].id!
+                  )
+                "
                 class="fusion-image"
               />
             </p-card>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
   </form>
 </div>
 <app-cards-list-popup

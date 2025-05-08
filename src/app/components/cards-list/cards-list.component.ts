@@ -42,7 +42,6 @@ export class CardsListComponent implements OnInit {
 
   @Output() selection = new EventEmitter<number>();
 
-  searchedValue: string = '';
   hiddenSet = new Set(/* IDs to hide */);
 
   groupedFilterOptions: {
@@ -74,16 +73,16 @@ export class CardsListComponent implements OnInit {
       },
     ];
 
-    const search$ = this.filterForm.get('search')!.valueChanges.pipe(
+    const search$ = this.searchControl!.valueChanges.pipe(
       startWith(this.filterForm.value.search),
       debounceTime(200),
       distinctUntilChanged(),
       map((term) => term?.toLowerCase())
     );
 
-    const type$ = this.filterForm
-      .get('types')!
-      .valueChanges.pipe(startWith(this.filterForm.value.types));
+    const type$ = this.typesControl!.valueChanges.pipe(
+      startWith(this.filterForm.value.types)
+    );
 
     combineLatest([search$, type$])
       .pipe(
@@ -123,6 +122,15 @@ export class CardsListComponent implements OnInit {
       });
   }
 
+  get searchControl() {
+    return this.filterForm.get('search') as FormControl<string | null>;
+  }
+  get typesControl() {
+    return this.filterForm.get('types') as FormControl<
+      groupedFilterOptionsItems[] | null
+    >;
+  }
+
   trackByCardId(_idx: number, card: Card) {
     return card.id;
   }
@@ -156,6 +164,8 @@ export class CardsListComponent implements OnInit {
 
   onSelect(cardId: number) {
     this.selection.emit(cardId);
+    this.searchControl.setValue('');
+    this.typesControl.setValue(null);
   }
 
   isCardVisible(id: number) {
