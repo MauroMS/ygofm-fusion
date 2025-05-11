@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, input, OnInit, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { MultiSelectModule } from 'primeng/multiselect';
@@ -7,7 +7,12 @@ import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabel } from 'primeng/floatlabel';
 import { ScrollerModule } from 'primeng/scroller';
 import { SkeletonModule } from 'primeng/skeleton';
-import { Card } from '../../model';
+import {
+  Card,
+  CardTypes,
+  FilterType,
+  groupedFilterOptionsItems,
+} from '../../model';
 import { PadIdPipe } from '../../pipes/pad-id.pipe';
 import { CardsService } from '../../services/cards.service';
 import {
@@ -39,6 +44,8 @@ export class CardsListComponent implements OnInit {
 
   imageUrl = 'assets/images/cards/{id}.png';
   cards!: Array<Card & { imageLoaded: boolean }>;
+  cardName = input<string>('');
+  filterTypes = input<FilterType>(FilterType.All);
 
   @Output() selection = new EventEmitter<number>();
 
@@ -171,16 +178,4 @@ export class CardsListComponent implements OnInit {
   isCardVisible(id: number) {
     return !this.hiddenSet.has(id);
   }
-}
-
-interface groupedFilterOptionsItems {
-  label: string;
-  kind: string;
-  value: number;
-}
-
-export enum CardTypes {
-  Star = 'star',
-  Type = 'type',
-  Item = 'item',
 }
