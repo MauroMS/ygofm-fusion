@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, input, OnInit, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { MultiSelectModule } from 'primeng/multiselect';
@@ -7,7 +7,12 @@ import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabel } from 'primeng/floatlabel';
 import { ScrollerModule } from 'primeng/scroller';
 import { SkeletonModule } from 'primeng/skeleton';
-import { Card } from '../../model';
+import {
+  Card,
+  CardTypes,
+  FilterType,
+  groupedFilterOptionsItems,
+} from '../../model';
 import { PadIdPipe } from '../../pipes/pad-id.pipe';
 import { CardsService } from '../../services/cards.service';
 import {
@@ -39,10 +44,11 @@ export class CardsListComponent implements OnInit {
 
   imageUrl = 'assets/images/cards/{id}.png';
   cards!: Array<Card & { imageLoaded: boolean }>;
+  cardName = input<string>('');
+  filterTypes = input<FilterType>(FilterType.All);
 
   @Output() selection = new EventEmitter<number>();
 
-  searchedValue: string = '';
   hiddenSet = new Set(/* IDs to hide */);
 
   groupedFilterOptions: {
@@ -74,16 +80,16 @@ export class CardsListComponent implements OnInit {
       },
     ];
 
-    const search$ = this.filterForm.get('search')!.valueChanges.pipe(
+    const search$ = this.searchControl!.valueChanges.pipe(
       startWith(this.filterForm.value.search),
       debounceTime(200),
       distinctUntilChanged(),
       map((term) => term?.toLowerCase())
     );
 
-    const type$ = this.filterForm
-      .get('types')!
-      .valueChanges.pipe(startWith(this.filterForm.value.types));
+    const type$ = this.typesControl!.valueChanges.pipe(
+      startWith(this.filterForm.value.types)
+    );
 
     combineLatest([search$, type$])
       .pipe(
@@ -123,6 +129,15 @@ export class CardsListComponent implements OnInit {
       });
   }
 
+  get searchControl() {
+    return this.filterForm.get('search') as FormControl<string | null>;
+  }
+  get typesControl() {
+    return this.filterForm.get('types') as FormControl<
+      groupedFilterOptionsItems[] | null
+    >;
+  }
+
   trackByCardId(_idx: number, card: Card) {
     return card.id;
   }
@@ -156,21 +171,11 @@ export class CardsListComponent implements OnInit {
 
   onSelect(cardId: number) {
     this.selection.emit(cardId);
+    this.searchControl.setValue('');
+    this.typesControl.setValue(null);
   }
 
   isCardVisible(id: number) {
     return !this.hiddenSet.has(id);
   }
-}
-
-interface groupedFilterOptionsItems {
-  label: string;
-  kind: string;
-  value: number;
-}
-
-export enum CardTypes {
-  Star = 'star',
-  Type = 'type',
-  Item = 'item',
 }

@@ -4,6 +4,7 @@
   [visible]="visible()"
   (visibleChange)="visible.set($event)"
   [style]="{ width: '70rem' }"
+  [dismissableMask]="true"
 >
   <app-cards-list (selection)="onCardSelected($event)"></app-cards-list>
 </p-dialog>

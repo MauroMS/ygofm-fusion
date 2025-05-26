@@ -2,16 +2,21 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardModule } from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
-import { Card } from '../../model';
-import { CardsListPopupComponent } from '../cards-list-popup/cards-list-popup.component';
+import { BadgeModule } from 'primeng/badge';
+import { OverlayBadgeModule } from 'primeng/overlaybadge';
 import { FloatLabel } from 'primeng/floatlabel';
-import { CardsService } from '../../services/cards.service';
 import { InputNumberModule } from 'primeng/inputnumber';
+import { Card, DisplayFusions } from '../../model';
+import { CardsListPopupComponent } from '../cards-list-popup/cards-list-popup.component';
+import { CardsService } from '../../services/cards.service';
+import { orderBy } from 'lodash';
+
 import {
   FormArray,
+  FormBuilder,
   FormControl,
+  FormGroup,
   ReactiveFormsModule,
-  Validators,
 } from '@angular/forms';
 
 @Component({
@@ -24,24 +29,71 @@ import {
     FloatLabel,
     InputNumberModule,
     ReactiveFormsModule,
+    OverlayBadgeModule,
+    BadgeModule,
   ],
   templateUrl: './fusions.component.html',
   styleUrls: ['./fusions.component.scss'],
 })
 export class FusionsComponent implements OnInit {
-  constructor(protected cardService: CardsService) {}
-
   showPicker = false;
-  private currentCards!: Card[];
-  private currentIndex = 0;
-  cardIdControls = new FormArray<FormControl<number>>([]);
+  private activeArray!: FormArray;
+  private activeIndex!: number;
 
+  cardIdControls = new FormArray<FormControl<number>>([]);
+  allCards: Card[] = [];
   monsterFieldCards: Card[] = [];
   magicFieldCards: Card[] = [];
   handCards: Card[] = [];
-  availableFusions: Card[] = [];
+  availableFusions: DisplayFusions = { fusions: [] };
+  showIntermediateFusions = true;
+
+  fusionForm!: FormGroup;
+
+  constructor(private cardService: CardsService, private fb: FormBuilder) {}
 
   ngOnInit(): void {
+    this.populateCardsLists();
+
+    this.buildFusionForm();
+
+    // this.handCards = this.allCards.filter(
+    //   (c) =>
+    //     // [62, 425, 436, 203, 211].includes(c.id!)
+    //     // [62, 425, 436, 203, 0].includes(c.id!)
+    //     // [62, 425].includes(c.id!)
+    //     [62, 425, 211, 436, 203].includes(c.id!)
+    //   // [589, 612, 4, 0, 0].includes(c.id!)
+    //   // [12, 10, 15, 266, 586].includes(c.id!)
+    // );
+    this.updateAvailableFusions();
+
+    this.handIds.valueChanges.subscribe((ids) => {
+      console.log('Hand IDs changed:', this.handCards);
+      this.updateAvailableFusions();
+    });
+
+    this.magicIds.valueChanges.subscribe((ids) =>
+      console.log('Magic IDs changed:', ids)
+    );
+
+    this.monsterIds.valueChanges.subscribe((ids) =>
+      console.log('Monster IDs changed:', ids)
+    );
+  }
+
+  get monsterIds() {
+    return this.fusionForm.get('monsterIds') as FormArray;
+  }
+  get magicIds() {
+    return this.fusionForm.get('magicIds') as FormArray;
+  }
+  get handIds() {
+    return this.fusionForm.get('handIds') as FormArray;
+  }
+
+  public populateCardsLists() {
+    this.allCards = this.cardService.getAllCards();
     this.monsterFieldCards = Array.from({ length: 5 }, (_, i) =>
       this.cardService.getCardById(0)
     );
@@ -53,55 +105,192 @@ export class FusionsComponent implements OnInit {
     this.handCards = Array.from({ length: 5 }, (_, i) =>
       this.cardService.getCardById(0)
     );
+  }
 
-    this.availableFusions = Array.from({ length: 5 }, (_, i) =>
-      this.cardService.getCardById(0)
-    );
-
-    this.cardIdControls.clear();
-    this.handCards.forEach((card, i) => {
-      const ctrl = new FormControl<number>(card.id!, {
+  private buildFusionForm() {
+    const monsterControls = this.monsterFieldCards.map((card, i) => {
+      const ctrl = new FormControl(card.id!, {
         nonNullable: true,
-        validators: [], // you could add Validators.min(0), Validators.max(722) here
+        validators: [],
       });
-      // when the control changes, swap in the new Card
-      ctrl.valueChanges.subscribe((id) => {
-        this.handCards[i] = this.cardService.getCardById(id);
+      ctrl.valueChanges.subscribe((newId) => {
+        this.monsterFieldCards[i] = this.cardService.getCardById(newId);
       });
-      this.cardIdControls.push(ctrl);
+      return ctrl;
     });
+
+    const magicControls = this.magicFieldCards.map((card, i) => {
+      const ctrl = new FormControl(card.id!, {
+        nonNullable: true,
+        validators: [],
+      });
+      ctrl.valueChanges.subscribe((newId) => {
+        this.magicFieldCards[i] = this.cardService.getCardById(newId);
+      });
+      return ctrl;
+    });
+
+    const handControls = this.handCards.map((card, i) => {
+      const ctrl = new FormControl(card.id!, {
+        nonNullable: true,
+        validators: [],
+      });
+      ctrl.valueChanges.subscribe((newId: number) => {
+        this.handCards[i] = this.cardService.getCardById(newId);
+      });
+      return ctrl;
+    });
+
+    this.fusionForm = this.fb.group({
+      monsterIds: this.fb.array(monsterControls),
+      magicIds: this.fb.array(magicControls),
+      handIds: this.fb.array(handControls),
+    });
+  }
+
+  openPicker(list: any[], index: number) {
+    console.log('openPicker', list);
+    console.log('openPicker index', index);
+
+    if (list === this.monsterFieldCards) {
+      this.activeArray = this.monsterIds;
+    } else if (list === this.magicFieldCards) {
+      this.activeArray = this.magicIds;
+    } else {
+      this.activeArray = this.handIds;
+    }
+    this.activeIndex = index;
+    this.showPicker = true;
   }
 
   trackByIndex(i: number) {
     return i;
   }
 
-  onCardSelected(cardId: number) {
-    console.log('Card selected:', cardId);
-    const id = cardId >= 0 && cardId <= 722 ? cardId : 0;
-    this.currentCards[this.currentIndex] = this.cardService.getCardById(cardId);
+  onCardSelectedForm(id: number) {
+    console.log('onCardSelectedForm', id);
+
+    this.activeArray.at(this.activeIndex).setValue(id);
     this.showPicker = false;
   }
 
-  openPicker(cards: Card[], index: number) {
-    console.log('openPicker', cards);
-    console.log('index', index);
-
-    this.currentCards = cards;
-    this.currentIndex = index;
-    this.showPicker = true;
+  getCardImageUrl(cardId: number): string {
+    return this.cardService.getCardImageUrl(cardId);
   }
 
   confirmPicker() {
     this.showPicker = false;
   }
 
-  onIdChange(cards: Card[], index: number, value: string) {
-    console.log('onIdChange', cards);
-    console.log('index', index);
-    console.log('value', value);
+  updateAvailableFusions(): void {
+    const currentHandCards = this.handCards.filter(
+      (c) => !!c && c.id !== null && c.id! > 0 && c.id! <= 722
+    ) as Card[];
 
-    const id = Number(value) || 0;
-    cards[index] = this.cardService.getCardById(id);
+    let displayFusions: DisplayFusions = { fusions: [] };
+
+    // 1) Base fusions from any two distinct cards
+    for (
+      let card1Index = 0;
+      card1Index < currentHandCards.length;
+      card1Index++
+    ) {
+      for (
+        let card2Index = card1Index + 1;
+        card2Index < currentHandCards.length;
+        card2Index++
+      ) {
+        const card1 = currentHandCards[card1Index];
+        const card2 = currentHandCards[card2Index];
+
+        const baseFusion = this.cardService.cardsFusion(card1, card2);
+        if (!baseFusion?.result) continue;
+
+        const baseFusionCards = [card1, card2];
+        const baseResultsCards = [
+          this.cardService.getCardById(baseFusion.result),
+        ];
+        displayFusions.fusions.push({
+          fusedCards: baseFusionCards,
+          results: baseResultsCards,
+        });
+
+        // 2) Recursively build deeper fusion chains
+        const remaining = currentHandCards.filter(
+          (_, idx) => idx !== card1Index && idx !== card2Index
+        );
+        const deeper = this.buildFusionPaths(
+          baseFusionCards,
+          baseResultsCards,
+          remaining
+        );
+        displayFusions.fusions.push(...deeper);
+      }
+    }
+
+    this.availableFusions = this.removeDuplicatesAndSort(displayFusions);
+    console.log(this.availableFusions.fusions);
+  }
+
+  buildFusionPaths(
+    cards: Card[],
+    results: Card[],
+    remaining: Card[]
+  ): Array<{ fusedCards: Card[]; results: Card[] }> {
+    const paths: Array<{ fusedCards: Card[]; results: Card[] }> = [];
+    const lastResult = results[results.length - 1];
+
+    for (let cardIndex = 0; cardIndex < remaining.length; cardIndex++) {
+      const next = remaining[cardIndex];
+      const fus = this.cardService.cardsFusion(lastResult, next);
+      if (!fus?.result) continue;
+
+      const cardFus = this.cardService.getCardById(fus.result);
+      const newFusedCards = [...cards, next];
+      const newResults = [...results, cardFus];
+      paths.push({ fusedCards: newFusedCards, results: newResults });
+
+      const nextRemaining = remaining.filter((_, idx) => idx !== cardIndex);
+      const deeper = this.buildFusionPaths(
+        newFusedCards,
+        newResults,
+        nextRemaining
+      );
+      paths.push(...deeper);
+    }
+
+    return paths;
+  }
+
+  removeDuplicatesAndSort(displayFusions: DisplayFusions): DisplayFusions {
+    // 1) Build a Set of “seen” material-ID strings
+    const seen = new Set<string>();
+
+    // 2) Walk your raw fusions and only keep the first occurrence of each key
+    const uniqueFusions = displayFusions.fusions.filter((f) => {
+      const key = f.fusedCards
+        .sort((a, b) => a.id! - b.id!)
+        .map((m) => m.id)
+        .join('-');
+      if (seen.has(key)) {
+        return false;
+      } else {
+        seen.add(key);
+        return true;
+      }
+    });
+
+    // 3) Sort exactly as before
+    return {
+      fusions: orderBy(
+        uniqueFusions,
+        [
+          (f) => f.results[f.results.length - 1].attack,
+          (f) => f.fusedCards.length,
+          (f) => f.fusedCards.reduce((sum, m) => sum + (m.attack ?? 0), 0),
+        ],
+        ['desc', 'asc', 'asc']
+      ),
+    };
   }
 }

@@ -4,17 +4,17 @@
 }
 
 /* Container padding */
-.card-list-body {
-  padding: 10px 25px;
-}
+// .card-list-body {
+//   padding: 10px 25px;
+// }
 
 /* Filter form layout */
 .filters {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 0.25rem;
   flex-wrap: wrap;
-  padding-bottom: 15px;
+  padding-bottom: 1rem;
 }
 
 .filters > p‑floatlabel {
@@ -89,6 +89,11 @@
 @media (max-width: 768px) {
   .card-row {
     justify-content: flex-start; /* pack to the left, not center */
+  }
+
+  //Remove padding on smaller screens
+  .card-list-body {
+    padding: 0px;
   }
 
   .fusion-card {

@@ -1,4 +1,4 @@
-<header class="app-navbar">
+<!-- <header class="app-navbar">
   <div class="logo">
     <img src="assets/icons/millenium_puzzle.png" class="logo-icon" alt="Logo" />
     <p-button
@@ -6,7 +6,6 @@
       label="Yu Gi Oh - FM"
       class="site-title p-button-text-icon-left"
     />
-    <!-- <span class="site-title">Yu Gi Oh - FM</span> -->
   </div>
   <div class="nav-items">
     <div class="nav-links">
@@ -18,4 +17,49 @@
       <app-dark-mode-switch />
     </div>
   </div>
+</header> -->
+
+<header class="app-navbar">
+  <!-- desktop logo/title, hidden on mobile -->
+  <div class="logo">
+    <img src="assets/icons/millenium_puzzle.png" class="logo-icon" alt="Logo" />
+    <p-button
+      variant="text"
+      label="Yu Gi Oh - FM"
+      class="site-title p-button-text-icon-left"
+    ></p-button>
+  </div>
+
+  <!-- nav links + utils -->
+  <div class="nav-items">
+    <nav class="nav-links">
+      <a routerLink="/home" class="nav-item">
+        <i class="pi pi-home"></i>
+        <span>Home</span>
+      </a>
+      <a routerLink="/cards" class="nav-item">
+        <i class="pi pi-clone"></i>
+        <span>Cards</span>
+      </a>
+      <a routerLink="/duelists" class="nav-item">
+        <i class="pi pi-users"></i>
+        <span>Duelists</span>
+      </a>
+      <a routerLink="/fusions" class="nav-item">
+        <i class="pi pi-share-alt"></i>
+        <span>Fusions</span>
+      </a>
+    </nav>
+
+    <!-- desktop utility, hidden on mobile -->
+    <div class="nav-utils">
+      <app-dark-mode-switch></app-dark-mode-switch>
+    </div>
+  </div>
 </header>
+
+<!-- TODO: FIX LINK TEXT COLOURS TO BE BASED ON DARK MODE SWITCH -->
+<!-- TODO: REMOVE LABEL (label="Yu Gi Oh - FM") ON MOBILE -->
+<!-- TODO: REMOVE TOP MARGIN ON MOBILE AS NAVIGATION BAR IS AT THE BOTTOM -->
+<!-- TODO: CREATE 404 PAGE WITH YUGIOH GAMEOVER SCREEN -->
+<!-- TODO: RE ORGANISE PROJECT FOLDER STRUCTURE TO BE BY FEATURE -->

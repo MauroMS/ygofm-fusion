@@ -1,90 +1,153 @@
 <div class="fusion-wrapper">
-  <section class="fusion-section top">
-    <h2 class="section-heading">Field Cards</h2>
-    <div class="card-row">
-      <p-card
-        *ngFor="
-          let card of monsterFieldCards;
-          let i = index;
-          trackBy: trackByIndex
-        "
-        class="fusion-card"
-      >
-        <img
-          [src]="card.imageUrl"
-          [alt]="'Card ' + card.id"
-          class="fusion-image"
-        />
-      </p-card>
-    </div>
-    <div class="card-row">
-      <p-card
-        *ngFor="
-          let card of magicFieldCards;
-          let i = index;
-          trackBy: trackByIndex
-        "
-        class="fusion-card"
-      >
-        <img
-          [src]="card.imageUrl"
-          [alt]="'Card ' + card.id"
-          class="fusion-image"
-        />
-      </p-card>
-    </div>
-  </section>
+  <form [formGroup]="fusionForm">
+    <section class="fusion-section top">
+      <h2 class="section-heading">Field Cards</h2>
+      <div formArrayName="monsterIds" class="card-row">
+        <ng-container
+          *ngFor="
+            let ctrl of monsterIds.controls;
+            let i = index;
+            trackBy: trackByIndex
+          "
+        >
+          <div class="card-input-pair">
+            <p-card
+              class="fusion-card"
+              (click)="openPicker(monsterFieldCards, i)"
+            >
+              <img [src]="monsterFieldCards[i].imageUrl" class="fusion-image" />
+            </p-card>
+            <p-floatlabel variant="on" class="card-input-wrapper">
+              <p-inputNumber
+                [formControlName]="i"
+                [min]="0"
+                [max]="722"
+                mode="decimal"
+                [inputId]="'monster-' + i"
+                showButtons="true"
+                styleClass="card-id-wrapper"
+                inputStyleClass="card-id-input"
+              ></p-inputNumber>
+              <label [for]="'monster-' + i">Card #</label>
+            </p-floatlabel>
+          </div>
+        </ng-container>
+      </div>
+    </section>
 
-  <section class="fusion-section middle">
-    <h2 class="section-heading">Hand Cards</h2>
-    <div class="card-row">
-      <ng-container
-        *ngFor="let card of handCards; let i = index; trackBy: trackByIndex"
-      >
-        <div class="card-input-pair">
-          <p-card class="fusion-card" (click)="openPicker(handCards, i)">
-            <img
-              [src]="card.imageUrl"
-              [alt]="'Card ' + card.id"
-              class="fusion-image"
-            />
-          </p-card>
-          <p-floatlabel variant="on" class="card-input-wrapper">
-            <input
-              pInputText
-              type="number"
-              min="0"
-              max="722"
-              [value]="card.id"
-              (input)="onIdChange(handCards, i, $any($event.target).value)"
-              [id]="'card-id-' + i"
-              autocomplete="off"
-              class="card-id-input"
-            />
-            <!-- <p-inputNumber
-              [min]="0"
-              [max]="722"
-              mode="decimal"
-              [inputId]="'card-id-' + i"
-              styleClass="card-id-wrapper"
-              inputStyleClass="card-id-input"
-              [formControl]="cardIdControls.at(i)"
-              showButtons="true"
-            ></p-inputNumber> -->
-            <label [for]="'card-id-' + i">Card ID</label>
-          </p-floatlabel>
+    <!-- Magic row -->
+    <section class="fusion-section top">
+      <div formArrayName="magicIds" class="card-row-2">
+        <ng-container
+          *ngFor="
+            let ctrl of magicIds.controls;
+            let i = index;
+            trackBy: trackByIndex
+          "
+        >
+          <div class="card-input-pair">
+            <p-card
+              class="fusion-card"
+              (click)="openPicker(magicFieldCards, i)"
+            >
+              <img [src]="magicFieldCards[i].imageUrl" class="fusion-image" />
+            </p-card>
+            <p-floatlabel variant="on" class="card-input-wrapper">
+              <p-inputNumber
+                [formControlName]="i"
+                [min]="0"
+                [max]="722"
+                mode="decimal"
+                [inputId]="'magic-' + i"
+                showButtons="true"
+                styleClass="card-id-wrapper"
+                inputStyleClass="card-id-input"
+              ></p-inputNumber>
+              <label [for]="'magic-' + i">Card #</label>
+            </p-floatlabel>
+          </div>
+        </ng-container>
+      </div>
+    </section>
+
+    <!-- Hand row -->
+    <section class="fusion-section middle">
+      <h2 class="section-heading">Hand Cards</h2>
+      <div formArrayName="handIds" class="card-row">
+        <ng-container *ngFor="let ctrl of handIds.controls; let i = index">
+          <div class="card-input-pair">
+            <p-card class="fusion-card" (click)="openPicker(handCards, i)">
+              <img [src]="handCards[i].imageUrl" class="fusion-image" />
+            </p-card>
+            <p-floatlabel variant="on" class="card-input-wrapper">
+              <p-inputNumber
+                [formControlName]="i"
+                [min]="0"
+                mode="decimal"
+                [inputId]="'hand-' + i"
+                showButtons="true"
+                styleClass="card-id-wrapper"
+                inputStyleClass="card-id-input"
+              ></p-inputNumber>
+              <label [for]="'hand-' + i">Card #</label>
+            </p-floatlabel>
+          </div>
+        </ng-container>
+      </div>
+    </section>
+
+    <section class="fusion-section bottom">
+      <h2 class="section-heading">Available Fusions</h2>
+      <div class="fusion-list">
+        <div
+          *ngFor="let displayFusion of availableFusions.fusions"
+          class="fusion-group-row"
+        >
+          @for (fusion of displayFusion.fusedCards; track $index) {
+          <p-overlaybadge value="{{ $index + 1 }}" badgeSize="small">
+            <div class="card-input-pair">
+              <p-card class="fusion-card">
+                <img [src]="getCardImageUrl(fusion.id!)" class="fusion-image" />
+              </p-card>
+            </div>
+          </p-overlaybadge>
+          @if($index >= 1 && displayFusion.results.length > 1 && $index - 1 !==
+          displayFusion.results.length - 1) {
+          <div
+            class="card-input-pair"
+            [hidden]="
+              $index < 1 ||
+              (!showIntermediateFusions &&
+                $index - 1 !== displayFusion.results.length - 1)
+            "
+          >
+            <p-card class="fusion-card">
+              <img
+                [src]="getCardImageUrl(displayFusion.results[$index - 1].id!)"
+                class="fusion-image"
+              />
+            </p-card>
+          </div>
+          } }
+          <i class="pi pi-arrow-right fusion-arrow-right"></i>
+          <div class="card-input-pair">
+            <p-card class="fusion-card">
+              <img
+                [src]="
+                  getCardImageUrl(
+                    displayFusion.results[displayFusion.results.length - 1].id!
+                  )
+                "
+                class="fusion-image"
+              />
+            </p-card>
+          </div>
         </div>
-      </ng-container>
-    </div>
-  </section>
-
-  <section class="fusion-section bottom">
-    <h2 class="section-heading">Available Fusions</h2>
-    <div class="card-row"></div>
-  </section>
+      </div>
+    </section>
+  </form>
 </div>
-
 <app-cards-list-popup
   [(visible)]="showPicker"
-  (selection)="onCardSelected($event)"
+  (selection)="onCardSelectedForm($event)"
 ></app-cards-list-popup>

@@ -61,6 +61,15 @@ export class CardsService {
     if (cardId && (cardId <= 0 || cardId >= 722)) {
       return { id: cardId, imageUrl: this.getCardImageUrl(0) };
     }
-    return { id: 0, imageUrl: this.getCardImageUrl(0) };
+    return { id: null, imageUrl: this.getCardImageUrl(0) };
+  }
+
+  cardsFusion(card1: Card, card2: Card) {
+    return (
+      card1.fusions!.find(
+        (f) => f.card1 === card1.id && f.card2 === card2.id
+      ) ||
+      card2.fusions!.find((f) => f.card1 === card2.id && f.card2 === card1.id)
+    );
   }
 }
