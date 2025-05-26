@@ -1,25 +1,37 @@
-name: Deploy to GitHub Pages
+name: Deploy Angular to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # Deploy on every push to the main branch
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      # Step 1: Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          submodules: true
+          node-version: 16  # Use the Node.js version compatible with your Angular app
 
-      # If you need to build (e.g., a static site generator), add build steps here
-      #- name: Build site
-      #  run: npm install && npm run build
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
 
+      # Step 4: Build the Angular application
+      - name: Build Angular app
+        run: npm run build -- --output-path=dist/ygofm-fusion --base-href /ygofm-fusion/
+
+      # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/ygofm-fusion       # or ./docs or ./build, depending on your setup
-          publish_branch: gh-pages  # optional: defaults to gh-pages
+          publish_dir: dist/ygofm-fusion  # Output directory for the built Angular app
+          publish_branch: gh-pages  # Optional: Defaults to gh-pages
