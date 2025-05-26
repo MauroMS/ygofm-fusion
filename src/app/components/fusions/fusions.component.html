@@ -104,11 +104,13 @@
           class="fusion-group-row"
         >
           @for (fusion of displayFusion.fusedCards; track $index) {
-          <div class="card-input-pair">
-            <p-card class="fusion-card">
-              <img [src]="getCardImageUrl(fusion.id!)" class="fusion-image" />
-            </p-card>
-          </div>
+          <p-overlaybadge value="{{ $index + 1 }}" badgeSize="small">
+            <div class="card-input-pair">
+              <p-card class="fusion-card">
+                <img [src]="getCardImageUrl(fusion.id!)" class="fusion-image" />
+              </p-card>
+            </div>
+          </p-overlaybadge>
           @if($index >= 1 && displayFusion.results.length > 1 && $index - 1 !==
           displayFusion.results.length - 1) {
           <div
@@ -127,6 +129,7 @@
             </p-card>
           </div>
           } }
+          <i class="pi pi-arrow-right fusion-arrow-right"></i>
           <div class="card-input-pair">
             <p-card class="fusion-card">
               <img

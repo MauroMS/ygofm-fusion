@@ -2,11 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardModule } from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
+import { BadgeModule } from 'primeng/badge';
+import { OverlayBadgeModule } from 'primeng/overlaybadge';
+import { FloatLabel } from 'primeng/floatlabel';
+import { InputNumberModule } from 'primeng/inputnumber';
 import { Card, DisplayFusions } from '../../model';
 import { CardsListPopupComponent } from '../cards-list-popup/cards-list-popup.component';
-import { FloatLabel } from 'primeng/floatlabel';
 import { CardsService } from '../../services/cards.service';
-import { InputNumberModule } from 'primeng/inputnumber';
 import { orderBy } from 'lodash';
 
 import {
@@ -27,6 +29,8 @@ import {
     FloatLabel,
     InputNumberModule,
     ReactiveFormsModule,
+    OverlayBadgeModule,
+    BadgeModule,
   ],
   templateUrl: './fusions.component.html',
   styleUrls: ['./fusions.component.scss'],

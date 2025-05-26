@@ -1,3 +1,7 @@
+// VARIABLES
+$min-card-width: 60px;
+$max-card-width: 140px;
+
 .fusion-wrapper {
   display: flex;
   flex-direction: column;
@@ -12,9 +16,12 @@
   color: var(--text-color);
 }
 
-.fusion-section {
-  padding: 1rem;
+.fusion-arrow-right {
+  font-size: 2.5rem;
+  align-self: center;
+}
 
+.fusion-section {
   &.top,
   &.bottom {
     background-color: var(--surface-100);
@@ -27,6 +34,7 @@
     gap: 0.25rem;
     flex-wrap: nowrap; /* force single row, no scroll */
   }
+
   .card-row-2 {
     @extend .card-row;
     margin-top: 0.5rem;
@@ -37,29 +45,20 @@
     flex-direction: column;
     align-items: center;
     // flex: 0 1 auto; /* shrink to fit content, don’t grow to fill container */
-    flex: 0 1 140px;
-    min-width: 60px;
-    max-width: 140px;
+    flex: 0 1 $max-card-width;
+    min-width: $min-card-width;
+    max-width: $max-card-width;
   }
 
   .fusion-card {
-    // flex: 1 1 140px;
     width: 100%;
-    max-width: 140px;
-    min-width: 60px;
+    max-width: $max-card-width;
+    min-width: $min-card-width;
     aspect-ratio: 140 / 212;
     overflow: hidden;
     // opacity: 0.75;
     display: flex;
     flex-direction: column;
-
-    /* Make the body fill 100% of the card */
-    ::ng-deep .p-card-body {
-      padding: 0 !important;
-      margin: 0;
-      flex: 1 1 auto;
-      display: flex;
-    }
 
     .fusion-image {
       width: 100%;
@@ -69,57 +68,16 @@
     }
   }
 
-  // Regular Input
-  // .card-input-wrapper {
-  //   width: 100%; /* exactly same width as the card */
-  //   margin-top: 0.5rem;
-  // }
-
-  // /* and the input itself */
-  // .card-id-input {
-  //   width: 100%;
-  //   box-sizing: border-box;
-  // }
-
-  .bottom .card-row {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  .fusion-group-row {
-    display: flex;
-    gap: 1rem;
-  }
-
   .fusion-list {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-  }
+    // gap: 1rem;
 
-  .fusion-group-row {
-    display: flex;
-    gap: 1rem;
-  }
-}
-
-// p-inputNumber wrapper gets your `styleClass` here
-:host ::ng-deep {
-  .card-input-wrapper {
-    // width: 100%; /* exactly same width as the card */
-    margin-top: 0.25rem;
-  }
-
-  /* the p-inputNumber wrapper gets your `styleClass` here */
-  .card-id-wrapper {
-    width: 100%; /* exactly same width as the card */
-  }
-
-  /* the actual <input> has this class from `inputStyleClass` */
-  .card-id-input {
-    width: 100%;
-    box-sizing: border-box;
+    .fusion-group-row {
+      display: flex;
+      padding-top: 2rem;
+      gap: 0.5rem;
+    }
   }
 }
 
@@ -136,15 +94,116 @@
     font-size: 1.25rem;
     text-align: center;
   }
-  .fusion-section.top,
-  .fusion-section.middle,
-  .fusion-section.bottom .fusion-card {
-    // flex: 1 1 74px;
-    min-width: 60px;
-    flex: 0 0 calc((100% - (4 * 0.25rem)) / 5);
+
+  .fusion-arrow-right {
+    font-size: 1.1rem;
   }
 
-  :host ::ng-deep .fusion-section .p-inputnumber-button {
-    display: none;
+  .card-input-pair {
+    /* each card takes equal share of the row, no matter the count */
+    flex: 1 1 0%;
+    min-width: 0;
+
+    p-card.fusion-card {
+      width: 100%;
+
+      .fusion-image {
+        /* make the image scale to fit the card */
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+  }
+
+  /* Responsive bottom section cards */
+  .fusion-section.bottom {
+    /* no horizontal scrollbar */
+    .fusion-list {
+      overflow-x: hidden;
+    }
+
+    .fusion-group-row {
+      display: flex;
+      flex-wrap: nowrap; /* keep cards on one line */
+      overflow-x: auto; /* row-level scroll */
+      -webkit-overflow-scrolling: touch;
+      justify-content: flex-start; /* left-align cards */
+    }
+
+    /* cards grow/shrink equally */
+    .fusion-group-row > p-overlaybadge,
+    .fusion-group-row > .card-input-pair {
+      flex: 1 1 $min-card-width;
+      min-width: $min-card-width;
+    }
+
+    /* primeng card fills its container */
+    .fusion-card {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    /* responsive images */
+    .fusion-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  // :host ::ng-deep .fusion-section .p-inputnumber-button {
+  :host ::ng-deep {
+    // .p-overlaybadge .p-badge {
+    //   padding: 0.2rem 0.4rem !important;
+    //   font-size: 0.4rem !important;
+    //   top: -0.8rem !important;
+    // }
+
+    .fusion-section .p-inputnumber-button {
+      display: none;
+    }
+  }
+}
+
+:host ::ng-deep {
+  .card-input-wrapper {
+    // width: 100%; /* exactly same width as the card */
+    margin-top: 0.5rem;
+  }
+
+  /* the p-inputNumber wrapper gets your `styleClass` here */
+  .card-id-wrapper {
+    width: 100%; /* exactly same width as the card */
+  }
+
+  /* the actual <input> has this class from `inputStyleClass` */
+  .card-id-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .p-overlaybadge {
+    position: relative;
+  }
+
+  .p-overlaybadge .p-badge {
+    position: absolute;
+    padding: 0.2rem 0.4rem; // adjust height/width
+    height: auto; // let padding drive height
+    min-width: auto; // don’t enforce large minimum
+    line-height: normal; // center text vertically
+    top: -1.28rem; // adjust as needed
+    left: 0rem; // move it to the left edge
+    right: auto; // clear any right‐side positioning
+    transform: none;
+    border-radius: 2px;
+  }
+
+  .p-card-body {
+    padding: 0 !important;
+    margin: 0;
+    flex: 1 1 auto;
+    display: flex;
   }
 }

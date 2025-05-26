@@ -65,10 +65,11 @@
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 
     /* hide desktop‐only parts */
-    // .logo,
-    // .nav-utils {
-    //   display: none;
-    // }
+    // .nav-utils
+    .logo,
+    .site-title {
+      display: none;
+    }
   }
 
   .nav-links {
