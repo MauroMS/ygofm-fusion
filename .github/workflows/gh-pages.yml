@@ -30,12 +30,12 @@ jobs:
 
       # Step 5: Copy index.html to 404.html
       - name: Copy index.html to 404.html
-        run: cp dist/ygofm-fusion/index.html dist/ygofm-fusion/browser/404.html
+        run: cp dist/ygofm-fusion/browser/index.html dist/ygofm-fusion/browser/404.html
 
       # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist/ygofm-fusion/browser  # Change this to point to the browser folder
+          publish_dir: dist/ygofm-fusion/browser  # Deploy contents of the browser folder
           publish_branch: gh-pages  # Optional: Defaults to gh-pages
